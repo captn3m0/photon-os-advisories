@@ -17,7 +17,6 @@ def advisory_slug(os_version, advisory):
     _id = int(advisory.split("-")[2])
     return f"{os_version}.0-{_id}"
 
-
 def generate_cve_mapping():
     mapping = {}
     for version in PHOTON_VERSIONS:
@@ -57,13 +56,15 @@ def __main__():
                 data = json.loads(f.read())
                 slugs = mapping[cve]
                 urls = [ADVISORY_URL.format(slug=slug) for slug in slugs]
-                print(urls)
                 if 'gsd' in data:
-                    for url in urls:
-                        data['gsd']['references'].append({
-                            "type": "ADVISORY",
-                            "url": url
-                        })
+                    existing_links = [x['url'] for x in data['gsd']['references']]
+                    missing_links = existing_links - urls
+                    if len(missing_links) > 0:
+                        for url in urls:
+                            data['gsd']['references'].append({
+                                "type": "ADVISORY",
+                                "url": url
+                            })
                 elif 'GSD' in data and 'references' in data['GSD']:
                     data['GSD']['references'].extend(urls)
                 elif 'GSD' in data:
