@@ -1,0 +1,28 @@
+name: Update Data
+on:
+  workflow_dispatch:
+  push:
+  schedule:
+    # Once an hour:35
+    - cron: '35 * * * *'
+jobs:
+  update:
+    name: Update data
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ref: ${{ github.head_ref }}
+    - name: Update data
+      run: |
+        git submodule update --remote
+        git add photon-wiki
+        python generate.py
+      id: update_advisories
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Update Advisories
+        commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
+        file_pattern: "advisories/*.json"
+        skip_fetch: true
+        skip_checkout: true
