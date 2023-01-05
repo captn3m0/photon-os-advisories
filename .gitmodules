@@ -1,0 +1,3 @@
+[submodule "photon-wiki"]
+	path = photon-wiki
+	url = https://github.com/vmware/photon.wiki.git
