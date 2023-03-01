@@ -1,8 +1,9 @@
 import sys
+from glob import glob
 import subprocess
 import markdown
 import json
-import datetime
+from datetime import datetime
 import os
 import re
 from bs4 import BeautifulSoup
@@ -22,21 +23,16 @@ def last_modified_date(file):
         .decode("utf-8")
         .strip()
     )
-    return datetime.datetime.utcfromtimestamp(p)
+    return datetime.utcfromtimestamp(p)
 
 def created_date(file):
-    p = int(
-        subprocess.check_output(
-            ["git", "log", "--diff-filter=A", "--follow", "--format=%ct", "-1", "--", file],
-            cwd=ADVISORIES_DIR,
-        )
-        .decode("utf-8")
-        .strip()
-    )
-    return datetime.datetime.utcfromtimestamp(p)
+    with open(ADVISORIES_DIR + "/" + file) as f:
+        for line in f:
+            if line.startswith("Issue"):
+                return datetime.strptime(line.split(": ")[1].strip(), "%Y-%m-%d")
 
 def advisory_slug(os_version, advisory):
-    _id = int(advisory.split("-")[2])
+    _id = int(float(advisory.split("-")[2]))
     return f"{os_version}.0-{_id}"
 
 def get_osv():
@@ -82,12 +78,44 @@ def get_osv():
                     ]
                 }
 
+def merge_advisories(advisory_file, data):
+    # read the current advisory data as json
+    with open(advisory_file, "r") as f:
+        current = json.load(f)
+    # merge the data
+    assert(current['id'] == data['id'])
+    current['affected'].extend(data['affected'])
+    current['references'].extend(data['references'])
+    current['related'].extend(data['related'])
+
+    # Make sure no CVE references are duplicated
+    current['references'] = list(set(current['references']))
+    
+    # Pick the earlier published date
+    # and the later modified date
+    current['published'] = min(
+            datetime.strptime(current['published'], '%Y-%m-%dT%H:%M:%SZ'),
+            datetime.strptime(data['published'], '%Y-%m-%dT%H:%M:%SZ')        
+        ).isoformat("T") + "Z"
+
+    current['modified'] = max(
+            datetime.strptime(current['modified'], '%Y-%m-%dT%H:%M:%SZ'),
+            datetime.strptime(data['modified'], '%Y-%m-%dT%H:%M:%SZ')        
+        ).isoformat("T") + "Z"
+
+    return current
 
 def __main__():
+    for advisory in glob('advisories/*.json'):
+        os.remove(advisory)
     for d in get_osv():
         fn = f"advisories/{d['id']}.json"
+        if os.path.exists(fn):
+            print(f"Updating {fn}")
+            d = merge_advisories(fn, d)
+        else:
+            print(f"Creating {fn}")
         with open(fn, "w") as f:
-            print(f"writing to {fn}")
             f.write(json.dumps(d, indent=4, sort_keys=True))
 
 if __name__ == "__main__":
