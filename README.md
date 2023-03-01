@@ -22,10 +22,10 @@ republishes the advisories in the OSV format, and syncs them against the
 - [x] Automatic Update
 - [ ] Automatic Sync (to GSD)
 - [ ] Schema: Provide `credits`
-- [ ] Schema: Provide impacted packages
+- [x] Schema: Provide impacted packages
+- [ ] Schema: Provide all impacted packages, with version number that fixes the issue.
 - [ ] Schema: Provide summary/details/severity
 - [ ] Schema: Provide SHA256 hashes under database_specific
-
 
 ## License
 
