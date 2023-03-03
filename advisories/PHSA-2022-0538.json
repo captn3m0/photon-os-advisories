@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0538",
+    "modified": "2023-02-26T23:32:16Z",
+    "published": "2022-11-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-538"
+        }
+    ],
+    "related": [
+        "CVE-2022-24975",
+        "CVE-2022-24765",
+        "CVE-2022-39260",
+        "CVE-2022-39253"
+    ]
+}

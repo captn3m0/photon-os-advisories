@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0146",
+    "modified": "2023-02-26T23:32:16Z",
+    "published": "2019-03-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-146"
+        }
+    ],
+    "related": [
+        "CVE-2019-3855"
+    ]
+}

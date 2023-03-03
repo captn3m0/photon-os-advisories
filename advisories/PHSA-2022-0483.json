@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0483",
+    "modified": "2023-02-26T23:32:16Z",
+    "published": "2022-06-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-483"
+        }
+    ],
+    "related": [
+        "CVE-2022-31030"
+    ]
+}
