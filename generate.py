@@ -89,7 +89,7 @@ def merge_advisories(advisory_file, data):
     current['related'].extend(data['related'])
 
     # Make sure no CVE references are duplicated
-    current['related'] = list(set(current['related']))
+    current['related'] = list(set(current['related'])).sort()
     
     # Pick the earlier published date
     # and the later modified date
