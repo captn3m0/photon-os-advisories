@@ -3,6 +3,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "libvirt",
                 "purl": "pkg:rpm/vmware/libvirt?distro=photon-3"
             }
@@ -13,17 +20,10 @@
                 "name": "openssl",
                 "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
-            }
         }
     ],
     "id": "PHSA-2019-3.0-0032",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,12 +32,12 @@
         }
     ],
     "related": [
-        "CVE-2019-5482",
         "CVE-2019-10166",
-        "CVE-2019-5481",
-        "CVE-2019-10168",
-        "CVE-2019-1547",
+        "CVE-2019-5482",
         "CVE-2019-10167",
-        "CVE-2019-1563"
+        "CVE-2019-1563",
+        "CVE-2019-10168",
+        "CVE-2019-5481",
+        "CVE-2019-1547"
     ]
 }

@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "haproxy",
-                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
             }
         },
         {
@@ -12,6 +12,13 @@
                 "ecosystem": "photon:3.0",
                 "name": "libtiff",
                 "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
             }
         },
         {
@@ -27,17 +34,10 @@
                 "name": "libsepol",
                 "purl": "pkg:rpm/vmware/libsepol?distro=photon-3"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "kubernetes",
-                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
-            }
         }
     ],
     "id": "PHSA-2021-3.0-0303",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -46,15 +46,15 @@
         }
     ],
     "related": [
-        "CVE-2021-36086",
-        "CVE-2021-36084",
-        "CVE-2020-35522",
-        "CVE-2021-25741",
+        "CVE-2021-40346",
         "CVE-2021-36085",
-        "CVE-2021-3121",
-        "CVE-2021-38698",
-        "CVE-2020-35521",
+        "CVE-2021-36084",
+        "CVE-2021-25741",
         "CVE-2021-37219",
-        "CVE-2021-40346"
+        "CVE-2021-38698",
+        "CVE-2020-35522",
+        "CVE-2021-3121",
+        "CVE-2021-36086",
+        "CVE-2020-35521"
     ]
 }

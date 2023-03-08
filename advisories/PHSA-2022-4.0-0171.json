@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "ImageMagick",
-                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
             }
         },
         {
@@ -17,13 +17,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0171",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -32,8 +32,8 @@
         }
     ],
     "related": [
-        "CVE-2021-4219",
+        "CVE-2022-1160",
         "CVE-2018-25032",
-        "CVE-2022-1160"
+        "CVE-2021-4219"
     ]
 }

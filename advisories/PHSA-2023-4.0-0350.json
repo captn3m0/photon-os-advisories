@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "haproxy",
-                "purl": "pkg:rpm/vmware/haproxy?distro=photon-4"
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2023-4.0-0350",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -26,7 +26,7 @@
     ],
     "related": [
         "CVE-2023-25153",
-        "CVE-2023-25725",
-        "CVE-2023-25173"
+        "CVE-2023-25173",
+        "CVE-2023-25725"
     ]
 }

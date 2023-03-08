@@ -17,20 +17,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libxslt",
-                "purl": "pkg:rpm/vmware/libxslt?distro=photon-3"
+                "name": "file",
+                "purl": "pkg:rpm/vmware/file?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "file",
-                "purl": "pkg:rpm/vmware/file?distro=photon-3"
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2019-3.0-0037",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -40,8 +40,8 @@
     ],
     "related": [
         "CVE-2019-16276",
-        "CVE-2019-5094",
         "CVE-2019-17596",
+        "CVE-2019-5094",
         "CVE-2019-18218",
         "CVE-2019-18197"
     ]

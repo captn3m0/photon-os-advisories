@@ -3,29 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "pcre",
                 "purl": "pkg:rpm/vmware/pcre?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
         },
         {
@@ -41,10 +20,31 @@
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0108",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -53,18 +53,18 @@
         }
     ],
     "related": [
-        "CVE-2020-29368",
         "CVE-2020-14147",
-        "CVE-2020-12656",
-        "CVE-2020-10768",
-        "CVE-2020-10766",
-        "CVE-2019-20838",
-        "CVE-2020-13974",
-        "CVE-2019-20810",
         "CVE-2019-19036",
-        "CVE-2020-10767",
-        "CVE-2020-14155",
+        "CVE-2019-20838",
+        "CVE-2020-10766",
+        "CVE-2020-10768",
+        "CVE-2020-12656",
+        "CVE-2020-13974",
         "CVE-2020-0543",
-        "CVE-2020-12888"
+        "CVE-2020-10767",
+        "CVE-2020-12888",
+        "CVE-2019-20810",
+        "CVE-2020-14155",
+        "CVE-2020-29368"
     ]
 }

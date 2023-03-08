@@ -10,8 +10,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
             }
         },
         {
@@ -19,6 +19,20 @@
                 "ecosystem": "photon:4.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
             }
         },
         {
@@ -38,27 +52,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0160",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -68,12 +68,12 @@
     ],
     "related": [
         "CVE-2022-0629",
+        "CVE-2022-0617",
         "CVE-2022-0847",
         "CVE-2022-1055",
         "CVE-2022-0685",
-        "CVE-2022-1998",
-        "CVE-2022-0617",
         "CVE-2018-16301",
-        "CVE-2022-25313"
+        "CVE-2022-25313",
+        "CVE-2022-1998"
     ]
 }

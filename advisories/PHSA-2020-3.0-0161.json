@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "apache-tomcat",
-                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0161",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -25,7 +25,7 @@
         }
     ],
     "related": [
-        "CVE-2020-13943",
-        "CVE-2020-27619"
+        "CVE-2020-27619",
+        "CVE-2020-13943"
     ]
 }

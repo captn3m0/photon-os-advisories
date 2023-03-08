@@ -3,13 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "python3-urllib3",
-                "purl": "pkg:rpm/vmware/python3-urllib3?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "rubygem-bundler",
                 "purl": "pkg:rpm/vmware/rubygem-bundler?distro=photon-4"
             }
@@ -20,10 +13,17 @@
                 "name": "zeromq",
                 "purl": "pkg:rpm/vmware/zeromq?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "python3-urllib3",
+                "purl": "pkg:rpm/vmware/python3-urllib3?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2021-4.0-0060",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -32,9 +32,9 @@
         }
     ],
     "related": [
-        "CVE-2020-36327",
         "CVE-2019-3881",
         "CVE-2021-33503",
-        "CVE-2020-36400"
+        "CVE-2020-36400",
+        "CVE-2020-36327"
     ]
 }

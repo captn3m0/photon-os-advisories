@@ -10,15 +10,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "nginx",
-                "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "openssh",
-                "purl": "pkg:rpm/vmware/openssh?distro=photon-3"
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
             }
         },
         {
@@ -31,20 +24,27 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "kubernetes",
-                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2019-3.0-0003",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -53,15 +53,15 @@
         }
     ],
     "related": [
-        "CVE-2018-1002105",
         "CVE-2018-20685",
-        "CVE-2018-20533",
         "CVE-2018-18311",
         "CVE-2018-20406",
-        "CVE-2018-20534",
+        "CVE-2018-20532",
+        "CVE-2018-1002105",
         "CVE-2018-16843",
-        "CVE-2018-16844",
         "CVE-2018-18312",
-        "CVE-2018-20532"
+        "CVE-2018-16844",
+        "CVE-2018-20533",
+        "CVE-2018-20534"
     ]
 }

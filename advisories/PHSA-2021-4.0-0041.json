@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2021-4.0-0041",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {

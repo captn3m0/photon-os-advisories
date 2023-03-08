@@ -3,13 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "ntp",
-                "purl": "pkg:rpm/vmware/ntp?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "json-c",
                 "purl": "pkg:rpm/vmware/json-c?distro=photon-3"
             }
@@ -17,8 +10,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
+                "name": "ntp",
+                "purl": "pkg:rpm/vmware/ntp?distro=photon-3"
             }
         },
         {
@@ -26,20 +19,6 @@
                 "ecosystem": "photon:3.0",
                 "name": "git",
                 "purl": "pkg:rpm/vmware/git?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
         },
         {
@@ -55,10 +34,31 @@
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0093",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -68,10 +68,10 @@
     ],
     "related": [
         "CVE-2020-11008",
-        "CVE-2019-18885",
         "CVE-2020-12762",
-        "CVE-2020-11868",
         "CVE-2016-10739",
+        "CVE-2019-18885",
+        "CVE-2020-11868",
         "CVE-2020-10029"
     ]
 }

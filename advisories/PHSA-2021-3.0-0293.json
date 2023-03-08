@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "haproxy",
-                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
+                "name": "dnsmasq",
+                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "dnsmasq",
-                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-3"
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0293",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {

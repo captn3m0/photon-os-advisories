@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
             }
         },
         {
@@ -24,13 +24,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0280",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -39,7 +39,7 @@
         }
     ],
     "related": [
-        "CVE-2022-3524",
-        "CVE-2022-3567"
+        "CVE-2022-3567",
+        "CVE-2022-3524"
     ]
 }

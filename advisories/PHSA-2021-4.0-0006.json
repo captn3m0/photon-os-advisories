@@ -3,15 +3,15 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "c-ares",
-                "purl": "pkg:rpm/vmware/c-ares?distro=photon-4"
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "perl",
-                "purl": "pkg:rpm/vmware/perl?distro=photon-4"
+                "name": "c-ares",
+                "purl": "pkg:rpm/vmware/c-ares?distro=photon-4"
             }
         },
         {
@@ -23,7 +23,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0006",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -32,9 +32,9 @@
         }
     ],
     "related": [
-        "CVE-2020-10543",
         "CVE-2021-22174",
+        "CVE-2021-22173",
         "CVE-2020-8277",
-        "CVE-2021-22173"
+        "CVE-2020-10543"
     ]
 }

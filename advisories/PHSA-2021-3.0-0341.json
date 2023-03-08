@@ -10,15 +10,22 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
             }
         },
         {
@@ -31,20 +38,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0341",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -54,17 +54,17 @@
     ],
     "related": [
         "CVE-2021-3640",
-        "CVE-2021-39922",
-        "CVE-2021-3752",
         "CVE-2021-4002",
-        "CVE-2021-39928",
+        "CVE-2021-39929",
+        "CVE-2021-39925",
         "CVE-2021-39920",
+        "CVE-2021-39924",
+        "CVE-2021-39922",
+        "CVE-2021-39921",
+        "CVE-2021-39928",
+        "CVE-2021-3752",
         "CVE-2021-45868",
         "CVE-2021-39923",
-        "CVE-2021-39926",
-        "CVE-2021-39929",
-        "CVE-2021-39921",
-        "CVE-2021-39924",
-        "CVE-2021-39925"
+        "CVE-2021-39926"
     ]
 }

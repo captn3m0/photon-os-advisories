@@ -10,20 +10,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "kibana",
-                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "sqlite",
-                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2019-3.0-0012",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,8 +32,8 @@
         }
     ],
     "related": [
-        "CVE-2019-7609",
         "CVE-2019-9936",
+        "CVE-2019-7609",
         "CVE-2019-3842"
     ]
 }

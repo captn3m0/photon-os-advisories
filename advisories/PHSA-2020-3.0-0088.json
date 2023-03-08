@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "docker",
-                "purl": "pkg:rpm/vmware/docker?distro=photon-3"
+                "name": "elasticsearch",
+                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-3"
             }
         },
         {
@@ -17,13 +17,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "elasticsearch",
-                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-3"
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0088",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,9 +32,9 @@
         }
     ],
     "related": [
-        "CVE-2019-7614",
         "CVE-2019-16884",
-        "CVE-2019-7621",
-        "CVE-2019-7616"
+        "CVE-2019-7616",
+        "CVE-2019-7614",
+        "CVE-2019-7621"
     ]
 }

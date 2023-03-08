@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "libtar",
-                "purl": "pkg:rpm/vmware/libtar?distro=photon-4"
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+                "name": "libtar",
+                "purl": "pkg:rpm/vmware/libtar?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0231",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -25,10 +25,10 @@
         }
     ],
     "related": [
-        "CVE-2021-33645",
+        "CVE-2021-33643",
         "CVE-2021-33644",
         "CVE-2021-33646",
-        "CVE-2022-34526",
-        "CVE-2021-33643"
+        "CVE-2021-33645",
+        "CVE-2022-34526"
     ]
 }

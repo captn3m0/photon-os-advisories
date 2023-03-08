@@ -3,13 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "python3",
                 "purl": "pkg:rpm/vmware/python3?distro=photon-3"
             }
@@ -17,22 +10,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "wpa_supplicant",
-                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
             }
         },
         {
@@ -48,10 +27,31 @@
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "wpa_supplicant",
+                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2019-3.0-0039",
-    "modified": "2023-03-08T20:51:15Z",
+    "modified": "2023-03-08T22:07:35Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -60,10 +60,10 @@
         }
     ],
     "related": [
-        "CVE-2019-16275",
-        "CVE-2019-19528",
         "CVE-2019-19523",
+        "CVE-2019-16275",
         "CVE-2019-19526",
+        "CVE-2019-19528",
         "CVE-2019-17514"
     ]
 }
