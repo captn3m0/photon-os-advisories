@@ -3,6 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
                 "name": "linux-secure",
                 "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
             }
@@ -17,27 +31,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2021-4.0-0031",
-    "modified": "2023-02-26T23:32:16Z",
+    "modified": "2023-03-08T20:51:15Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -46,16 +46,16 @@
         }
     ],
     "related": [
-        "CVE-2021-29264",
-        "CVE-2021-29647",
-        "CVE-2021-29155",
+        "CVE-2021-29649",
         "CVE-2021-28964",
-        "CVE-2021-29650",
-        "CVE-2021-29646",
         "CVE-2021-28688",
-        "CVE-2021-28951",
-        "CVE-2021-28971",
+        "CVE-2021-29264",
+        "CVE-2021-29155",
+        "CVE-2021-29647",
         "CVE-2021-21409",
-        "CVE-2021-29649"
+        "CVE-2021-29646",
+        "CVE-2021-29650",
+        "CVE-2021-28971",
+        "CVE-2021-28951"
     ]
 }

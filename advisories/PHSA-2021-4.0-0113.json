@@ -10,6 +10,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-4"
             }
@@ -20,17 +27,10 @@
                 "name": "openssh",
                 "purl": "pkg:rpm/vmware/openssh?distro=photon-4"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "docker",
-                "purl": "pkg:rpm/vmware/docker?distro=photon-4"
-            }
         }
     ],
     "id": "PHSA-2021-4.0-0113",
-    "modified": "2023-02-26T23:32:16Z",
+    "modified": "2023-03-08T20:51:15Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -39,10 +39,10 @@
         }
     ],
     "related": [
-        "CVE-2021-41617",
         "CVE-2021-41089",
+        "CVE-2021-41617",
+        "CVE-2021-3796",
         "CVE-2021-41103",
-        "CVE-2016-20012",
-        "CVE-2021-3796"
+        "CVE-2016-20012"
     ]
 }
