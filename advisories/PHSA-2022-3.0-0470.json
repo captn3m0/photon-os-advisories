@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "paramiko",
-                "purl": "pkg:rpm/vmware/paramiko?distro=photon-3"
+                "name": "influxdb",
+                "purl": "pkg:rpm/vmware/influxdb?distro=photon-3"
             }
         },
         {
@@ -17,8 +17,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "influxdb",
-                "purl": "pkg:rpm/vmware/influxdb?distro=photon-3"
+                "name": "paramiko",
+                "purl": "pkg:rpm/vmware/paramiko?distro=photon-3"
             }
         },
         {
@@ -30,7 +30,7 @@
         }
     ],
     "id": "PHSA-2022-3.0-0470",
-    "modified": "2023-03-08T22:07:35Z",
+    "modified": "2023-03-09T05:21:01Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -40,10 +40,10 @@
     ],
     "related": [
         "CVE-2022-36640",
-        "CVE-2022-42011",
-        "CVE-2022-3190",
         "CVE-2022-42012",
         "CVE-2022-24302",
+        "CVE-2022-42011",
+        "CVE-2022-3190",
         "CVE-2022-42010"
     ]
 }

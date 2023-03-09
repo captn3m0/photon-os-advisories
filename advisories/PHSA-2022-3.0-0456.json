@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "systemd",
-                "purl": "pkg:rpm/vmware/systemd?distro=photon-3"
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "expat",
-                "purl": "pkg:rpm/vmware/expat?distro=photon-3"
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2022-3.0-0456",
-    "modified": "2023-03-08T22:07:35Z",
+    "modified": "2023-03-09T05:21:01Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {

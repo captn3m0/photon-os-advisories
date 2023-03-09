@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
             }
         },
         {
@@ -17,13 +17,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0312",
-    "modified": "2023-03-08T22:07:35Z",
+    "modified": "2023-03-09T05:21:01Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {

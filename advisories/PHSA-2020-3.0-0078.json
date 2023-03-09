@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
             }
         },
         {
@@ -17,8 +17,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libvirt",
-                "purl": "pkg:rpm/vmware/libvirt?distro=photon-3"
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
             }
         },
         {
@@ -31,8 +31,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "haproxy",
-                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
+                "name": "bubblewrap",
+                "purl": "pkg:rpm/vmware/bubblewrap?distro=photon-3"
             }
         },
         {
@@ -45,20 +45,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "bubblewrap",
-                "purl": "pkg:rpm/vmware/bubblewrap?distro=photon-3"
+                "name": "libvirt",
+                "purl": "pkg:rpm/vmware/libvirt?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "ansible",
-                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0078",
-    "modified": "2023-03-08T22:07:35Z",
+    "modified": "2023-03-09T05:21:01Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -67,19 +67,19 @@
         }
     ],
     "related": [
+        "CVE-2020-1739",
+        "CVE-2020-8492",
+        "CVE-2020-11100",
+        "CVE-2019-15608",
         "CVE-2019-10217",
+        "CVE-2020-1738",
+        "CVE-2020-10684",
         "CVE-2020-1735",
+        "CVE-2019-10206",
+        "CVE-2020-5291",
         "CVE-2020-1740",
         "CVE-2019-14973",
-        "CVE-2020-1738",
-        "CVE-2019-20485",
-        "CVE-2020-1739",
-        "CVE-2019-10206",
-        "CVE-2020-8492",
-        "CVE-2019-15608",
         "CVE-2019-14856",
-        "CVE-2020-5291",
-        "CVE-2020-10684",
-        "CVE-2020-11100"
+        "CVE-2019-20485"
     ]
 }

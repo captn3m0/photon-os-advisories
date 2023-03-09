@@ -3,29 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "openjdk11",
-                "purl": "pkg:rpm/vmware/openjdk11?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "nodejs",
-                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
         },
         {
@@ -38,8 +17,36 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "openjdk11",
+                "purl": "pkg:rpm/vmware/openjdk11?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "linux-secure",
                 "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             }
         },
         {
@@ -48,17 +55,10 @@
                 "name": "openjdk8",
                 "purl": "pkg:rpm/vmware/openjdk8?distro=photon-3"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            }
         }
     ],
     "id": "PHSA-2020-3.0-0119",
-    "modified": "2023-03-08T22:07:35Z",
+    "modified": "2023-03-09T05:21:01Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -67,15 +67,15 @@
         }
     ],
     "related": [
-        "CVE-2020-14331",
-        "CVE-2020-8172",
-        "CVE-2020-14581",
-        "CVE-2020-14593",
-        "CVE-2020-14583",
-        "CVE-2020-14621",
-        "CVE-2020-14577",
         "CVE-2020-14556",
+        "CVE-2020-8172",
         "CVE-2020-14573",
-        "CVE-2020-14562"
+        "CVE-2020-14593",
+        "CVE-2020-14621",
+        "CVE-2020-14583",
+        "CVE-2020-14331",
+        "CVE-2020-14577",
+        "CVE-2020-14562",
+        "CVE-2020-14581"
     ]
 }

@@ -3,6 +3,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "sysstat",
+                "purl": "pkg:rpm/vmware/sysstat?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "libtiff",
                 "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
             }
@@ -13,17 +20,10 @@
                 "name": "wireshark",
                 "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "sysstat",
-                "purl": "pkg:rpm/vmware/sysstat?distro=photon-3"
-            }
         }
     ],
     "id": "PHSA-2022-3.0-0491",
-    "modified": "2023-03-08T22:07:35Z",
+    "modified": "2023-03-09T05:21:01Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,8 +32,8 @@
         }
     ],
     "related": [
+        "CVE-2022-3970",
         "CVE-2022-3725",
-        "CVE-2022-39377",
-        "CVE-2022-3970"
+        "CVE-2022-39377"
     ]
 }

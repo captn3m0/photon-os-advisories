@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "file",
-                "purl": "pkg:rpm/vmware/file?distro=photon-3"
+                "name": "PyYAML",
+                "purl": "pkg:rpm/vmware/PyYAML?distro=photon-3"
             }
         },
         {
@@ -17,8 +17,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "PyYAML",
-                "purl": "pkg:rpm/vmware/PyYAML?distro=photon-3"
+                "name": "postgresql",
+                "purl": "pkg:rpm/vmware/postgresql?distro=photon-3"
             }
         },
         {
@@ -31,13 +31,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "postgresql",
-                "purl": "pkg:rpm/vmware/postgresql?distro=photon-3"
+                "name": "file",
+                "purl": "pkg:rpm/vmware/file?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0080",
-    "modified": "2023-03-08T22:07:35Z",
+    "modified": "2023-03-09T05:21:01Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -46,13 +46,13 @@
         }
     ],
     "related": [
-        "CVE-2020-1747",
-        "CVE-2019-8907",
+        "CVE-2020-1720",
         "CVE-2019-8904",
-        "CVE-2020-11501",
-        "CVE-2019-8905",
-        "CVE-2019-14855",
+        "CVE-2019-8907",
         "CVE-2019-8906",
-        "CVE-2020-1720"
+        "CVE-2020-11501",
+        "CVE-2020-1747",
+        "CVE-2019-14855",
+        "CVE-2019-8905"
     ]
 }
