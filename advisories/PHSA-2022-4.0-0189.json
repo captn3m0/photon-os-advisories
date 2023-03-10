@@ -10,15 +10,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
+                "name": "subversion",
+                "purl": "pkg:rpm/vmware/subversion?distro=photon-4"
             }
         },
         {
@@ -31,8 +24,15 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "subversion",
-                "purl": "pkg:rpm/vmware/subversion?distro=photon-4"
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             }
         },
         {
@@ -45,13 +45,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0189",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -60,13 +60,13 @@
         }
     ],
     "related": [
-        "CVE-2022-1619",
-        "CVE-2022-21499",
         "CVE-2022-24070",
         "CVE-2022-1621",
-        "CVE-2022-1616",
-        "CVE-2021-28544",
         "CVE-2022-1629",
-        "CVE-2022-1620"
+        "CVE-2021-28544",
+        "CVE-2022-1620",
+        "CVE-2022-21499",
+        "CVE-2022-1616",
+        "CVE-2022-1619"
     ]
 }

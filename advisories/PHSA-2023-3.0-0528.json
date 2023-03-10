@@ -10,13 +10,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "u-boot",
                 "purl": "pkg:rpm/vmware/u-boot?distro=photon-3"
             }
@@ -27,10 +20,17 @@
                 "name": "libtiff",
                 "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0528",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -39,9 +39,9 @@
         }
     ],
     "related": [
-        "CVE-2022-35977",
         "CVE-2023-22458",
         "CVE-2022-2347",
+        "CVE-2022-35977",
         "CVE-2022-48281",
         "CVE-2020-10735"
     ]

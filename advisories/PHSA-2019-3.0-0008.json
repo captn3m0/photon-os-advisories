@@ -10,20 +10,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "cairo",
-                "purl": "pkg:rpm/vmware/cairo?distro=photon-3"
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libssh2",
-                "purl": "pkg:rpm/vmware/libssh2?distro=photon-3"
+                "name": "cairo",
+                "purl": "pkg:rpm/vmware/cairo?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2019-3.0-0008",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,12 +32,12 @@
         }
     ],
     "related": [
-        "CVE-2019-9075",
-        "CVE-2018-19876",
-        "CVE-2018-18064",
         "CVE-2019-9077",
-        "CVE-2019-6461",
+        "CVE-2018-19876",
         "CVE-2019-6462",
-        "CVE-2019-3855"
+        "CVE-2019-6461",
+        "CVE-2019-9075",
+        "CVE-2019-3855",
+        "CVE-2018-18064"
     ]
 }

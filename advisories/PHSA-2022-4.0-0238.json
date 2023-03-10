@@ -3,6 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
+                "name": "postgresql10",
+                "purl": "pkg:rpm/vmware/postgresql10?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             }
@@ -17,15 +31,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "postgresql10",
-                "purl": "pkg:rpm/vmware/postgresql10?distro=photon-4"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             }
         },
         {
@@ -34,17 +41,10 @@
                 "name": "linux-secure",
                 "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            }
         }
     ],
     "id": "PHSA-2022-4.0-0238",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -53,16 +53,16 @@
         }
     ],
     "related": [
-        "CVE-2022-34918",
-        "CVE-2022-2327",
         "CVE-2022-33743",
-        "CVE-2021-33656",
         "CVE-2022-1012",
-        "CVE-2022-2625",
-        "CVE-2022-1852",
-        "CVE-2022-1789",
+        "CVE-2022-1508",
         "CVE-2022-2078",
+        "CVE-2022-2327",
+        "CVE-2022-34918",
+        "CVE-2022-1789",
+        "CVE-2022-2625",
+        "CVE-2021-33656",
         "CVE-2022-33744",
-        "CVE-2022-1508"
+        "CVE-2022-1852"
     ]
 }

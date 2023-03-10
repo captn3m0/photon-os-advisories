@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
             }
         },
         {
@@ -12,6 +12,20 @@
                 "ecosystem": "photon:3.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
         },
         {
@@ -31,20 +45,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "zsh",
-                "purl": "pkg:rpm/vmware/zsh?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             }
@@ -52,13 +52,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+                "name": "zsh",
+                "purl": "pkg:rpm/vmware/zsh?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2022-3.0-0376",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -67,12 +67,12 @@
         }
     ],
     "related": [
-        "CVE-2022-0562",
-        "CVE-2022-1016",
-        "CVE-2021-45444",
-        "CVE-2022-1056",
         "CVE-2022-0891",
         "CVE-2022-1015",
-        "CVE-2022-0417"
+        "CVE-2022-0417",
+        "CVE-2022-0562",
+        "CVE-2021-45444",
+        "CVE-2022-1056",
+        "CVE-2022-1016"
     ]
 }

@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "perl",
-                "purl": "pkg:rpm/vmware/perl?distro=photon-4"
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
             }
         },
         {
@@ -17,13 +17,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "wireshark",
-                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2021-4.0-0006",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -33,8 +33,8 @@
     ],
     "related": [
         "CVE-2021-22174",
-        "CVE-2021-22173",
+        "CVE-2020-10543",
         "CVE-2020-8277",
-        "CVE-2020-10543"
+        "CVE-2021-22173"
     ]
 }

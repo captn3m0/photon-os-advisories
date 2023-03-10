@@ -10,20 +10,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "kibana",
-                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "bindutils",
-                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0135",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,10 +32,10 @@
         }
     ],
     "related": [
-        "CVE-2020-8624",
-        "CVE-2020-7017",
         "CVE-2020-7019",
+        "CVE-2020-7017",
         "CVE-2020-8623",
-        "CVE-2020-7016"
+        "CVE-2020-7016",
+        "CVE-2020-8624"
     ]
 }

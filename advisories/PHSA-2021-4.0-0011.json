@@ -3,6 +3,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             }
@@ -10,15 +17,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             }
         },
         {
@@ -31,13 +31,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2021-4.0-0011",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {

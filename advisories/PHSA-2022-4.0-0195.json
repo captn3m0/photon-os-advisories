@@ -3,29 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "ImageMagick",
                 "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
             }
         },
         {
@@ -38,8 +17,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             }
         },
         {
@@ -48,10 +27,31 @@
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2022-4.0-0195",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -60,10 +60,10 @@
         }
     ],
     "related": [
-        "CVE-2022-1972",
-        "CVE-2022-32250",
-        "CVE-2022-31030",
+        "CVE-2022-1114",
         "CVE-2022-1966",
-        "CVE-2022-1114"
+        "CVE-2022-31030",
+        "CVE-2022-1972",
+        "CVE-2022-32250"
     ]
 }

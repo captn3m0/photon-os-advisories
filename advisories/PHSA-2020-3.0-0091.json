@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "iproute2",
-                "purl": "pkg:rpm/vmware/iproute2?distro=photon-3"
+                "name": "salt3",
+                "purl": "pkg:rpm/vmware/salt3?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "salt3",
-                "purl": "pkg:rpm/vmware/salt3?distro=photon-3"
+                "name": "iproute2",
+                "purl": "pkg:rpm/vmware/iproute2?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0091",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {

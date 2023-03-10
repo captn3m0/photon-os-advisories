@@ -10,20 +10,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "util-linux",
-                "purl": "pkg:rpm/vmware/util-linux?distro=photon-4"
+                "name": "polkit",
+                "purl": "pkg:rpm/vmware/polkit?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "polkit",
-                "purl": "pkg:rpm/vmware/polkit?distro=photon-4"
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0147",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {

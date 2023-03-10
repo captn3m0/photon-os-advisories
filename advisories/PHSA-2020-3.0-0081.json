@@ -10,20 +10,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libtasn1",
-                "purl": "pkg:rpm/vmware/libtasn1?distro=photon-3"
+                "name": "openjdk8",
+                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "openjdk8",
-                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-3"
+                "name": "libtasn1",
+                "purl": "pkg:rpm/vmware/libtasn1?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0081",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,9 +32,9 @@
         }
     ],
     "related": [
-        "CVE-2020-2585",
+        "CVE-2020-11655",
         "CVE-2018-1000654",
         "CVE-2020-11656",
-        "CVE-2020-11655"
+        "CVE-2020-2585"
     ]
 }

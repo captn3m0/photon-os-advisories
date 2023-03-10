@@ -3,6 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "oniguruma",
                 "purl": "pkg:rpm/vmware/oniguruma?distro=photon-3"
             }
@@ -24,36 +38,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "unbound",
-                "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "ncurses",
                 "purl": "pkg:rpm/vmware/ncurses?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "ruby",
-                "purl": "pkg:rpm/vmware/ruby?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libssh2",
-                "purl": "pkg:rpm/vmware/libssh2?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libxslt",
-                "purl": "pkg:rpm/vmware/libxslt?distro=photon-3"
             }
         },
         {
@@ -62,10 +48,24 @@
                 "name": "git",
                 "purl": "pkg:rpm/vmware/git?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0047",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -74,21 +74,21 @@
         }
     ],
     "related": [
+        "CVE-2019-17498",
+        "CVE-2019-15845",
+        "CVE-2019-19204",
+        "CVE-2019-19330",
+        "CVE-2019-17594",
+        "CVE-2019-18934",
+        "CVE-2019-16255",
         "CVE-2019-19246",
         "CVE-2019-5815",
-        "CVE-2019-19330",
-        "CVE-2019-17498",
-        "CVE-2019-18934",
-        "CVE-2019-17594",
-        "CVE-2019-15845",
+        "CVE-2019-19604",
+        "CVE-2019-19012",
+        "CVE-2019-19725",
+        "CVE-2019-19203",
         "CVE-2020-5247",
         "CVE-2019-17595",
-        "CVE-2019-16201",
-        "CVE-2019-16255",
-        "CVE-2019-19012",
-        "CVE-2019-19203",
-        "CVE-2019-19604",
-        "CVE-2019-19725",
-        "CVE-2019-19204"
+        "CVE-2019-16201"
     ]
 }

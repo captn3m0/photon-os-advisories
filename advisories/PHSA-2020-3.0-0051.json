@@ -3,13 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "sudo",
-                "purl": "pkg:rpm/vmware/sudo?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "apache-tomcat",
                 "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
             }
@@ -20,10 +13,17 @@
                 "name": "dnsmasq",
                 "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "sudo",
+                "purl": "pkg:rpm/vmware/sudo?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0051",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,10 +32,10 @@
         }
     ],
     "related": [
-        "CVE-2019-17563",
-        "CVE-2019-12418",
-        "CVE-2019-19234",
+        "CVE-2019-14834",
         "CVE-2019-19232",
-        "CVE-2019-14834"
+        "CVE-2019-19234",
+        "CVE-2019-17563",
+        "CVE-2019-12418"
     ]
 }

@@ -3,6 +3,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "binutils",
                 "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
             }
@@ -13,17 +20,10 @@
                 "name": "openvswitch",
                 "purl": "pkg:rpm/vmware/openvswitch?distro=photon-3"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-3"
-            }
         }
     ],
     "id": "PHSA-2022-3.0-0478",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,10 +32,10 @@
         }
     ],
     "related": [
-        "CVE-2021-3905",
-        "CVE-2022-38533",
-        "CVE-2022-2880",
         "CVE-2022-2879",
-        "CVE-2022-41715"
+        "CVE-2022-38533",
+        "CVE-2022-41715",
+        "CVE-2022-2880",
+        "CVE-2021-3905"
     ]
 }

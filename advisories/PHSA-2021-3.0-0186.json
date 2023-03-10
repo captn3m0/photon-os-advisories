@@ -17,20 +17,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "atftp",
-                "purl": "pkg:rpm/vmware/atftp?distro=photon-3"
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "nodejs",
-                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
+                "name": "atftp",
+                "purl": "pkg:rpm/vmware/atftp?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0186",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -39,15 +39,15 @@
         }
     ],
     "related": [
-        "CVE-2020-6097",
-        "CVE-2020-25681",
+        "CVE-2020-25687",
         "CVE-2021-23240",
+        "CVE-2020-25686",
         "CVE-2020-25684",
         "CVE-2020-25683",
-        "CVE-2020-25682",
-        "CVE-2020-25687",
         "CVE-2020-8265",
-        "CVE-2020-25686",
-        "CVE-2020-25685"
+        "CVE-2020-6097",
+        "CVE-2020-25685",
+        "CVE-2020-25681",
+        "CVE-2020-25682"
     ]
 }

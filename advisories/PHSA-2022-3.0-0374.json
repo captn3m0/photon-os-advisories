@@ -3,27 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "haproxy",
-                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "bluez",
                 "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
             }
@@ -38,13 +17,34 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "kubernetes",
                 "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2022-3.0-0374",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -53,13 +53,13 @@
         }
     ],
     "related": [
-        "CVE-2022-24687",
-        "CVE-2022-0711",
         "CVE-2022-0319",
-        "CVE-2022-0714",
-        "CVE-2021-3658",
         "CVE-2022-0561",
-        "CVE-2020-8554",
-        "CVE-2021-4193"
+        "CVE-2021-4193",
+        "CVE-2021-3658",
+        "CVE-2022-0711",
+        "CVE-2022-0714",
+        "CVE-2022-24687",
+        "CVE-2020-8554"
     ]
 }

@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "docker",
-                "purl": "pkg:rpm/vmware/docker?distro=photon-3"
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0311",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {

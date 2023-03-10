@@ -3,13 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "ntp",
                 "purl": "pkg:rpm/vmware/ntp?distro=photon-3"
             }
@@ -24,8 +17,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "json-c",
-                "purl": "pkg:rpm/vmware/json-c?distro=photon-3"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
         },
         {
@@ -38,15 +31,22 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+                "name": "json-c",
+                "purl": "pkg:rpm/vmware/json-c?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             }
         },
         {
@@ -58,7 +58,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0093",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -68,10 +68,10 @@
     ],
     "related": [
         "CVE-2020-11008",
-        "CVE-2020-11868",
-        "CVE-2020-10029",
+        "CVE-2019-18885",
         "CVE-2016-10739",
+        "CVE-2020-10029",
         "CVE-2020-12762",
-        "CVE-2019-18885"
+        "CVE-2020-11868"
     ]
 }

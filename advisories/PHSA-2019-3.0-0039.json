@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "wpa_supplicant",
-                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
             }
         },
         {
@@ -17,8 +17,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
         },
         {
@@ -31,6 +31,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             }
@@ -38,20 +45,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+                "name": "wpa_supplicant",
+                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2019-3.0-0039",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -60,10 +60,10 @@
         }
     ],
     "related": [
-        "CVE-2019-17514",
-        "CVE-2019-16275",
-        "CVE-2019-19523",
         "CVE-2019-19526",
-        "CVE-2019-19528"
+        "CVE-2019-17514",
+        "CVE-2019-19528",
+        "CVE-2019-19523",
+        "CVE-2019-16275"
     ]
 }

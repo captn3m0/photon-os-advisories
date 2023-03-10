@@ -3,6 +3,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "ruby",
                 "purl": "pkg:rpm/vmware/ruby?distro=photon-3"
             }
@@ -17,20 +24,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "ImageMagick",
-                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "aide",
                 "purl": "pkg:rpm/vmware/aide?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2022-3.0-0354",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -40,9 +40,9 @@
     ],
     "related": [
         "CVE-2021-31799",
-        "CVE-2021-45960",
-        "CVE-2021-45417",
+        "CVE-2021-39212",
         "CVE-2021-46143",
-        "CVE-2021-39212"
+        "CVE-2021-45417",
+        "CVE-2021-45960"
     ]
 }

@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
             }
         },
         {
@@ -17,8 +17,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "nginx",
-                "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
             }
         },
         {
@@ -30,7 +30,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0032",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -39,8 +39,8 @@
         }
     ],
     "related": [
-        "CVE-2021-29477",
         "CVE-2021-23017",
-        "CVE-2021-3564"
+        "CVE-2021-3564",
+        "CVE-2021-29477"
     ]
 }

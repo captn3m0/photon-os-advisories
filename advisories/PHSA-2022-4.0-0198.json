@@ -10,20 +10,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "libxml2",
-                "purl": "pkg:rpm/vmware/libxml2?distro=photon-4"
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0198",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -32,9 +32,9 @@
         }
     ],
     "related": [
-        "CVE-2022-29824",
         "CVE-2022-1735",
+        "CVE-2021-30560",
         "CVE-2022-1674",
-        "CVE-2021-30560"
+        "CVE-2022-29824"
     ]
 }

@@ -3,15 +3,22 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
         },
         {
@@ -31,20 +38,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2022-3.0-0504",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -53,11 +53,11 @@
         }
     ],
     "related": [
-        "CVE-2022-42896",
+        "CVE-2022-3564",
         "CVE-2022-3521",
-        "CVE-2022-42895",
-        "CVE-2022-43548",
         "CVE-2022-4378",
-        "CVE-2022-3564"
+        "CVE-2022-42896",
+        "CVE-2022-42895",
+        "CVE-2022-43548"
     ]
 }

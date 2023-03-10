@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "libtirpc",
-                "purl": "pkg:rpm/vmware/libtirpc?distro=photon-4"
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "squid",
-                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
+                "name": "libtirpc",
+                "purl": "pkg:rpm/vmware/libtirpc?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0224",
-    "modified": "2023-03-09T05:21:01Z",
+    "modified": "2023-03-10T05:24:22Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
