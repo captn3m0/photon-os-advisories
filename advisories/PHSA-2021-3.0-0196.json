@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "binutils",
-                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "kubernetes",
-                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0196",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -25,12 +25,12 @@
         }
     ],
     "related": [
-        "CVE-2020-8566",
-        "CVE-2020-35493",
+        "CVE-2020-35495",
         "CVE-2020-8564",
-        "CVE-2020-35507",
+        "CVE-2020-8566",
         "CVE-2020-35496",
+        "CVE-2020-35507",
         "CVE-2020-35494",
-        "CVE-2020-35495"
+        "CVE-2020-35493"
     ]
 }

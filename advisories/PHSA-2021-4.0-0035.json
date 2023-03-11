@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "gnutls",
-                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-4"
             }
         },
         {
@@ -17,13 +17,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "runc",
-                "purl": "pkg:rpm/vmware/runc?distro=photon-4"
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2021-4.0-0035",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -32,11 +32,11 @@
         }
     ],
     "related": [
-        "CVE-2021-3517",
         "CVE-2021-3518",
         "CVE-2021-20232",
         "CVE-2021-30465",
-        "CVE-2021-3537",
-        "CVE-2021-20231"
+        "CVE-2021-3517",
+        "CVE-2021-20231",
+        "CVE-2021-3537"
     ]
 }

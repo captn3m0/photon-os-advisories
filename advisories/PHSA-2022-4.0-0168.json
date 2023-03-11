@@ -3,8 +3,22 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
             }
         },
         {
@@ -24,29 +38,15 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
             }
         },
         {
@@ -59,13 +59,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0168",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -74,16 +74,16 @@
         }
     ],
     "related": [
-        "CVE-2022-0943",
-        "CVE-2021-44647",
         "CVE-2022-1015",
         "CVE-2022-0572",
+        "CVE-2022-1016",
         "CVE-2022-22623",
         "CVE-2022-0396",
-        "CVE-2022-0714",
-        "CVE-2021-25220",
         "CVE-2021-44964",
-        "CVE-2022-1016",
-        "CVE-2022-0729"
+        "CVE-2021-44647",
+        "CVE-2022-0729",
+        "CVE-2022-0943",
+        "CVE-2022-0714",
+        "CVE-2021-25220"
     ]
 }

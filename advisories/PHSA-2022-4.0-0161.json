@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "cyrus-sasl",
-                "purl": "pkg:rpm/vmware/cyrus-sasl?distro=photon-4"
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+                "name": "cyrus-sasl",
+                "purl": "pkg:rpm/vmware/cyrus-sasl?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0161",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -25,15 +25,15 @@
         }
     ],
     "related": [
-        "CVE-2022-0319",
         "CVE-2021-4173",
+        "CVE-2021-4193",
+        "CVE-2022-0417",
+        "CVE-2022-0319",
         "CVE-2022-24407",
         "CVE-2022-0156",
-        "CVE-2022-0417",
-        "CVE-2021-4193",
-        "CVE-2022-0368",
-        "CVE-2022-0393",
         "CVE-2022-0696",
-        "CVE-2022-0158"
+        "CVE-2022-0368",
+        "CVE-2022-0158",
+        "CVE-2022-0393"
     ]
 }

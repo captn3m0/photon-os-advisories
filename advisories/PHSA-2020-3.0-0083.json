@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "openjdk8",
-                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-3"
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
             }
         },
         {
@@ -17,13 +17,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "unzip",
-                "purl": "pkg:rpm/vmware/unzip?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "lz4",
                 "purl": "pkg:rpm/vmware/lz4?distro=photon-3"
             }
@@ -31,8 +24,15 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "sqlite",
-                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
+                "name": "openjdk8",
+                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-3"
             }
         },
         {
@@ -44,7 +44,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0083",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -53,23 +53,23 @@
         }
     ],
     "related": [
-        "CVE-2019-17543",
-        "CVE-2020-2830",
-        "CVE-2020-2754",
-        "CVE-2020-2773",
         "CVE-2020-2755",
-        "CVE-2020-2778",
-        "CVE-2020-2816",
-        "CVE-2020-2803",
-        "CVE-2020-9327",
         "CVE-2020-1733",
+        "CVE-2018-1000035",
+        "CVE-2020-2754",
+        "CVE-2020-2830",
+        "CVE-2020-2816",
+        "CVE-2020-2778",
+        "CVE-2020-2800",
+        "CVE-2019-17543",
         "CVE-2020-2767",
+        "CVE-2020-9327",
         "CVE-2020-2805",
         "CVE-2020-2757",
-        "CVE-2018-1000035",
-        "CVE-2020-1712",
         "CVE-2020-2756",
+        "CVE-2020-1712",
         "CVE-2020-2781",
-        "CVE-2020-2800"
+        "CVE-2020-2803",
+        "CVE-2020-2773"
     ]
 }

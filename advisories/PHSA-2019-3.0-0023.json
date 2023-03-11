@@ -3,15 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "bzip2",
-                "purl": "pkg:rpm/vmware/bzip2?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+                "name": "falco",
+                "purl": "pkg:rpm/vmware/falco?distro=photon-3"
             }
         },
         {
@@ -24,8 +17,15 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "falco",
-                "purl": "pkg:rpm/vmware/falco?distro=photon-3"
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "wpa_supplicant",
+                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
             }
         },
         {
@@ -38,13 +38,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "wpa_supplicant",
-                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
+                "name": "bzip2",
+                "purl": "pkg:rpm/vmware/bzip2?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2019-3.0-0023",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -53,13 +53,13 @@
         }
     ],
     "related": [
-        "CVE-2019-11555",
-        "CVE-2019-9494",
         "CVE-2018-16873",
-        "CVE-2019-12900",
-        "CVE-2019-8339",
-        "CVE-2019-9741",
         "CVE-2018-16874",
-        "CVE-2019-10164"
+        "CVE-2019-9494",
+        "CVE-2019-12900",
+        "CVE-2019-11555",
+        "CVE-2019-9741",
+        "CVE-2019-10164",
+        "CVE-2019-8339"
     ]
 }

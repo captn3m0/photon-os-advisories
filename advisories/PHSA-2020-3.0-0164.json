@@ -3,15 +3,15 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "librepo",
-                "purl": "pkg:rpm/vmware/librepo?distro=photon-3"
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libgd",
-                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
+                "name": "librepo",
+                "purl": "pkg:rpm/vmware/librepo?distro=photon-3"
             }
         },
         {
@@ -23,7 +23,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0164",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,9 +32,9 @@
         }
     ],
     "related": [
-        "CVE-2019-11038",
-        "CVE-2020-14352",
         "CVE-2020-25695",
-        "CVE-2020-25694"
+        "CVE-2019-11038",
+        "CVE-2020-25694",
+        "CVE-2020-14352"
     ]
 }

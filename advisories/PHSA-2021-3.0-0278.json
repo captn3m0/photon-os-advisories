@@ -3,6 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             }
@@ -20,24 +34,10 @@
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            }
         }
     ],
     "id": "PHSA-2021-3.0-0278",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -46,16 +46,16 @@
         }
     ],
     "related": [
-        "CVE-2021-33098",
-        "CVE-2021-35039",
         "CVE-2020-26147",
+        "CVE-2021-38199",
+        "CVE-2021-33098",
         "CVE-2021-45485",
         "CVE-2020-26558",
-        "CVE-2021-38199",
-        "CVE-2020-36311",
+        "CVE-2021-34693",
         "CVE-2021-38208",
-        "CVE-2020-26139",
         "CVE-2021-38160",
-        "CVE-2021-34693"
+        "CVE-2020-26139",
+        "CVE-2020-36311",
+        "CVE-2021-35039"
     ]
 }

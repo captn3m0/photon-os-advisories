@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "sqlite",
-                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "bindutils",
-                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0101",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -25,12 +25,12 @@
         }
     ],
     "related": [
-        "CVE-2020-13632",
-        "CVE-2020-13631",
-        "CVE-2020-13630",
         "CVE-2020-8616",
-        "CVE-2020-13435",
+        "CVE-2020-13631",
         "CVE-2020-8617",
-        "CVE-2020-13434"
+        "CVE-2020-13630",
+        "CVE-2020-13435",
+        "CVE-2020-13434",
+        "CVE-2020-13632"
     ]
 }

@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "git",
-                "purl": "pkg:rpm/vmware/git?distro=photon-3"
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "bindutils",
-                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0207",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -25,7 +25,7 @@
         }
     ],
     "related": [
-        "CVE-2021-21300",
-        "CVE-2020-8625"
+        "CVE-2020-8625",
+        "CVE-2021-21300"
     ]
 }

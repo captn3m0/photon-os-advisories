@@ -10,15 +10,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             }
         },
         {
@@ -31,8 +24,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             }
         },
         {
@@ -41,10 +34,17 @@
                 "name": "openldap",
                 "purl": "pkg:rpm/vmware/openldap?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0089",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -54,8 +54,8 @@
     ],
     "related": [
         "CVE-2020-12243",
+        "CVE-2020-10933",
         "CVE-2020-10663",
-        "CVE-2020-10711",
-        "CVE-2020-10933"
+        "CVE-2020-10711"
     ]
 }

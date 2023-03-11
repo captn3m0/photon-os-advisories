@@ -3,15 +3,15 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "cups",
-                "purl": "pkg:rpm/vmware/cups?distro=photon-4"
+                "name": "u-boot",
+                "purl": "pkg:rpm/vmware/u-boot?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "u-boot",
-                "purl": "pkg:rpm/vmware/u-boot?distro=photon-4"
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-4"
             }
         },
         {
@@ -24,13 +24,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-4"
+                "name": "cups",
+                "purl": "pkg:rpm/vmware/cups?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2023-4.0-0329",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -39,10 +39,10 @@
         }
     ],
     "related": [
-        "CVE-2020-10735",
-        "CVE-2022-2347",
         "CVE-2022-23471",
+        "CVE-2018-4300",
         "CVE-2022-26691",
-        "CVE-2018-4300"
+        "CVE-2020-10735",
+        "CVE-2022-2347"
     ]
 }

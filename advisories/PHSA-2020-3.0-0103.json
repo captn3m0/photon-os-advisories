@@ -10,8 +10,22 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "kibana",
                 "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
             }
         },
         {
@@ -31,36 +45,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "gnutls",
-                "purl": "pkg:rpm/vmware/gnutls?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+                "name": "glib-networking",
+                "purl": "pkg:rpm/vmware/glib-networking?distro=photon-3"
             }
         },
         {
@@ -73,13 +59,27 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "glib-networking",
-                "purl": "pkg:rpm/vmware/glib-networking?distro=photon-3"
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0103",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -89,13 +89,13 @@
     ],
     "related": [
         "CVE-2020-7014",
-        "CVE-2020-12768",
-        "CVE-2020-13777",
         "CVE-2020-7013",
-        "CVE-2020-12062",
-        "CVE-2020-13776",
-        "CVE-2020-7012",
         "CVE-2020-13645",
-        "CVE-2019-19126"
+        "CVE-2020-12062",
+        "CVE-2019-19126",
+        "CVE-2020-12768",
+        "CVE-2020-7012",
+        "CVE-2020-13777",
+        "CVE-2020-13776"
     ]
 }

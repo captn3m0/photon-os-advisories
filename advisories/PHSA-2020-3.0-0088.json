@@ -3,15 +3,15 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "elasticsearch",
-                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-3"
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "kibana",
-                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
+                "name": "elasticsearch",
+                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-3"
             }
         },
         {
@@ -23,7 +23,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0088",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,9 +32,9 @@
         }
     ],
     "related": [
-        "CVE-2019-7621",
-        "CVE-2019-7614",
         "CVE-2019-16884",
-        "CVE-2019-7616"
+        "CVE-2019-7621",
+        "CVE-2019-7616",
+        "CVE-2019-7614"
     ]
 }

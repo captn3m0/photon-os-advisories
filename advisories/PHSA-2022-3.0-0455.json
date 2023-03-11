@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "ImageMagick",
-                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2022-3.0-0455",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {

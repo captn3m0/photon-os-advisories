@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "e2fsprogs",
-                "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-3"
+                "name": "cpio",
+                "purl": "pkg:rpm/vmware/cpio?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "cpio",
-                "purl": "pkg:rpm/vmware/cpio?distro=photon-3"
+                "name": "e2fsprogs",
+                "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0053",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -25,7 +25,7 @@
         }
     ],
     "related": [
-        "CVE-2019-14866",
-        "CVE-2019-5188"
+        "CVE-2019-5188",
+        "CVE-2019-14866"
     ]
 }

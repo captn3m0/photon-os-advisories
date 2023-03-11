@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "nginx",
-                "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
+                "name": "gzip",
+                "purl": "pkg:rpm/vmware/gzip?distro=photon-4"
             }
         },
         {
@@ -17,13 +17,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "gzip",
-                "purl": "pkg:rpm/vmware/gzip?distro=photon-4"
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0172",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {

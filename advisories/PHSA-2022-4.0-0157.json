@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "cassandra",
-                "purl": "pkg:rpm/vmware/cassandra?distro=photon-4"
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "expat",
-                "purl": "pkg:rpm/vmware/expat?distro=photon-4"
+                "name": "cassandra",
+                "purl": "pkg:rpm/vmware/cassandra?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0157",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {

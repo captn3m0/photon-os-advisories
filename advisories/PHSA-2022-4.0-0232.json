@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "gnutls",
-                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "unbound",
-                "purl": "pkg:rpm/vmware/unbound?distro=photon-4"
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0232",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -26,7 +26,7 @@
     ],
     "related": [
         "CVE-2022-2509",
-        "CVE-2022-30699",
-        "CVE-2022-30698"
+        "CVE-2022-30698",
+        "CVE-2022-30699"
     ]
 }

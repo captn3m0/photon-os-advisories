@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "krb5",
-                "purl": "pkg:rpm/vmware/krb5?distro=photon-3"
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
             }
         },
         {
@@ -17,8 +17,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "apache-tomcat",
-                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-3"
             }
         },
         {
@@ -30,7 +30,7 @@
         }
     ],
     "id": "PHSA-2023-3.0-0518",
-    "modified": "2023-03-10T05:24:22Z",
+    "modified": "2023-03-11T05:24:28Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -39,10 +39,10 @@
         }
     ],
     "related": [
-        "CVE-2022-1304",
+        "CVE-2022-45143",
         "CVE-2022-42252",
-        "CVE-2022-42898",
         "CVE-2023-22809",
-        "CVE-2022-45143"
+        "CVE-2022-1304",
+        "CVE-2022-42898"
     ]
 }
