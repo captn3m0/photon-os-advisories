@@ -3,29 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "linux-secure",
                 "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "runc",
-                "purl": "pkg:rpm/vmware/runc?distro=photon-3"
             }
         },
         {
@@ -41,10 +20,31 @@
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0102",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -53,8 +53,8 @@
         }
     ],
     "related": [
-        "CVE-2019-20807",
+        "CVE-2019-19921",
         "CVE-2020-10757",
-        "CVE-2019-19921"
+        "CVE-2019-20807"
     ]
 }

@@ -3,6 +3,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
                 "name": "curl",
                 "purl": "pkg:rpm/vmware/curl?distro=photon-4"
             }
@@ -13,17 +20,10 @@
                 "name": "python3",
                 "purl": "pkg:rpm/vmware/python3?distro=photon-4"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "gnutls",
-                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
-            }
         }
     ],
     "id": "PHSA-2022-4.0-0240",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -33,7 +33,7 @@
     ],
     "related": [
         "CVE-2021-28861",
-        "CVE-2021-4209",
-        "CVE-2022-35252"
+        "CVE-2022-35252",
+        "CVE-2021-4209"
     ]
 }

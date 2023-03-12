@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "nodejs",
-                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
             }
         },
         {
@@ -17,13 +17,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "haproxy",
-                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2023-3.0-0545",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -33,10 +33,10 @@
     ],
     "related": [
         "CVE-2023-23920",
-        "CVE-2023-25725",
         "CVE-2023-23919",
-        "CVE-2023-23918",
         "CVE-2023-25173",
-        "CVE-2023-25153"
+        "CVE-2023-25153",
+        "CVE-2023-23918",
+        "CVE-2023-25725"
     ]
 }

@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
             }
         },
         {
@@ -12,20 +12,6 @@
                 "ecosystem": "photon:3.0",
                 "name": "linux-secure",
                 "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
             }
         },
         {
@@ -41,10 +27,24 @@
                 "name": "icu",
                 "purl": "pkg:rpm/vmware/icu?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0153",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -53,13 +53,13 @@
         }
     ],
     "related": [
-        "CVE-2020-25643",
         "CVE-2020-12655",
-        "CVE-2020-15436",
-        "CVE-2020-15393",
         "CVE-2020-10531",
-        "CVE-2020-12771",
+        "CVE-2020-15436",
+        "CVE-2020-25643",
+        "CVE-2019-20934",
         "CVE-2020-16120",
-        "CVE-2019-20934"
+        "CVE-2020-15393",
+        "CVE-2020-12771"
     ]
 }

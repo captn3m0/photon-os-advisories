@@ -3,20 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-3"
             }
@@ -31,13 +17,27 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "bluez",
                 "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0346",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -47,11 +47,11 @@
     ],
     "related": [
         "CVE-2020-35457",
-        "CVE-2021-41229",
         "CVE-2021-3984",
-        "CVE-2021-27218",
         "CVE-2021-44790",
         "CVE-2021-4019",
-        "CVE-2021-41805"
+        "CVE-2021-41229",
+        "CVE-2021-41805",
+        "CVE-2021-27218"
     ]
 }

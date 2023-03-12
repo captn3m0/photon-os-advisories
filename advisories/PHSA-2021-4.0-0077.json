@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "mysql",
-                "purl": "pkg:rpm/vmware/mysql?distro=photon-4"
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
             }
         },
         {
@@ -17,13 +17,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2021-4.0-0077",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -33,11 +33,11 @@
     ],
     "related": [
         "CVE-2021-35942",
-        "CVE-2021-33505",
-        "CVE-2021-2356",
-        "CVE-2021-2357",
         "CVE-2021-2339",
+        "CVE-2021-2357",
+        "CVE-2021-2354",
+        "CVE-2021-33505",
         "CVE-2021-2352",
-        "CVE-2021-2354"
+        "CVE-2021-2356"
     ]
 }

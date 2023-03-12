@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             }
         },
         {
@@ -17,22 +17,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             }
         },
         {
@@ -48,10 +34,24 @@
                 "name": "subversion",
                 "purl": "pkg:rpm/vmware/subversion?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2022-4.0-0189",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -60,13 +60,13 @@
         }
     ],
     "related": [
+        "CVE-2022-1620",
+        "CVE-2022-1621",
+        "CVE-2022-1629",
         "CVE-2022-21499",
+        "CVE-2022-24070",
         "CVE-2022-1619",
         "CVE-2021-28544",
-        "CVE-2022-24070",
-        "CVE-2022-1621",
-        "CVE-2022-1620",
-        "CVE-2022-1629",
         "CVE-2022-1616"
     ]
 }

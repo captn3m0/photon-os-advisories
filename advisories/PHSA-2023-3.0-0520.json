@@ -3,15 +3,15 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "wireshark",
-                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
+                "name": "u-boot",
+                "purl": "pkg:rpm/vmware/u-boot?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "u-boot",
-                "purl": "pkg:rpm/vmware/u-boot?distro=photon-3"
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
             }
         },
         {
@@ -23,7 +23,7 @@
         }
     ],
     "id": "PHSA-2023-3.0-0520",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,9 +32,9 @@
         }
     ],
     "related": [
-        "CVE-2022-34835",
-        "CVE-2020-25648",
         "CVE-2022-4345",
+        "CVE-2020-25648",
+        "CVE-2022-34835",
         "CVE-2022-30767"
     ]
 }

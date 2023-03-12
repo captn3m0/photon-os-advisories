@@ -10,13 +10,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "sendmail",
-                "purl": "pkg:rpm/vmware/sendmail?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "xz",
                 "purl": "pkg:rpm/vmware/xz?distro=photon-3"
             }
@@ -27,10 +20,17 @@
                 "name": "nginx",
                 "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "sendmail",
+                "purl": "pkg:rpm/vmware/sendmail?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2022-3.0-0382",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -39,7 +39,7 @@
         }
     ],
     "related": [
-        "CVE-2021-3618",
-        "CVE-2022-1271"
+        "CVE-2022-1271",
+        "CVE-2021-3618"
     ]
 }

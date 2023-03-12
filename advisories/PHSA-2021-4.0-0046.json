@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "rsync",
-                "purl": "pkg:rpm/vmware/rsync?distro=photon-4"
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-4"
+                "name": "rsync",
+                "purl": "pkg:rpm/vmware/rsync?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2021-4.0-0046",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -25,7 +25,7 @@
         }
     ],
     "related": [
-        "CVE-2020-14387",
-        "CVE-2021-31525"
+        "CVE-2021-31525",
+        "CVE-2020-14387"
     ]
 }

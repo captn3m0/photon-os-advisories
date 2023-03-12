@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-4"
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0159",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -26,8 +26,8 @@
     ],
     "related": [
         "CVE-2022-23648",
-        "CVE-2022-23773",
         "CVE-2022-23806",
-        "CVE-2022-23772"
+        "CVE-2022-23772",
+        "CVE-2022-23773"
     ]
 }

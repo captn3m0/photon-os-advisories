@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "wireshark",
-                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
+                "name": "python3-cryptography",
+                "purl": "pkg:rpm/vmware/python3-cryptography?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "python3-cryptography",
-                "purl": "pkg:rpm/vmware/python3-cryptography?distro=photon-4"
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2021-4.0-0027",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {

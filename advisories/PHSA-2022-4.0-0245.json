@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "bluez",
-                "purl": "pkg:rpm/vmware/bluez?distro=photon-4"
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0245",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -25,8 +25,8 @@
         }
     ],
     "related": [
-        "CVE-2022-39177",
         "CVE-2022-2953",
-        "CVE-2022-39176"
+        "CVE-2022-39176",
+        "CVE-2022-39177"
     ]
 }

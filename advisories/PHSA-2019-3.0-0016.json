@@ -3,20 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "wget",
-                "purl": "pkg:rpm/vmware/wget?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "tar",
                 "purl": "pkg:rpm/vmware/tar?distro=photon-3"
             }
@@ -31,15 +17,22 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "polkit",
-                "purl": "pkg:rpm/vmware/polkit?distro=photon-3"
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "dhcp",
-                "purl": "pkg:rpm/vmware/dhcp?distro=photon-3"
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "polkit",
+                "purl": "pkg:rpm/vmware/polkit?distro=photon-3"
             }
         },
         {
@@ -52,13 +45,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
+                "name": "wget",
+                "purl": "pkg:rpm/vmware/wget?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "dhcp",
+                "purl": "pkg:rpm/vmware/dhcp?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2019-3.0-0016",
-    "modified": "2023-03-11T05:24:28Z",
+    "modified": "2023-03-12T05:25:05Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -67,15 +67,15 @@
         }
     ],
     "related": [
-        "CVE-2018-20482",
+        "CVE-2017-3144",
+        "CVE-2019-6133",
+        "CVE-2019-11059",
+        "CVE-2019-3840",
+        "CVE-2018-5733",
         "CVE-2019-5953",
         "CVE-2018-20483",
-        "CVE-2019-3840",
-        "CVE-2019-11059",
-        "CVE-2018-5733",
-        "CVE-2019-6133",
+        "CVE-2018-20482",
         "CVE-2019-9947",
-        "CVE-2017-3144",
         "CVE-2019-9740"
     ]
 }
