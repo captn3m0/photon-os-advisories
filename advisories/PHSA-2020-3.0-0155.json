@@ -10,6 +10,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "apache-ant",
                 "purl": "pkg:rpm/vmware/apache-ant?distro=photon-3"
             }
@@ -20,17 +27,10 @@
                 "name": "containerd",
                 "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
-            }
         }
     ],
     "id": "PHSA-2020-3.0-0155",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -39,9 +39,9 @@
         }
     ],
     "related": [
-        "CVE-2020-26116",
-        "CVE-2020-11979",
         "CVE-2020-26159",
-        "CVE-2020-15157"
+        "CVE-2020-11979",
+        "CVE-2020-15157",
+        "CVE-2020-26116"
     ]
 }

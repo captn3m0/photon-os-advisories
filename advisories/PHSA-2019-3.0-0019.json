@@ -3,6 +3,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "bubblewrap",
                 "purl": "pkg:rpm/vmware/bubblewrap?distro=photon-3"
             }
@@ -13,17 +20,10 @@
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-3"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "docker",
-                "purl": "pkg:rpm/vmware/docker?distro=photon-3"
-            }
         }
     ],
     "id": "PHSA-2019-3.0-0019",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -33,7 +33,7 @@
     ],
     "related": [
         "CVE-2019-12439",
-        "CVE-2019-6486",
-        "CVE-2018-15664"
+        "CVE-2018-15664",
+        "CVE-2019-6486"
     ]
 }

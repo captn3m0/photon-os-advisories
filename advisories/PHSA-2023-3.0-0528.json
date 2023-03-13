@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
             }
         },
         {
@@ -17,20 +17,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2023-3.0-0528",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -39,10 +39,10 @@
         }
     ],
     "related": [
-        "CVE-2022-2347",
         "CVE-2023-22458",
         "CVE-2022-35977",
         "CVE-2020-10735",
+        "CVE-2022-2347",
         "CVE-2022-48281"
     ]
 }

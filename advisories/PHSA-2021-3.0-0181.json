@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "glib",
-                "purl": "pkg:rpm/vmware/glib?distro=photon-3"
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0181",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -25,7 +25,7 @@
         }
     ],
     "related": [
-        "CVE-2020-35457",
-        "CVE-2020-28053"
+        "CVE-2020-28053",
+        "CVE-2020-35457"
     ]
 }

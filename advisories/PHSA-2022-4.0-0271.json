@@ -10,48 +10,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "openvswitch",
-                "purl": "pkg:rpm/vmware/openvswitch?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "libtasn1",
-                "purl": "pkg:rpm/vmware/libtasn1?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "binutils",
-                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "xerces-c",
                 "purl": "pkg:rpm/vmware/xerces-c?distro=photon-4"
             }
@@ -59,8 +17,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             }
         },
         {
@@ -80,8 +38,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+                "name": "libtasn1",
+                "purl": "pkg:rpm/vmware/libtasn1?distro=photon-4"
             }
         },
         {
@@ -90,10 +48,52 @@
                 "name": "git",
                 "purl": "pkg:rpm/vmware/git?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "openvswitch",
+                "purl": "pkg:rpm/vmware/openvswitch?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2022-4.0-0271",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -103,23 +103,23 @@
     ],
     "related": [
         "CVE-2022-31213",
-        "CVE-2022-42722",
         "CVE-2022-3221",
-        "CVE-2022-24975",
-        "CVE-2022-35260",
-        "CVE-2022-42915",
-        "CVE-2018-1311",
-        "CVE-2022-43680",
-        "CVE-2021-46848",
-        "CVE-2022-41674",
-        "CVE-2022-39260",
-        "CVE-2022-2602",
         "CVE-2022-31212",
-        "CVE-2022-42916",
+        "CVE-2022-41674",
+        "CVE-2022-43680",
         "CVE-2022-42721",
-        "CVE-2022-38533",
-        "CVE-2022-42720",
+        "CVE-2018-1311",
+        "CVE-2022-39260",
+        "CVE-2021-46848",
+        "CVE-2022-42916",
+        "CVE-2022-42915",
         "CVE-2021-3905",
-        "CVE-2022-39253"
+        "CVE-2022-35260",
+        "CVE-2022-39253",
+        "CVE-2022-42720",
+        "CVE-2022-42722",
+        "CVE-2022-24975",
+        "CVE-2022-38533",
+        "CVE-2022-2602"
     ]
 }

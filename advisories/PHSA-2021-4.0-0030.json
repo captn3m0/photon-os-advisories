@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "cifs-utils",
-                "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-4"
+                "name": "rpm",
+                "purl": "pkg:rpm/vmware/rpm?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "rpm",
-                "purl": "pkg:rpm/vmware/rpm?distro=photon-4"
+                "name": "cifs-utils",
+                "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2021-4.0-0030",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {

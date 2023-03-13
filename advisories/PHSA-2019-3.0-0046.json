@@ -10,15 +10,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             }
         },
         {
@@ -31,13 +24,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2019-3.0-0046",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -46,14 +46,14 @@
         }
     ],
     "related": [
-        "CVE-2019-19073",
-        "CVE-2019-19078",
-        "CVE-2019-19074",
-        "CVE-2019-7620",
-        "CVE-2019-19066",
         "CVE-2019-19524",
-        "CVE-2019-19062",
+        "CVE-2019-15291",
+        "CVE-2019-7620",
+        "CVE-2019-19074",
+        "CVE-2019-19078",
         "CVE-2019-19072",
-        "CVE-2019-15291"
+        "CVE-2019-19066",
+        "CVE-2019-19073",
+        "CVE-2019-19062"
     ]
 }

@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "pgbouncer",
-                "purl": "pkg:rpm/vmware/pgbouncer?distro=photon-4"
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "openssl",
-                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
+                "name": "pgbouncer",
+                "purl": "pkg:rpm/vmware/pgbouncer?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0267",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -25,7 +25,7 @@
         }
     ],
     "related": [
-        "CVE-2021-3935",
-        "CVE-2022-3358"
+        "CVE-2022-3358",
+        "CVE-2021-3935"
     ]
 }

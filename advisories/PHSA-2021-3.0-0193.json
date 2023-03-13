@@ -3,8 +3,22 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             }
         },
         {
@@ -17,15 +31,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "cassandra",
-                "purl": "pkg:rpm/vmware/cassandra?distro=photon-3"
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             }
         },
         {
@@ -38,20 +45,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+                "name": "cassandra",
+                "purl": "pkg:rpm/vmware/cassandra?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0193",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -60,14 +60,14 @@
         }
     ],
     "related": [
-        "CVE-2021-3347",
-        "CVE-2021-3178",
+        "CVE-2020-36158",
+        "CVE-2021-39657",
         "CVE-2020-17516",
         "CVE-2020-27825",
-        "CVE-2021-39648",
-        "CVE-2021-3348",
-        "CVE-2021-39657",
         "CVE-2021-3326",
-        "CVE-2020-36158"
+        "CVE-2021-3347",
+        "CVE-2021-3178",
+        "CVE-2021-3348",
+        "CVE-2021-39648"
     ]
 }

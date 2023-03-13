@@ -10,20 +10,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "glib",
-                "purl": "pkg:rpm/vmware/glib?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "openldap",
                 "purl": "pkg:rpm/vmware/openldap?distro=photon-3"
             }
@@ -31,8 +17,15 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             }
         },
         {
@@ -45,13 +38,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0201",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -61,10 +61,10 @@
     ],
     "related": [
         "CVE-2021-26931",
-        "CVE-2021-26932",
         "CVE-2021-26930",
-        "CVE-2021-27219",
+        "CVE-2021-26932",
+        "CVE-2021-27218",
         "CVE-2021-27212",
-        "CVE-2021-27218"
+        "CVE-2021-27219"
     ]
 }

@@ -3,22 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "nginx",
-                "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
             }
         },
         {
@@ -27,10 +13,24 @@
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2021-3.0-0243",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -39,9 +39,9 @@
         }
     ],
     "related": [
-        "CVE-2021-22901",
+        "CVE-2021-22898",
         "CVE-2021-3564",
         "CVE-2021-23017",
-        "CVE-2021-22898"
+        "CVE-2021-22901"
     ]
 }

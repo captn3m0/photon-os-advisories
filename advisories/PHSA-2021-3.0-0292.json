@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libgd",
-                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
+                "name": "openvswitch",
+                "purl": "pkg:rpm/vmware/openvswitch?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "openvswitch",
-                "purl": "pkg:rpm/vmware/openvswitch?distro=photon-3"
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0292",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {

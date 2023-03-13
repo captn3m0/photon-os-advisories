@@ -3,29 +3,15 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "pixman",
-                "purl": "pkg:rpm/vmware/pixman?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "strongswan",
                 "purl": "pkg:rpm/vmware/strongswan?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
             }
         },
         {
@@ -38,8 +24,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             }
         },
         {
@@ -52,13 +38,27 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+                "name": "pixman",
+                "purl": "pkg:rpm/vmware/pixman?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2022-3.0-0485",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -67,19 +67,19 @@
         }
     ],
     "related": [
-        "CVE-2022-43995",
-        "CVE-2022-3594",
-        "CVE-2022-40768",
-        "CVE-2022-2978",
-        "CVE-2022-41849",
-        "CVE-2022-3535",
-        "CVE-2022-43750",
-        "CVE-2022-20369",
-        "CVE-2022-3542",
-        "CVE-2022-3621",
         "CVE-2022-41850",
         "CVE-2022-44638",
+        "CVE-2022-3594",
+        "CVE-2022-2978",
+        "CVE-2022-3621",
+        "CVE-2022-41849",
+        "CVE-2022-20369",
+        "CVE-2022-40617",
+        "CVE-2022-40768",
+        "CVE-2022-3535",
         "CVE-2022-3649",
-        "CVE-2022-40617"
+        "CVE-2022-3542",
+        "CVE-2022-43750",
+        "CVE-2022-43995"
     ]
 }

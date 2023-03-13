@@ -10,15 +10,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "tcpdump",
-                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-4"
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-4"
             }
         },
         {
@@ -31,15 +24,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "expat",
-                "purl": "pkg:rpm/vmware/expat?distro=photon-4"
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
             }
         },
         {
@@ -52,13 +38,27 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+                "name": "tcpdump",
+                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0160",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -67,13 +67,13 @@
         }
     ],
     "related": [
-        "CVE-2022-1055",
-        "CVE-2022-1998",
-        "CVE-2022-0847",
         "CVE-2022-0629",
         "CVE-2022-25313",
-        "CVE-2022-0617",
         "CVE-2022-0685",
-        "CVE-2018-16301"
+        "CVE-2022-1055",
+        "CVE-2022-1998",
+        "CVE-2022-0617",
+        "CVE-2018-16301",
+        "CVE-2022-0847"
     ]
 }

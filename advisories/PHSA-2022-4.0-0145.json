@@ -3,6 +3,13 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
+                "name": "cryptsetup",
+                "purl": "pkg:rpm/vmware/cryptsetup?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             }
@@ -10,22 +17,36 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "aide",
-                "purl": "pkg:rpm/vmware/aide?distro=photon-4"
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "cryptsetup",
-                "purl": "pkg:rpm/vmware/cryptsetup?distro=photon-4"
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
             }
         },
         {
@@ -45,41 +66,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "expat",
-                "purl": "pkg:rpm/vmware/expat?distro=photon-4"
+                "name": "aide",
+                "purl": "pkg:rpm/vmware/aide?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "ImageMagick",
-                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "wireshark",
-                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0145",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -88,26 +88,26 @@
         }
     ],
     "related": [
-        "CVE-2021-4185",
-        "CVE-2021-4181",
-        "CVE-2022-22823",
-        "CVE-2022-22824",
-        "CVE-2022-22822",
-        "CVE-2022-22827",
-        "CVE-2021-4184",
-        "CVE-2022-22825",
-        "CVE-2021-45960",
-        "CVE-2021-4204",
-        "CVE-2021-3997",
-        "CVE-2021-45417",
-        "CVE-2021-4155",
-        "CVE-2021-39212",
         "CVE-2021-46143",
-        "CVE-2021-4183",
+        "CVE-2022-22823",
+        "CVE-2021-4155",
+        "CVE-2021-45417",
         "CVE-2021-4122",
-        "CVE-2021-4190",
-        "CVE-2022-23222",
+        "CVE-2021-3997",
+        "CVE-2022-22824",
+        "CVE-2021-4181",
+        "CVE-2021-4183",
         "CVE-2022-22826",
-        "CVE-2021-4182"
+        "CVE-2021-45960",
+        "CVE-2022-22827",
+        "CVE-2022-22822",
+        "CVE-2021-4185",
+        "CVE-2021-4182",
+        "CVE-2021-4190",
+        "CVE-2021-39212",
+        "CVE-2022-22825",
+        "CVE-2021-4204",
+        "CVE-2021-4184",
+        "CVE-2022-23222"
     ]
 }

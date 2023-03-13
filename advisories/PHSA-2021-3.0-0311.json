@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "docker",
-                "purl": "pkg:rpm/vmware/docker?distro=photon-3"
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0311",
-    "modified": "2023-03-12T05:25:05Z",
+    "modified": "2023-03-13T05:24:15Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -25,7 +25,7 @@
         }
     ],
     "related": [
-        "CVE-2021-41089",
-        "CVE-2021-41103"
+        "CVE-2021-41103",
+        "CVE-2021-41089"
     ]
 }
