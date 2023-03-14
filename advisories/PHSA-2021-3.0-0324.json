@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "rust",
-                "purl": "pkg:rpm/vmware/rust?distro=photon-3"
+                "name": "kafka",
+                "purl": "pkg:rpm/vmware/kafka?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "kafka",
-                "purl": "pkg:rpm/vmware/kafka?distro=photon-3"
+                "name": "rust",
+                "purl": "pkg:rpm/vmware/rust?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0324",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -25,7 +25,7 @@
         }
     ],
     "related": [
-        "CVE-2021-42574",
-        "CVE-2021-38153"
+        "CVE-2021-38153",
+        "CVE-2021-42574"
     ]
 }

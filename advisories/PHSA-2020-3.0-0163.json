@@ -10,15 +10,22 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
             }
         },
         {
@@ -38,20 +45,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0163",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -60,11 +60,11 @@
         }
     ],
     "related": [
-        "CVE-2020-28974",
-        "CVE-2020-25201",
+        "CVE-2020-25613",
         "CVE-2020-25668",
         "CVE-2020-25704",
+        "CVE-2020-28974",
         "CVE-2020-8694",
-        "CVE-2020-25613"
+        "CVE-2020-25201"
     ]
 }

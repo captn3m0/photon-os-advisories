@@ -10,20 +10,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-4"
+                "name": "lua",
+                "purl": "pkg:rpm/vmware/lua?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "lua",
-                "purl": "pkg:rpm/vmware/lua?distro=photon-4"
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2021-4.0-0130",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -33,12 +33,12 @@
     ],
     "related": [
         "CVE-2021-41771",
-        "CVE-2021-43519",
-        "CVE-2021-38297",
-        "CVE-2021-34558",
-        "CVE-2021-41772",
         "CVE-2021-36221",
-        "CVE-2021-29923",
-        "CVE-2021-38153"
+        "CVE-2021-43519",
+        "CVE-2021-41772",
+        "CVE-2021-38297",
+        "CVE-2021-38153",
+        "CVE-2021-34558",
+        "CVE-2021-29923"
     ]
 }

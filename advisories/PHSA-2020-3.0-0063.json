@@ -3,13 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libjpeg-turbo",
-                "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "bindutils",
                 "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
             }
@@ -17,8 +10,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libgd",
-                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
+                "name": "libjpeg-turbo",
+                "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-3"
             }
         },
         {
@@ -27,10 +20,17 @@
                 "name": "unzip",
                 "purl": "pkg:rpm/vmware/unzip?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0063",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -39,12 +39,12 @@
         }
     ],
     "related": [
+        "CVE-2014-8140",
         "CVE-2019-6470",
         "CVE-2014-8139",
         "CVE-2018-14553",
-        "CVE-2014-8141",
-        "CVE-2014-8140",
+        "CVE-2018-19664",
         "CVE-2019-6477",
-        "CVE-2018-19664"
+        "CVE-2014-8141"
     ]
 }

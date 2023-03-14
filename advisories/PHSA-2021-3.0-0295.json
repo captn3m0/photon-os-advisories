@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "cpio",
-                "purl": "pkg:rpm/vmware/cpio?distro=photon-3"
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
+                "name": "cpio",
+                "purl": "pkg:rpm/vmware/cpio?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2021-3.0-0295",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -25,7 +25,7 @@
         }
     ],
     "related": [
-        "CVE-2021-38604",
-        "CVE-2021-38185"
+        "CVE-2021-38185",
+        "CVE-2021-38604"
     ]
 }

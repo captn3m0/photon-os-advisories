@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+                "name": "protobuf",
+                "purl": "pkg:rpm/vmware/protobuf?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "protobuf",
-                "purl": "pkg:rpm/vmware/protobuf?distro=photon-4"
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0170",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -25,7 +25,7 @@
         }
     ],
     "related": [
-        "CVE-2021-22570",
-        "CVE-2022-1154"
+        "CVE-2022-1154",
+        "CVE-2021-22570"
     ]
 }

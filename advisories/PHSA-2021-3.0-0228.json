@@ -3,6 +3,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "rust",
                 "purl": "pkg:rpm/vmware/rust?distro=photon-3"
             }
@@ -13,17 +20,10 @@
                 "name": "docker",
                 "purl": "pkg:rpm/vmware/docker?distro=photon-3"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
-            }
         }
     ],
     "id": "PHSA-2021-3.0-0228",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,11 +32,11 @@
         }
     ],
     "related": [
-        "CVE-2021-28878",
-        "CVE-2021-28879",
         "CVE-2020-25864",
-        "CVE-2021-21284",
         "CVE-2021-21285",
-        "CVE-2021-28876"
+        "CVE-2021-21284",
+        "CVE-2021-28878",
+        "CVE-2021-28876",
+        "CVE-2021-28879"
     ]
 }

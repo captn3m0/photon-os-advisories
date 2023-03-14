@@ -3,13 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "openssl",
                 "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
             }
@@ -20,10 +13,17 @@
                 "name": "curl",
                 "purl": "pkg:rpm/vmware/curl?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2022-4.0-0207",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -32,11 +32,11 @@
         }
     ],
     "related": [
-        "CVE-2022-33105",
         "CVE-2022-2097",
-        "CVE-2022-32206",
         "CVE-2022-32208",
+        "CVE-2022-32206",
         "CVE-2022-32207",
+        "CVE-2022-33105",
         "CVE-2022-32205"
     ]
 }

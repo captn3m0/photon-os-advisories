@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2023-4.0-0328",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -25,8 +25,8 @@
         }
     ],
     "related": [
-        "CVE-2022-48281",
         "CVE-2023-22458",
+        "CVE-2022-48281",
         "CVE-2022-35977"
     ]
 }

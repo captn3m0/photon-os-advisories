@@ -3,6 +3,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "python-cryptography",
+                "purl": "pkg:rpm/vmware/python-cryptography?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "runc",
                 "purl": "pkg:rpm/vmware/runc?distro=photon-3"
             }
@@ -13,17 +20,10 @@
                 "name": "tar",
                 "purl": "pkg:rpm/vmware/tar?distro=photon-3"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "python-cryptography",
-                "purl": "pkg:rpm/vmware/python-cryptography?distro=photon-3"
-            }
         }
     ],
     "id": "PHSA-2021-3.0-0239",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -32,8 +32,8 @@
         }
     ],
     "related": [
-        "CVE-2021-20193",
+        "CVE-2020-36242",
         "CVE-2021-30465",
-        "CVE-2020-36242"
+        "CVE-2021-20193"
     ]
 }

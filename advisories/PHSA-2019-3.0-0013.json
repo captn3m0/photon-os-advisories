@@ -3,20 +3,20 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "tar",
-                "purl": "pkg:rpm/vmware/tar?distro=photon-3"
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
+                "name": "tar",
+                "purl": "pkg:rpm/vmware/tar?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2019-3.0-0013",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
@@ -25,12 +25,12 @@
         }
     ],
     "related": [
-        "CVE-2019-0215",
-        "CVE-2019-0211",
-        "CVE-2018-17189",
-        "CVE-2018-17199",
-        "CVE-2019-0217",
         "CVE-2019-9923",
-        "CVE-2019-0190"
+        "CVE-2019-0190",
+        "CVE-2019-0217",
+        "CVE-2018-17199",
+        "CVE-2018-17189",
+        "CVE-2019-0211",
+        "CVE-2019-0215"
     ]
 }

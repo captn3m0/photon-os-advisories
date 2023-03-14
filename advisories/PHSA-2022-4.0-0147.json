@@ -10,20 +10,20 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "rust",
-                "purl": "pkg:rpm/vmware/rust?distro=photon-4"
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "util-linux",
-                "purl": "pkg:rpm/vmware/util-linux?distro=photon-4"
+                "name": "rust",
+                "purl": "pkg:rpm/vmware/rust?distro=photon-4"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0147",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2021-03-12T00:00:00Z",
     "references": [
         {
@@ -34,7 +34,7 @@
     "related": [
         "CVE-2022-21658",
         "CVE-2021-4034",
-        "CVE-2021-3995",
-        "CVE-2021-3996"
+        "CVE-2021-3996",
+        "CVE-2021-3995"
     ]
 }

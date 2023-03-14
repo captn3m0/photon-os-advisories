@@ -3,8 +3,22 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-3"
             }
         },
         {
@@ -24,27 +38,13 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "runc",
-                "purl": "pkg:rpm/vmware/runc?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
             }
         }
     ],
     "id": "PHSA-2020-3.0-0102",
-    "modified": "2023-03-13T05:24:15Z",
+    "modified": "2023-03-14T05:24:27Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
