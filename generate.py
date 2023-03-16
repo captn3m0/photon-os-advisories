@@ -3,6 +3,7 @@ from glob import glob
 import subprocess
 import markdown
 import json
+import urllib.request
 from datetime import datetime
 import copy
 import os
@@ -15,6 +16,7 @@ ADVISORY_URL = "https://github.com/vmware/photon/wiki/Security-Update-{slug}"
 PHOTON_VERSIONS = range(1, 5)
 ADVISORIES_DIR = "photon-wiki"
 
+
 def last_modified_date(file):
     p = int(
         subprocess.check_output(
@@ -26,21 +28,44 @@ def last_modified_date(file):
     )
     return datetime.utcfromtimestamp(p)
 
+
 def created_date(file):
     with open(ADVISORIES_DIR + "/" + file) as f:
         for line in f:
             if line.startswith("Issue"):
                 return datetime.strptime(line.split(": ")[1].strip(), "%Y-%m-%d")
 
+
 def advisory_slug(os_version, advisory):
     _id = int(float(advisory.split("-")[2]))
     return f"{os_version}.0-{_id}"
 
-def get_osv():
-    mapping = {}
-    for version in PHOTON_VERSIONS:
-        filename = FILE_FORMAT.format(version=version)
+
+def get_osv(cve_data_all_versions):
+    for os_version in PHOTON_VERSIONS:
+        filename = FILE_FORMAT.format(version=os_version)
         file = ADVISORIES_DIR + filename
+
+        # Returns the version that fixed any of the given CVEs + OS + Package combination
+        # there should only be one
+        def cve_fixed_version(package, cves, os_version):
+            # list of fixed versions with a matching
+            # CVE/pkg/OS combination
+            fixed_versions = set([
+                x["res_ver"]
+                for cve in cves
+                for x in cve_data_all_versions[cve]
+                if (x["os"] == os_version and x["pkg"] == package)
+            ])
+            # There should only be a single such reference
+            # 
+            if len(fixed_versions) != 1:
+                print(f"Found multiple matching versions for {package}")
+                print(fixed_versions)
+                print(cves)
+                return None
+            return fixed_versions.pop()
+
         with open(file, "r") as f:
             table_html = markdown.markdown(
                 f.read(), extensions=["markdown.extensions.tables"]
@@ -52,32 +77,44 @@ def get_osv():
                 ]
                 packages = json.loads(packages.replace("'", '"'))
                 cves = re.findall(CVE_REGEX, cves)
-                slug = advisory_slug(version, advisory)
+                slug = advisory_slug(os_version, advisory)
                 advisory_file = f"Security-Update-{slug}.md"
                 modified = last_modified_date(advisory_file)
                 published = created_date(advisory_file)
+
+                def affected(pkg, cves, os_version):
+                    r = {
+                        "package": {
+                            "ecosystem": f"photon:{os_version}.0",
+                            "name": pkg,
+                            "purl": f"pkg:rpm/vmware/{pkg}?distro=photon-{os_version}",
+                        }
+                    }
+                    fixed_version = cve_fixed_version(pkg, cves, os_version)
+                    if fixed_version:
+                        r["ranges"] = {
+                            "events": [
+                                {"introduced": "0"},
+                                {"fixed": fixed_version},
+                            ],
+                            "type": "ECOSYSTEM"
+                        }
+                    return r
 
                 yield {
                     "id": advisory,
                     "modified": modified.isoformat("T") + "Z",
                     "published": published.isoformat("T") + "Z",
                     "related": cves,
-                    "affected": [{
-                        "package": {
-                            "ecosystem": f"photon:{version}.0",
-                            "name": p,
-                            "purl": f"pkg:rpm/vmware/{p}?distro=photon-{version}"
-
-                        }
-                    } for p in packages],
+                    "affected": [
+                        affected(pkg, cves, os_version)
+                        for pkg in packages
+                    ],
                     "references": [
-                        {
-                            "type": "ADVISORY",
-                            "url": ADVISORY_URL.format(slug=slug)
-                        }
-
-                    ]
+                        {"type": "ADVISORY", "url": ADVISORY_URL.format(slug=slug)}
+                    ],
                 }
+
 
 def merge_advisories(advisory_file, data):
     # read the current advisory data as json
@@ -85,29 +122,35 @@ def merge_advisories(advisory_file, data):
         original = json.load(f)
         current = copy.deepcopy(original)
     # merge the data
-    assert(current['id'] == data['id'])
-    current['affected'].extend(data['affected'])
-    current['references'].extend(data['references'])
-    current['related'].extend(data['related'])
+    assert current["id"] == data["id"]
+    current["affected"].extend(data["affected"])
+    current["references"].extend(data["references"])
+    current["related"].extend(data["related"])
 
     # Make sure no CVE references are duplicated
-    current['related'] = list(set(current['related'])).sort()
-    
+    current["related"] = list(set(current["related"])).sort()
+
     # Pick the earlier published date
     # and the later modified date
-    current['published'] = min(
-            datetime.strptime(current['published'], '%Y-%m-%dT%H:%M:%SZ'),
-            datetime.strptime(data['published'], '%Y-%m-%dT%H:%M:%SZ')        
-        ).isoformat("T") + "Z"
+    current["published"] = (
+        min(
+            datetime.strptime(current["published"], "%Y-%m-%dT%H:%M:%SZ"),
+            datetime.strptime(data["published"], "%Y-%m-%dT%H:%M:%SZ"),
+        ).isoformat("T")
+        + "Z"
+    )
 
-    current['modified'] = max(
-            datetime.strptime(current['modified'], '%Y-%m-%dT%H:%M:%SZ'),
-            datetime.strptime(data['modified'], '%Y-%m-%dT%H:%M:%SZ')        
-        ).isoformat("T") + "Z"
+    current["modified"] = (
+        max(
+            datetime.strptime(current["modified"], "%Y-%m-%dT%H:%M:%SZ"),
+            datetime.strptime(data["modified"], "%Y-%m-%dT%H:%M:%SZ"),
+        ).isoformat("T")
+        + "Z"
+    )
 
     no_important_changes = True
     # One of the important keys has changed
-    for key in ['id', 'affected', 'references', 'related', 'published']:
+    for key in ["id", "affected", "references", "related", "published"]:
         if current[key] != original[key]:
             no_important_changes = False
 
@@ -116,10 +159,33 @@ def merge_advisories(advisory_file, data):
 
     return current
 
+
 def __main__():
-    for advisory in glob('advisories/*.json'):
+    cve_data = {}
+    for branch in PHOTON_VERSIONS:
+        print(f"Fetching CVE Data for Photon OS {branch}.0")
+        url = f"https://packages.vmware.com/photon/photon_cve_metadata/cve_data_photon{branch}.0.json"
+        with urllib.request.urlopen(url) as r:
+            data = json.loads(r.read().decode())
+            for row in data:
+                row["os"] = branch
+                cve = row.pop("cve_id")
+                if (
+                    row["aff_ver"]
+                    == f"all versions before {row['res_ver']} are vulnerable"
+                ):
+                    del row["aff_ver"]
+                else:
+                    print(row)
+                    raise Exception("Unimplemented affected version range")
+                if cve in cve_data:
+                    cve_data[cve].append(row)
+                else:
+                    cve_data[cve] = [row]
+
+    for advisory in glob("advisories/*.json"):
         os.remove(advisory)
-    for d in get_osv():
+    for d in get_osv(cve_data):
         fn = f"advisories/{d['id']}.json"
         if os.path.exists(fn):
             print(f"Updating {fn}")
@@ -129,6 +195,7 @@ def __main__():
         if d:
             with open(fn, "w") as f:
                 f.write(json.dumps(d, indent=4, sort_keys=True))
+
 
 if __name__ == "__main__":
     __main__()

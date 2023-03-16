@@ -5,6 +5,8 @@ import os
 import re
 from bs4 import BeautifulSoup
 
+# This is a WIP unused script to
+# write data back to the GSD database
 advisories_dir = sys.argv[1]
 gsd_dir = sys.argv[2]
 
