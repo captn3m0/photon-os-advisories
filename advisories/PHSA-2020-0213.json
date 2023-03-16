@@ -1,0 +1,33 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0213",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-03-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-213"
+        }
+    ],
+    "related": [
+        "CVE-2018-14553",
+        "CVE-2014-8139",
+        "CVE-2014-8141",
+        "CVE-2014-8140"
+    ]
+}

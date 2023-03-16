@@ -1,0 +1,60 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "yarn",
+                "purl": "pkg:rpm/vmware/yarn?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sudo",
+                "purl": "pkg:rpm/vmware/sudo?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0200",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-01-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-200"
+        }
+    ],
+    "related": [
+        "CVE-2019-17563",
+        "CVE-2019-10773",
+        "CVE-2019-17596",
+        "CVE-2019-19880",
+        "CVE-2019-19234",
+        "CVE-2019-16276",
+        "CVE-2019-19645",
+        "CVE-2019-12418",
+        "CVE-2019-19232",
+        "CVE-2019-20218"
+    ]
+}

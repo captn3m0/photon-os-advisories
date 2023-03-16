@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "procps-ng",
+                "purl": "pkg:rpm/vmware/procps-ng?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0175",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-08-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-175"
+        }
+    ],
+    "related": [
+        "CVE-2018-1126",
+        "CVE-2018-12015",
+        "CVE-2018-1122",
+        "CVE-2018-0732",
+        "CVE-2018-1125",
+        "CVE-2018-1124",
+        "CVE-2018-1123"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libsolv",
+                "purl": "pkg:rpm/vmware/libsolv?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0003",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2018-20685",
+        "CVE-2018-16843",
+        "CVE-2018-18311",
+        "CVE-2018-16844",
+        "CVE-2018-20534",
+        "CVE-2018-20533",
+        "CVE-2018-20406",
+        "CVE-2018-18312",
+        "CVE-2018-1002105",
+        "CVE-2018-20532"
+    ]
+}

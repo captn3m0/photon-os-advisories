@@ -1,0 +1,53 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0101",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-10-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-101"
+        }
+    ],
+    "related": [
+        "CVE-2017-1000363",
+        "CVE-2018-20511",
+        "CVE-2018-16658",
+        "CVE-2018-5390",
+        "CVE-2018-6554",
+        "CVE-2017-7518",
+        "CVE-2017-7482",
+        "CVE-2018-6555",
+        "CVE-2018-14609",
+        "CVE-2018-17182"
+    ]
+}

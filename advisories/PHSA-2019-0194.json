@@ -1,0 +1,55 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "logstash",
+                "purl": "pkg:rpm/vmware/logstash?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0194",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-12-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-194"
+        }
+    ],
+    "related": [
+        "CVE-2019-15291",
+        "CVE-2019-19807",
+        "CVE-2019-7620",
+        "CVE-2019-19066",
+        "CVE-2019-19524"
+    ]
+}

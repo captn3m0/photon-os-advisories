@@ -1,0 +1,29 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openjdk8",
+                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0077",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-07-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-77"
+        }
+    ],
+    "related": [
+        "CVE-2018-2941",
+        "CVE-2018-2973",
+        "CVE-2018-2972",
+        "CVE-2018-2942",
+        "CVE-2018-2964",
+        "CVE-2018-2938",
+        "CVE-2018-2940"
+    ]
+}

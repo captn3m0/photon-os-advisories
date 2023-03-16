@@ -1,0 +1,41 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0436",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-09-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-436"
+        }
+    ],
+    "related": [
+        "CVE-2020-35513",
+        "CVE-2020-36311",
+        "CVE-2021-38204",
+        "CVE-2021-3653",
+        "CVE-2020-14385",
+        "CVE-2021-40490",
+        "CVE-2021-42008",
+        "CVE-2020-26541",
+        "CVE-2020-27835",
+        "CVE-2020-36310",
+        "CVE-2021-3679",
+        "CVE-2020-10781"
+    ]
+}

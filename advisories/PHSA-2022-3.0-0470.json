@@ -1,0 +1,49 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "influxdb",
+                "purl": "pkg:rpm/vmware/influxdb?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "paramiko",
+                "purl": "pkg:rpm/vmware/paramiko?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "dbus",
+                "purl": "pkg:rpm/vmware/dbus?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2022-3.0-0470",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2022-42011",
+        "CVE-2022-42012",
+        "CVE-2022-36640",
+        "CVE-2022-24302",
+        "CVE-2022-3190",
+        "CVE-2022-42010"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0083",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-11-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-83"
+        }
+    ],
+    "related": [
+        "CVE-2017-15265",
+        "CVE-2017-16533",
+        "CVE-2017-15299",
+        "CVE-2017-15951",
+        "CVE-2017-16525",
+        "CVE-2017-16527",
+        "CVE-2017-15649",
+        "CVE-2017-16535",
+        "CVE-2017-12193"
+    ]
+}

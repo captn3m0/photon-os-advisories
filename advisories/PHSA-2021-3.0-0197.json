@@ -1,0 +1,56 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2021-3.0-0197",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2021-2072",
+        "CVE-2021-2088",
+        "CVE-2021-2031",
+        "CVE-2021-2058",
+        "CVE-2020-28935",
+        "CVE-2021-2122",
+        "CVE-2021-2021",
+        "CVE-2021-2010",
+        "CVE-2021-2038",
+        "CVE-2021-2060",
+        "CVE-2021-2022",
+        "CVE-2021-2087",
+        "CVE-2021-2065",
+        "CVE-2021-2046",
+        "CVE-2021-2002",
+        "CVE-2021-2070",
+        "CVE-2021-2036",
+        "CVE-2021-2024",
+        "CVE-2021-2061",
+        "CVE-2021-2011",
+        "CVE-2020-15358",
+        "CVE-2021-2081",
+        "CVE-2021-2056",
+        "CVE-2021-2048",
+        "CVE-2020-1971",
+        "CVE-2021-2032",
+        "CVE-2021-2076"
+    ]
+}

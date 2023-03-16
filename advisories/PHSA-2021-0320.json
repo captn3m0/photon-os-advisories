@@ -1,0 +1,44 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0320",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-02-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-320"
+        }
+    ],
+    "related": [
+        "CVE-2021-2032",
+        "CVE-2021-2014",
+        "CVE-2021-2010",
+        "CVE-2021-2022",
+        "CVE-2020-28935",
+        "CVE-2021-2011",
+        "CVE-2021-2060",
+        "CVE-2021-3326"
+    ]
+}

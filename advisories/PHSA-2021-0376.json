@@ -1,0 +1,74 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "falco",
+                "purl": "pkg:rpm/vmware/falco?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0376",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-31T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-376"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-376"
+        }
+    ],
+    "related": null
+}

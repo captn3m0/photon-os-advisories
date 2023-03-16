@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libmspack",
+                "purl": "pkg:rpm/vmware/libmspack?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0140",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-05-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-140"
+        }
+    ],
+    "related": [
+        "CVE-2017-6419"
+    ]
+}

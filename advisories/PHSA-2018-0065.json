@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0065",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-07-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-65"
+        }
+    ],
+    "related": [
+        "CVE-2018-8014"
+    ]
+}

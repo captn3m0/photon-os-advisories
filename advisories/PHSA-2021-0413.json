@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "rubygem-nokogiri",
+                "purl": "pkg:rpm/vmware/rubygem-nokogiri?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0413",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-07-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-413"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-413"
+        }
+    ],
+    "related": null
+}

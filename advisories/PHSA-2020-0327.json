@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libjpeg-turbo",
+                "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0327",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-09-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-327"
+        }
+    ],
+    "related": [
+        "CVE-2018-20330",
+        "CVE-2016-3616",
+        "CVE-2019-13960"
+    ]
+}

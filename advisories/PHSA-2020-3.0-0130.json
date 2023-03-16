@@ -1,0 +1,34 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "etcd",
+                "purl": "pkg:rpm/vmware/etcd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2020-3.0-0130",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-15115",
+        "CVE-2020-15112",
+        "CVE-2020-15136",
+        "CVE-2020-16845",
+        "CVE-2020-15106"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0443",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-10-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-443"
+        }
+    ],
+    "related": [
+        "CVE-2021-32672"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtirpc",
+                "purl": "pkg:rpm/vmware/libtirpc?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0504",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-08-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-504"
+        }
+    ],
+    "related": [
+        "CVE-2021-46828"
+    ]
+}

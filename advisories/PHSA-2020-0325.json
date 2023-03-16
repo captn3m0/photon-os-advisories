@@ -1,0 +1,51 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "cifs-utils",
+                "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0325",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-09-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-325"
+        }
+    ],
+    "related": [
+        "CVE-2020-8555",
+        "CVE-2020-24977",
+        "CVE-2020-14342",
+        "CVE-2019-11252",
+        "CVE-2020-8558",
+        "CVE-2020-15586",
+        "CVE-2020-8559",
+        "CVE-2020-8557"
+    ]
+}

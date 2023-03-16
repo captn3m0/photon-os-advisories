@@ -1,0 +1,82 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "tar",
+                "purl": "pkg:rpm/vmware/tar?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "bash",
+                "purl": "pkg:rpm/vmware/bash?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "yarn",
+                "purl": "pkg:rpm/vmware/yarn?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0252",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-10-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-252"
+        }
+    ],
+    "related": [
+        "CVE-2019-1547",
+        "CVE-2019-11246",
+        "CVE-2019-1563",
+        "CVE-2019-11248",
+        "CVE-2019-11249",
+        "CVE-2019-11247",
+        "CVE-2016-6321",
+        "CVE-2012-6711",
+        "CVE-2019-5448",
+        "CVE-2019-16056",
+        "CVE-2019-14835"
+    ]
+}

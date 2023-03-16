@@ -1,0 +1,117 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "unixODBC",
+                "purl": "pkg:rpm/vmware/unixODBC?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openjdk11",
+                "purl": "pkg:rpm/vmware/openjdk11?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openjdk8",
+                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "lz4",
+                "purl": "pkg:rpm/vmware/lz4?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0235",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-04-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-235"
+        }
+    ],
+    "related": [
+        "CVE-2017-2616",
+        "CVE-2019-2816",
+        "CVE-2020-2816",
+        "CVE-2020-2655",
+        "CVE-2019-2762",
+        "CVE-2019-13139",
+        "CVE-2019-2945",
+        "CVE-2020-2593",
+        "CVE-2019-2933",
+        "CVE-2019-2769",
+        "CVE-2019-2992",
+        "CVE-2019-2894",
+        "CVE-2020-2755",
+        "CVE-2019-2975",
+        "CVE-2020-2781",
+        "CVE-2018-7485",
+        "CVE-2019-2786",
+        "CVE-2019-2977",
+        "CVE-2020-2654",
+        "CVE-2019-13509",
+        "CVE-2019-2766",
+        "CVE-2020-2583",
+        "CVE-2020-2754",
+        "CVE-2020-2778",
+        "CVE-2019-2978",
+        "CVE-2019-2988",
+        "CVE-2019-2989",
+        "CVE-2019-2818",
+        "CVE-2019-2983",
+        "CVE-2019-2602",
+        "CVE-2019-2987",
+        "CVE-2020-2590",
+        "CVE-2020-2767",
+        "CVE-2019-2684",
+        "CVE-2020-1712",
+        "CVE-2019-2821",
+        "CVE-2019-17543",
+        "CVE-2020-2757",
+        "CVE-2020-2803",
+        "CVE-2020-2601",
+        "CVE-2019-2962",
+        "CVE-2019-2981",
+        "CVE-2019-2999",
+        "CVE-2020-2773",
+        "CVE-2019-2973",
+        "CVE-2019-2949",
+        "CVE-2018-7409",
+        "CVE-2020-2756",
+        "CVE-2020-2800",
+        "CVE-2020-2805",
+        "CVE-2020-2830",
+        "CVE-2019-2958",
+        "CVE-2019-2964"
+    ]
+}

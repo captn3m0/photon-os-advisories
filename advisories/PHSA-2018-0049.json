@@ -1,0 +1,55 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "patch",
+                "purl": "pkg:rpm/vmware/patch?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0049",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-05-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-49"
+        }
+    ],
+    "related": [
+        "CVE-2018-3639",
+        "CVE-2017-18257",
+        "CVE-2018-1120",
+        "CVE-2018-1000156",
+        "CVE-2018-10087"
+    ]
+}

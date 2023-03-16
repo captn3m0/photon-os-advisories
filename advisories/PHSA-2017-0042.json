@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "rpcbind",
+                "purl": "pkg:rpm/vmware/rpcbind?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0042",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-05-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-42"
+        }
+    ],
+    "related": [
+        "CVE-2017-8779"
+    ]
+}

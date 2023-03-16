@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nxtgn-openssl",
+                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0331",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-331"
+        }
+    ],
+    "related": [
+        "CVE-2021-3449",
+        "CVE-2021-3450"
+    ]
+}

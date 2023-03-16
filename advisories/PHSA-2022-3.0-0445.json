@@ -1,0 +1,68 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "rpm",
+                "purl": "pkg:rpm/vmware/rpm?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2022-3.0-0445",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2022-1962",
+        "CVE-2022-29526",
+        "CVE-2022-30633",
+        "CVE-2015-20107",
+        "CVE-2022-30632",
+        "CVE-2022-30631",
+        "CVE-2022-32148",
+        "CVE-2021-3521",
+        "CVE-2022-32189",
+        "CVE-2021-28861",
+        "CVE-2022-35252",
+        "CVE-2022-30629",
+        "CVE-2022-30630",
+        "CVE-2022-2509",
+        "CVE-2022-28131",
+        "CVE-2022-30635",
+        "CVE-2022-30580",
+        "CVE-2022-1705"
+    ]
+}

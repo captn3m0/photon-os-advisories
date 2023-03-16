@@ -1,0 +1,37 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0226",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-04-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-226"
+        }
+    ],
+    "related": [
+        "CVE-2020-1738",
+        "CVE-2019-10217",
+        "CVE-2020-1735",
+        "CVE-2020-8492",
+        "CVE-2020-1740",
+        "CVE-2020-10684",
+        "CVE-2019-10206",
+        "CVE-2019-14856"
+    ]
+}

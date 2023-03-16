@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0057",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-07-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-57"
+        }
+    ],
+    "related": [
+        "CVE-2017-3167",
+        "CVE-2017-9789",
+        "CVE-2017-9788"
+    ]
+}

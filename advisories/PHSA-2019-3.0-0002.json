@@ -1,0 +1,113 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "elasticsearch",
+                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "openjdk8",
+                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0002",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2019-8912",
+        "CVE-2019-6128",
+        "CVE-2018-17245",
+        "CVE-2018-17244",
+        "CVE-2018-20346",
+        "CVE-2019-2422",
+        "CVE-2018-16890",
+        "CVE-2019-3823",
+        "CVE-2019-2426",
+        "CVE-2018-17246",
+        "CVE-2019-3822",
+        "CVE-2018-16845",
+        "CVE-2019-2449",
+        "CVE-2019-6977"
+    ]
+}

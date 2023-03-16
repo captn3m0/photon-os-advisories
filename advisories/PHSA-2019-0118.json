@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "net-snmp",
+                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0118",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-01-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-118"
+        }
+    ],
+    "related": [
+        "CVE-2018-19210",
+        "CVE-2018-15209",
+        "CVE-2018-10126",
+        "CVE-2018-18661",
+        "CVE-2018-14647",
+        "CVE-2018-18065",
+        "CVE-2018-18557"
+    ]
+}

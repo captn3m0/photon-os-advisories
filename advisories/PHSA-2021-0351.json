@@ -1,0 +1,46 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libwebp",
+                "purl": "pkg:rpm/vmware/libwebp?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mariadb",
+                "purl": "pkg:rpm/vmware/mariadb?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0351",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-01-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-351"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-351"
+        }
+    ],
+    "related": null
+}

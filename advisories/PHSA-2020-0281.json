@@ -1,0 +1,67 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "envoy",
+                "purl": "pkg:rpm/vmware/envoy?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "ncurses",
+                "purl": "pkg:rpm/vmware/ncurses?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "zeromq",
+                "purl": "pkg:rpm/vmware/zeromq?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "elasticsearch",
+                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "postgresql",
+                "purl": "pkg:rpm/vmware/postgresql?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0281",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-02-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-281"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-281"
+        }
+    ],
+    "related": null
+}

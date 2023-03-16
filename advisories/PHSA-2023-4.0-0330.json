@@ -1,0 +1,54 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0330",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2023-0054",
+        "CVE-2022-4450",
+        "CVE-2023-0433",
+        "CVE-2023-0049",
+        "CVE-2023-0217",
+        "CVE-2023-0412",
+        "CVE-2023-0413",
+        "CVE-2022-4203",
+        "CVE-2023-0216",
+        "CVE-2023-0415",
+        "CVE-2023-0411",
+        "CVE-2023-0401",
+        "CVE-2023-0286",
+        "CVE-2023-0417",
+        "CVE-2022-4304",
+        "CVE-2023-0215",
+        "CVE-2023-0051",
+        "CVE-2023-0414"
+    ]
+}

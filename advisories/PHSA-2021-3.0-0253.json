@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libsolv",
+                "purl": "pkg:rpm/vmware/libsolv?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python-Pygments",
+                "purl": "pkg:rpm/vmware/python-Pygments?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "zeromq",
+                "purl": "pkg:rpm/vmware/zeromq?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2021-3.0-0253",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2021-20270",
+        "CVE-2021-20234",
+        "CVE-2020-36400",
+        "CVE-2021-3200",
+        "CVE-2021-27291",
+        "CVE-2021-20237",
+        "CVE-2021-20236"
+    ]
+}

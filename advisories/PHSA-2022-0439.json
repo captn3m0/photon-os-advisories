@@ -1,0 +1,35 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mariadb",
+                "purl": "pkg:rpm/vmware/mariadb?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "strongswan",
+                "purl": "pkg:rpm/vmware/strongswan?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0439",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-02-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-439"
+        }
+    ],
+    "related": [
+        "CVE-2021-46657",
+        "CVE-2021-46667",
+        "CVE-2021-46659",
+        "CVE-2021-46658",
+        "CVE-2021-46666",
+        "CVE-2021-45079"
+    ]
+}

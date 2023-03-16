@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "zsh",
+                "purl": "pkg:rpm/vmware/zsh?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0028",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-03-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-28"
+        }
+    ],
+    "related": [
+        "CVE-2018-7548"
+    ]
+}

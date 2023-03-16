@@ -1,0 +1,46 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python-urllib3",
+                "purl": "pkg:rpm/vmware/python-urllib3?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0393",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-05-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-393"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-393"
+        }
+    ],
+    "related": null
+}

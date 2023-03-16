@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "cyrus-sasl",
+                "purl": "pkg:rpm/vmware/cyrus-sasl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "yarn",
+                "purl": "pkg:rpm/vmware/yarn?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0216",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-03-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-216"
+        }
+    ],
+    "related": [
+        "CVE-2020-8131",
+        "CVE-2019-19906"
+    ]
+}

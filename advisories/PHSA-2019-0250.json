@@ -1,0 +1,70 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "sysdig",
+                "purl": "pkg:rpm/vmware/sysdig?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "openjdk",
+                "purl": "pkg:rpm/vmware/openjdk?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0250",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-09-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-250"
+        }
+    ],
+    "related": [
+        "CVE-2019-1125",
+        "CVE-2019-2816",
+        "CVE-2019-15926",
+        "CVE-2019-2762",
+        "CVE-2019-2786",
+        "CVE-2019-2842",
+        "CVE-2019-2818",
+        "CVE-2019-15239",
+        "CVE-2018-20856",
+        "CVE-2019-14284",
+        "CVE-2019-2766",
+        "CVE-2019-2745",
+        "CVE-2019-20934",
+        "CVE-2019-14809",
+        "CVE-2019-2769",
+        "CVE-2019-2821",
+        "CVE-2019-8339",
+        "CVE-2019-14283",
+        "CVE-2017-18509",
+        "CVE-2019-11487"
+    ]
+}

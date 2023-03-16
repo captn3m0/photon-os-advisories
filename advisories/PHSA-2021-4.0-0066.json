@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2021-4.0-0066",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2021-30639",
+        "CVE-2021-33037",
+        "CVE-2020-13529"
+    ]
+}

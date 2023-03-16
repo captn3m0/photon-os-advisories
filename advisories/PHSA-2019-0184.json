@@ -1,0 +1,56 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "e2fsprogs",
+                "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sysstat",
+                "purl": "pkg:rpm/vmware/sysstat?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "rsyslog",
+                "purl": "pkg:rpm/vmware/rsyslog?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0184",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-10-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-184"
+        }
+    ],
+    "related": [
+        "CVE-2019-11253",
+        "CVE-2019-17042",
+        "CVE-2019-17041",
+        "CVE-2019-16168",
+        "CVE-2019-16167",
+        "CVE-2019-5094"
+    ]
+}

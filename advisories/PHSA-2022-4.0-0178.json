@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "wget",
+                "purl": "pkg:rpm/vmware/wget?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2022-4.0-0178",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2021-31879",
+        "CVE-2022-1420",
+        "CVE-2022-1381"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "u-boot",
+                "purl": "pkg:rpm/vmware/u-boot?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0528",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2022-35977",
+        "CVE-2022-48281",
+        "CVE-2020-10735",
+        "CVE-2022-2347",
+        "CVE-2023-22458"
+    ]
+}

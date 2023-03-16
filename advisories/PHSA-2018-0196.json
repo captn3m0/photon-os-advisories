@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libmspack",
+                "purl": "pkg:rpm/vmware/libmspack?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0196",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-11-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-196"
+        }
+    ],
+    "related": [
+        "CVE-2018-14680",
+        "CVE-2018-14679"
+    ]
+}

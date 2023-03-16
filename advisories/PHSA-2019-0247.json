@@ -1,0 +1,48 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libmspack",
+                "purl": "pkg:rpm/vmware/libmspack?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0247",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-08-02T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-247"
+        }
+    ],
+    "related": [
+        "CVE-2019-10192",
+        "CVE-2019-13115",
+        "CVE-2018-14682",
+        "CVE-2018-14681",
+        "CVE-2018-20843"
+    ]
+}

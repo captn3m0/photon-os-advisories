@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "c-ares",
+                "purl": "pkg:rpm/vmware/c-ares?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "rpm",
+                "purl": "pkg:rpm/vmware/rpm?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "c-ares",
+                "purl": "pkg:rpm/vmware/c-ares?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0378",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-04-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-378"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-378"
+        }
+    ],
+    "related": null
+}

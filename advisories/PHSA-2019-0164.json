@@ -1,0 +1,45 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "elfutils",
+                "purl": "pkg:rpm/vmware/elfutils?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0164",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-06-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-164"
+        }
+    ],
+    "related": [
+        "CVE-2019-9071",
+        "CVE-2018-20217",
+        "CVE-2019-7149",
+        "CVE-2019-9073",
+        "CVE-2019-7148",
+        "CVE-2018-19932",
+        "CVE-2019-7150",
+        "CVE-2018-20002",
+        "CVE-2018-5729"
+    ]
+}

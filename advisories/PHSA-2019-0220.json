@@ -1,0 +1,68 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "cairo",
+                "purl": "pkg:rpm/vmware/cairo?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "dhcp",
+                "purl": "pkg:rpm/vmware/dhcp?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0220",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-220"
+        }
+    ],
+    "related": [
+        "CVE-2019-6462",
+        "CVE-2018-6954",
+        "CVE-2019-9948",
+        "CVE-2018-18064",
+        "CVE-2019-6461",
+        "CVE-2018-5733",
+        "CVE-2017-3144",
+        "CVE-2018-19876",
+        "CVE-2018-20103",
+        "CVE-2018-20102",
+        "CVE-2019-3855"
+    ]
+}

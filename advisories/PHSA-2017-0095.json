@@ -1,0 +1,68 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "rpm",
+                "purl": "pkg:rpm/vmware/rpm?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0095",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-12-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-95"
+        }
+    ],
+    "related": [
+        "CVE-2017-8818",
+        "CVE-2017-1000407",
+        "CVE-2018-7492",
+        "CVE-2018-18559",
+        "CVE-2017-17122",
+        "CVE-2017-17124",
+        "CVE-2017-12190",
+        "CVE-2017-14992",
+        "CVE-2017-17125",
+        "CVE-2017-7501",
+        "CVE-2017-17121"
+    ]
+}

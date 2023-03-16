@@ -1,0 +1,41 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0082",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-11-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-82"
+        }
+    ],
+    "related": [
+        "CVE-2017-9217",
+        "CVE-2017-15804",
+        "CVE-2017-15670",
+        "CVE-2017-1000101",
+        "CVE-2017-1000100"
+    ]
+}

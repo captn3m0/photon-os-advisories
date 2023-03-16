@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "net-snmp",
+                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0262",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-07-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-262"
+        }
+    ],
+    "related": [
+        "CVE-2019-20892"
+    ]
+}

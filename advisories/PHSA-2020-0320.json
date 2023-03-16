@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0320",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-09-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-320"
+        }
+    ],
+    "related": [
+        "CVE-2020-8624",
+        "CVE-2020-8623"
+    ]
+}

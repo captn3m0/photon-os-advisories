@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "file",
+                "purl": "pkg:rpm/vmware/file?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libvirt",
+                "purl": "pkg:rpm/vmware/libvirt?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0228",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-04-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-228"
+        }
+    ],
+    "related": [
+        "CVE-2019-8906",
+        "CVE-2019-8904",
+        "CVE-2019-8905",
+        "CVE-2019-8907",
+        "CVE-2019-20485",
+        "CVE-2020-1927",
+        "CVE-2020-1934"
+    ]
+}

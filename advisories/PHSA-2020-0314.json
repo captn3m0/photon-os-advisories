@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0314",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-08-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-314"
+        }
+    ],
+    "related": [
+        "CVE-2020-12771",
+        "CVE-2020-16166"
+    ]
+}

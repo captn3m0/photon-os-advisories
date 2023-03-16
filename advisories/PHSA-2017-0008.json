@@ -1,0 +1,81 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "wget",
+                "purl": "pkg:rpm/vmware/wget?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0008",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-12-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-8"
+        }
+    ],
+    "related": [
+        "CVE-2017-16912",
+        "CVE-2017-17121",
+        "CVE-2017-17806",
+        "CVE-2017-17124",
+        "CVE-2017-16832",
+        "CVE-2017-16827",
+        "CVE-2017-18208",
+        "CVE-2017-6508",
+        "CVE-2017-16828",
+        "CVE-2017-16826",
+        "CVE-2017-1000405",
+        "CVE-2017-18202",
+        "CVE-2017-16829",
+        "CVE-2017-1000407",
+        "CVE-2017-17122",
+        "CVE-2017-16831",
+        "CVE-2017-16913",
+        "CVE-2018-18559",
+        "CVE-2017-17558",
+        "CVE-2018-7492",
+        "CVE-2017-17805",
+        "CVE-2017-17125",
+        "CVE-2017-16830",
+        "CVE-2017-16914"
+    ]
+}

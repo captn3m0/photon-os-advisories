@@ -1,0 +1,66 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "sysstat",
+                "purl": "pkg:rpm/vmware/sysstat?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0263",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-12-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-263"
+        }
+    ],
+    "related": [
+        "CVE-2019-5815",
+        "CVE-2019-17498",
+        "CVE-2019-19725",
+        "CVE-2019-16255",
+        "CVE-2019-19604",
+        "CVE-2019-16201",
+        "CVE-2020-5247",
+        "CVE-2019-15845",
+        "CVE-2019-19330"
+    ]
+}

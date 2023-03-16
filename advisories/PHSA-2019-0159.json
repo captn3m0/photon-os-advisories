@@ -1,0 +1,57 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openjdk8",
+                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "ceph",
+                "purl": "pkg:rpm/vmware/ceph?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mercurial",
+                "purl": "pkg:rpm/vmware/mercurial?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0159",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-05-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-159"
+        }
+    ],
+    "related": [
+        "CVE-2019-2697",
+        "CVE-2018-17983",
+        "CVE-2019-2426",
+        "CVE-2019-2602",
+        "CVE-2019-6111",
+        "CVE-2018-13346",
+        "CVE-2019-2449",
+        "CVE-2018-13348",
+        "CVE-2019-2684",
+        "CVE-2019-6109",
+        "CVE-2018-1128",
+        "CVE-2019-2698",
+        "CVE-2018-13347",
+        "CVE-2019-2422"
+    ]
+}

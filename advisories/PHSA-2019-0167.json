@@ -1,0 +1,65 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "zsh",
+                "purl": "pkg:rpm/vmware/zsh?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "postgresql",
+                "purl": "pkg:rpm/vmware/postgresql?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sysdig",
+                "purl": "pkg:rpm/vmware/sysdig?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0167",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-06-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-167"
+        }
+    ],
+    "related": [
+        "CVE-2018-20651",
+        "CVE-2018-17143",
+        "CVE-2018-17360",
+        "CVE-2018-17359",
+        "CVE-2019-8339",
+        "CVE-2018-17358",
+        "CVE-2018-17846",
+        "CVE-2018-16873",
+        "CVE-2017-18206",
+        "CVE-2018-16875",
+        "CVE-2018-20671",
+        "CVE-2019-10164",
+        "CVE-2018-20623",
+        "CVE-2019-9074",
+        "CVE-2018-16874"
+    ]
+}

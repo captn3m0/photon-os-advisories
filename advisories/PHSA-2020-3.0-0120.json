@@ -1,0 +1,38 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2020-3.0-0120",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-14308",
+        "CVE-2020-14311",
+        "CVE-2020-15705",
+        "CVE-2020-15706",
+        "CVE-2020-14310",
+        "CVE-2020-15707",
+        "CVE-2020-15780",
+        "CVE-2020-14309",
+        "CVE-2020-10713"
+    ]
+}

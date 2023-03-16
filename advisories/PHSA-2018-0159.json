@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0159",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-07-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-159"
+        }
+    ],
+    "related": [
+        "CVE-2018-11236"
+    ]
+}

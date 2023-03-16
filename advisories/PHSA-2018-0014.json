@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0014",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-01-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-14"
+        }
+    ],
+    "related": [
+        "CVE-2018-2696"
+    ]
+}

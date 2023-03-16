@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0494",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-07-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-494"
+        }
+    ],
+    "related": [
+        "CVE-2022-2207",
+        "CVE-2022-2206",
+        "CVE-2022-2208",
+        "CVE-2022-2210"
+    ]
+}

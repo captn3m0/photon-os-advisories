@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2021-3.0-0196",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-35507",
+        "CVE-2020-35494",
+        "CVE-2020-8564",
+        "CVE-2020-8566",
+        "CVE-2020-35495",
+        "CVE-2020-35496",
+        "CVE-2020-35493"
+    ]
+}

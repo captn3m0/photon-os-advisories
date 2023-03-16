@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0090",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-11-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-90"
+        }
+    ],
+    "related": [
+        "CVE-2017-16532",
+        "CVE-2017-16528",
+        "CVE-2018-7191"
+    ]
+}

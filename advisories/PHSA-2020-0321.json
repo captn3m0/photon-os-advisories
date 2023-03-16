@@ -1,0 +1,59 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "elasticsearch",
+                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "postgresql",
+                "purl": "pkg:rpm/vmware/postgresql?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0321",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-09-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-321"
+        }
+    ],
+    "related": [
+        "CVE-2020-26088",
+        "CVE-2020-14350",
+        "CVE-2020-7017",
+        "CVE-2020-25212",
+        "CVE-2020-7016",
+        "CVE-2020-14314",
+        "CVE-2020-15437",
+        "CVE-2020-7019",
+        "CVE-2020-14349"
+    ]
+}

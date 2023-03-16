@@ -1,0 +1,53 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "sudo",
+                "purl": "pkg:rpm/vmware/sudo?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "pkg-config",
+                "purl": "pkg:rpm/vmware/pkg-config?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libjpeg-turbo",
+                "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "zookeeper",
+                "purl": "pkg:rpm/vmware/zookeeper?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nss",
+                "purl": "pkg:rpm/vmware/nss?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0358",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-01-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-358"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-358"
+        }
+    ],
+    "related": null
+}

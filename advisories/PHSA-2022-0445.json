@@ -1,0 +1,54 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0445",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-02-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-445"
+        }
+    ],
+    "related": [
+        "CVE-2021-4192",
+        "CVE-2021-4173",
+        "CVE-2022-0413",
+        "CVE-2022-0408",
+        "CVE-2022-25314",
+        "CVE-2022-23772",
+        "CVE-2022-23773",
+        "CVE-2021-3974",
+        "CVE-2022-0361",
+        "CVE-2022-0407",
+        "CVE-2021-3973",
+        "CVE-2021-4166",
+        "CVE-2022-0443",
+        "CVE-2022-0359",
+        "CVE-2022-0261",
+        "CVE-2022-0392",
+        "CVE-2022-25315",
+        "CVE-2022-23806"
+    ]
+}

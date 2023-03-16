@@ -1,0 +1,47 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "polkit",
+                "purl": "pkg:rpm/vmware/polkit?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "e2fsprogs",
+                "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libsolv",
+                "purl": "pkg:rpm/vmware/libsolv?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0205",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-02-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-205"
+        }
+    ],
+    "related": [
+        "CVE-2019-20387",
+        "CVE-2019-5188",
+        "CVE-2017-15105",
+        "CVE-2018-1116"
+    ]
+}

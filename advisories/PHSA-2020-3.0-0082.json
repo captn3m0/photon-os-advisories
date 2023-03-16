@@ -1,0 +1,135 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "nxtgn-openssl",
+                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2020-3.0-0082",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-11565",
+        "CVE-2019-2914",
+        "CVE-2020-2577",
+        "CVE-2020-2589",
+        "CVE-2019-2791",
+        "CVE-2020-2761",
+        "CVE-2020-2898",
+        "CVE-2020-2694",
+        "CVE-2020-2580",
+        "CVE-2020-2893",
+        "CVE-2020-14381",
+        "CVE-2019-3011",
+        "CVE-2019-2966",
+        "CVE-2020-2660",
+        "CVE-2020-2584",
+        "CVE-2019-2991",
+        "CVE-2020-2579",
+        "CVE-2019-2960",
+        "CVE-2020-2895",
+        "CVE-2019-2946",
+        "CVE-2020-2928",
+        "CVE-2019-2974",
+        "CVE-2020-2570",
+        "CVE-2020-2930",
+        "CVE-2019-2911",
+        "CVE-2020-2779",
+        "CVE-2020-2759",
+        "CVE-2019-2968",
+        "CVE-2020-2853",
+        "CVE-2020-2627",
+        "CVE-2020-2765",
+        "CVE-2020-2924",
+        "CVE-2020-2812",
+        "CVE-2020-2896",
+        "CVE-2020-2679",
+        "CVE-2020-2903",
+        "CVE-2020-2922",
+        "CVE-2020-2904",
+        "CVE-2020-2901",
+        "CVE-2020-12657",
+        "CVE-2020-11609",
+        "CVE-2020-2925",
+        "CVE-2019-2938",
+        "CVE-2019-2957",
+        "CVE-2020-2686",
+        "CVE-2020-2804",
+        "CVE-2020-2892",
+        "CVE-2020-11608",
+        "CVE-2020-2573",
+        "CVE-2020-2763",
+        "CVE-2020-11668",
+        "CVE-2020-2588",
+        "CVE-2019-2982",
+        "CVE-2019-2963",
+        "CVE-2020-2760",
+        "CVE-2020-2770",
+        "CVE-2019-3004",
+        "CVE-2020-2923",
+        "CVE-2019-3009",
+        "CVE-2020-2774",
+        "CVE-2019-2997",
+        "CVE-2020-2780",
+        "CVE-2019-3018",
+        "CVE-2020-2926",
+        "CVE-2019-2920",
+        "CVE-2019-2998",
+        "CVE-2020-2814",
+        "CVE-2019-2967",
+        "CVE-2020-2921",
+        "CVE-2020-2897",
+        "CVE-2020-2572",
+        "CVE-2020-2762",
+        "CVE-2020-2752",
+        "CVE-2020-1967",
+        "CVE-2019-2993",
+        "CVE-2020-2574",
+        "CVE-2020-11494",
+        "CVE-2020-2768"
+    ]
+}

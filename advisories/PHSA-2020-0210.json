@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0210",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-02-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-210"
+        }
+    ],
+    "related": [
+        "CVE-2018-12123",
+        "CVE-2018-0734"
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "cyrus-sasl",
+                "purl": "pkg:rpm/vmware/cyrus-sasl?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nxtgn-openssl",
+                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0477",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-03-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-477"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-477"
+        }
+    ],
+    "related": null
+}

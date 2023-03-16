@@ -1,0 +1,60 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mariadb",
+                "purl": "pkg:rpm/vmware/mariadb?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sendmail",
+                "purl": "pkg:rpm/vmware/sendmail?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "lua",
+                "purl": "pkg:rpm/vmware/lua?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0469",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-02-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-469"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-469"
+        }
+    ],
+    "related": null
+}

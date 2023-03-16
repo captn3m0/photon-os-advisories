@@ -1,0 +1,30 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0462",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-01-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-462"
+        }
+    ],
+    "related": [
+        "CVE-2022-22825",
+        "CVE-2021-45960",
+        "CVE-2022-22826",
+        "CVE-2021-46143",
+        "CVE-2022-22822",
+        "CVE-2022-22823",
+        "CVE-2022-22824",
+        "CVE-2022-22827"
+    ]
+}

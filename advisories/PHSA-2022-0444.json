@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0444",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-02-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-444"
+        }
+    ],
+    "related": [
+        "CVE-2022-25235",
+        "CVE-2022-25236"
+    ]
+}

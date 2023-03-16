@@ -1,0 +1,27 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python-urllib3",
+                "purl": "pkg:rpm/vmware/python-urllib3?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0442",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-10-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-442"
+        }
+    ],
+    "related": [
+        "CVE-2019-11324",
+        "CVE-2020-26137",
+        "CVE-2019-11236",
+        "CVE-2018-20060",
+        "CVE-2021-33503"
+    ]
+}

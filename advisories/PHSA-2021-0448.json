@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0448",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-11-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-448"
+        }
+    ],
+    "related": [
+        "CVE-2021-35624",
+        "CVE-2021-25219"
+    ]
+}

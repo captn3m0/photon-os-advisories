@@ -1,0 +1,90 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "postgresql",
+                "purl": "pkg:rpm/vmware/postgresql?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0016",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-02-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-16"
+        }
+    ],
+    "related": [
+        "CVE-2017-14940",
+        "CVE-2017-8816",
+        "CVE-2017-14938",
+        "CVE-2018-1000028",
+        "CVE-2018-1053",
+        "CVE-2017-14939",
+        "CVE-2017-8817",
+        "CVE-2018-1052",
+        "CVE-2017-14930",
+        "CVE-2017-17080",
+        "CVE-2018-1000007",
+        "CVE-2018-5344",
+        "CVE-2017-14934",
+        "CVE-2017-14933",
+        "CVE-2017-14932",
+        "CVE-2017-9935",
+        "CVE-2017-16911",
+        "CVE-2017-14974",
+        "CVE-2017-17123"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "zsh",
+                "purl": "pkg:rpm/vmware/zsh?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2020-3.0-0073",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-0556",
+        "CVE-2020-10942",
+        "CVE-2020-8647",
+        "CVE-2020-29370",
+        "CVE-2020-8649",
+        "CVE-2020-8992",
+        "CVE-2019-20044",
+        "CVE-2020-8648",
+        "CVE-2020-12465",
+        "CVE-2019-18348"
+    ]
+}

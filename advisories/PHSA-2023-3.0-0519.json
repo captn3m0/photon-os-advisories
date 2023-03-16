@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libksba",
+                "purl": "pkg:rpm/vmware/libksba?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "openvswitch",
+                "purl": "pkg:rpm/vmware/openvswitch?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0519",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2022-4338",
+        "CVE-2022-4337",
+        "CVE-2022-3515"
+    ]
+}

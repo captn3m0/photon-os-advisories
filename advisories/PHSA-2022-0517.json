@@ -1,0 +1,57 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0517",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-09-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-517"
+        }
+    ],
+    "related": [
+        "CVE-2021-3999",
+        "CVE-2022-3028",
+        "CVE-2022-36946",
+        "CVE-2022-33740",
+        "CVE-2022-26365",
+        "CVE-2022-33741",
+        "CVE-2022-33742"
+    ]
+}

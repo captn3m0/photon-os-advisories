@@ -1,0 +1,42 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0350",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2023-23915",
+        "CVE-2023-25173",
+        "CVE-2023-25153",
+        "CVE-2023-23916",
+        "CVE-2023-23914",
+        "CVE-2023-25725"
+    ]
+}

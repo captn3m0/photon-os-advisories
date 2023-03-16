@@ -1,0 +1,41 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "ntp",
+                "purl": "pkg:rpm/vmware/ntp?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0180",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-08-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-180"
+        }
+    ],
+    "related": [
+        "CVE-2018-15572",
+        "CVE-2018-5390",
+        "CVE-2018-15594",
+        "CVE-2018-12327",
+        "CVE-2018-3620"
+    ]
+}

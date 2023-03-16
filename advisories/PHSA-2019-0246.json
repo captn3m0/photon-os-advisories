@@ -1,0 +1,63 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "gnupg",
+                "purl": "pkg:rpm/vmware/gnupg?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0246",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-07-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-246"
+        }
+    ],
+    "related": [
+        "CVE-2019-13117",
+        "CVE-2019-13232",
+        "CVE-2019-13050",
+        "CVE-2018-20852",
+        "CVE-2017-12652",
+        "CVE-2019-13118"
+    ]
+}

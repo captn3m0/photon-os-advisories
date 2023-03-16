@@ -1,0 +1,68 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "fuse3",
+                "purl": "pkg:rpm/vmware/fuse3?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "fuse",
+                "purl": "pkg:rpm/vmware/fuse?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0177",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-09-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-177"
+        }
+    ],
+    "related": [
+        "CVE-2018-10906",
+        "CVE-2019-11245",
+        "CVE-2019-16056",
+        "CVE-2019-5481",
+        "CVE-2019-1547",
+        "CVE-2019-11249",
+        "CVE-2019-1563",
+        "CVE-2019-11246",
+        "CVE-2019-11247",
+        "CVE-2019-11248",
+        "CVE-2019-5482"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2021-4.0-0032",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2021-3564",
+        "CVE-2021-23017",
+        "CVE-2021-29477"
+    ]
+}

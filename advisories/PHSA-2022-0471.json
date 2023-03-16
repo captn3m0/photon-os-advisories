@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0471",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-02-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-471"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-471"
+        }
+    ],
+    "related": null
+}

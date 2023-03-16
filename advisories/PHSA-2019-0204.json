@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "fuse",
+                "purl": "pkg:rpm/vmware/fuse?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "elfutils",
+                "purl": "pkg:rpm/vmware/elfutils?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0204",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-01-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-204"
+        }
+    ],
+    "related": [
+        "CVE-2018-10906",
+        "CVE-2018-16062"
+    ]
+}

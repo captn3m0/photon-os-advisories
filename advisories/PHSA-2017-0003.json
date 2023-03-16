@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "wget",
+                "purl": "pkg:rpm/vmware/wget?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0003",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-11-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2017-13090",
+        "CVE-2017-13089"
+    ]
+}

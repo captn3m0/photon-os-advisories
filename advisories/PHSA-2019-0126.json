@@ -1,0 +1,47 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libjpeg-turbo",
+                "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0126",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-01-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-126"
+        }
+    ],
+    "related": [
+        "CVE-2018-18384",
+        "CVE-2018-20330",
+        "CVE-2018-3830",
+        "CVE-2018-15473"
+    ]
+}

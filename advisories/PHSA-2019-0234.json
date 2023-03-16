@@ -1,0 +1,90 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mercurial",
+                "purl": "pkg:rpm/vmware/mercurial?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0234",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-05-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-234"
+        }
+    ],
+    "related": [
+        "CVE-2019-2620",
+        "CVE-2019-2630",
+        "CVE-2019-2625",
+        "CVE-2019-6111",
+        "CVE-2019-2635",
+        "CVE-2019-2580",
+        "CVE-2019-2596",
+        "CVE-2018-13348",
+        "CVE-2018-13346",
+        "CVE-2018-13347",
+        "CVE-2019-2614",
+        "CVE-2019-2685",
+        "CVE-2019-2628",
+        "CVE-2019-2584",
+        "CVE-2018-0735",
+        "CVE-2019-2581",
+        "CVE-2019-2566",
+        "CVE-2019-2617",
+        "CVE-2019-2636",
+        "CVE-2019-2689",
+        "CVE-2019-2695",
+        "CVE-2019-2687",
+        "CVE-2019-2606",
+        "CVE-2019-2691",
+        "CVE-2019-2686",
+        "CVE-2019-2627",
+        "CVE-2019-2631",
+        "CVE-2019-2688",
+        "CVE-2019-2632",
+        "CVE-2019-2623",
+        "CVE-2019-2587",
+        "CVE-2019-2607",
+        "CVE-2019-2626",
+        "CVE-2018-17983",
+        "CVE-2019-2693",
+        "CVE-2019-2593",
+        "CVE-2019-7317",
+        "CVE-2019-2681",
+        "CVE-2019-6109",
+        "CVE-2019-2589",
+        "CVE-2019-2634",
+        "CVE-2019-2683",
+        "CVE-2019-2592",
+        "CVE-2019-2694",
+        "CVE-2019-2585",
+        "CVE-2019-2644",
+        "CVE-2019-2624"
+    ]
+}

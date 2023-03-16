@@ -1,0 +1,81 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "file",
+                "purl": "pkg:rpm/vmware/file?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libvirt",
+                "purl": "pkg:rpm/vmware/libvirt?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "sqlite-autoconf",
+                "purl": "pkg:rpm/vmware/sqlite-autoconf?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "erlang",
+                "purl": "pkg:rpm/vmware/erlang?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "nettle",
+                "purl": "pkg:rpm/vmware/nettle?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "nodejs10",
+                "purl": "pkg:rpm/vmware/nodejs10?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0289",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-04-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-289"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-289"
+        }
+    ],
+    "related": null
+}

@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "cassandra",
+                "purl": "pkg:rpm/vmware/cassandra?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "calico",
+                "purl": "pkg:rpm/vmware/calico?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0359",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-02-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-359"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-359"
+        }
+    ],
+    "related": null
+}

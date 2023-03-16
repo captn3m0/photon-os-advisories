@@ -1,0 +1,55 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "cairo",
+                "purl": "pkg:rpm/vmware/cairo?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0340",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-04-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-340"
+        }
+    ],
+    "related": [
+        "CVE-2021-28688",
+        "CVE-2021-3483",
+        "CVE-2020-35492",
+        "CVE-2021-29647",
+        "CVE-2021-29154"
+    ]
+}

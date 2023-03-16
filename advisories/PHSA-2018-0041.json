@@ -1,0 +1,65 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "rsync",
+                "purl": "pkg:rpm/vmware/rsync?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "ceph",
+                "purl": "pkg:rpm/vmware/ceph?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0041",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-05-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-41"
+        }
+    ],
+    "related": [
+        "CVE-2018-8822",
+        "CVE-2018-1092",
+        "CVE-2018-1094",
+        "CVE-2018-7262",
+        "CVE-2018-5764",
+        "CVE-2017-18218",
+        "CVE-2018-10940",
+        "CVE-2018-1108"
+    ]
+}

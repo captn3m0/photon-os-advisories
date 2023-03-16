@@ -1,0 +1,33 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0105",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-02-02T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-105"
+        }
+    ],
+    "related": [
+        "CVE-2017-16911",
+        "CVE-2017-16913",
+        "CVE-2018-1000028",
+        "CVE-2017-16912"
+    ]
+}

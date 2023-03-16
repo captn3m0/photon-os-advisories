@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2020-3.0-0086",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-5260",
+        "CVE-2017-2616"
+    ]
+}

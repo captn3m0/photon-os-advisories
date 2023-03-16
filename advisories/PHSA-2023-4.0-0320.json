@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "gstreamer",
+                "purl": "pkg:rpm/vmware/gstreamer?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0320",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-1923",
+        "CVE-2022-1924",
+        "CVE-2022-1921",
+        "CVE-2022-1922",
+        "CVE-2022-1925",
+        "CVE-2022-2122",
+        "CVE-2021-3497",
+        "CVE-2021-3498",
+        "CVE-2022-1920",
+        "CVE-2021-3522"
+    ]
+}

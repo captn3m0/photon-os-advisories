@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0327",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-327"
+        }
+    ],
+    "related": [
+        "CVE-2021-21300",
+        "CVE-2021-23336"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "dhcp",
+                "purl": "pkg:rpm/vmware/dhcp?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0349",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-05-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-349"
+        }
+    ],
+    "related": [
+        "CVE-2021-20231",
+        "CVE-2021-20232",
+        "CVE-2021-22901",
+        "CVE-2021-23017",
+        "CVE-2021-25217",
+        "CVE-2021-22898"
+    ]
+}

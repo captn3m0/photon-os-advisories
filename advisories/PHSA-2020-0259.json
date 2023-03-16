@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "dbus",
+                "purl": "pkg:rpm/vmware/dbus?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python-Twisted",
+                "purl": "pkg:rpm/vmware/python-Twisted?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0259",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-07-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-259"
+        }
+    ],
+    "related": [
+        "CVE-2020-10108",
+        "CVE-2020-10109",
+        "CVE-2020-12049"
+    ]
+}

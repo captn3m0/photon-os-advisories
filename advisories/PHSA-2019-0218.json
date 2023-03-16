@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "tcpdump",
+                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0218",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-218"
+        }
+    ],
+    "related": [
+        "CVE-2019-9075",
+        "CVE-2019-9077",
+        "CVE-2018-19519"
+    ]
+}

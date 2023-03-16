@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "cairo",
+                "purl": "pkg:rpm/vmware/cairo?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0145",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-145"
+        }
+    ],
+    "related": [
+        "CVE-2019-6461",
+        "CVE-2019-6462",
+        "CVE-2018-18064",
+        "CVE-2018-19876"
+    ]
+}

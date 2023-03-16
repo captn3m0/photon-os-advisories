@@ -1,0 +1,38 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0154",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-06-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-154"
+        }
+    ],
+    "related": [
+        "CVE-2018-10535",
+        "CVE-2018-6759",
+        "CVE-2018-7642",
+        "CVE-2018-8014",
+        "CVE-2018-8945",
+        "CVE-2018-10372",
+        "CVE-2018-7568",
+        "CVE-2018-7569",
+        "CVE-2018-6872"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2022-4.0-0187",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-21489",
+        "CVE-2022-21482",
+        "CVE-2022-21478",
+        "CVE-2022-21451",
+        "CVE-2022-21425",
+        "CVE-2022-21412",
+        "CVE-2022-21454",
+        "CVE-2022-21417",
+        "CVE-2022-21479",
+        "CVE-2022-21483",
+        "CVE-2022-21460",
+        "CVE-2022-21427"
+    ]
+}

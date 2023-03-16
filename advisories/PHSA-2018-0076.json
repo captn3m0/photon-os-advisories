@@ -1,0 +1,74 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "blktrace",
+                "purl": "pkg:rpm/vmware/blktrace?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0076",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-07-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-76"
+        }
+    ],
+    "related": [
+        "CVE-2018-10877",
+        "CVE-2018-10878",
+        "CVE-2018-10881",
+        "CVE-2018-16276",
+        "CVE-2017-1000382",
+        "CVE-2018-18559",
+        "CVE-2018-10689",
+        "CVE-2018-13405",
+        "CVE-2018-1049",
+        "CVE-2018-13406"
+    ]
+}

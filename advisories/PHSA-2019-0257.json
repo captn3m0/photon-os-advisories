@@ -1,0 +1,106 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "yum",
+                "purl": "pkg:rpm/vmware/yum?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "subversion",
+                "purl": "pkg:rpm/vmware/subversion?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libarchive",
+                "purl": "pkg:rpm/vmware/libarchive?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "postgresql",
+                "purl": "pkg:rpm/vmware/postgresql?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libsoup",
+                "purl": "pkg:rpm/vmware/libsoup?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0257",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-11-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-257"
+        }
+    ],
+    "related": [
+        "CVE-2019-18197",
+        "CVE-2013-1910",
+        "CVE-2019-18408",
+        "CVE-2019-10208",
+        "CVE-2018-12116",
+        "CVE-2019-5010",
+        "CVE-2018-12122",
+        "CVE-2019-5737",
+        "CVE-2019-17450",
+        "CVE-2018-11803",
+        "CVE-2019-18282",
+        "CVE-2019-17266",
+        "CVE-2018-12121",
+        "CVE-2019-17451"
+    ]
+}

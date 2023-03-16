@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0480",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-06-02T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-480"
+        }
+    ],
+    "related": [
+        "CVE-2022-24675",
+        "CVE-2022-28327"
+    ]
+}

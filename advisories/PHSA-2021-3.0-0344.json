@@ -1,0 +1,41 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "lapack",
+                "purl": "pkg:rpm/vmware/lapack?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2021-3.0-0344",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2021-3928",
+        "CVE-2021-3903",
+        "CVE-2021-4048",
+        "CVE-2021-3927",
+        "CVE-2020-10744"
+    ]
+}

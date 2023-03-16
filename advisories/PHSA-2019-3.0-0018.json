@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0018",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2019-8457",
+        "CVE-2018-16875",
+        "CVE-2019-12450"
+    ]
+}

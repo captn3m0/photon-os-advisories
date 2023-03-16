@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0020",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-03-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-20"
+        }
+    ],
+    "related": [
+        "CVE-2018-6551",
+        "CVE-2018-6485"
+    ]
+}

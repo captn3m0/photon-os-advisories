@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0436",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-02-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-436"
+        }
+    ],
+    "related": [
+        "CVE-2022-21344",
+        "CVE-2022-21303",
+        "CVE-2022-21245",
+        "CVE-2022-21367",
+        "CVE-2022-21304",
+        "CVE-2022-21270"
+    ]
+}

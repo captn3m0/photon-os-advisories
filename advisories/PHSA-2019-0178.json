@@ -1,0 +1,64 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0178",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-09-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-178"
+        }
+    ],
+    "related": [
+        "CVE-2019-15902",
+        "CVE-2019-10081",
+        "CVE-2019-10638",
+        "CVE-2019-15118",
+        "CVE-2019-16995",
+        "CVE-2019-14835",
+        "CVE-2017-7895",
+        "CVE-2019-16994",
+        "CVE-2019-10092",
+        "CVE-2019-17351",
+        "CVE-2019-10098",
+        "CVE-2019-3846",
+        "CVE-2019-10082",
+        "CVE-2019-15538"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "etcd-3.3.27",
+                "purl": "pkg:rpm/vmware/etcd-3.3.27?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2022-3.0-0352",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2021-4184",
+        "CVE-2021-4181",
+        "CVE-2021-4183",
+        "CVE-2020-15115",
+        "CVE-2020-15114",
+        "CVE-2021-4182",
+        "CVE-2020-15136",
+        "CVE-2020-15113",
+        "CVE-2021-4190",
+        "CVE-2021-4185"
+    ]
+}

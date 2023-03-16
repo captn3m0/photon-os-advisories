@@ -1,0 +1,170 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "rsyslog",
+                "purl": "pkg:rpm/vmware/rsyslog?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libsolv",
+                "purl": "pkg:rpm/vmware/libsolv?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mesos",
+                "purl": "pkg:rpm/vmware/mesos?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "keepalived",
+                "purl": "pkg:rpm/vmware/keepalived?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0212",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-212"
+        }
+    ],
+    "related": [
+        "CVE-2019-2534",
+        "CVE-2018-18690",
+        "CVE-2019-2486",
+        "CVE-2018-3171",
+        "CVE-2018-3185",
+        "CVE-2018-11793",
+        "CVE-2018-3173",
+        "CVE-2018-3182",
+        "CVE-2018-3277",
+        "CVE-2018-3082",
+        "CVE-2019-2494",
+        "CVE-2018-3187",
+        "CVE-2018-3170",
+        "CVE-2018-3212",
+        "CVE-2018-20534",
+        "CVE-2018-3283",
+        "CVE-2018-3278",
+        "CVE-2018-18313",
+        "CVE-2019-2455",
+        "CVE-2018-1330",
+        "CVE-2019-2495",
+        "CVE-2019-2420",
+        "CVE-2019-2507",
+        "CVE-2018-3144",
+        "CVE-2018-3285",
+        "CVE-2019-5736",
+        "CVE-2018-3203",
+        "CVE-2019-2535",
+        "CVE-2018-18311",
+        "CVE-2018-19044",
+        "CVE-2019-2481",
+        "CVE-2018-5391",
+        "CVE-2019-3701",
+        "CVE-2018-3247",
+        "CVE-2018-3133",
+        "CVE-2018-3162",
+        "CVE-2018-3084",
+        "CVE-2019-2531",
+        "CVE-2019-2436",
+        "CVE-2018-16881",
+        "CVE-2019-2537",
+        "CVE-2019-2482",
+        "CVE-2019-2536",
+        "CVE-2017-2616",
+        "CVE-2018-3282",
+        "CVE-2019-2533",
+        "CVE-2019-2539",
+        "CVE-2019-2529",
+        "CVE-2018-3137",
+        "CVE-2018-3123",
+        "CVE-2019-2510",
+        "CVE-2018-20406",
+        "CVE-2019-2503",
+        "CVE-2018-14641",
+        "CVE-2019-2434",
+        "CVE-2018-3251",
+        "CVE-2018-3276",
+        "CVE-2007-6303",
+        "CVE-2018-3143",
+        "CVE-2018-20532",
+        "CVE-2018-20533",
+        "CVE-2018-3186",
+        "CVE-2018-3155",
+        "CVE-2019-2502",
+        "CVE-2018-3174",
+        "CVE-2018-3156",
+        "CVE-2019-2528",
+        "CVE-2018-3195",
+        "CVE-2018-3200",
+        "CVE-2019-2530",
+        "CVE-2019-2532",
+        "CVE-2018-3286",
+        "CVE-2018-3161",
+        "CVE-2018-3284",
+        "CVE-2018-3145",
+        "CVE-2019-2513",
+        "CVE-2018-3280",
+        "CVE-2018-3279"
+    ]
+}

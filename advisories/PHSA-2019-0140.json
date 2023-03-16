@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0140",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-140"
+        }
+    ],
+    "related": [
+        "CVE-2019-9636",
+        "CVE-2019-9169"
+    ]
+}

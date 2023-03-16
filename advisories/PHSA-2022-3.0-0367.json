@@ -1,0 +1,51 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "mariadb",
+                "purl": "pkg:rpm/vmware/mariadb?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2022-3.0-0367",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2021-46668",
+        "CVE-2022-23648",
+        "CVE-2021-46664",
+        "CVE-2022-0368",
+        "CVE-2021-46663",
+        "CVE-2021-46665",
+        "CVE-2021-46661",
+        "CVE-2022-0391"
+    ]
+}

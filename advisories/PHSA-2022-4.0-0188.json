@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "openldap",
+                "purl": "pkg:rpm/vmware/openldap?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2022-4.0-0188",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-29155"
+    ]
+}

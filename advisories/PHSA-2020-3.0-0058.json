@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "cloud-init",
+                "purl": "pkg:rpm/vmware/cloud-init?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2020-3.0-0058",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-8632",
+        "CVE-2019-14864"
+    ]
+}

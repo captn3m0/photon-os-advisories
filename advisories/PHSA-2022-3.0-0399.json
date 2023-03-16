@@ -1,0 +1,95 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "rubygem-yajl-ruby",
+                "purl": "pkg:rpm/vmware/rubygem-yajl-ruby?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "mariadb",
+                "purl": "pkg:rpm/vmware/mariadb?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2022-3.0-0399",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2022-27377",
+        "CVE-2021-46669",
+        "CVE-2022-29581",
+        "CVE-2022-27445",
+        "CVE-2022-27448",
+        "CVE-2022-1729",
+        "CVE-2022-27379",
+        "CVE-2022-27458",
+        "CVE-2022-27383",
+        "CVE-2022-0854",
+        "CVE-2022-1974",
+        "CVE-2022-27380",
+        "CVE-2022-1975",
+        "CVE-2022-27387",
+        "CVE-2022-27449",
+        "CVE-2022-27447",
+        "CVE-2022-27456",
+        "CVE-2022-29824",
+        "CVE-2022-27381",
+        "CVE-2022-27378",
+        "CVE-2022-27384",
+        "CVE-2022-27376",
+        "CVE-2022-27386",
+        "CVE-2022-24795"
+    ]
+}

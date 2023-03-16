@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libsolv",
+                "purl": "pkg:rpm/vmware/libsolv?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0136",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-136"
+        }
+    ],
+    "related": [
+        "CVE-2018-20533",
+        "CVE-2018-20532",
+        "CVE-2018-20534"
+    ]
+}

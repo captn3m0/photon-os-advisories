@@ -1,0 +1,41 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "selinux-policy",
+                "purl": "pkg:rpm/vmware/selinux-policy?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "libselinux",
+                "purl": "pkg:rpm/vmware/libselinux?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "lapack",
+                "purl": "pkg:rpm/vmware/lapack?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2021-4.0-0140",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2021-36084",
+        "CVE-2021-36085",
+        "CVE-2020-24612",
+        "CVE-2021-4048",
+        "CVE-2021-36086"
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "strongswan",
+                "purl": "pkg:rpm/vmware/strongswan?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "paramiko",
+                "purl": "pkg:rpm/vmware/paramiko?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "patch",
+                "purl": "pkg:rpm/vmware/patch?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mercurial",
+                "purl": "pkg:rpm/vmware/mercurial?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "xerces-c",
+                "purl": "pkg:rpm/vmware/xerces-c?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "pycrypto",
+                "purl": "pkg:rpm/vmware/pycrypto?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "sqlite-autoconf",
+                "purl": "pkg:rpm/vmware/sqlite-autoconf?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "net-snmp",
+                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0126",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-04-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-126"
+        }
+    ],
+    "related": [
+        "CVE-2018-1000116",
+        "CVE-2017-15710",
+        "CVE-2018-8740",
+        "CVE-2018-2703",
+        "CVE-2017-18207",
+        "CVE-2017-9022",
+        "CVE-2017-12627",
+        "CVE-2018-1302",
+        "CVE-2018-1000132",
+        "CVE-2018-7208",
+        "CVE-2018-2668",
+        "CVE-2018-1303",
+        "CVE-2018-1301",
+        "CVE-2018-2583",
+        "CVE-2017-9023",
+        "CVE-2018-2573",
+        "CVE-2018-6951",
+        "CVE-2018-2640",
+        "CVE-2018-2612",
+        "CVE-2018-7750",
+        "CVE-2017-15715",
+        "CVE-2018-6594",
+        "CVE-2018-2622",
+        "CVE-2018-2665",
+        "CVE-2018-7643",
+        "CVE-2018-1000117"
+    ]
+}

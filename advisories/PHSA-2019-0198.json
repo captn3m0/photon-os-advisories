@@ -1,0 +1,33 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python-cryptography",
+                "purl": "pkg:rpm/vmware/python-cryptography?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0198",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-01-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-198"
+        }
+    ],
+    "related": [
+        "CVE-2018-10903",
+        "CVE-2019-19646",
+        "CVE-2019-19317",
+        "CVE-2019-19603"
+    ]
+}

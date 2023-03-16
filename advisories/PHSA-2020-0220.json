@@ -1,0 +1,46 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0220",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-03-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-220"
+        }
+    ],
+    "related": [
+        "CVE-2020-2589",
+        "CVE-2020-2660",
+        "CVE-2019-2938",
+        "CVE-2020-2573",
+        "CVE-2020-2570",
+        "CVE-2019-2924",
+        "CVE-2019-2946",
+        "CVE-2019-2969",
+        "CVE-2019-2922",
+        "CVE-2019-2960",
+        "CVE-2019-2974",
+        "CVE-2019-2923",
+        "CVE-2020-2584",
+        "CVE-2020-2806",
+        "CVE-2020-2574",
+        "CVE-2020-2790",
+        "CVE-2019-2910",
+        "CVE-2019-2948",
+        "CVE-2020-2572",
+        "CVE-2019-2914",
+        "CVE-2020-2579",
+        "CVE-2019-2911",
+        "CVE-2020-2577",
+        "CVE-2019-2993"
+    ]
+}

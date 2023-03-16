@@ -1,0 +1,30 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "openjdk",
+                "purl": "pkg:rpm/vmware/openjdk?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0192",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-10-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-192"
+        }
+    ],
+    "related": [
+        "CVE-2018-3169",
+        "CVE-2018-3183",
+        "CVE-2018-3214",
+        "CVE-2018-3149",
+        "CVE-2018-3211",
+        "CVE-2018-3209",
+        "CVE-2018-3180",
+        "CVE-2018-2952"
+    ]
+}

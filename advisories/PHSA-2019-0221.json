@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python-requests",
+                "purl": "pkg:rpm/vmware/python-requests?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0221",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-04-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-221"
+        }
+    ],
+    "related": [
+        "CVE-2019-12819",
+        "CVE-2019-9213",
+        "CVE-2019-6974",
+        "CVE-2019-7221",
+        "CVE-2018-18074",
+        "CVE-2019-12818",
+        "CVE-2019-15916"
+    ]
+}

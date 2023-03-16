@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "wget",
+                "purl": "pkg:rpm/vmware/wget?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0053",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-07-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-53"
+        }
+    ],
+    "related": [
+        "CVE-2017-9445",
+        "CVE-2017-1000366",
+        "CVE-2017-6508"
+    ]
+}

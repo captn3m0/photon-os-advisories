@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0424",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-08-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-424"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-424"
+        }
+    ],
+    "related": null
+}

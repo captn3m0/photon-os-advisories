@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0037",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-04-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-37"
+        }
+    ],
+    "related": [
+        "CVE-2016-4429",
+        "CVE-2016-3075",
+        "CVE-2016-1234",
+        "CVE-2016-3706"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0079",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-08-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-79"
+        }
+    ],
+    "related": [
+        "CVE-2018-3062",
+        "CVE-2018-3060",
+        "CVE-2018-3070",
+        "CVE-2018-3075",
+        "CVE-2018-3058",
+        "CVE-2018-3071",
+        "CVE-2018-3054",
+        "CVE-2018-3065",
+        "CVE-2018-3073",
+        "CVE-2018-3081",
+        "CVE-2018-3064",
+        "CVE-2018-3077",
+        "CVE-2018-3067",
+        "CVE-2018-3056",
+        "CVE-2018-3061",
+        "CVE-2018-3074",
+        "CVE-2018-3078",
+        "CVE-2018-3080",
+        "CVE-2018-3079"
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libjpeg-turbo",
+                "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "gnupg",
+                "purl": "pkg:rpm/vmware/gnupg?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0128",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-02-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-128"
+        }
+    ],
+    "related": [
+        "CVE-2018-14610",
+        "CVE-2018-12900",
+        "CVE-2018-18690",
+        "CVE-2019-15927",
+        "CVE-2018-16839",
+        "CVE-2018-16866",
+        "CVE-2018-16842",
+        "CVE-2018-19985",
+        "CVE-2019-6978",
+        "CVE-2018-20169",
+        "CVE-2019-5736",
+        "CVE-2018-16864",
+        "CVE-2018-12020",
+        "CVE-2017-18249",
+        "CVE-2019-3701",
+        "CVE-2018-14613",
+        "CVE-2018-19824",
+        "CVE-2018-19407",
+        "CVE-2018-19664",
+        "CVE-2018-16862",
+        "CVE-2018-14618",
+        "CVE-2018-16840",
+        "CVE-2018-16865",
+        "CVE-2018-5953"
+    ]
+}

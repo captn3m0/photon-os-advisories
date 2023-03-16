@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nxtgn-openssl",
+                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0204",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-01-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-204"
+        }
+    ],
+    "related": [
+        "CVE-2019-19244",
+        "CVE-2019-1551",
+        "CVE-2019-19923",
+        "CVE-2019-19242",
+        "CVE-2019-19926",
+        "CVE-2019-19925",
+        "CVE-2019-19959"
+    ]
+}

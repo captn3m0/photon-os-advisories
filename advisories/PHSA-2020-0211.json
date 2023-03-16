@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0211",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-02-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-211"
+        }
+    ],
+    "related": [
+        "CVE-2019-9674"
+    ]
+}

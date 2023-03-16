@@ -1,0 +1,93 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "envoy",
+                "purl": "pkg:rpm/vmware/envoy?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0309",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-07-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-309"
+        }
+    ],
+    "related": [
+        "CVE-2020-14559",
+        "CVE-2020-14576",
+        "CVE-2020-8619",
+        "CVE-2020-14539",
+        "CVE-2020-12603",
+        "CVE-2020-14422",
+        "CVE-2020-12605",
+        "CVE-2020-14305",
+        "CVE-2020-14540",
+        "CVE-2019-20907",
+        "CVE-2020-8618",
+        "CVE-2020-14550",
+        "CVE-2020-14553",
+        "CVE-2020-14567",
+        "CVE-2020-15436",
+        "CVE-2020-13934",
+        "CVE-2020-14547",
+        "CVE-2020-12888",
+        "CVE-2020-12604",
+        "CVE-2020-8663",
+        "CVE-2020-15393",
+        "CVE-2020-13935"
+    ]
+}

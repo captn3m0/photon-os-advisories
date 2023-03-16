@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "nodejs10",
+                "purl": "pkg:rpm/vmware/nodejs10?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0331",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-10-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-331"
+        }
+    ],
+    "related": [
+        "CVE-2020-8252"
+    ]
+}

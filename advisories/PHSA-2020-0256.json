@@ -1,0 +1,68 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "pcre",
+                "purl": "pkg:rpm/vmware/pcre?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0256",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-06-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-256"
+        }
+    ],
+    "related": [
+        "CVE-2020-12656",
+        "CVE-2020-13974",
+        "CVE-2020-10766",
+        "CVE-2020-10768",
+        "CVE-2017-16231",
+        "CVE-2020-0543",
+        "CVE-2019-20810",
+        "CVE-2020-10767",
+        "CVE-2020-29368",
+        "CVE-2020-14155",
+        "CVE-2020-14147"
+    ]
+}

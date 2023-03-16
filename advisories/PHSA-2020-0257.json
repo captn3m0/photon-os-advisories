@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "atftp",
+                "purl": "pkg:rpm/vmware/atftp?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0257",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-06-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-257"
+        }
+    ],
+    "related": [
+        "CVE-2019-11365",
+        "CVE-2019-11366"
+    ]
+}

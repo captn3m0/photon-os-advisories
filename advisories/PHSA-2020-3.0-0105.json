@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "nghttp2",
+                "purl": "pkg:rpm/vmware/nghttp2?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "gettext",
+                "purl": "pkg:rpm/vmware/gettext?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2020-3.0-0105",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-11080",
+        "CVE-2018-18751"
+    ]
+}

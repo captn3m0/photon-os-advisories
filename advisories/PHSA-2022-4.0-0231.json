@@ -1,0 +1,34 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "libtar",
+                "purl": "pkg:rpm/vmware/libtar?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2022-4.0-0231",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2021-33643",
+        "CVE-2021-33645",
+        "CVE-2021-33646",
+        "CVE-2021-33644",
+        "CVE-2022-34526"
+    ]
+}

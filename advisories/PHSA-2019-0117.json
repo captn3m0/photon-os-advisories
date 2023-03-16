@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0117",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-01-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-117"
+        }
+    ],
+    "related": [
+        "CVE-2018-16844",
+        "CVE-2018-16843"
+    ]
+}

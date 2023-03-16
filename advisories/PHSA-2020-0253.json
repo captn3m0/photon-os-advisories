@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "elasticsearch",
+                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0253",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-06-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-253"
+        }
+    ],
+    "related": [
+        "CVE-2019-7616",
+        "CVE-2019-7621",
+        "CVE-2020-7014",
+        "CVE-2020-7012",
+        "CVE-2020-7013",
+        "CVE-2020-12062",
+        "CVE-2019-7614"
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "oniguruma",
+                "purl": "pkg:rpm/vmware/oniguruma?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libmspack",
+                "purl": "pkg:rpm/vmware/libmspack?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "subversion",
+                "purl": "pkg:rpm/vmware/subversion?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0196",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-09-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-196"
+        }
+    ],
+    "related": [
+        "CVE-2019-19204",
+        "CVE-2018-14682",
+        "CVE-2019-19246",
+        "CVE-2020-5247",
+        "CVE-2019-17498",
+        "CVE-2019-19604",
+        "CVE-2019-15845",
+        "CVE-2019-16163",
+        "CVE-2019-13225",
+        "CVE-2019-16255",
+        "CVE-2018-11803",
+        "CVE-2019-5815",
+        "CVE-2018-14681",
+        "CVE-2019-19203",
+        "CVE-2019-16201",
+        "CVE-2019-19012"
+    ]
+}

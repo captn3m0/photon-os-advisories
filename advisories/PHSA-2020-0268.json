@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "envoy",
+                "purl": "pkg:rpm/vmware/envoy?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "e2fsprogs",
+                "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0268",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-01-31T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-268"
+        }
+    ],
+    "related": [
+        "CVE-2019-18801",
+        "CVE-2019-5188"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0119",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-01-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-119"
+        }
+    ],
+    "related": [
+        "CVE-2018-18700",
+        "CVE-2018-18484",
+        "CVE-2018-17794",
+        "CVE-2018-18701",
+        "CVE-2018-18605",
+        "CVE-2018-18607",
+        "CVE-2018-18606"
+    ]
+}

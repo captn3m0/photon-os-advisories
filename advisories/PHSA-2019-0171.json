@@ -1,0 +1,127 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "oniguruma",
+                "purl": "pkg:rpm/vmware/oniguruma?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "zeromq",
+                "purl": "pkg:rpm/vmware/zeromq?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "gnupg",
+                "purl": "pkg:rpm/vmware/gnupg?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0171",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-08-02T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-171"
+        }
+    ],
+    "related": [
+        "CVE-2019-6454",
+        "CVE-2018-20852",
+        "CVE-2019-13132",
+        "CVE-2019-10072",
+        "CVE-2019-13117",
+        "CVE-2019-13050",
+        "CVE-2019-13118",
+        "CVE-2018-16890",
+        "CVE-2019-13232",
+        "CVE-2019-13224",
+        "CVE-2018-20843",
+        "CVE-2019-13012",
+        "CVE-2019-13115",
+        "CVE-2017-12652"
+    ]
+}

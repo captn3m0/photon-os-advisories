@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "patch",
+                "purl": "pkg:rpm/vmware/patch?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0142",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-05-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-142"
+        }
+    ],
+    "related": [
+        "CVE-2018-1000156"
+    ]
+}

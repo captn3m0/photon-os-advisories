@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2022-3.0-0458",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2022-38177",
+        "CVE-2022-3080",
+        "CVE-2022-2795",
+        "CVE-2022-38178"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "zookeeper",
+                "purl": "pkg:rpm/vmware/zookeeper?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "wpa_supplicant",
+                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0017",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2019-9495",
+        "CVE-2019-7663",
+        "CVE-2019-0201",
+        "CVE-2019-6110",
+        "CVE-2018-19653",
+        "CVE-2019-5436"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "net-snmp",
+                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0318",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-08-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-318"
+        }
+    ],
+    "related": [
+        "CVE-2020-15862",
+        "CVE-2020-15861"
+    ]
+}

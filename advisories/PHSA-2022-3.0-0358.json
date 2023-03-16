@@ -1,0 +1,135 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "rust",
+                "purl": "pkg:rpm/vmware/rust?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python-lxml",
+                "purl": "pkg:rpm/vmware/python-lxml?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "wpa_supplicant",
+                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python-numpy",
+                "purl": "pkg:rpm/vmware/python-numpy?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2022-3.0-0358",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2022-21308",
+        "CVE-2022-21344",
+        "CVE-2022-21367",
+        "CVE-2022-21316",
+        "CVE-2022-21320",
+        "CVE-2022-21284",
+        "CVE-2022-21289",
+        "CVE-2021-41496",
+        "CVE-2022-21253",
+        "CVE-2020-25792",
+        "CVE-2022-21358",
+        "CVE-2022-21322",
+        "CVE-2022-21351",
+        "CVE-2022-0318",
+        "CVE-2022-21342",
+        "CVE-2022-23852",
+        "CVE-2022-21288",
+        "CVE-2022-21337",
+        "CVE-2022-21301",
+        "CVE-2022-21245",
+        "CVE-2022-21334",
+        "CVE-2022-21356",
+        "CVE-2022-21310",
+        "CVE-2020-25791",
+        "CVE-2022-21336",
+        "CVE-2022-21374",
+        "CVE-2021-4192",
+        "CVE-2020-25794",
+        "CVE-2022-23303",
+        "CVE-2022-21279",
+        "CVE-2021-4187",
+        "CVE-2022-21254",
+        "CVE-2022-21304",
+        "CVE-2022-21363",
+        "CVE-2022-21285",
+        "CVE-2022-21270",
+        "CVE-2022-21314",
+        "CVE-2022-21303",
+        "CVE-2022-21290",
+        "CVE-2022-21330",
+        "CVE-2022-21362",
+        "CVE-2022-21264",
+        "CVE-2022-21287",
+        "CVE-2022-21658",
+        "CVE-2022-21370",
+        "CVE-2022-21329",
+        "CVE-2020-25795",
+        "CVE-2022-21332",
+        "CVE-2022-21327",
+        "CVE-2022-21368",
+        "CVE-2022-21280",
+        "CVE-2022-21348",
+        "CVE-2022-23304",
+        "CVE-2020-25793",
+        "CVE-2022-21307",
+        "CVE-2022-0261",
+        "CVE-2022-21302",
+        "CVE-2022-21318",
+        "CVE-2021-43818",
+        "CVE-2021-4166",
+        "CVE-2022-21378",
+        "CVE-2022-21309",
+        "CVE-2022-21326",
+        "CVE-2022-21328",
+        "CVE-2022-23990",
+        "CVE-2020-25796",
+        "CVE-2022-21335",
+        "CVE-2022-21339",
+        "CVE-2022-21256",
+        "CVE-2022-21315",
+        "CVE-2022-21286"
+    ]
+}

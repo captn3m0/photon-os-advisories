@@ -1,0 +1,102 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "sudo",
+                "purl": "pkg:rpm/vmware/sudo?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "dbus",
+                "purl": "pkg:rpm/vmware/dbus?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "sqlite-autoconf",
+                "purl": "pkg:rpm/vmware/sqlite-autoconf?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "yarn",
+                "purl": "pkg:rpm/vmware/yarn?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0264",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-01-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-264"
+        }
+    ],
+    "related": [
+        "CVE-2019-19317",
+        "CVE-2019-12418",
+        "CVE-2019-1551",
+        "CVE-2019-16276",
+        "CVE-2019-19880",
+        "CVE-2019-6465",
+        "CVE-2019-19603",
+        "CVE-2019-12749",
+        "CVE-2019-17563",
+        "CVE-2019-6471",
+        "CVE-2019-19645",
+        "CVE-2019-20218",
+        "CVE-2018-5745",
+        "CVE-2019-6469",
+        "CVE-2019-6467",
+        "CVE-2018-5743",
+        "CVE-2019-17596",
+        "CVE-2019-6468",
+        "CVE-2019-19232",
+        "CVE-2018-5744",
+        "CVE-2019-19234",
+        "CVE-2019-11253",
+        "CVE-2019-19646",
+        "CVE-2019-10773"
+    ]
+}

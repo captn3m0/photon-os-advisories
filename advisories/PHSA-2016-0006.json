@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2016-0006",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2016-10-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-6"
+        }
+    ],
+    "related": [
+        "CVE-2016-7795"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "sudo",
+                "purl": "pkg:rpm/vmware/sudo?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "subversion",
+                "purl": "pkg:rpm/vmware/subversion?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0254",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-10-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-254"
+        }
+    ],
+    "related": [
+        "CVE-2019-14287",
+        "CVE-2019-0203",
+        "CVE-2018-11782"
+    ]
+}

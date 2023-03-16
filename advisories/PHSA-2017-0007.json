@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libjpeg-turbo",
+                "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0007",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-12-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-7"
+        }
+    ],
+    "related": [
+        "CVE-2017-15088",
+        "CVE-2017-15232"
+    ]
+}

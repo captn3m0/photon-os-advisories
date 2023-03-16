@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "envoy",
+                "purl": "pkg:rpm/vmware/envoy?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "cpio",
+                "purl": "pkg:rpm/vmware/cpio?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0202",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-01-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-202"
+        }
+    ],
+    "related": [
+        "CVE-2019-18801",
+        "CVE-2019-14866",
+        "CVE-2019-17546"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libmspack",
+                "purl": "pkg:rpm/vmware/libmspack?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0348",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-05-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-348"
+        }
+    ],
+    "related": [
+        "CVE-2021-25214",
+        "CVE-2021-25216",
+        "CVE-2021-25215",
+        "CVE-2018-18584"
+    ]
+}

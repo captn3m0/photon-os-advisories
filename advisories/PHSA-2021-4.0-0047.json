@@ -1,0 +1,83 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "python3-Pygments",
+                "purl": "pkg:rpm/vmware/python3-Pygments?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "salt3",
+                "purl": "pkg:rpm/vmware/salt3?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "lz4",
+                "purl": "pkg:rpm/vmware/lz4?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2021-4.0-0047",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2021-20270",
+        "CVE-2021-25281",
+        "CVE-2020-35662",
+        "CVE-2021-25282",
+        "CVE-2021-25315",
+        "CVE-2021-33034",
+        "CVE-2021-3520",
+        "CVE-2021-3144",
+        "CVE-2021-3543",
+        "CVE-2020-28243",
+        "CVE-2021-25283",
+        "CVE-2020-28972",
+        "CVE-2021-25284",
+        "CVE-2021-31440",
+        "CVE-2021-3197",
+        "CVE-2021-3148",
+        "CVE-2021-27291",
+        "CVE-2021-31607",
+        "CVE-2021-32399"
+    ]
+}

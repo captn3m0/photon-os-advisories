@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libgcrypt",
+                "purl": "pkg:rpm/vmware/libgcrypt?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0208",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-02-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-208"
+        }
+    ],
+    "related": [
+        "CVE-2017-12132",
+        "CVE-2019-5736",
+        "CVE-2017-7526"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python-Twisted",
+                "purl": "pkg:rpm/vmware/python-Twisted?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2020-3.0-0109",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-10109",
+        "CVE-2020-10108"
+    ]
+}

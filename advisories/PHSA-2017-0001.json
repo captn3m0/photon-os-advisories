@@ -1,0 +1,60 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0001",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-11-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-1"
+        }
+    ],
+    "related": [
+        "CVE-2017-15265",
+        "CVE-2017-15951",
+        "CVE-2017-15649",
+        "CVE-2017-16531",
+        "CVE-2017-16533",
+        "CVE-2017-12190",
+        "CVE-2017-16535",
+        "CVE-2017-12193",
+        "CVE-2017-15299",
+        "CVE-2017-16534",
+        "CVE-2017-16530",
+        "CVE-2017-16529",
+        "CVE-2017-16526",
+        "CVE-2017-16525",
+        "CVE-2017-16939",
+        "CVE-2017-12188",
+        "CVE-2017-16527"
+    ]
+}

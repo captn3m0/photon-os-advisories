@@ -1,0 +1,48 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "rsync",
+                "purl": "pkg:rpm/vmware/rsync?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0132",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-05-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-132"
+        }
+    ],
+    "related": [
+        "CVE-2018-1130",
+        "CVE-2018-1094",
+        "CVE-2018-7757",
+        "CVE-2018-1092",
+        "CVE-2018-1000026",
+        "CVE-2018-8822",
+        "CVE-2017-17975",
+        "CVE-2018-8897",
+        "CVE-2018-1087",
+        "CVE-2018-10940",
+        "CVE-2018-8781",
+        "CVE-2018-5764"
+    ]
+}

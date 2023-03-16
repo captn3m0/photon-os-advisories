@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0342",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-05-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-342"
+        }
+    ],
+    "related": [
+        "CVE-2019-25036",
+        "CVE-2019-25042",
+        "CVE-2019-25031",
+        "CVE-2019-25035",
+        "CVE-2019-25034",
+        "CVE-2019-25037"
+    ]
+}

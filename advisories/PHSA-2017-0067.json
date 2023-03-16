@@ -1,0 +1,52 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "tcpdump",
+                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mariadb",
+                "purl": "pkg:rpm/vmware/mariadb?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0067",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-09-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-67"
+        }
+    ],
+    "related": [
+        "CVE-2017-12450",
+        "CVE-2017-12454",
+        "CVE-2017-12452",
+        "CVE-2017-11543",
+        "CVE-2017-12453",
+        "CVE-2017-12457",
+        "CVE-2017-12451",
+        "CVE-2017-12449",
+        "CVE-2017-3302",
+        "CVE-2017-12456",
+        "CVE-2017-12459",
+        "CVE-2017-12455",
+        "CVE-2017-11541",
+        "CVE-2017-12448",
+        "CVE-2017-12458",
+        "CVE-2017-11542"
+    ]
+}

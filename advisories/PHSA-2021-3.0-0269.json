@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2021-3.0-0269",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2021-28651",
+        "CVE-2021-32760",
+        "CVE-2021-31808",
+        "CVE-2021-33620",
+        "CVE-2021-31806",
+        "CVE-2021-28652",
+        "CVE-2021-31807"
+    ]
+}

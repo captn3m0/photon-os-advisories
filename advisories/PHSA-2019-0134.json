@@ -1,0 +1,56 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "keepalived",
+                "purl": "pkg:rpm/vmware/keepalived?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "rsyslog",
+                "purl": "pkg:rpm/vmware/rsyslog?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0134",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-02-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-134"
+        }
+    ],
+    "related": [
+        "CVE-2018-1000876",
+        "CVE-2018-19931",
+        "CVE-2019-8912",
+        "CVE-2018-19591",
+        "CVE-2018-16881",
+        "CVE-2018-19044"
+    ]
+}

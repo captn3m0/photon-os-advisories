@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0457",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-03-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-457"
+        }
+    ],
+    "related": [
+        "CVE-2022-24921",
+        "CVE-2022-0417"
+    ]
+}

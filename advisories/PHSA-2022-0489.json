@@ -1,0 +1,30 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0489",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-06-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-489"
+        }
+    ],
+    "related": [
+        "CVE-2022-28330",
+        "CVE-2022-31813",
+        "CVE-2022-30522",
+        "CVE-2022-28615",
+        "CVE-2022-29404",
+        "CVE-2022-30556",
+        "CVE-2022-26377",
+        "CVE-2022-28614"
+    ]
+}

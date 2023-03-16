@@ -1,0 +1,197 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "dosfstools",
+                "purl": "pkg:rpm/vmware/dosfstools?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libgcrypt",
+                "purl": "pkg:rpm/vmware/libgcrypt?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mercurial",
+                "purl": "pkg:rpm/vmware/mercurial?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "ncurses",
+                "purl": "pkg:rpm/vmware/ncurses?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "dnsmasq",
+                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "c-ares",
+                "purl": "pkg:rpm/vmware/c-ares?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mesos",
+                "purl": "pkg:rpm/vmware/mesos?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libtasn1",
+                "purl": "pkg:rpm/vmware/libtasn1?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0078",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-10-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-78"
+        }
+    ],
+    "related": [
+        "CVE-2017-18270",
+        "CVE-2017-0379",
+        "CVE-2017-14106",
+        "CVE-2017-3634",
+        "CVE-2015-8872",
+        "CVE-2017-3652",
+        "CVE-2017-12192",
+        "CVE-2017-14051",
+        "CVE-2017-3638",
+        "CVE-2017-3637",
+        "CVE-2017-3643",
+        "CVE-2017-12153",
+        "CVE-2017-3644",
+        "CVE-2017-14156",
+        "CVE-2017-10790",
+        "CVE-2017-1000115",
+        "CVE-2016-4804",
+        "CVE-2017-16534",
+        "CVE-2017-14129",
+        "CVE-2017-14867",
+        "CVE-2017-3640",
+        "CVE-2017-16530",
+        "CVE-2017-3635",
+        "CVE-2017-7529",
+        "CVE-2017-9790",
+        "CVE-2017-15537",
+        "CVE-2017-13728",
+        "CVE-2017-16531",
+        "CVE-2017-1000381",
+        "CVE-2017-13730",
+        "CVE-2017-13710",
+        "CVE-2017-3529",
+        "CVE-2017-14333",
+        "CVE-2017-13731",
+        "CVE-2017-14128",
+        "CVE-2017-7687",
+        "CVE-2017-14991",
+        "CVE-2017-7507",
+        "CVE-2017-15020",
+        "CVE-2016-4456",
+        "CVE-2017-12799",
+        "CVE-2017-14130",
+        "CVE-2017-3647",
+        "CVE-2017-13734",
+        "CVE-2017-14529",
+        "CVE-2017-16526",
+        "CVE-2017-3645",
+        "CVE-2017-13732",
+        "CVE-2017-12154",
+        "CVE-2017-1000116",
+        "CVE-2017-1000252",
+        "CVE-2017-3642",
+        "CVE-2017-3649",
+        "CVE-2017-13733",
+        "CVE-2017-3641",
+        "CVE-2017-12617",
+        "CVE-2017-16529",
+        "CVE-2017-13704",
+        "CVE-2017-3651",
+        "CVE-2017-11472",
+        "CVE-2017-14745",
+        "CVE-2017-12967",
+        "CVE-2017-14489",
+        "CVE-2017-13757",
+        "CVE-2017-3633",
+        "CVE-2017-13729",
+        "CVE-2017-3648",
+        "CVE-2017-14729",
+        "CVE-2017-3650",
+        "CVE-2017-3639"
+    ]
+}

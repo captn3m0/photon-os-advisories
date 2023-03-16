@@ -1,0 +1,116 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "ntp",
+                "purl": "pkg:rpm/vmware/ntp?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "oniguruma",
+                "purl": "pkg:rpm/vmware/oniguruma?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "zeromq",
+                "purl": "pkg:rpm/vmware/zeromq?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "gnupg",
+                "purl": "pkg:rpm/vmware/gnupg?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0024",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2019-6454",
+        "CVE-2019-3843",
+        "CVE-2019-10192",
+        "CVE-2019-10072",
+        "CVE-2018-1000858",
+        "CVE-2019-3844",
+        "CVE-2019-8936",
+        "CVE-2019-13132",
+        "CVE-2018-20852",
+        "CVE-2019-13232",
+        "CVE-2019-13224",
+        "CVE-2018-9251",
+        "CVE-2019-10193",
+        "CVE-2019-13118",
+        "CVE-2019-13050",
+        "CVE-2019-13012",
+        "CVE-2019-13117"
+    ]
+}

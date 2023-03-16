@@ -1,0 +1,70 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2021-3.0-0341",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2021-39922",
+        "CVE-2021-39925",
+        "CVE-2021-39926",
+        "CVE-2021-3752",
+        "CVE-2021-45868",
+        "CVE-2021-39921",
+        "CVE-2021-39928",
+        "CVE-2021-39924",
+        "CVE-2021-39923",
+        "CVE-2021-4002",
+        "CVE-2021-39929",
+        "CVE-2021-3640",
+        "CVE-2021-39920"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "rsyslog",
+                "purl": "pkg:rpm/vmware/rsyslog?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0256",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-10-31T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-256"
+        }
+    ],
+    "related": [
+        "CVE-2019-17041",
+        "CVE-2019-17040",
+        "CVE-2019-17042"
+    ]
+}

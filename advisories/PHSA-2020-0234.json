@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0234",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-04-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-234"
+        }
+    ],
+    "related": [
+        "CVE-2020-9327"
+    ]
+}

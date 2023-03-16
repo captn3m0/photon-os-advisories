@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0543",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-11-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-543"
+        }
+    ],
+    "related": [
+        "CVE-2022-3970"
+    ]
+}

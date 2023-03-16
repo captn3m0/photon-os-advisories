@@ -1,0 +1,53 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "atftp",
+                "purl": "pkg:rpm/vmware/atftp?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "dnsmasq",
+                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "sudo",
+                "purl": "pkg:rpm/vmware/sudo?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2021-3.0-0186",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-8265",
+        "CVE-2020-6097",
+        "CVE-2020-25682",
+        "CVE-2020-25686",
+        "CVE-2021-23240",
+        "CVE-2020-25685",
+        "CVE-2020-25687",
+        "CVE-2020-25684",
+        "CVE-2020-25681",
+        "CVE-2020-25683"
+    ]
+}

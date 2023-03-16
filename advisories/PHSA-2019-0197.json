@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sysstat",
+                "purl": "pkg:rpm/vmware/sysstat?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0197",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-12-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-197"
+        }
+    ],
+    "related": [
+        "CVE-2019-19725"
+    ]
+}

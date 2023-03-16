@@ -1,0 +1,47 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "polkit",
+                "purl": "pkg:rpm/vmware/polkit?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0153",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-04-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-153"
+        }
+    ],
+    "related": [
+        "CVE-2018-19788",
+        "CVE-2019-0199",
+        "CVE-2019-6977",
+        "CVE-2019-3842"
+    ]
+}

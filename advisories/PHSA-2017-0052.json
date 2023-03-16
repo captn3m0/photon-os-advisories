@@ -1,0 +1,37 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0052",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-06-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-52"
+        }
+    ],
+    "related": [
+        "CVE-2017-1000379",
+        "CVE-2017-1000380",
+        "CVE-2017-15274",
+        "CVE-2017-1000370",
+        "CVE-2017-9605",
+        "CVE-2017-1000364",
+        "CVE-2017-1000365",
+        "CVE-2017-1000371"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "sysstat",
+                "purl": "pkg:rpm/vmware/sysstat?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "dhcp",
+                "purl": "pkg:rpm/vmware/dhcp?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0259",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-11-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-259"
+        }
+    ],
+    "related": [
+        "CVE-2019-16167",
+        "CVE-2019-11135",
+        "CVE-2018-5732"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "kafka",
+                "purl": "pkg:rpm/vmware/kafka?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "postgresql10",
+                "purl": "pkg:rpm/vmware/postgresql10?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0336",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-41862",
+        "CVE-2023-25194"
+    ]
+}

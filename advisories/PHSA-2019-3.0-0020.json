@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "nss",
+                "purl": "pkg:rpm/vmware/nss?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0020",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2018-20217",
+        "CVE-2018-5729",
+        "CVE-2018-12404"
+    ]
+}

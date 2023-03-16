@@ -1,0 +1,45 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2022-4.0-0158",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-0128",
+        "CVE-2022-0582",
+        "CVE-2022-0586",
+        "CVE-2022-0581",
+        "CVE-2022-25314",
+        "CVE-2022-0585",
+        "CVE-2022-0583",
+        "CVE-2022-0554",
+        "CVE-2022-25315"
+    ]
+}

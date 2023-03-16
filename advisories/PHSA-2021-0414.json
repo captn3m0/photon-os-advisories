@@ -1,0 +1,47 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "erlang",
+                "purl": "pkg:rpm/vmware/erlang?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "rpm",
+                "purl": "pkg:rpm/vmware/rpm?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "tcl",
+                "purl": "pkg:rpm/vmware/tcl?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0414",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-07-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-414"
+        }
+    ],
+    "related": [
+        "CVE-2021-20266",
+        "CVE-2021-35331",
+        "CVE-2021-29221",
+        "CVE-2021-32760"
+    ]
+}

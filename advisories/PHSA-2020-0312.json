@@ -1,0 +1,30 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "nodejs10",
+                "purl": "pkg:rpm/vmware/nodejs10?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0312",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-08-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-312"
+        }
+    ],
+    "related": [
+        "CVE-2020-8174"
+    ]
+}

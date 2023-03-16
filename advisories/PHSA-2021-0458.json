@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0458",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-12-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-458"
+        }
+    ],
+    "related": [
+        "CVE-2021-44790",
+        "CVE-2021-43784",
+        "CVE-2021-45078"
+    ]
+}

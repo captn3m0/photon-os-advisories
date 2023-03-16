@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mesos",
+                "purl": "pkg:rpm/vmware/mesos?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0141",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-141"
+        }
+    ],
+    "related": [
+        "CVE-2019-9636",
+        "CVE-2018-11793",
+        "CVE-2018-1330"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0345",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-12-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-345"
+        }
+    ],
+    "related": [
+        "CVE-2020-27675",
+        "CVE-2020-1971",
+        "CVE-2020-27673",
+        "CVE-2020-0427",
+        "CVE-2020-14351"
+    ]
+}

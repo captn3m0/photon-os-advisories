@@ -1,0 +1,77 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "openjdk8",
+                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "subversion",
+                "purl": "pkg:rpm/vmware/subversion?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "sudo",
+                "purl": "pkg:rpm/vmware/sudo?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0035",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2019-0203",
+        "CVE-2019-10081",
+        "CVE-2019-10082",
+        "CVE-2019-2996",
+        "CVE-2018-11782",
+        "CVE-2019-16935",
+        "CVE-2019-10098",
+        "CVE-2019-2769",
+        "CVE-2019-2821",
+        "CVE-2019-2766",
+        "CVE-2019-2818",
+        "CVE-2019-2842",
+        "CVE-2019-16866",
+        "CVE-2019-2762",
+        "CVE-2019-2745",
+        "CVE-2019-2816",
+        "CVE-2018-11803",
+        "CVE-2019-14287",
+        "CVE-2019-10092",
+        "CVE-2019-2786"
+    ]
+}

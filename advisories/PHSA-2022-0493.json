@@ -1,0 +1,38 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nxtgn-openssl",
+                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0493",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-07-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-493"
+        }
+    ],
+    "related": [
+        "CVE-2022-2129",
+        "CVE-2022-2125",
+        "CVE-2022-2183",
+        "CVE-2022-2175",
+        "CVE-2022-2124",
+        "CVE-2022-2182",
+        "CVE-2022-2097",
+        "CVE-2022-2126",
+        "CVE-2022-1942"
+    ]
+}

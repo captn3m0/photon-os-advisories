@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "tar",
+                "purl": "pkg:rpm/vmware/tar?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "ceph",
+                "purl": "pkg:rpm/vmware/ceph?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0154",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-04-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-154"
+        }
+    ],
+    "related": [
+        "CVE-2019-9936",
+        "CVE-2019-9923",
+        "CVE-2018-16889"
+    ]
+}

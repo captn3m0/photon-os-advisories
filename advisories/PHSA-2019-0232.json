@@ -1,0 +1,27 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "openjdk",
+                "purl": "pkg:rpm/vmware/openjdk?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0232",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-05-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-232"
+        }
+    ],
+    "related": [
+        "CVE-2019-2697",
+        "CVE-2019-2698",
+        "CVE-2019-2684",
+        "CVE-2019-2422",
+        "CVE-2019-2602"
+    ]
+}

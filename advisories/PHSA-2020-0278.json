@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "ipmitool",
+                "purl": "pkg:rpm/vmware/ipmitool?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0278",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-02-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-278"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-278"
+        }
+    ],
+    "related": null
+}

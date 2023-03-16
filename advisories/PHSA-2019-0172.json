@@ -1,0 +1,78 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "patch",
+                "purl": "pkg:rpm/vmware/patch?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nss",
+                "purl": "pkg:rpm/vmware/nss?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0172",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-08-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-172"
+        }
+    ],
+    "related": [
+        "CVE-2019-2791",
+        "CVE-2019-13636",
+        "CVE-2019-2741",
+        "CVE-2019-10192",
+        "CVE-2019-2737",
+        "CVE-2019-3843",
+        "CVE-2019-2805",
+        "CVE-2019-13638",
+        "CVE-2019-2739",
+        "CVE-2016-10713",
+        "CVE-2019-3844",
+        "CVE-2019-2796",
+        "CVE-2019-2738",
+        "CVE-2019-2797",
+        "CVE-2018-12384",
+        "CVE-2019-2740",
+        "CVE-2019-2795",
+        "CVE-2019-2819",
+        "CVE-2019-10156",
+        "CVE-2018-12404",
+        "CVE-2018-20969"
+    ]
+}

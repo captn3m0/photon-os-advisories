@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "wpa_supplicant",
+                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0011",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2019-3829",
+        "CVE-2019-3836",
+        "CVE-2019-0199",
+        "CVE-2019-9498",
+        "CVE-2019-9499",
+        "CVE-2019-9496",
+        "CVE-2019-9497"
+    ]
+}

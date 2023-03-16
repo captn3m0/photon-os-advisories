@@ -1,0 +1,29 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2022-4.0-0205",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-27781",
+        "CVE-2022-27776",
+        "CVE-2022-30115",
+        "CVE-2022-27775",
+        "CVE-2022-27782",
+        "CVE-2022-27780",
+        "CVE-2022-27779"
+    ]
+}

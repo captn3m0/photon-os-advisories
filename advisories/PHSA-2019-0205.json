@@ -1,0 +1,83 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "paramiko",
+                "purl": "pkg:rpm/vmware/paramiko?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "elasticsearch",
+                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "openjdk",
+                "purl": "pkg:rpm/vmware/openjdk?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0205",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-02-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-205"
+        }
+    ],
+    "related": [
+        "CVE-2018-16395",
+        "CVE-2018-14618",
+        "CVE-2018-16864",
+        "CVE-2018-16865",
+        "CVE-2018-16866",
+        "CVE-2018-1000805",
+        "CVE-2018-14647",
+        "CVE-2018-16839",
+        "CVE-2019-2426",
+        "CVE-2018-3830",
+        "CVE-2018-16396",
+        "CVE-2018-3831"
+    ]
+}

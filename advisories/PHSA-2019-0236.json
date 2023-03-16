@@ -1,0 +1,85 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "tar",
+                "purl": "pkg:rpm/vmware/tar?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "polkit",
+                "purl": "pkg:rpm/vmware/polkit?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libsoup",
+                "purl": "pkg:rpm/vmware/libsoup?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0236",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-05-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-236"
+        }
+    ],
+    "related": [
+        "CVE-2018-12126",
+        "CVE-2019-11091",
+        "CVE-2018-20836",
+        "CVE-2019-11815",
+        "CVE-2019-3882",
+        "CVE-2018-3646",
+        "CVE-2019-18805",
+        "CVE-2019-11190",
+        "CVE-2019-15214",
+        "CVE-2018-20482",
+        "CVE-2019-5010",
+        "CVE-2019-6133",
+        "CVE-2019-20054",
+        "CVE-2018-12130",
+        "CVE-2019-15216",
+        "CVE-2019-9947",
+        "CVE-2017-18551",
+        "CVE-2019-11810",
+        "CVE-2018-11713",
+        "CVE-2019-11884",
+        "CVE-2018-12127"
+    ]
+}

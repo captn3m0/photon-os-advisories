@@ -1,0 +1,49 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "pycrypto",
+                "purl": "pkg:rpm/vmware/pycrypto?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "sqlite-autoconf",
+                "purl": "pkg:rpm/vmware/sqlite-autoconf?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0055",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-07-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-55"
+        }
+    ],
+    "related": [
+        "CVE-2017-18017",
+        "CVE-2013-7459",
+        "CVE-2017-11176",
+        "CVE-2017-12146",
+        "CVE-2017-7482",
+        "CVE-2017-10989"
+    ]
+}

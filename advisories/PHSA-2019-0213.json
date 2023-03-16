@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0213",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-213"
+        }
+    ],
+    "related": [
+        "CVE-2018-18314",
+        "CVE-2018-18312"
+    ]
+}

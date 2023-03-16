@@ -1,0 +1,41 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "bzip2",
+                "purl": "pkg:rpm/vmware/bzip2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0242",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-06-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-242"
+        }
+    ],
+    "related": [
+        "CVE-2018-20651",
+        "CVE-2019-11244",
+        "CVE-2019-12900",
+        "CVE-2018-20623",
+        "CVE-2018-20671"
+    ]
+}

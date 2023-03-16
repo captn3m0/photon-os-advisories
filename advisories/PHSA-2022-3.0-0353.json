@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "cryptsetup",
+                "purl": "pkg:rpm/vmware/cryptsetup?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2022-3.0-0353",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2022-22823",
+        "CVE-2022-22826",
+        "CVE-2022-22824",
+        "CVE-2022-22822",
+        "CVE-2021-4122",
+        "CVE-2022-22827",
+        "CVE-2022-22825"
+    ]
+}

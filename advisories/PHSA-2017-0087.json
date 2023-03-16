@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "wget",
+                "purl": "pkg:rpm/vmware/wget?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0087",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-11-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-87"
+        }
+    ],
+    "related": [
+        "CVE-2017-13090",
+        "CVE-2017-13089"
+    ]
+}

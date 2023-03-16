@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0218",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-03-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-218"
+        }
+    ],
+    "related": [
+        "CVE-2019-17569",
+        "CVE-2020-1938",
+        "CVE-2020-1935",
+        "CVE-2020-1745"
+    ]
+}

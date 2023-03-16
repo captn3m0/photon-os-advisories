@@ -1,0 +1,44 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0076",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-10-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-76"
+        }
+    ],
+    "related": [
+        "CVE-2017-11462",
+        "CVE-2016-3119",
+        "CVE-2017-12883",
+        "CVE-2017-11368",
+        "CVE-2017-0898",
+        "CVE-2017-14033",
+        "CVE-2017-11465",
+        "CVE-2017-12837"
+    ]
+}

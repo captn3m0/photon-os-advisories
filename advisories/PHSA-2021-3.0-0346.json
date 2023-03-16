@@ -1,0 +1,57 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "pkg-config",
+                "purl": "pkg:rpm/vmware/pkg-config?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2021-3.0-0346",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2021-27218",
+        "CVE-2021-41229",
+        "CVE-2021-44790",
+        "CVE-2021-41805",
+        "CVE-2021-3984",
+        "CVE-2020-35457",
+        "CVE-2021-4019"
+    ]
+}

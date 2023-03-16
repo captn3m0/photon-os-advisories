@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0124",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-04-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-124"
+        }
+    ],
+    "related": [
+        "CVE-2018-1000120",
+        "CVE-2018-1000122",
+        "CVE-2018-1000121"
+    ]
+}

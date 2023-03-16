@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0137",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-137"
+        }
+    ],
+    "related": [
+        "CVE-2019-3822",
+        "CVE-2018-18312",
+        "CVE-2018-18314"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "file",
+                "purl": "pkg:rpm/vmware/file?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "etcd",
+                "purl": "pkg:rpm/vmware/etcd?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "tar",
+                "purl": "pkg:rpm/vmware/tar?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libpcap",
+                "purl": "pkg:rpm/vmware/libpcap?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0187",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-11-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-187"
+        }
+    ],
+    "related": [
+        "CVE-2019-15164",
+        "CVE-2019-15163",
+        "CVE-2019-15161",
+        "CVE-2019-17514",
+        "CVE-2019-15165",
+        "CVE-2016-6321",
+        "CVE-2019-18218",
+        "CVE-2019-15162",
+        "CVE-2018-16886",
+        "CVE-2018-16301",
+        "CVE-2019-18277"
+    ]
+}

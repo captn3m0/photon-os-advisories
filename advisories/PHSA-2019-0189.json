@@ -1,0 +1,77 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libarchive",
+                "purl": "pkg:rpm/vmware/libarchive?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0189",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-11-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-189"
+        }
+    ],
+    "related": [
+        "CVE-2019-15211",
+        "CVE-2019-18806",
+        "CVE-2019-15213",
+        "CVE-2019-19523",
+        "CVE-2019-17056",
+        "CVE-2019-18282",
+        "CVE-2019-18197",
+        "CVE-2019-19527",
+        "CVE-2019-15215",
+        "CVE-2019-17054",
+        "CVE-2019-18408",
+        "CVE-2019-17133",
+        "CVE-2019-14821",
+        "CVE-2019-19525",
+        "CVE-2019-17053",
+        "CVE-2019-15220",
+        "CVE-2019-17055",
+        "CVE-2019-19528",
+        "CVE-2018-20976",
+        "CVE-2019-16746"
+    ]
+}

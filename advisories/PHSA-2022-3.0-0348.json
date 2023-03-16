@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "keepalived",
+                "purl": "pkg:rpm/vmware/keepalived?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2022-3.0-0348",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2021-45078",
+        "CVE-2021-44225"
+    ]
+}

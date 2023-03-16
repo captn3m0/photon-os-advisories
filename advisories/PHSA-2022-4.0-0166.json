@@ -1,0 +1,51 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "squashfs-tools",
+                "purl": "pkg:rpm/vmware/squashfs-tools?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2022-4.0-0166",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-22720",
+        "CVE-2022-22721",
+        "CVE-2021-40153",
+        "CVE-2022-24687",
+        "CVE-2021-41072",
+        "CVE-2022-22719",
+        "CVE-2022-0204",
+        "CVE-2022-23943"
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "zsh",
+                "purl": "pkg:rpm/vmware/zsh?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0165",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-06-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-165"
+        }
+    ],
+    "related": [
+        "CVE-2019-15218",
+        "CVE-2019-11479",
+        "CVE-2019-6110",
+        "CVE-2019-10160",
+        "CVE-2018-0502",
+        "CVE-2019-12381",
+        "CVE-2019-12379",
+        "CVE-2019-11477",
+        "CVE-2019-12382",
+        "CVE-2019-15219",
+        "CVE-2019-12378",
+        "CVE-2019-10639",
+        "CVE-2018-13259",
+        "CVE-2020-10720",
+        "CVE-2019-12456",
+        "CVE-2019-11478"
+    ]
+}

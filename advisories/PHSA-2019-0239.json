@@ -1,0 +1,81 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "elfutils",
+                "purl": "pkg:rpm/vmware/elfutils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "nss",
+                "purl": "pkg:rpm/vmware/nss?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mesos",
+                "purl": "pkg:rpm/vmware/mesos?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0239",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-06-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-239"
+        }
+    ],
+    "related": [
+        "CVE-2018-17360",
+        "CVE-2019-9074",
+        "CVE-2019-7149",
+        "CVE-2019-5736",
+        "CVE-2019-9946",
+        "CVE-2018-5729",
+        "CVE-2018-12384",
+        "CVE-2018-20217",
+        "CVE-2019-1002100",
+        "CVE-2019-1002101",
+        "CVE-2018-12404",
+        "CVE-2018-16873",
+        "CVE-2019-7150",
+        "CVE-2019-0204",
+        "CVE-2018-17358",
+        "CVE-2018-16874",
+        "CVE-2019-7148"
+    ]
+}

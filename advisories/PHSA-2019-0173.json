@@ -1,0 +1,69 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "tcpdump",
+                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openjdk8",
+                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0173",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-09-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-173"
+        }
+    ],
+    "related": [
+        "CVE-2019-1010204",
+        "CVE-2019-2816",
+        "CVE-2019-2842",
+        "CVE-2019-2762",
+        "CVE-2019-2769",
+        "CVE-2019-2745",
+        "CVE-2019-12972",
+        "CVE-2019-2786",
+        "CVE-2019-9077",
+        "CVE-2019-2766",
+        "CVE-2019-2818",
+        "CVE-2019-1010220",
+        "CVE-2019-14250",
+        "CVE-2019-14444",
+        "CVE-2019-2821",
+        "CVE-2018-18309",
+        "CVE-2019-10193",
+        "CVE-2019-6486",
+        "CVE-2019-9075"
+    ]
+}

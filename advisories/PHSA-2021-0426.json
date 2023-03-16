@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "nettle",
+                "purl": "pkg:rpm/vmware/nettle?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "lapack",
+                "purl": "pkg:rpm/vmware/lapack?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0426",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-08-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-426"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-426"
+        }
+    ],
+    "related": null
+}

@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python-numpy",
+                "purl": "pkg:rpm/vmware/python-numpy?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0435",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-01-31T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-435"
+        }
+    ],
+    "related": [
+        "CVE-2022-23852",
+        "CVE-2021-41496",
+        "CVE-2022-0318"
+    ]
+}

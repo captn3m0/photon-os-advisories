@@ -1,0 +1,33 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libmspack",
+                "purl": "pkg:rpm/vmware/libmspack?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0110",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-11-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-110"
+        }
+    ],
+    "related": [
+        "CVE-2018-17101",
+        "CVE-2018-17100",
+        "CVE-2018-14680",
+        "CVE-2018-14679"
+    ]
+}

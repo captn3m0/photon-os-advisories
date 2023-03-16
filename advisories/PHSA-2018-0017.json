@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtasn1",
+                "purl": "pkg:rpm/vmware/libtasn1?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "dnsmasq",
+                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0017",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-02-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-17"
+        }
+    ],
+    "related": [
+        "CVE-2018-6003",
+        "CVE-2017-17095",
+        "CVE-2017-15107"
+    ]
+}

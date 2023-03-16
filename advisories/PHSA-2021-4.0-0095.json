@@ -1,0 +1,67 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2021-4.0-0095",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2021-38166",
+        "CVE-2020-28974",
+        "CVE-2020-27673",
+        "CVE-2021-3653",
+        "CVE-2021-38204",
+        "CVE-2021-35477",
+        "CVE-2020-28941",
+        "CVE-2020-12352",
+        "CVE-2021-3656",
+        "CVE-2021-37159",
+        "CVE-2020-3702",
+        "CVE-2020-8694",
+        "CVE-2021-34556",
+        "CVE-2021-37576",
+        "CVE-2021-38604",
+        "CVE-2021-3679",
+        "CVE-2020-27675"
+    ]
+}

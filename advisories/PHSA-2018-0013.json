@@ -1,0 +1,58 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openjdk8",
+                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0013",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-01-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-13"
+        }
+    ],
+    "related": [
+        "CVE-2018-2588",
+        "CVE-2017-9937",
+        "CVE-2018-2581",
+        "CVE-2018-2663",
+        "CVE-2018-2633",
+        "CVE-2018-2677",
+        "CVE-2017-18013",
+        "CVE-2018-2678",
+        "CVE-2018-2638",
+        "CVE-2018-2582",
+        "CVE-2018-2599",
+        "CVE-2018-2634",
+        "CVE-2018-2618",
+        "CVE-2017-17790",
+        "CVE-2018-2639",
+        "CVE-2017-17973",
+        "CVE-2018-2629",
+        "CVE-2018-2603",
+        "CVE-2018-2627",
+        "CVE-2018-2641",
+        "CVE-2018-2637",
+        "CVE-2018-2602"
+    ]
+}

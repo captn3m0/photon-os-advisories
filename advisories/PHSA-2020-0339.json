@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "tcpdump",
+                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0339",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-11-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-339"
+        }
+    ],
+    "related": [
+        "CVE-2020-8037"
+    ]
+}

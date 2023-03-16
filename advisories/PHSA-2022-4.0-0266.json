@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "kafka",
+                "purl": "pkg:rpm/vmware/kafka?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2022-4.0-0266",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-34917",
+        "CVE-2022-24769",
+        "CVE-2022-29162"
+    ]
+}

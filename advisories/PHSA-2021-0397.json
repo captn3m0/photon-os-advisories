@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "polkit",
+                "purl": "pkg:rpm/vmware/polkit?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0397",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-06-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-397"
+        }
+    ],
+    "related": [
+        "CVE-2021-3560"
+    ]
+}

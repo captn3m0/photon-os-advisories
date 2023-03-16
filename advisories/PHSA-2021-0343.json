@@ -1,0 +1,42 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "erlang",
+                "purl": "pkg:rpm/vmware/erlang?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0343",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-05-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-343"
+        }
+    ],
+    "related": [
+        "CVE-2021-2162",
+        "CVE-2021-29221",
+        "CVE-2021-2154",
+        "CVE-2021-2180",
+        "CVE-2021-2307",
+        "CVE-2021-2174",
+        "CVE-2021-2166",
+        "CVE-2021-2194",
+        "CVE-2021-2226",
+        "CVE-2021-2146",
+        "CVE-2021-2179",
+        "CVE-2021-2169",
+        "CVE-2021-2171"
+    ]
+}

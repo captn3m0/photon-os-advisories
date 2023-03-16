@@ -1,0 +1,55 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0240",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-06-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-240"
+        }
+    ],
+    "related": [
+        "CVE-2019-11477",
+        "CVE-2019-10639",
+        "CVE-2019-12456",
+        "CVE-2019-11478",
+        "CVE-2019-12378",
+        "CVE-2019-12379",
+        "CVE-2019-10160",
+        "CVE-2019-12382",
+        "CVE-2018-16597",
+        "CVE-2019-12381",
+        "CVE-2018-19407",
+        "CVE-2019-11479"
+    ]
+}

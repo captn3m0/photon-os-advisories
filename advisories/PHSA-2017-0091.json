@@ -1,0 +1,109 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "procmail",
+                "purl": "pkg:rpm/vmware/procmail?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "rsync",
+                "purl": "pkg:rpm/vmware/rsync?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "mongodb",
+                "purl": "pkg:rpm/vmware/mongodb?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "zookeeper",
+                "purl": "pkg:rpm/vmware/zookeeper?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0091",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-12-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-91"
+        }
+    ],
+    "related": [
+        "CVE-2017-16994",
+        "CVE-2017-16828",
+        "CVE-2017-16650",
+        "CVE-2017-1000158",
+        "CVE-2017-16829",
+        "CVE-2017-16537",
+        "CVE-2017-16832",
+        "CVE-2017-16548",
+        "CVE-2017-16827",
+        "CVE-2016-5417",
+        "CVE-2017-15115",
+        "CVE-2017-16830",
+        "CVE-2017-9150",
+        "CVE-2017-18203",
+        "CVE-2017-16844",
+        "CVE-2017-16826",
+        "CVE-2017-16831",
+        "CVE-2017-16536",
+        "CVE-2017-5637",
+        "CVE-2017-16649",
+        "CVE-2017-16646",
+        "CVE-2017-7518",
+        "CVE-2017-15535",
+        "CVE-2017-15906"
+    ]
+}

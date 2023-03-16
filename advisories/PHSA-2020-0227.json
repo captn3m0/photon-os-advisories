@@ -1,0 +1,71 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "yarn",
+                "purl": "pkg:rpm/vmware/yarn?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libgcrypt",
+                "purl": "pkg:rpm/vmware/libgcrypt?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "postgresql",
+                "purl": "pkg:rpm/vmware/postgresql?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "bubblewrap",
+                "purl": "pkg:rpm/vmware/bubblewrap?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0227",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-04-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-227"
+        }
+    ],
+    "related": [
+        "CVE-2019-14973",
+        "CVE-2020-11100",
+        "CVE-2019-15608",
+        "CVE-2020-5291",
+        "CVE-2020-1720",
+        "CVE-2020-8492",
+        "CVE-2019-12904"
+    ]
+}

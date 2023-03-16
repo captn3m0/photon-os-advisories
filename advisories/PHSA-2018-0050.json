@@ -1,0 +1,41 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "zsh",
+                "purl": "pkg:rpm/vmware/zsh?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libmspack",
+                "purl": "pkg:rpm/vmware/libmspack?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0050",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-05-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-50"
+        }
+    ],
+    "related": [
+        "CVE-2018-6913",
+        "CVE-2018-1100",
+        "CVE-2018-6797",
+        "CVE-2018-6798",
+        "CVE-2017-6419"
+    ]
+}

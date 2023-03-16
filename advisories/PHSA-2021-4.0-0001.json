@@ -1,0 +1,47 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "openvswitch",
+                "purl": "pkg:rpm/vmware/openvswitch?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2021-4.0-0001",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2021-27219",
+        "CVE-2021-27218",
+        "CVE-2020-25632",
+        "CVE-2020-27779",
+        "CVE-2020-14372",
+        "CVE-2020-27749",
+        "CVE-2021-3418",
+        "CVE-2020-35498",
+        "CVE-2021-20233",
+        "CVE-2021-20225",
+        "CVE-2020-25647"
+    ]
+}

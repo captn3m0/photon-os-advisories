@@ -1,0 +1,40 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2016-0007",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2016-10-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-7"
+        }
+    ],
+    "related": [
+        "CVE-2017-15102",
+        "CVE-2015-8839",
+        "CVE-2016-6136",
+        "CVE-2016-4578",
+        "CVE-2016-5243",
+        "CVE-2016-6156",
+        "CVE-2016-6130",
+        "CVE-2019-3901",
+        "CVE-2016-4569",
+        "CVE-2016-4482",
+        "CVE-2017-7495"
+    ]
+}

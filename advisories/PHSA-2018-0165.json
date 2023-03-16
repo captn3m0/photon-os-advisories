@@ -1,0 +1,33 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0165",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-07-16T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-165"
+        }
+    ],
+    "related": [
+        "CVE-2017-18249",
+        "CVE-2018-10877",
+        "CVE-2018-10881",
+        "CVE-2018-10878"
+    ]
+}

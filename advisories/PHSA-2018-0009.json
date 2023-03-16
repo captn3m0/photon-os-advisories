@@ -1,0 +1,84 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "rpm",
+                "purl": "pkg:rpm/vmware/rpm?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "rsync",
+                "purl": "pkg:rpm/vmware/rsync?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0009",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-01-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-9"
+        }
+    ],
+    "related": [
+        "CVE-2017-8818",
+        "CVE-2017-7501",
+        "CVE-2017-8824",
+        "CVE-2017-17450",
+        "CVE-2017-17433",
+        "CVE-2017-17426",
+        "CVE-2017-17434",
+        "CVE-2017-16995",
+        "CVE-2017-17862",
+        "CVE-2017-15129",
+        "CVE-2017-17448",
+        "CVE-2017-17449",
+        "CVE-2017-17712"
+    ]
+}

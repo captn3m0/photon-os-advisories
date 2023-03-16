@@ -1,0 +1,108 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "keepalived",
+                "purl": "pkg:rpm/vmware/keepalived?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "snappy",
+                "purl": "pkg:rpm/vmware/snappy?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mercurial",
+                "purl": "pkg:rpm/vmware/mercurial?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0160",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-05-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-160"
+        }
+    ],
+    "related": [
+        "CVE-2018-7577",
+        "CVE-2019-2683",
+        "CVE-2019-2592",
+        "CVE-2019-2614",
+        "CVE-2019-15924",
+        "CVE-2019-11810",
+        "CVE-2019-15214",
+        "CVE-2019-11599",
+        "CVE-2019-18805",
+        "CVE-2019-3902",
+        "CVE-2019-14898",
+        "CVE-2019-2627",
+        "CVE-2019-2628",
+        "CVE-2018-19045",
+        "CVE-2019-2566",
+        "CVE-2018-19046",
+        "CVE-2019-2581",
+        "CVE-2009-5155",
+        "CVE-2019-3882",
+        "CVE-2019-2632",
+        "CVE-2018-5995",
+        "CVE-2019-11815",
+        "CVE-2019-7317"
+    ]
+}

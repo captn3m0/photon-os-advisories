@@ -1,0 +1,65 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "nghttp2",
+                "purl": "pkg:rpm/vmware/nghttp2?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "gcc",
+                "purl": "pkg:rpm/vmware/gcc?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0150",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-06-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-150"
+        }
+    ],
+    "related": [
+        "CVE-2017-8824",
+        "CVE-2017-17712",
+        "CVE-2018-1000204",
+        "CVE-2017-18257",
+        "CVE-2017-17449",
+        "CVE-2018-18386",
+        "CVE-2017-17806",
+        "CVE-2018-10087",
+        "CVE-2018-1000168",
+        "CVE-2017-17448",
+        "CVE-2017-17450",
+        "CVE-2018-10021",
+        "CVE-2019-18675",
+        "CVE-2018-10124",
+        "CVE-2018-5814",
+        "CVE-2017-17805",
+        "CVE-2017-18595",
+        "CVE-2017-16914",
+        "CVE-2017-13695",
+        "CVE-2017-17558",
+        "CVE-2017-11671",
+        "CVE-2017-15129"
+    ]
+}

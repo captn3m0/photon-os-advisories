@@ -1,0 +1,33 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "commons-httpclient",
+                "purl": "pkg:rpm/vmware/commons-httpclient?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2020-3.0-0141",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2012-5783",
+        "CVE-2020-1968",
+        "CVE-2015-5262",
+        "CVE-2014-3577"
+    ]
+}

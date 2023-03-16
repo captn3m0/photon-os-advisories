@@ -1,0 +1,78 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libgcrypt",
+                "purl": "pkg:rpm/vmware/libgcrypt?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2021-3.0-0327",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2021-35612",
+        "CVE-2021-35630",
+        "CVE-2021-35636",
+        "CVE-2021-35634",
+        "CVE-2021-35644",
+        "CVE-2021-2478",
+        "CVE-2021-40528",
+        "CVE-2021-35643",
+        "CVE-2021-25219",
+        "CVE-2021-35637",
+        "CVE-2021-35648",
+        "CVE-2021-35631",
+        "CVE-2021-35638",
+        "CVE-2021-30640",
+        "CVE-2021-35621",
+        "CVE-2021-35646",
+        "CVE-2021-35628",
+        "CVE-2021-35647",
+        "CVE-2021-35596",
+        "CVE-2021-35627",
+        "CVE-2021-35591",
+        "CVE-2021-35642",
+        "CVE-2021-35624",
+        "CVE-2021-35632",
+        "CVE-2021-35597",
+        "CVE-2021-35622",
+        "CVE-2021-2471",
+        "CVE-2021-35626",
+        "CVE-2021-35610",
+        "CVE-2021-2479",
+        "CVE-2021-35635",
+        "CVE-2021-42340",
+        "CVE-2021-35645",
+        "CVE-2021-35641",
+        "CVE-2021-35546"
+    ]
+}

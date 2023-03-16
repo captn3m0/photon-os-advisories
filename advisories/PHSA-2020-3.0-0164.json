@@ -1,0 +1,40 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "librepo",
+                "purl": "pkg:rpm/vmware/librepo?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "postgresql",
+                "purl": "pkg:rpm/vmware/postgresql?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2020-3.0-0164",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-25694",
+        "CVE-2020-14352",
+        "CVE-2020-25695",
+        "CVE-2019-11038"
+    ]
+}

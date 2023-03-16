@@ -1,0 +1,65 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "sysdig",
+                "purl": "pkg:rpm/vmware/sysdig?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "falco",
+                "purl": "pkg:rpm/vmware/falco?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "postgresql",
+                "purl": "pkg:rpm/vmware/postgresql?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "bzip2",
+                "purl": "pkg:rpm/vmware/bzip2?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "wpa_supplicant",
+                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0023",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2019-10164",
+        "CVE-2019-8339",
+        "CVE-2019-9741",
+        "CVE-2018-16874",
+        "CVE-2018-16873",
+        "CVE-2019-9494",
+        "CVE-2019-12900",
+        "CVE-2019-11555"
+    ]
+}

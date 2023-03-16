@@ -1,0 +1,42 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "cifs-utils",
+                "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2021-3.0-0236",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2019-25032",
+        "CVE-2019-25035",
+        "CVE-2019-25039",
+        "CVE-2019-25038",
+        "CVE-2019-25041",
+        "CVE-2019-25033",
+        "CVE-2019-25037",
+        "CVE-2019-25034",
+        "CVE-2019-25040",
+        "CVE-2019-25031",
+        "CVE-2021-20208",
+        "CVE-2019-25042",
+        "CVE-2019-25036"
+    ]
+}

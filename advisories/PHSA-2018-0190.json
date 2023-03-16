@@ -1,0 +1,38 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0190",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-09-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-190"
+        }
+    ],
+    "related": [
+        "CVE-2018-6554",
+        "CVE-2018-6555",
+        "CVE-2018-10880",
+        "CVE-2018-17972",
+        "CVE-2018-16658",
+        "CVE-2018-20511",
+        "CVE-2018-14633",
+        "CVE-2018-17182",
+        "CVE-2018-10879"
+    ]
+}

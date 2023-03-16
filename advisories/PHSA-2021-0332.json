@@ -1,0 +1,64 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0332",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-332"
+        }
+    ],
+    "related": [
+        "CVE-2021-27364",
+        "CVE-2021-3612",
+        "CVE-2021-30002",
+        "CVE-2020-35523",
+        "CVE-2021-27365",
+        "CVE-2021-28038",
+        "CVE-2021-28972",
+        "CVE-2020-35524",
+        "CVE-2021-28971",
+        "CVE-2021-28964",
+        "CVE-2021-29265",
+        "CVE-2021-27363",
+        "CVE-2021-28660",
+        "CVE-2021-0512"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "elasticsearch",
+                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0132",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-02-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-132"
+        }
+    ],
+    "related": [
+        "CVE-2018-16845",
+        "CVE-2018-17244",
+        "CVE-2018-17246",
+        "CVE-2018-20346",
+        "CVE-2018-20406",
+        "CVE-2018-17245"
+    ]
+}

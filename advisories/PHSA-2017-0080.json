@@ -1,0 +1,79 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libgcrypt",
+                "purl": "pkg:rpm/vmware/libgcrypt?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "strongswan",
+                "purl": "pkg:rpm/vmware/strongswan?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libtar",
+                "purl": "pkg:rpm/vmware/libtar?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "openjdk",
+                "purl": "pkg:rpm/vmware/openjdk?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0080",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-10-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-80"
+        }
+    ],
+    "related": [
+        "CVE-2017-11185",
+        "CVE-2017-10350",
+        "CVE-2013-4420",
+        "CVE-2014-9913",
+        "CVE-2017-10348",
+        "CVE-2017-10347",
+        "CVE-2017-10388",
+        "CVE-2017-10349",
+        "CVE-2017-10355",
+        "CVE-2017-9526",
+        "CVE-2017-10346",
+        "CVE-2017-10293",
+        "CVE-2016-9844",
+        "CVE-2017-10309",
+        "CVE-2017-12133",
+        "CVE-2017-10295",
+        "CVE-2017-10285",
+        "CVE-2017-10357",
+        "CVE-2017-3252",
+        "CVE-2017-10281",
+        "CVE-2017-10356",
+        "CVE-2017-10274"
+    ]
+}

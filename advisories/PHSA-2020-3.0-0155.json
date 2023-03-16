@@ -1,0 +1,47 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "oniguruma",
+                "purl": "pkg:rpm/vmware/oniguruma?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "apache-ant",
+                "purl": "pkg:rpm/vmware/apache-ant?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2020-3.0-0155",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2020-11979",
+        "CVE-2020-26159",
+        "CVE-2020-15157",
+        "CVE-2020-26116"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0325",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-02-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-325"
+        }
+    ],
+    "related": [
+        "CVE-2021-23839",
+        "CVE-2021-23840",
+        "CVE-2021-23841"
+    ]
+}

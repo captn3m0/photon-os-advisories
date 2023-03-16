@@ -1,0 +1,178 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "gdb",
+                "purl": "pkg:rpm/vmware/gdb?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "lua",
+                "purl": "pkg:rpm/vmware/lua?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "u-boot",
+                "purl": "pkg:rpm/vmware/u-boot?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "etcd",
+                "purl": "pkg:rpm/vmware/etcd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libgcrypt",
+                "purl": "pkg:rpm/vmware/libgcrypt?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "oniguruma",
+                "purl": "pkg:rpm/vmware/oniguruma?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "rsyslog",
+                "purl": "pkg:rpm/vmware/rsyslog?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "sysstat",
+                "purl": "pkg:rpm/vmware/sysstat?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "polkit",
+                "purl": "pkg:rpm/vmware/polkit?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "dbus",
+                "purl": "pkg:rpm/vmware/dbus?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0036",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2019-17041",
+        "CVE-2019-17056",
+        "CVE-2019-14201",
+        "CVE-2019-17133",
+        "CVE-2019-16935",
+        "CVE-2019-12904",
+        "CVE-2019-14197",
+        "CVE-2018-17456",
+        "CVE-2019-1010180",
+        "CVE-2018-16886",
+        "CVE-2019-17054",
+        "CVE-2019-18806",
+        "CVE-2019-6706",
+        "CVE-2018-1116",
+        "CVE-2019-14198",
+        "CVE-2019-12749",
+        "CVE-2019-14204",
+        "CVE-2019-17052",
+        "CVE-2019-16746",
+        "CVE-2019-14203",
+        "CVE-2019-14193",
+        "CVE-2019-14196",
+        "CVE-2019-17053",
+        "CVE-2019-14195",
+        "CVE-2019-14202",
+        "CVE-2019-14192",
+        "CVE-2019-14199",
+        "CVE-2019-19525",
+        "CVE-2019-17042",
+        "CVE-2019-16168",
+        "CVE-2019-15718",
+        "CVE-2019-14200",
+        "CVE-2019-16167",
+        "CVE-2018-19486",
+        "CVE-2019-13225",
+        "CVE-2019-16163",
+        "CVE-2019-14194"
+    ]
+}

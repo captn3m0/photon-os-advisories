@@ -1,0 +1,34 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "cifs-utils",
+                "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2022-4.0-0194",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-24921",
+        "CVE-2022-29869",
+        "CVE-2022-27239",
+        "CVE-2022-24675",
+        "CVE-2022-28327"
+    ]
+}

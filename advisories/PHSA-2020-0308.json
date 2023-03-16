@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "sqlite-autoconf",
+                "purl": "pkg:rpm/vmware/sqlite-autoconf?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "net-snmp",
+                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0308",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-07-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-308"
+        }
+    ],
+    "related": [
+        "CVE-2020-15358",
+        "CVE-2020-11996",
+        "CVE-2019-20892"
+    ]
+}

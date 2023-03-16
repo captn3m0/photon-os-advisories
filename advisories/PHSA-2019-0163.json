@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "bubblewrap",
+                "purl": "pkg:rpm/vmware/bubblewrap?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "falco",
+                "purl": "pkg:rpm/vmware/falco?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0163",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-06-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-163"
+        }
+    ],
+    "related": [
+        "CVE-2019-8339",
+        "CVE-2019-12439"
+    ]
+}

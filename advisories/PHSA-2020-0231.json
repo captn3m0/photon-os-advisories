@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "erlang",
+                "purl": "pkg:rpm/vmware/erlang?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0231",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-04-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-231"
+        }
+    ],
+    "related": [
+        "CVE-2020-11656",
+        "CVE-2016-10253",
+        "CVE-2020-11655"
+    ]
+}

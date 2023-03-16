@@ -1,0 +1,74 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "libvirt",
+                "purl": "pkg:rpm/vmware/libvirt?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "subversion",
+                "purl": "pkg:rpm/vmware/subversion?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "ncurses",
+                "purl": "pkg:rpm/vmware/ncurses?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "apr",
+                "purl": "pkg:rpm/vmware/apr?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2017-0093",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2017-12-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-93"
+        }
+    ],
+    "related": [
+        "CVE-2017-1000256",
+        "CVE-2017-11112",
+        "CVE-2017-16939",
+        "CVE-2017-11113",
+        "CVE-2016-8734",
+        "CVE-2017-12613",
+        "CVE-2017-16879",
+        "CVE-2017-18208",
+        "CVE-2017-15088",
+        "CVE-2017-1000405"
+    ]
+}

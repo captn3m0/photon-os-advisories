@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0203",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-01-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-203"
+        }
+    ],
+    "related": [
+        "CVE-2019-19956",
+        "CVE-2019-1551",
+        "CVE-2020-7595"
+    ]
+}

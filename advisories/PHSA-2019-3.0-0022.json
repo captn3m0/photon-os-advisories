@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0022",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2018-20671",
+        "CVE-2018-20623",
+        "CVE-2018-20651",
+        "CVE-2019-9073",
+        "CVE-2019-9074",
+        "CVE-2019-9071"
+    ]
+}

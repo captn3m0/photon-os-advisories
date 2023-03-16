@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "salt3",
+                "purl": "pkg:rpm/vmware/salt3?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "salt",
+                "purl": "pkg:rpm/vmware/salt?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2021-0364",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-02-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-364"
+        }
+    ],
+    "related": [
+        "CVE-2021-3144",
+        "CVE-2021-25283",
+        "CVE-2020-35662",
+        "CVE-2021-25281",
+        "CVE-2021-3197",
+        "CVE-2021-3148",
+        "CVE-2021-25282",
+        "CVE-2020-28243",
+        "CVE-2020-28972",
+        "CVE-2021-25284"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "u-boot",
+                "purl": "pkg:rpm/vmware/u-boot?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0027",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2019-13106",
+        "CVE-2019-12735",
+        "CVE-2019-13104",
+        "CVE-2019-10156"
+    ]
+}

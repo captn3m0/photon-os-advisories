@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtar",
+                "purl": "pkg:rpm/vmware/libtar?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0029",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-03-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-29"
+        }
+    ],
+    "related": [
+        "CVE-2013-4420",
+        "CVE-2014-9913",
+        "CVE-2016-9844"
+    ]
+}

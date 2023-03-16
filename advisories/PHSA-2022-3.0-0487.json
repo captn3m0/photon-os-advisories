@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2022-3.0-0487",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2022-3821",
+        "CVE-2022-41716"
+    ]
+}

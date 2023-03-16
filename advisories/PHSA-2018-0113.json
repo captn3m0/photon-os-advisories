@@ -1,0 +1,62 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libtirpc",
+                "purl": "pkg:rpm/vmware/libtirpc?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0113",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-12-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-113"
+        }
+    ],
+    "related": [
+        "CVE-2018-0735",
+        "CVE-2018-0734",
+        "CVE-2018-14621",
+        "CVE-2018-18710",
+        "CVE-2018-5407"
+    ]
+}

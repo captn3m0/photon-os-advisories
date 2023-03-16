@@ -1,0 +1,165 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "paramiko",
+                "purl": "pkg:rpm/vmware/paramiko?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "patch",
+                "purl": "pkg:rpm/vmware/patch?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "net-snmp",
+                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "mercurial",
+                "purl": "pkg:rpm/vmware/mercurial?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "pycrypto",
+                "purl": "pkg:rpm/vmware/pycrypto?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "xerces-c",
+                "purl": "pkg:rpm/vmware/xerces-c?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "zsh",
+                "purl": "pkg:rpm/vmware/zsh?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0037",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-04-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-37"
+        }
+    ],
+    "related": [
+        "CVE-2018-1000116",
+        "CVE-2018-18066",
+        "CVE-2018-7549",
+        "CVE-2018-7757",
+        "CVE-2018-6951",
+        "CVE-2018-7643",
+        "CVE-2018-2668",
+        "CVE-2018-8781",
+        "CVE-2018-8822",
+        "CVE-2017-18207",
+        "CVE-2018-1000117",
+        "CVE-2018-2612",
+        "CVE-2018-6594",
+        "CVE-2018-1000132",
+        "CVE-2018-1000030",
+        "CVE-2018-2703",
+        "CVE-2018-7208",
+        "CVE-2018-2622",
+        "CVE-2018-8897",
+        "CVE-2018-1087",
+        "CVE-2017-17975",
+        "CVE-2018-7750",
+        "CVE-2018-2583",
+        "CVE-2018-1130",
+        "CVE-2018-7738",
+        "CVE-2018-8740",
+        "CVE-2018-2665",
+        "CVE-2018-2573",
+        "CVE-2017-18218",
+        "CVE-2017-12627",
+        "CVE-2018-2640"
+    ]
+}

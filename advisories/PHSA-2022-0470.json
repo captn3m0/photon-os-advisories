@@ -1,0 +1,46 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "python-numpy",
+                "purl": "pkg:rpm/vmware/python-numpy?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "polkit",
+                "purl": "pkg:rpm/vmware/polkit?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "subversion",
+                "purl": "pkg:rpm/vmware/subversion?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2022-0470",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2022-02-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-470"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-470"
+        }
+    ],
+    "related": null
+}

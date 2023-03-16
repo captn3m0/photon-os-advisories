@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "bash",
+                "purl": "pkg:rpm/vmware/bash?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0208",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-02-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-208"
+        }
+    ],
+    "related": [
+        "CVE-2019-18276"
+    ]
+}

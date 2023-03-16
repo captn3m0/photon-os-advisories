@@ -1,0 +1,37 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "etcd",
+                "purl": "pkg:rpm/vmware/etcd?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0313",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-08-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-313"
+        }
+    ],
+    "related": [
+        "CVE-2020-15136",
+        "CVE-2020-15106",
+        "CVE-2020-11984",
+        "CVE-2020-15114",
+        "CVE-2020-11993",
+        "CVE-2020-15115",
+        "CVE-2020-15112",
+        "CVE-2020-15113"
+    ]
+}

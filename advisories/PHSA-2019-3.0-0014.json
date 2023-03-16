@@ -1,0 +1,76 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "elasticsearch",
+                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "openjdk8",
+                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "mercurial",
+                "purl": "pkg:rpm/vmware/mercurial?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2019-3.0-0014",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2019-2698",
+        "CVE-2019-2684",
+        "CVE-2019-7608",
+        "CVE-2019-6109",
+        "CVE-2019-9937",
+        "CVE-2019-7611",
+        "CVE-2019-6111",
+        "CVE-2018-17983",
+        "CVE-2019-2697",
+        "CVE-2019-2602",
+        "CVE-2019-7317",
+        "CVE-2019-7610"
+    ]
+}

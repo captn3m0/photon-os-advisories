@@ -1,0 +1,48 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "tcpdump",
+                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-1"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "dbus",
+                "purl": "pkg:rpm/vmware/dbus?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0249",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-09-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-249"
+        }
+    ],
+    "related": [
+        "CVE-2019-1010220",
+        "CVE-2014-7824",
+        "CVE-2019-10193",
+        "CVE-2019-14241",
+        "CVE-2015-0245"
+    ]
+}

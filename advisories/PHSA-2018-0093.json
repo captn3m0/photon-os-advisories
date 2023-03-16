@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2018-0093",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2018-09-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-93"
+        }
+    ],
+    "related": [
+        "CVE-2018-7161",
+        "CVE-2018-7167"
+    ]
+}

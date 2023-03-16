@@ -1,0 +1,47 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "envoy",
+                "purl": "pkg:rpm/vmware/envoy?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "libarchive",
+                "purl": "pkg:rpm/vmware/libarchive?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:2.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-2"
+            }
+        }
+    ],
+    "id": "PHSA-2020-0207",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2020-02-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-207"
+        }
+    ],
+    "related": [
+        "CVE-2019-18802",
+        "CVE-2019-20372",
+        "CVE-2019-14864",
+        "CVE-2019-19221"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2022-3.0-0370",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+        }
+    ],
+    "related": [
+        "CVE-2022-20008",
+        "CVE-2022-0847",
+        "CVE-2022-26966",
+        "CVE-2022-25258",
+        "CVE-2022-27223",
+        "CVE-2022-25375"
+    ]
+}

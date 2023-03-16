@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2022-4.0-0185",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-0908",
+        "CVE-2022-0909",
+        "CVE-2022-1292",
+        "CVE-2022-0924",
+        "CVE-2022-0907",
+        "CVE-2022-1473",
+        "CVE-2022-22844",
+        "CVE-2022-0865",
+        "CVE-2022-1343",
+        "CVE-2022-1434"
+    ]
+}

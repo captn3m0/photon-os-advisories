@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:1.0",
+                "name": "bash",
+                "purl": "pkg:rpm/vmware/bash?distro=photon-1"
+            }
+        }
+    ],
+    "id": "PHSA-2019-0229",
+    "modified": "2023-03-16T05:25:30Z",
+    "published": "2019-04-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-1.0-229"
+        }
+    ],
+    "related": [
+        "CVE-2019-9924"
+    ]
+}
