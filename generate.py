@@ -4,6 +4,7 @@ import subprocess
 import markdown
 import json
 from datetime import datetime
+import copy
 import os
 import re
 from bs4 import BeautifulSoup
@@ -81,7 +82,8 @@ def get_osv():
 def merge_advisories(advisory_file, data):
     # read the current advisory data as json
     with open(advisory_file, "r") as f:
-        current = json.load(f)
+        original = json.load(f)
+        current = copy.deepcopy(original)
     # merge the data
     assert(current['id'] == data['id'])
     current['affected'].extend(data['affected'])
@@ -103,6 +105,15 @@ def merge_advisories(advisory_file, data):
             datetime.strptime(data['modified'], '%Y-%m-%dT%H:%M:%SZ')        
         ).isoformat("T") + "Z"
 
+    no_important_changes = True
+    # One of the important keys has changed
+    for key in ['id', 'affected', 'references', 'related', 'published']:
+        if current[key] != original[key]:
+            no_important_changes = False
+
+    if no_important_changes:
+        return None
+
     return current
 
 def __main__():
@@ -115,8 +126,9 @@ def __main__():
             d = merge_advisories(fn, d)
         else:
             print(f"Creating {fn}")
-        with open(fn, "w") as f:
-            f.write(json.dumps(d, indent=4, sort_keys=True))
+        if d:
+            with open(fn, "w") as f:
+                f.write(json.dumps(d, indent=4, sort_keys=True))
 
 if __name__ == "__main__":
     __main__()
