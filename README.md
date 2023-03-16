@@ -14,7 +14,8 @@ republishes the advisories in the OSV format, and syncs them against the
 [GSD Database](https://github.com/cloudsecurityalliance/gsd-database)
 
 - [x] Picks up data from https://github.com/vmware/photon/wiki/Security-Advisories,
-- [x] Generates advisories in the OSV format at advisories/
+- [x] Get CVE metadata from https://packages.vmware.com/photon/photon_cve_metadata/
+- [x] Generates advisories in the OSV format at `advisories/` using the above.
 - [ ] Syncs Data to the GSD Database
 
 ## TODO:
