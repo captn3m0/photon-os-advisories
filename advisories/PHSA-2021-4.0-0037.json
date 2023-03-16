@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "polkit",
                 "purl": "pkg:rpm/vmware/polkit?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.118-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

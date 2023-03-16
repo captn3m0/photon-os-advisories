@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "httpd",
                 "purl": "pkg:rpm/vmware/httpd?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.4.52-1.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "binutils",
                 "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.32-5.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "runc",
                 "purl": "pkg:rpm/vmware/runc?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.0.0.rc93-3.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

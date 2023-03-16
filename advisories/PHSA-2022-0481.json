@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "cifs-utils",
                 "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.7-4.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

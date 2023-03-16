@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "PyYAML",
                 "purl": "pkg:rpm/vmware/PyYAML?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.13-6.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

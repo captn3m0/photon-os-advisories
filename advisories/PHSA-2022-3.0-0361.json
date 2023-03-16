@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.225-5.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.225-5.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.225-7.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -26,6 +59,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "linux-secure",
                 "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.225-5.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -33,6 +77,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "apache-tomcat",
                 "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.5.72-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -40,6 +95,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.17.2-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -47,6 +113,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.225-6.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -54,6 +131,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "strongswan",
                 "purl": "pkg:rpm/vmware/strongswan?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.6.3-6.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -61,6 +149,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "mariadb",
                 "purl": "pkg:rpm/vmware/mariadb?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "10.3.33-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

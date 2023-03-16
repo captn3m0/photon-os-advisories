@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "WALinuxAgent",
                 "purl": "pkg:rpm/vmware/WALinuxAgent?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.35-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

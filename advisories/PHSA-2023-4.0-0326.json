@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "tmux",
                 "purl": "pkg:rpm/vmware/tmux?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.1b-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "sqlite",
                 "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.27.2-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.7-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "glib",
                 "purl": "pkg:rpm/vmware/glib?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.58.0-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

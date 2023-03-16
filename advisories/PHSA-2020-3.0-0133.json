@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "ntp",
                 "purl": "pkg:rpm/vmware/ntp?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.2.8p14-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "apache-ant",
                 "purl": "pkg:rpm/vmware/apache-ant?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.10.8-4.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "nss",
                 "purl": "pkg:rpm/vmware/nss?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.44-6.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

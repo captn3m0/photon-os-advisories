@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "python3",
                 "purl": "pkg:rpm/vmware/python3?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.6.5-5.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.26-15.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

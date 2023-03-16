@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "openvswitch",
                 "purl": "pkg:rpm/vmware/openvswitch?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.12.0-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "curl",
                 "purl": "pkg:rpm/vmware/curl?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.75.0-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

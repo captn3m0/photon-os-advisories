@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "powershell",
                 "purl": "pkg:rpm/vmware/powershell?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.2.0-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

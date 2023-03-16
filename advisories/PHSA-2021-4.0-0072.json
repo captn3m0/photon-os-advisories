@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "python3-lxml",
                 "purl": "pkg:rpm/vmware/python3-lxml?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.6.3-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

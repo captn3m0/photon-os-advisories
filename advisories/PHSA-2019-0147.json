@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.9.166-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "python-requests",
                 "purl": "pkg:rpm/vmware/python-requests?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.13.0-4.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "linux-secure",
                 "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.9.166-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -26,6 +59,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "PyYAML",
                 "purl": "pkg:rpm/vmware/PyYAML?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.12-3.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -33,6 +77,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.9.166-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -40,6 +95,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.9.166-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

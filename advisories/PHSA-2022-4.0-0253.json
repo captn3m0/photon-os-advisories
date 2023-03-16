@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "wayland",
                 "purl": "pkg:rpm/vmware/wayland?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.20.0-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

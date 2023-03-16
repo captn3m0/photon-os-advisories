@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "bzip2",
                 "purl": "pkg:rpm/vmware/bzip2?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.0.6-7.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "kubernetes",
                 "purl": "pkg:rpm/vmware/kubernetes?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.12.7-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "binutils",
                 "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.31-8.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

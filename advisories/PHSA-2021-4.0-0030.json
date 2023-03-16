@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "rpm",
                 "purl": "pkg:rpm/vmware/rpm?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.16.1.2-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "cifs-utils",
                 "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.13-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

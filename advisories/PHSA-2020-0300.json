@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.4-13.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.22-29.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

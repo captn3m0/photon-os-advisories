@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "cpio",
                 "purl": "pkg:rpm/vmware/cpio?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.12-3.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "grub2",
                 "purl": "pkg:rpm/vmware/grub2?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.04-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

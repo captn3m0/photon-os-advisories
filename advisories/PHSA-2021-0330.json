@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "nodejs",
                 "purl": "pkg:rpm/vmware/nodejs?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "10.24.0-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

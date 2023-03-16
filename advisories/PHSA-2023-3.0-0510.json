@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "grub2",
                 "purl": "pkg:rpm/vmware/grub2?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.06-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

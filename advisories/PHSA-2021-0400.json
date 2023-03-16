@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "python-cryptography",
                 "purl": "pkg:rpm/vmware/python-cryptography?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9-1.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.0.0533-10.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "atftp",
                 "purl": "pkg:rpm/vmware/atftp?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.7.1-11.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

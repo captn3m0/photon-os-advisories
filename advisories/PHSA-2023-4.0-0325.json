@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "httpd",
                 "purl": "pkg:rpm/vmware/httpd?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.4.55-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "mysql",
                 "purl": "pkg:rpm/vmware/mysql?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.0.32-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

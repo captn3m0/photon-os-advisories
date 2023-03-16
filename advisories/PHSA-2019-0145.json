@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "cairo",
                 "purl": "pkg:rpm/vmware/cairo?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.16.0-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "mariadb",
                 "purl": "pkg:rpm/vmware/mariadb?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "10.2.42-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "strongswan",
                 "purl": "pkg:rpm/vmware/strongswan?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.5.2-8.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "unzip",
                 "purl": "pkg:rpm/vmware/unzip?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.0-11.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

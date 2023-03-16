@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "wget",
                 "purl": "pkg:rpm/vmware/wget?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.18-3.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

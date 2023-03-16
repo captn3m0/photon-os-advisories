@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "unzip",
                 "purl": "pkg:rpm/vmware/unzip?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.0-17.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

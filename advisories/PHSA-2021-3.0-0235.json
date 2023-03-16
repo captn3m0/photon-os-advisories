@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "erlang",
                 "purl": "pkg:rpm/vmware/erlang?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "23.1-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

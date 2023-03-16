@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "ruby",
                 "purl": "pkg:rpm/vmware/ruby?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.7.3-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

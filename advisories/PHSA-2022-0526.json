@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "dhcp",
                 "purl": "pkg:rpm/vmware/dhcp?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.3.5-8.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

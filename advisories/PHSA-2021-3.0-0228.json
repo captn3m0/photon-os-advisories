@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "rust",
                 "purl": "pkg:rpm/vmware/rust?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.51.0-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "docker",
                 "purl": "pkg:rpm/vmware/docker?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "19.03.15-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "consul",
                 "purl": "pkg:rpm/vmware/consul?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.7.14-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

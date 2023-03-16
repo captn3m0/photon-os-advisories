@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "gnutls",
                 "purl": "pkg:rpm/vmware/gnutls?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.6.15-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "rpm",
                 "purl": "pkg:rpm/vmware/rpm?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.14.2-12.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

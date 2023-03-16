@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "apache-tomcat",
                 "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.5.51-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

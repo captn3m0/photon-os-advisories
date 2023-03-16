@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.2.4646-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "protobuf",
                 "purl": "pkg:rpm/vmware/protobuf?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.19.4-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "c-ares",
                 "purl": "pkg:rpm/vmware/c-ares?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.16.1-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

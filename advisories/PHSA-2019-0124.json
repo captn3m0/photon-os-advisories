@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "haproxy",
                 "purl": "pkg:rpm/vmware/haproxy?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.8.14-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "paramiko",
                 "purl": "pkg:rpm/vmware/paramiko?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.1.5-2.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

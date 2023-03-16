@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "freetype2",
                 "purl": "pkg:rpm/vmware/freetype2?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.7.1-7.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "freetype2",
                 "purl": "pkg:rpm/vmware/freetype2?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.7.1-7.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

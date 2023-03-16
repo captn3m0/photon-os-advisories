@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "git",
                 "purl": "pkg:rpm/vmware/git?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.30.3-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

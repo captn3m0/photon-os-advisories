@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "ImageMagick",
                 "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.1.0.19-5.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

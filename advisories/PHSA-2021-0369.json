@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "git",
                 "purl": "pkg:rpm/vmware/git?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.23.3-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "containerd",
                 "purl": "pkg:rpm/vmware/containerd?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.4.4-2.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

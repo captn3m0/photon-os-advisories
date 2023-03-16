@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "rubygem-nokogiri",
                 "purl": "pkg:rpm/vmware/rubygem-nokogiri?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.11.3-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

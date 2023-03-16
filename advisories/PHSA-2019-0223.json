@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "kibana",
                 "purl": "pkg:rpm/vmware/kibana?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.4.3-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

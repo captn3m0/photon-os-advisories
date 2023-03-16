@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "cairo",
                 "purl": "pkg:rpm/vmware/cairo?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.16.0-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "libgd",
                 "purl": "pkg:rpm/vmware/libgd?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.5-8.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

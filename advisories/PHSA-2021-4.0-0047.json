@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.42-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.42-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "python3-Pygments",
                 "purl": "pkg:rpm/vmware/python3-Pygments?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.9.0-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -26,6 +59,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "salt3",
                 "purl": "pkg:rpm/vmware/salt3?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3003-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -33,6 +77,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.42-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -40,6 +95,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "lz4",
                 "purl": "pkg:rpm/vmware/lz4?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.2-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -47,6 +113,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "linux-secure",
                 "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.42-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

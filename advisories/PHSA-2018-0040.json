@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "mysql",
                 "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.7.22-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

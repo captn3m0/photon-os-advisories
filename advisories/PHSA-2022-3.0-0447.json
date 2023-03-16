@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "ruby",
                 "purl": "pkg:rpm/vmware/ruby?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.5.8-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "libarchive",
                 "purl": "pkg:rpm/vmware/libarchive?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.3.3-8.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

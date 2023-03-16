@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "sqlite-autoconf",
                 "purl": "pkg:rpm/vmware/sqlite-autoconf?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.27.2-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "keepalived",
                 "purl": "pkg:rpm/vmware/keepalived?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.1.5-5.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.2.3408-10.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

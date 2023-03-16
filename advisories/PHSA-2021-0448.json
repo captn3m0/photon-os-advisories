@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "bindutils",
                 "purl": "pkg:rpm/vmware/bindutils?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.16.22-1.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "mysql",
                 "purl": "pkg:rpm/vmware/mysql?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.7.36-1.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "squid",
                 "purl": "pkg:rpm/vmware/squid?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.17-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

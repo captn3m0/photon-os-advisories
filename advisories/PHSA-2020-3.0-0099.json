@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "apache-ant",
                 "purl": "pkg:rpm/vmware/apache-ant?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.10.8-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

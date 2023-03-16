@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "consul",
                 "purl": "pkg:rpm/vmware/consul?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.8.14-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

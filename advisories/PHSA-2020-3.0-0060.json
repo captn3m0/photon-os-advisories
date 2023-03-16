@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "nodejs",
                 "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "13.8.0-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

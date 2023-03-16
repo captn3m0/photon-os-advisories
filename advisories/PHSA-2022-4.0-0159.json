@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "containerd",
                 "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.4.12-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.17.2-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "rsync",
                 "purl": "pkg:rpm/vmware/rsync?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.2.4-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "libvirt",
                 "purl": "pkg:rpm/vmware/libvirt?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.2.0-4.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "librelp",
                 "purl": "pkg:rpm/vmware/librelp?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.2.9-3.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

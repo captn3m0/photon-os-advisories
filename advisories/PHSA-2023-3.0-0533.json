@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "tar",
                 "purl": "pkg:rpm/vmware/tar?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.30-6.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

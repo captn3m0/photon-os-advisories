@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "libgd",
                 "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.5-6.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

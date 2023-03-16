@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "tcl",
                 "purl": "pkg:rpm/vmware/tcl?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.6.8-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

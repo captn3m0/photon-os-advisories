@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "ncurses",
                 "purl": "pkg:rpm/vmware/ncurses?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.1-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "yum",
                 "purl": "pkg:rpm/vmware/yum?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.4.3-9.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "libsoup",
                 "purl": "pkg:rpm/vmware/libsoup?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.68.2-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -26,6 +59,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "binutils",
                 "purl": "pkg:rpm/vmware/binutils?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.32-2.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -33,6 +77,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "python2",
                 "purl": "pkg:rpm/vmware/python2?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.7.15-13.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -40,6 +95,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "postgresql",
                 "purl": "pkg:rpm/vmware/postgresql?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.6.14-2.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -47,6 +113,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "nodejs",
                 "purl": "pkg:rpm/vmware/nodejs?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.11.4-2.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

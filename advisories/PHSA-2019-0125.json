@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "strongswan",
                 "purl": "pkg:rpm/vmware/strongswan?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.5.2-6.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

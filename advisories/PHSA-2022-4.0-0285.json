@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "sysstat",
                 "purl": "pkg:rpm/vmware/sysstat?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "12.7.1-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

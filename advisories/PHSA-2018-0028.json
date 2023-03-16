@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "zsh",
                 "purl": "pkg:rpm/vmware/zsh?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.3.1-5.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

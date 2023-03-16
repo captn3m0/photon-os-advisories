@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "libvirt",
                 "purl": "pkg:rpm/vmware/libvirt?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.7.0-10.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

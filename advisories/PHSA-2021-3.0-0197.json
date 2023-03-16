@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "mysql",
                 "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.0.23-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "unbound",
                 "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.8.0-5.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

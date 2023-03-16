@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "util-linux",
                 "purl": "pkg:rpm/vmware/util-linux?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.27.1-7.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.0.0533-14.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "runc",
                 "purl": "pkg:rpm/vmware/runc?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.0.0.rc93-4.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

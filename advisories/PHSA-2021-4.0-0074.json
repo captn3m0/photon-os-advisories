@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "nodejs",
                 "purl": "pkg:rpm/vmware/nodejs?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "14.16.0-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

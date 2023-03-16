@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "nginx",
                 "purl": "pkg:rpm/vmware/nginx?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.13.8-6.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

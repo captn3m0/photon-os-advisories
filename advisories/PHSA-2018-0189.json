@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "patch",
                 "purl": "pkg:rpm/vmware/patch?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.7.5-5.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

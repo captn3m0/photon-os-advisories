@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "gstreamer",
                 "purl": "pkg:rpm/vmware/gstreamer?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.21.90-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

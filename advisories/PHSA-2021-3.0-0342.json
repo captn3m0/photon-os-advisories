@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "krb5",
                 "purl": "pkg:rpm/vmware/krb5?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.17-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

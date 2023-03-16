@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "e2fsprogs",
                 "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.46.5-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

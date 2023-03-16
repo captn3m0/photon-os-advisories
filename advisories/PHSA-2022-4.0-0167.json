@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "libxml2",
                 "purl": "pkg:rpm/vmware/libxml2?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.9.12-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "haproxy",
                 "purl": "pkg:rpm/vmware/haproxy?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.3.4-6.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

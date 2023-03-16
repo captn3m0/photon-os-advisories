@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "salt3",
                 "purl": "pkg:rpm/vmware/salt3?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2019.2.4-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "salt",
                 "purl": "pkg:rpm/vmware/salt?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2019.2.4-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

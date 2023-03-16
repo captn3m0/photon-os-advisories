@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "libgcrypt",
                 "purl": "pkg:rpm/vmware/libgcrypt?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.3-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "python3-py",
                 "purl": "pkg:rpm/vmware/python3-py?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.0-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

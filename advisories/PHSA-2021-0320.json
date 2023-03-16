@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "mysql",
                 "purl": "pkg:rpm/vmware/mysql?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.7.33-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "unbound",
                 "purl": "pkg:rpm/vmware/unbound?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.6.8-3.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.26-21.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

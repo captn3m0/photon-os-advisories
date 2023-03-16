@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "haproxy",
                 "purl": "pkg:rpm/vmware/haproxy?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.0.10-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "nxtgn-openssl",
                 "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.1.1j-2.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

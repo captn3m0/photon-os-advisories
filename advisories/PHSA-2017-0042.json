@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "rpcbind",
                 "purl": "pkg:rpm/vmware/rpcbind?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.2.3-8.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

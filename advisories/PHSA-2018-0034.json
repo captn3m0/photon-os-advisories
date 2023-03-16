@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.4-2.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "zlib",
                 "purl": "pkg:rpm/vmware/zlib?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.2.11-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

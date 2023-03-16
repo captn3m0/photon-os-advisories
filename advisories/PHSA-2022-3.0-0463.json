@@ -12,6 +12,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "python2",
                 "purl": "pkg:rpm/vmware/python2?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.7.17-7.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

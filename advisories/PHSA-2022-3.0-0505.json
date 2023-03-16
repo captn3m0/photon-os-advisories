@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "wget",
                 "purl": "pkg:rpm/vmware/wget?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.21.3-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

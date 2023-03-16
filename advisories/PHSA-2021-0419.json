@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "python-py",
                 "purl": "pkg:rpm/vmware/python-py?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.4.33-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "rsyslog",
                 "purl": "pkg:rpm/vmware/rsyslog?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.1910.0-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

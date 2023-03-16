@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "dnsmasq",
                 "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.79-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

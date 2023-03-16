@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "openssh",
                 "purl": "pkg:rpm/vmware/openssh?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.4p1-13.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

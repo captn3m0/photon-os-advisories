@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "libtasn1",
                 "purl": "pkg:rpm/vmware/libtasn1?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.13-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "dnsmasq",
                 "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.76-5.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "libtiff",
                 "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.0.9-3.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.26-13.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "cyrus-sasl",
                 "purl": "pkg:rpm/vmware/cyrus-sasl?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.1.26-15.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

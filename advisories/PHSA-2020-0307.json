@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "python-Twisted",
                 "purl": "pkg:rpm/vmware/python-Twisted?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "17.1.0-9.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

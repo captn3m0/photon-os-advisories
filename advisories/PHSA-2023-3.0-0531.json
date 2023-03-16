@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "postgresql13",
                 "purl": "pkg:rpm/vmware/postgresql13?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "13.9-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

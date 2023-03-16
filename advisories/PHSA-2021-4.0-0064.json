@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "containerd",
                 "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.4.4-5.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

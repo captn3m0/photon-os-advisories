@@ -12,6 +12,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.4.180-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +30,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "tar",
                 "purl": "pkg:rpm/vmware/tar?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.29-3.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -26,6 +48,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.4.180-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -40,6 +73,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "polkit",
                 "purl": "pkg:rpm/vmware/polkit?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.113-3.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -47,6 +91,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "libsoup",
                 "purl": "pkg:rpm/vmware/libsoup?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.53.90-5.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

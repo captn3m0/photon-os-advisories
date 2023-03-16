@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "cpio",
                 "purl": "pkg:rpm/vmware/cpio?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.13-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.28-16.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

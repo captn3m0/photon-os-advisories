@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "tpm2-tools",
                 "purl": "pkg:rpm/vmware/tpm2-tools?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.3.2-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

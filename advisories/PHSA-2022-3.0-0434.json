@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "libxml2",
                 "purl": "pkg:rpm/vmware/libxml2?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.9.11-8.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

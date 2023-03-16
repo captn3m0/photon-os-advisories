@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "python2",
                 "purl": "pkg:rpm/vmware/python2?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.7.15-19.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

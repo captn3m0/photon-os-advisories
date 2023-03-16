@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "harfbuzz",
                 "purl": "pkg:rpm/vmware/harfbuzz?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.0.1-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

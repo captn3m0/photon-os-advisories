@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "mariadb",
                 "purl": "pkg:rpm/vmware/mariadb?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "10.2.43-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

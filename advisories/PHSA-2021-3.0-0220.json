@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "redis",
                 "purl": "pkg:rpm/vmware/redis?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.0.12-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

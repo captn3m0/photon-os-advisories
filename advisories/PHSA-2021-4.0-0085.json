@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "rust",
                 "purl": "pkg:rpm/vmware/rust?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.51.0-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

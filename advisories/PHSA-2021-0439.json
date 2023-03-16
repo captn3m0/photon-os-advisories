@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "docker",
                 "purl": "pkg:rpm/vmware/docker?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "18.09.9-7.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

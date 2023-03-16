@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "nss",
                 "purl": "pkg:rpm/vmware/nss?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.44-5.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

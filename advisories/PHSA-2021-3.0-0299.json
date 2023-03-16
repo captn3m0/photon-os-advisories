@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "git",
                 "purl": "pkg:rpm/vmware/git?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.23.3-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

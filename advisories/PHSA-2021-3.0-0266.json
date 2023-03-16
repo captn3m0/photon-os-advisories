@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "python-urllib3",
                 "purl": "pkg:rpm/vmware/python-urllib3?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.25.11-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

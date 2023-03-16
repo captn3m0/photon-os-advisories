@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "bindutils",
                 "purl": "pkg:rpm/vmware/bindutils?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.16.6-1.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

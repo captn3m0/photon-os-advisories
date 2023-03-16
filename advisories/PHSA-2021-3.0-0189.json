@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.28-10.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

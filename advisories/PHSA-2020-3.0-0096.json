@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "unbound",
                 "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.8.0-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

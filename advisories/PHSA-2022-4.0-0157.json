@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "cassandra",
                 "purl": "pkg:rpm/vmware/cassandra?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.0.3-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "expat",
                 "purl": "pkg:rpm/vmware/expat?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.9-7.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "expat",
                 "purl": "pkg:rpm/vmware/expat?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.9-3.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

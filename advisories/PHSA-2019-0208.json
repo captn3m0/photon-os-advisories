@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "docker",
                 "purl": "pkg:rpm/vmware/docker?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "18.03.0-3.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "libgcrypt",
                 "purl": "pkg:rpm/vmware/libgcrypt?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.7.6-5.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -19,6 +41,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.22-23.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

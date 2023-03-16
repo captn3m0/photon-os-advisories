@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "nodejs",
                 "purl": "pkg:rpm/vmware/nodejs?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.11.4-6.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "nodejs10",
                 "purl": "pkg:rpm/vmware/nodejs10?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "10.19.0-3.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

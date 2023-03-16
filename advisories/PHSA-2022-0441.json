@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "unbound",
                 "purl": "pkg:rpm/vmware/unbound?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.13.1-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

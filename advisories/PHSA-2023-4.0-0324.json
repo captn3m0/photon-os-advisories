@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.2.5169-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

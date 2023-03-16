@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "salt3",
                 "purl": "pkg:rpm/vmware/salt3?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3002.5-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

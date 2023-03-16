@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "libtiff",
                 "purl": "pkg:rpm/vmware/libtiff?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.0.9-7.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "libmspack",
                 "purl": "pkg:rpm/vmware/libmspack?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.5alpha-6.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

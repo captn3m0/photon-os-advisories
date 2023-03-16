@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "sudo",
                 "purl": "pkg:rpm/vmware/sudo?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.8.20p2-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "subversion",
                 "purl": "pkg:rpm/vmware/subversion?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.4-7.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

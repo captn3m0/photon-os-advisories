@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "polkit",
                 "purl": "pkg:rpm/vmware/polkit?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.113-5.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

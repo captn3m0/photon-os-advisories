@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "logrotate",
                 "purl": "pkg:rpm/vmware/logrotate?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.21.0-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

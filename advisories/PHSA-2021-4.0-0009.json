@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "lua",
                 "purl": "pkg:rpm/vmware/lua?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.3.6-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

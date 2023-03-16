@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "envoy",
                 "purl": "pkg:rpm/vmware/envoy?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.10.0-5.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "e2fsprogs",
                 "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.42.13-5.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

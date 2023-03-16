@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "squid",
                 "purl": "pkg:rpm/vmware/squid?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.17-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "libtirpc",
                 "purl": "pkg:rpm/vmware/libtirpc?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.2.6-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

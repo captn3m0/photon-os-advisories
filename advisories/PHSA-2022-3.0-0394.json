@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "freetype2",
                 "purl": "pkg:rpm/vmware/freetype2?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.9.1-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "systemd",
                 "purl": "pkg:rpm/vmware/systemd?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "239-44.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "expat",
                 "purl": "pkg:rpm/vmware/expat?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.9-10.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

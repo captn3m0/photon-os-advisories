@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "lz4",
                 "purl": "pkg:rpm/vmware/lz4?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.3-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

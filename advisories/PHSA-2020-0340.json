@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "postgresql",
                 "purl": "pkg:rpm/vmware/postgresql?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.6.20-1.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

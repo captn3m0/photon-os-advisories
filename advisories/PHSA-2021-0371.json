@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.22-34.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "python-numpy",
                 "purl": "pkg:rpm/vmware/python-numpy?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.12.1-6.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

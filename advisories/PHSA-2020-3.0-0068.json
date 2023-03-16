@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "yarn",
                 "purl": "pkg:rpm/vmware/yarn?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.21.1-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

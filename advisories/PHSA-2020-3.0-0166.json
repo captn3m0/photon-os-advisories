@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "elasticsearch",
                 "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.8.13-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

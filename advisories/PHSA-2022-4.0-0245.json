@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "bluez",
                 "purl": "pkg:rpm/vmware/bluez?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.58-5.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "libtiff",
                 "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.4.0-5.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

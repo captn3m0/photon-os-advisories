@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "unbound",
                 "purl": "pkg:rpm/vmware/unbound?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.16.2-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

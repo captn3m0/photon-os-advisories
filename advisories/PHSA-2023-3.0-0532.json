@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "libarchive",
                 "purl": "pkg:rpm/vmware/libarchive?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.3.3-9.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "icu",
                 "purl": "pkg:rpm/vmware/icu?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "67.1-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -33,6 +44,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "linux-secure",
                 "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.148-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {

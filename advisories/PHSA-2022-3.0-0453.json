@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "bluez",
                 "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.58-5.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

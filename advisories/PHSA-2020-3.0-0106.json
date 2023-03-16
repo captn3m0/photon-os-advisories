@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "kibana",
                 "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.8.10-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "curl",
                 "purl": "pkg:rpm/vmware/curl?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.61.1-7.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

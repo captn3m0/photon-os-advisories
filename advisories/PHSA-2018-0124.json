@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "curl",
                 "purl": "pkg:rpm/vmware/curl?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.59.0-1.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

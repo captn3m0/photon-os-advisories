@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "libtar",
                 "purl": "pkg:rpm/vmware/libtar?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.2.20-6.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

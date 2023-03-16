@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "zlib",
                 "purl": "pkg:rpm/vmware/zlib?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.2.11-3.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

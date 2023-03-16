@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "runc",
                 "purl": "pkg:rpm/vmware/runc?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.0.0.rc9-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "ansible",
                 "purl": "pkg:rpm/vmware/ansible?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.9.22-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.32-6.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

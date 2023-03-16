@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "libtasn1",
                 "purl": "pkg:rpm/vmware/libtasn1?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.14-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

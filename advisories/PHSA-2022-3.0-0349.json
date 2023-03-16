@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "python3",
                 "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.7.5-15.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "redis",
                 "purl": "pkg:rpm/vmware/redis?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.2.7-2.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

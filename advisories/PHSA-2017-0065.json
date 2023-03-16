@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "subversion",
                 "purl": "pkg:rpm/vmware/subversion?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.4-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "ncurses",
                 "purl": "pkg:rpm/vmware/ncurses?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.0-11.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

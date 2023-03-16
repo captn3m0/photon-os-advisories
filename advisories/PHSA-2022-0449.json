@@ -12,6 +12,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.9.304-1.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {

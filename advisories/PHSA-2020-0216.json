@@ -5,6 +5,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "cyrus-sasl",
                 "purl": "pkg:rpm/vmware/cyrus-sasl?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.1.26-15.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         },
         {
@@ -12,6 +23,17 @@
                 "ecosystem": "photon:2.0",
                 "name": "yarn",
                 "purl": "pkg:rpm/vmware/yarn?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.10.1-7.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

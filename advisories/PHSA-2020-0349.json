@@ -5,6 +5,17 @@
                 "ecosystem": "photon:1.0",
                 "name": "openldap",
                 "purl": "pkg:rpm/vmware/openldap?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.4.43-5.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

@@ -5,6 +5,17 @@
                 "ecosystem": "photon:4.0",
                 "name": "httpd",
                 "purl": "pkg:rpm/vmware/httpd?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.4.51-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],

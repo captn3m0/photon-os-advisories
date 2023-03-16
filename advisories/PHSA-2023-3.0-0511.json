@@ -5,6 +5,17 @@
                 "ecosystem": "photon:3.0",
                 "name": "libksba",
                 "purl": "pkg:rpm/vmware/libksba?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.3.5-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],
