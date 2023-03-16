@@ -23,7 +23,7 @@ republishes the advisories in the OSV format, and syncs them against the
 - [ ] Automatic Sync (to GSD)
 - [ ] Schema: Provide `credits`
 - [x] Schema: Provide impacted packages
-- [ ] Schema: Provide all impacted packages, with version number that fixes the issue.
+- [x] Schema: Provide all impacted packages, with version number that fixes the issue. (Available in all but 50-60 advisories)
 - [ ] Schema: Provide summary/details/severity
 - [ ] Schema: Provide SHA256 hashes under database_specific
 

@@ -45,10 +45,11 @@ def get_osv(cve_data_all_versions):
     for os_version in PHOTON_VERSIONS:
         filename = FILE_FORMAT.format(version=os_version)
         file = ADVISORIES_DIR + filename
+        print(f"Parsing {filename}")
 
         # Returns the version that fixed any of the given CVEs + OS + Package combination
         # there should only be one
-        def cve_fixed_version(package, cves, os_version):
+        def cve_fixed_version(package, cves, os_version, advisory):
             # list of fixed versions with a matching
             # CVE/pkg/OS combination
             fixed_versions = set([
@@ -60,9 +61,8 @@ def get_osv(cve_data_all_versions):
             # There should only be a single such reference
             # 
             if len(fixed_versions) != 1:
-                print(f"Found multiple matching versions for {package}")
-                print(fixed_versions)
-                print(cves)
+                f = ", ".join(list(fixed_versions))
+                print(f"[{advisory}] Invalid Versions: {package} ({f})")
                 return None
             return fixed_versions.pop()
 
@@ -90,7 +90,7 @@ def get_osv(cve_data_all_versions):
                             "purl": f"pkg:rpm/vmware/{pkg}?distro=photon-{os_version}",
                         }
                     }
-                    fixed_version = cve_fixed_version(pkg, cves, os_version)
+                    fixed_version = cve_fixed_version(pkg, cves, os_version, advisory)
                     if fixed_version:
                         r["ranges"] = {
                             "events": [
@@ -188,10 +188,11 @@ def __main__():
     for d in get_osv(cve_data):
         fn = f"advisories/{d['id']}.json"
         if os.path.exists(fn):
-            print(f"Updating {fn}")
+            # print(f"Updating {fn}")
             d = merge_advisories(fn, d)
         else:
-            print(f"Creating {fn}")
+            pass
+            # print(f"Creating {fn}")
         if d:
             with open(fn, "w") as f:
                 f.write(json.dumps(d, indent=4, sort_keys=True))
