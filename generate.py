@@ -159,11 +159,9 @@ def merge_advisories(advisory_file, data):
 
     return current
 
-
-def __main__():
-    cve_data = {}
+def fetch_cve_metadata(PHOTON_VERSIONS):
+    cve_metadata = {}
     for branch in PHOTON_VERSIONS:
-        print(f"Fetching CVE Data for Photon OS {branch}.0")
         url = f"https://packages.vmware.com/photon/photon_cve_metadata/cve_data_photon{branch}.0.json"
         with urllib.request.urlopen(url) as r:
             data = json.loads(r.read().decode())
@@ -178,21 +176,22 @@ def __main__():
                 else:
                     print(row)
                     raise Exception("Unimplemented affected version range")
-                if cve in cve_data:
-                    cve_data[cve].append(row)
+                if cve in cve_metadata:
+                    cve_metadata[cve].append(row)
                 else:
-                    cve_data[cve] = [row]
+                    cve_metadata[cve] = [row]
+            print(f"[+] CVE metadata for Photon OS {branch}.0: Added {len(data)} CVEs")
+    return cve_metadata
+
+def __main__():
+    cve_metadata = fetch_cve_metadata(PHOTON_VERSIONS)
 
     for advisory in glob("advisories/*.json"):
         os.remove(advisory)
-    for d in get_osv(cve_data):
+    for d in get_osv(cve_metadata):
         fn = f"advisories/{d['id']}.json"
         if os.path.exists(fn):
-            # print(f"Updating {fn}")
             d = merge_advisories(fn, d)
-        else:
-            pass
-            # print(f"Creating {fn}")
         if d:
             with open(fn, "w") as f:
                 f.write(json.dumps(d, indent=4, sort_keys=True))
