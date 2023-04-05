@@ -55,11 +55,10 @@ def get_osv(cve_data_all_versions):
             fixed_versions = set([
                 x["res_ver"]
                 for cve in cves
-                for x in cve_data_all_versions[cve]
-                if (x["os"] == os_version and x["pkg"] == package)
+                for x in cve_data_all_versions.get(cve, list())
+                if (x and x["os"] == os_version and x["pkg"] == package)
             ])
             # There should only be a single such reference
-            # 
             if len(fixed_versions) != 1:
                 f = ", ".join(list(fixed_versions))
                 print(f"[{advisory}] Invalid Versions: {package} ({f})")
