@@ -159,7 +159,6 @@ def merge_advisories(advisory_file, data):
         if canonicaljson.encode_canonical_json(
             original[key]
         ) != canonicaljson.encode_canonical_json(current[key]):
-            print(f"Found changes in {current['id']} / {key}")
             no_important_changes = False
             break
 
@@ -195,8 +194,10 @@ def fetch_cve_metadata(PHOTON_VERSIONS):
 
 def __main__(advisory_id = None):
     cve_metadata = fetch_cve_metadata(PHOTON_VERSIONS)
+    advisories = set()
 
     for d in get_osv(cve_metadata):
+        advisories.add(d['id'])
         # If we are only running for a single advisory
         # Check and continue if it doesn't match
         if advisory_id and d['id'] != advisory_id:
@@ -207,6 +208,13 @@ def __main__(advisory_id = None):
         if d:
             with open(fn, "wb") as f:
                 f.write(canonicaljson.encode_pretty_printed_json(d))
+
+    # Remove any advisories that are no longer in the upstream data
+    for advisory in os.listdir("advisories"):
+        if advisory.endswith(".json"):
+            if advisory[:-5] not in advisories:
+                print(f"[-] Removing {advisory}")
+                # os.unlink(f"advisories/{advisory}")
 
 
 if __name__ == "__main__":

@@ -20,6 +20,7 @@ republishes the advisories in the OSV format, and syncs them against the
 
 ## TODO:
 
+- [x] Delete advisories that are deleted upstream (Experimental)
 - [x] Automatic Update
 - [ ] Automatic Sync (to GSD)
 - [ ] Schema: Provide `credits`
