@@ -1,6 +1,6 @@
 beautifulsoup4==4.11.1
 bs4==0.0.1
-cffi==1.15.1
+canonicaljson==2.0.0
 Markdown==3.4.1
 pycparser==2.21
 soupsieve==2.3.2.post1
