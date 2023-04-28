@@ -38,7 +38,7 @@
         }
     ],
     "id": "PHSA-2022-0465",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2022-01-26T00:00:00Z",
     "references": [
         {
@@ -50,5 +50,9 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-465"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2022-23218",
+        "CVE-2022-23219",
+        "CVE-2021-3618"
+    ]
 }

@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "libbpf",
+                "purl": "pkg:rpm/vmware/libbpf?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0377",
+    "modified": "2023-04-28T05:25:06Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-3534"
+    ]
+}

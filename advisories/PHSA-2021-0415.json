@@ -92,7 +92,7 @@
         }
     ],
     "id": "PHSA-2021-0415",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2021-07-22T00:00:00Z",
     "references": [
         {
@@ -104,5 +104,10 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-415"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2021-33910",
+        "CVE-2021-41864",
+        "CVE-2020-36322",
+        "CVE-2021-43389"
+    ]
 }

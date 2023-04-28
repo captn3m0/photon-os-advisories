@@ -1,0 +1,40 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.20.2-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0362",
+    "modified": "2023-04-28T05:25:06Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2022-41725",
+        "CVE-2019-9514",
+        "CVE-2022-41724",
+        "CVE-2019-9512",
+        "CVE-2023-24532",
+        "CVE-2022-41723",
+        "CVE-2022-41722"
+    ]
+}

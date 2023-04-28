@@ -38,7 +38,7 @@
         }
     ],
     "id": "PHSA-2020-0278",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2020-02-19T00:00:00Z",
     "references": [
         {
@@ -50,5 +50,8 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-278"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2020-5208",
+        "CVE-2020-7105"
+    ]
 }

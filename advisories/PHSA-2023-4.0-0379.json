@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "libevent",
+                "purl": "pkg:rpm/vmware/libevent?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0379",
+    "modified": "2023-04-28T05:25:06Z",
+    "published": "2021-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+        }
+    ],
+    "related": [
+        "CVE-2016-10196",
+        "CVE-2016-10197",
+        "CVE-2016-10195"
+    ]
+}

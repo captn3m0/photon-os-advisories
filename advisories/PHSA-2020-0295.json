@@ -182,7 +182,7 @@
         }
     ],
     "id": "PHSA-2020-0295",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2020-05-22T00:00:00Z",
     "references": [
         {
@@ -194,5 +194,14 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-295"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2019-18885",
+        "CVE-2020-25704",
+        "CVE-2020-27743",
+        "CVE-2020-25613",
+        "CVE-2020-8694",
+        "CVE-2020-25645",
+        "CVE-2020-27619",
+        "CVE-2020-13943"
+    ]
 }

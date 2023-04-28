@@ -92,7 +92,7 @@
         }
     ],
     "id": "PHSA-2022-0473",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2022-02-18T00:00:00Z",
     "references": [
         {
@@ -104,5 +104,16 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-473"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2021-40528",
+        "CVE-2022-23038",
+        "CVE-2022-28356",
+        "CVE-2022-23040",
+        "CVE-2022-23037",
+        "CVE-2022-23039",
+        "CVE-2022-23036",
+        "CVE-2022-23041",
+        "CVE-2021-4149",
+        "CVE-2022-23042"
+    ]
 }

@@ -128,7 +128,7 @@
         }
     ],
     "id": "PHSA-2020-0281",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2020-02-28T00:00:00Z",
     "references": [
         {
@@ -140,5 +140,18 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-281"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2019-18802",
+        "CVE-2019-17595",
+        "CVE-2019-17594",
+        "CVE-2014-8140",
+        "CVE-2014-8139",
+        "CVE-2014-8141",
+        "CVE-2020-14349",
+        "CVE-2020-7017",
+        "CVE-2020-7019",
+        "CVE-2020-14350",
+        "CVE-2020-7016",
+        "CVE-2020-15166"
+    ]
 }

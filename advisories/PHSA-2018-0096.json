@@ -38,7 +38,7 @@
         }
     ],
     "id": "PHSA-2018-0096",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2018-01-04T00:00:00Z",
     "references": [
         {
@@ -50,5 +50,9 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-96"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2017-17434",
+        "CVE-2017-17433",
+        "CVE-2018-0500"
+    ]
 }

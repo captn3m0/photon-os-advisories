@@ -74,7 +74,7 @@
         }
     ],
     "id": "PHSA-2021-0393",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2021-05-26T00:00:00Z",
     "references": [
         {
@@ -86,5 +86,15 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-393"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2021-22898",
+        "CVE-2021-22901",
+        "CVE-2021-33193",
+        "CVE-2019-11236",
+        "CVE-2019-11324",
+        "CVE-2021-33503",
+        "CVE-2020-26137",
+        "CVE-2018-20060",
+        "CVE-2021-40346"
+    ]
 }

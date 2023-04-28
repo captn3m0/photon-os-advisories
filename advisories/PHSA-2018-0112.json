@@ -38,7 +38,7 @@
         }
     ],
     "id": "PHSA-2018-0112",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2018-03-02T00:00:00Z",
     "references": [
         {
@@ -50,5 +50,8 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-112"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2018-6543",
+        "CVE-2018-1002105"
+    ]
 }

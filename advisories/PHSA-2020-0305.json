@@ -74,7 +74,7 @@
         }
     ],
     "id": "PHSA-2020-0305",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2020-06-25T00:00:00Z",
     "references": [
         {
@@ -86,5 +86,16 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-305"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2020-10766",
+        "CVE-2019-20810",
+        "CVE-2020-14155",
+        "CVE-2019-20811",
+        "CVE-2020-10767",
+        "CVE-2020-10768",
+        "CVE-2017-16231",
+        "CVE-2019-19922",
+        "CVE-2019-20838",
+        "CVE-2020-7768"
+    ]
 }

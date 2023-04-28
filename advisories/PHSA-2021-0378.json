@@ -56,7 +56,7 @@
         }
     ],
     "id": "PHSA-2021-0378",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2021-04-07T00:00:00Z",
     "references": [
         {
@@ -68,5 +68,9 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-378"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2020-8277",
+        "CVE-2021-20266",
+        "CVE-2021-3672"
+    ]
 }

@@ -92,7 +92,7 @@
         }
     ],
     "id": "PHSA-2018-0100",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2018-01-18T00:00:00Z",
     "references": [
         {
@@ -104,5 +104,8 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-100"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2017-17790",
+        "CVE-2018-13053"
+    ]
 }

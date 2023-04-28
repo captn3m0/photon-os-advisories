@@ -128,7 +128,7 @@
         }
     ],
     "id": "PHSA-2020-0304",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2020-06-27T00:00:00Z",
     "references": [
         {
@@ -140,5 +140,15 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-304"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2020-11080",
+        "CVE-2020-8492",
+        "CVE-2020-14147",
+        "CVE-2020-8177",
+        "CVE-2019-18348",
+        "CVE-2020-8286",
+        "CVE-2020-1971",
+        "CVE-2020-8284",
+        "CVE-2020-8285"
+    ]
 }

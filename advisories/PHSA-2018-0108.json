@@ -110,7 +110,7 @@
         }
     ],
     "id": "PHSA-2018-0108",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-04-28T05:25:06Z",
     "published": "2018-02-14T00:00:00Z",
     "references": [
         {
@@ -122,5 +122,17 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-2.0-108"
         }
     ],
-    "related": null
+    "related": [
+        "CVE-2018-1053",
+        "CVE-2018-1000007",
+        "CVE-2017-8816",
+        "CVE-2017-8817",
+        "CVE-2018-1052",
+        "CVE-2017-7500",
+        "CVE-2018-16429",
+        "CVE-2018-16402",
+        "CVE-2018-16428",
+        "CVE-2018-16062",
+        "CVE-2018-1000222"
+    ]
 }
