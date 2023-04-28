@@ -6,6 +6,24 @@
                 "name": "libbpf",
                 "purl": "pkg:rpm/vmware/libbpf?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "libbpf",
+                "purl": "pkg:rpm/vmware/libbpf?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.1.0-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0377",
