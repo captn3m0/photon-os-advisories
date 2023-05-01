@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libssh2",
-                "purl": "pkg:rpm/vmware/libssh2?distro=photon-3"
+                "name": "cairo",
+                "purl": "pkg:rpm/vmware/cairo?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -12,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.8.0-2.ph3"
+                        "fixed": "1.16.0-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -39,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "cairo",
-                "purl": "pkg:rpm/vmware/cairo?distro=photon-3"
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -48,7 +48,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.16.0-1.ph3"
+                        "fixed": "1.8.0-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -56,21 +56,21 @@
         }
     ],
     "id": "PHSA-2019-3.0-0008",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2019-03-29T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-8"
         }
     ],
     "related": [
         "CVE-2019-6461",
-        "CVE-2019-9077",
         "CVE-2019-6462",
-        "CVE-2019-3855",
-        "CVE-2018-19876",
+        "CVE-2019-9077",
         "CVE-2019-9075",
-        "CVE-2018-18064"
+        "CVE-2018-18064",
+        "CVE-2019-3855",
+        "CVE-2018-19876"
     ]
 }

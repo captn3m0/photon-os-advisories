@@ -3,44 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "postgresql10",
-                "purl": "pkg:rpm/vmware/postgresql10?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "10.22-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "postgresql",
-                "purl": "pkg:rpm/vmware/postgresql?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "14.5-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -93,8 +57,44 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+                "name": "postgresql10",
+                "purl": "pkg:rpm/vmware/postgresql10?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "10.22-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "postgresql",
+                "purl": "pkg:rpm/vmware/postgresql?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "14.5-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -110,29 +110,29 @@
         }
     ],
     "id": "PHSA-2022-4.0-0238",
-    "modified": "2023-04-28T05:25:06Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2022-08-26T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-238"
         }
     ],
     "related": [
-        "CVE-2021-33656",
-        "CVE-2022-1508",
         "CVE-2022-33743",
-        "CVE-2022-1789",
-        "CVE-2022-2625",
-        "CVE-2022-34918",
-        "CVE-2022-1852",
-        "CVE-2022-33744",
-        "CVE-2022-1012",
-        "CVE-2022-2327",
+        "CVE-2022-33741",
         "CVE-2022-2078",
+        "CVE-2022-1012",
         "CVE-2022-33742",
-        "CVE-2022-26365",
+        "CVE-2022-33744",
         "CVE-2022-33740",
-        "CVE-2022-33741"
+        "CVE-2022-34918",
+        "CVE-2022-1508",
+        "CVE-2022-1789",
+        "CVE-2022-26365",
+        "CVE-2022-2327",
+        "CVE-2021-33656",
+        "CVE-2022-1852",
+        "CVE-2022-2625"
     ]
 }

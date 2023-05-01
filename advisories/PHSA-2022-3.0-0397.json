@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "ImageMagick",
-                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.1.0.19-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-3"
             },
@@ -35,23 +17,41 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.1.0.19-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2022-3.0-0397",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2022-05-26T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-397"
         }
     ],
     "related": [
+        "CVE-2022-1616",
+        "CVE-2022-1629",
+        "CVE-2022-1114",
         "CVE-2022-1621",
         "CVE-2022-1619",
-        "CVE-2022-1114",
-        "CVE-2022-1629",
-        "CVE-2022-1620",
-        "CVE-2022-1616"
+        "CVE-2022-1620"
     ]
 }

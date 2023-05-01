@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "ansible",
-                "purl": "pkg:rpm/vmware/ansible?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.9.22-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
             },
@@ -35,15 +17,33 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.9.22-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-4.0-0038",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-04-30T05:25:37Z",
+    "published": "2021-06-04T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-38"
         }
     ],
     "related": [

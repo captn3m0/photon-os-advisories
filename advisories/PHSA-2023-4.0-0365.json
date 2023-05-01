@@ -21,24 +21,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "fribidi",
-                "purl": "pkg:rpm/vmware/fribidi?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.0.9-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "gst-plugins-bad",
                 "purl": "pkg:rpm/vmware/gst-plugins-bad?distro=photon-4"
             },
@@ -53,22 +35,40 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "fribidi",
+                "purl": "pkg:rpm/vmware/fribidi?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.0.9-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0365",
-    "modified": "2023-04-28T05:25:06Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2023-03-27T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-365"
         }
     ],
     "related": [
-        "CVE-2022-25309",
-        "CVE-2022-25308",
         "CVE-2022-4904",
+        "CVE-2022-25308",
+        "CVE-2022-25310",
         "CVE-2021-3185",
-        "CVE-2022-25310"
+        "CVE-2022-25309"
     ]
 }

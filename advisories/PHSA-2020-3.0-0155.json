@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.2.14-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "oniguruma",
                 "purl": "pkg:rpm/vmware/oniguruma?distro=photon-3"
             },
@@ -31,6 +13,24 @@
                     },
                     {
                         "fixed": "6.9.3-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.2.14-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,18 +74,18 @@
         }
     ],
     "id": "PHSA-2020-3.0-0155",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2020-10-24T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-155"
         }
     ],
     "related": [
         "CVE-2020-11979",
-        "CVE-2020-26159",
+        "CVE-2020-26116",
         "CVE-2020-15157",
-        "CVE-2020-26116"
+        "CVE-2020-26159"
     ]
 }

@@ -21,24 +21,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "mysql",
-                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.0.26-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
             },
@@ -53,22 +35,40 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.0.26-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-3.0-0281",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-08-10T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-281"
         }
     ],
     "related": [
+        "CVE-2021-2357",
+        "CVE-2021-2339",
         "CVE-2021-32761",
         "CVE-2021-2356",
-        "CVE-2021-2339",
-        "CVE-2021-2357",
         "CVE-2021-2352",
         "CVE-2021-35942",
         "CVE-2021-2354"

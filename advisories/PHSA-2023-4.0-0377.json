@@ -6,33 +6,15 @@
                 "name": "libbpf",
                 "purl": "pkg:rpm/vmware/libbpf?distro=photon-4"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "libbpf",
-                "purl": "pkg:rpm/vmware/libbpf?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.1.0-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
         }
     ],
     "id": "PHSA-2023-4.0-0377",
-    "modified": "2023-04-28T05:25:06Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-04-26T05:24:54Z",
+    "published": "2023-04-16T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-377"
         }
     ],
     "related": [

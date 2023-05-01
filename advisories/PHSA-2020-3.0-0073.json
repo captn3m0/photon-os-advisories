@@ -3,60 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "zsh",
-                "purl": "pkg:rpm/vmware/zsh?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.8-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "bluez",
-                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.52-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.112-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             },
@@ -85,6 +31,24 @@
                     },
                     {
                         "fixed": "4.19.112-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.7.17-3.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -129,8 +93,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
+                "name": "zsh",
+                "purl": "pkg:rpm/vmware/zsh?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -138,7 +102,43 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "2.7.17-3.ph3"
+                        "fixed": "5.8-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.112-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.52-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -146,23 +146,23 @@
         }
     ],
     "id": "PHSA-2020-3.0-0073",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2020-03-27T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-73"
         }
     ],
     "related": [
-        "CVE-2020-0556",
         "CVE-2020-10942",
+        "CVE-2020-8992",
         "CVE-2020-8647",
         "CVE-2020-29370",
         "CVE-2020-8649",
-        "CVE-2020-8992",
-        "CVE-2019-20044",
         "CVE-2020-8648",
+        "CVE-2020-0556",
+        "CVE-2019-20044",
         "CVE-2020-12465",
         "CVE-2019-18348"
     ]

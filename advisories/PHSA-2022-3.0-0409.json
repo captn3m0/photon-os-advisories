@@ -3,60 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.4.54-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.247-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.247-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             },
@@ -67,6 +13,24 @@
                     },
                     {
                         "fixed": "4.19.247-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.4.54-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -93,8 +57,44 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.247-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.247-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -110,30 +110,30 @@
         }
     ],
     "id": "PHSA-2022-3.0-0409",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2022-06-23T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-409"
         }
     ],
     "related": [
-        "CVE-2022-28330",
-        "CVE-2022-26377",
-        "CVE-2022-32981",
+        "CVE-2022-1966",
+        "CVE-2022-28615",
+        "CVE-2022-29404",
         "CVE-2022-1184",
-        "CVE-2022-28614",
-        "CVE-2022-30556",
         "CVE-2022-30522",
-        "CVE-2022-2991",
+        "CVE-2022-26377",
+        "CVE-2022-30556",
+        "CVE-2022-32250",
+        "CVE-2022-28330",
+        "CVE-2022-32981",
+        "CVE-2022-31813",
         "CVE-2022-2503",
+        "CVE-2022-2991",
         "CVE-2022-1652",
         "CVE-2022-0494",
-        "CVE-2022-29404",
-        "CVE-2022-32250",
-        "CVE-2022-31813",
-        "CVE-2022-28615",
-        "CVE-2022-1966"
+        "CVE-2022-28614"
     ]
 }

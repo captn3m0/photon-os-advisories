@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libgd",
-                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.5-8.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "openvswitch",
                 "purl": "pkg:rpm/vmware/openvswitch?distro=photon-3"
             },
@@ -35,15 +17,33 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.5-8.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-3.0-0292",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-04-26T05:24:54Z",
+    "published": "2021-08-31T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-292"
         }
     ],
     "related": [

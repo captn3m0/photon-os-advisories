@@ -20,18 +20,18 @@
         }
     ],
     "id": "PHSA-2022-4.0-0209",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2022-07-11T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-209"
         }
     ],
     "related": [
-        "CVE-2022-2207",
-        "CVE-2022-2206",
+        "CVE-2022-2208",
         "CVE-2022-2210",
-        "CVE-2022-2208"
+        "CVE-2022-2207",
+        "CVE-2022-2206"
     ]
 }

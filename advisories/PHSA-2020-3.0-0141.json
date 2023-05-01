@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "commons-httpclient",
-                "purl": "pkg:rpm/vmware/commons-httpclient?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.1-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "openssl",
                 "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
             },
@@ -35,21 +17,39 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "commons-httpclient",
+                "purl": "pkg:rpm/vmware/commons-httpclient?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.1-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0141",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2020-09-17T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-141"
         }
     ],
     "related": [
-        "CVE-2012-5783",
         "CVE-2020-1968",
         "CVE-2015-5262",
-        "CVE-2014-3577"
+        "CVE-2014-3577",
+        "CVE-2012-5783"
     ]
 }

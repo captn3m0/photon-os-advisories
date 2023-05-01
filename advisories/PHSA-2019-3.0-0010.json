@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "ansible",
-                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -12,25 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "2.7.6-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libxslt",
-                "purl": "pkg:rpm/vmware/libxslt?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.1.32-2.ph3"
+                        "fixed": "1.8.14-3.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -57,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "haproxy",
-                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -66,7 +48,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.8.14-3.ph3"
+                        "fixed": "2.7.6-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -89,22 +71,40 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.1.32-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2019-3.0-0010",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2019-04-19T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-10"
         }
     ],
     "related": [
-        "CVE-2018-20615",
-        "CVE-2017-18342",
         "CVE-2019-3828",
+        "CVE-2018-16850",
+        "CVE-2018-20615",
         "CVE-2019-11068",
-        "CVE-2018-16850"
+        "CVE-2017-18342"
     ]
 }

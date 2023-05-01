@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.4.12-3.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-4"
             },
@@ -35,21 +17,39 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.4.12-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2022-4.0-0159",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2022-03-07T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-159"
         }
     ],
     "related": [
-        "CVE-2022-23806",
-        "CVE-2022-23772",
+        "CVE-2022-23648",
         "CVE-2022-23773",
-        "CVE-2022-23648"
+        "CVE-2022-23806",
+        "CVE-2022-23772"
     ]
 }

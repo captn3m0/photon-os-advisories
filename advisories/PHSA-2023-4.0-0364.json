@@ -38,18 +38,18 @@
         }
     ],
     "id": "PHSA-2023-4.0-0364",
-    "modified": "2023-04-28T05:25:06Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2023-03-24T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-364"
         }
     ],
     "related": [
         "CVE-2020-10001",
-        "CVE-2022-3294",
         "CVE-2022-3162",
+        "CVE-2022-3294",
         "CVE-2019-2228"
     ]
 }

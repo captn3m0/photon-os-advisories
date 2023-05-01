@@ -3,60 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.4.0-6.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.261-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.261-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             },
@@ -93,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "mysql",
-                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -102,7 +48,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "8.0.31-1.ph3"
+                        "fixed": "4.19.261-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -125,41 +71,95 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.4.0-6.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.0.31-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.261-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2022-3.0-0477",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2022-10-26T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-477"
         }
     ],
     "related": [
-        "CVE-2022-21617",
-        "CVE-2022-21594",
-        "CVE-2022-39400",
-        "CVE-2022-21604",
-        "CVE-2022-3570",
-        "CVE-2022-21635",
-        "CVE-2022-21611",
-        "CVE-2022-39408",
         "CVE-2022-21632",
         "CVE-2022-21638",
-        "CVE-2022-2663",
-        "CVE-2022-39402",
-        "CVE-2022-21633",
-        "CVE-2022-3586",
-        "CVE-2022-42703",
-        "CVE-2022-21592",
-        "CVE-2022-39410",
-        "CVE-2022-21608",
-        "CVE-2022-21599",
+        "CVE-2022-21625",
+        "CVE-2022-21617",
+        "CVE-2022-39400",
         "CVE-2022-21641",
-        "CVE-2022-39403",
-        "CVE-2022-21637",
+        "CVE-2022-39402",
+        "CVE-2022-42703",
         "CVE-2022-21640",
-        "CVE-2022-21625"
+        "CVE-2022-21611",
+        "CVE-2022-21594",
+        "CVE-2022-21592",
+        "CVE-2022-39408",
+        "CVE-2022-21604",
+        "CVE-2022-21608",
+        "CVE-2022-21633",
+        "CVE-2022-39410",
+        "CVE-2022-21637",
+        "CVE-2022-39403",
+        "CVE-2022-21599",
+        "CVE-2022-21635",
+        "CVE-2022-3586",
+        "CVE-2022-3570",
+        "CVE-2022-2663"
     ]
 }

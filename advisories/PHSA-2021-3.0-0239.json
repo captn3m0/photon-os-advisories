@@ -21,24 +21,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "tar",
-                "purl": "pkg:rpm/vmware/tar?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.30-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "python-cryptography",
                 "purl": "pkg:rpm/vmware/python-cryptography?distro=photon-3"
             },
@@ -53,20 +35,38 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "tar",
+                "purl": "pkg:rpm/vmware/tar?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.30-5.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-3.0-0239",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-05-19T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-239"
         }
     ],
     "related": [
-        "CVE-2021-30465",
         "CVE-2021-20193",
+        "CVE-2021-30465",
         "CVE-2020-36242"
     ]
 }

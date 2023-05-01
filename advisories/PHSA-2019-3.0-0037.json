@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "e2fsprogs",
-                "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-3"
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -12,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.44.3-3.ph3"
+                        "fixed": "1.13.3-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -39,24 +39,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.13.3-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "file",
                 "purl": "pkg:rpm/vmware/file?distro=photon-3"
             },
@@ -71,22 +53,40 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "e2fsprogs",
+                "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.44.3-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2019-3.0-0037",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2019-10-31T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-37"
         }
     ],
     "related": [
+        "CVE-2019-5094",
         "CVE-2019-17596",
         "CVE-2019-18197",
         "CVE-2019-16276",
-        "CVE-2019-5094",
         "CVE-2019-18218"
     ]
 }

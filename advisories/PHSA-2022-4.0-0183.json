@@ -3,26 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "freetype2",
-                "purl": "pkg:rpm/vmware/freetype2?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.10.2-4.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -57,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+                "name": "freetype2",
+                "purl": "pkg:rpm/vmware/freetype2?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -66,7 +48,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "5.10.109-2.ph4"
+                        "fixed": "2.10.2-4.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -75,8 +57,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -107,37 +89,55 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.109-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2022-4.0-0183",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2022-05-14T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-183"
         }
     ],
     "related": [
-        "CVE-2022-1011",
-        "CVE-2022-24735",
-        "CVE-2022-23040",
-        "CVE-2022-23042",
-        "CVE-2022-27404",
-        "CVE-2022-23036",
-        "CVE-2022-3534",
-        "CVE-2022-27405",
-        "CVE-2022-23039",
-        "CVE-2022-1048",
-        "CVE-2022-27666",
-        "CVE-2022-27406",
-        "CVE-2022-24736",
-        "CVE-2022-28356",
+        "CVE-2022-23038",
         "CVE-2022-23041",
-        "CVE-2022-23960",
+        "CVE-2022-27405",
         "CVE-2022-23037",
-        "CVE-2022-0995",
+        "CVE-2022-23960",
+        "CVE-2022-3534",
+        "CVE-2022-23039",
         "CVE-2022-24958",
-        "CVE-2022-23038"
+        "CVE-2022-23040",
+        "CVE-2022-1048",
+        "CVE-2022-24735",
+        "CVE-2022-27666",
+        "CVE-2022-28356",
+        "CVE-2022-24736",
+        "CVE-2022-23036",
+        "CVE-2022-23042",
+        "CVE-2022-1011",
+        "CVE-2022-27404",
+        "CVE-2022-0995",
+        "CVE-2022-27406"
     ]
 }

@@ -20,17 +20,17 @@
         }
     ],
     "id": "PHSA-2019-3.0-0025",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2019-08-16T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-25"
         }
     ],
     "related": [
-        "CVE-2018-20969",
+        "CVE-2019-13638",
         "CVE-2019-13636",
-        "CVE-2019-13638"
+        "CVE-2018-20969"
     ]
 }

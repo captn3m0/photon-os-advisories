@@ -21,8 +21,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "binutils",
-                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -30,7 +30,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "2.35-2.ph4"
+                        "fixed": "5.10.25-5.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -75,8 +75,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -84,7 +84,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "5.10.25-5.ph4"
+                        "fixed": "2.35-2.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -92,22 +92,22 @@
         }
     ],
     "id": "PHSA-2021-4.0-0017",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-05-04T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-17"
         }
     ],
     "related": [
+        "CVE-2020-16590",
+        "CVE-2021-28876",
+        "CVE-2021-3487",
         "CVE-2020-16591",
         "CVE-2021-20268",
         "CVE-2021-28879",
-        "CVE-2020-16599",
-        "CVE-2020-16590",
-        "CVE-2021-3487",
         "CVE-2021-28878",
-        "CVE-2021-28876"
+        "CVE-2020-16599"
     ]
 }

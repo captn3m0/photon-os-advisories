@@ -74,19 +74,19 @@
         }
     ],
     "id": "PHSA-2023-3.0-0528",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2023-02-08T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-528"
         }
     ],
     "related": [
+        "CVE-2023-22458",
         "CVE-2022-35977",
-        "CVE-2022-48281",
-        "CVE-2020-10735",
         "CVE-2022-2347",
-        "CVE-2023-22458"
+        "CVE-2020-10735",
+        "CVE-2022-48281"
     ]
 }

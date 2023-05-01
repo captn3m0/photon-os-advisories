@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "e2fsprogs",
-                "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-3"
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -12,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.46.5-2.ph3"
+                        "fixed": "1.17-4.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -39,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "krb5",
-                "purl": "pkg:rpm/vmware/krb5?distro=photon-3"
+                "name": "e2fsprogs",
+                "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -48,7 +48,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.17-4.ph3"
+                        "fixed": "1.46.5-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,19 +74,19 @@
         }
     ],
     "id": "PHSA-2023-3.0-0518",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2023-01-19T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-518"
         }
     ],
     "related": [
         "CVE-2022-1304",
         "CVE-2023-22809",
+        "CVE-2022-42252",
         "CVE-2022-45143",
-        "CVE-2022-42898",
-        "CVE-2022-42252"
+        "CVE-2022-42898"
     ]
 }

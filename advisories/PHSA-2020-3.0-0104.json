@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "libjpeg-turbo",
-                "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.0.0-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "perl",
                 "purl": "pkg:rpm/vmware/perl?distro=photon-3"
             },
@@ -31,6 +13,24 @@
                     },
                     {
                         "fixed": "5.28.0-7.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "libjpeg-turbo",
+                "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.0.0-5.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -56,19 +56,19 @@
         }
     ],
     "id": "PHSA-2020-3.0-0104",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2020-06-23T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-104"
         }
     ],
     "related": [
         "CVE-2020-10878",
-        "CVE-2020-12723",
-        "CVE-2020-10543",
         "CVE-2020-10703",
+        "CVE-2020-10543",
+        "CVE-2020-12723",
         "CVE-2020-13790"
     ]
 }

@@ -20,22 +20,22 @@
         }
     ],
     "id": "PHSA-2021-4.0-0063",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-07-20T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-63"
         }
     ],
     "related": [
-        "CVE-2021-28116",
         "CVE-2021-31808",
-        "CVE-2021-33620",
-        "CVE-2021-31807",
         "CVE-2021-31806",
+        "CVE-2021-28116",
+        "CVE-2021-28651",
+        "CVE-2021-31807",
         "CVE-2021-28662",
-        "CVE-2021-28652",
-        "CVE-2021-28651"
+        "CVE-2021-33620",
+        "CVE-2021-28652"
     ]
 }

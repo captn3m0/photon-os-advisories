@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "rsync",
-                "purl": "pkg:rpm/vmware/rsync?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.2.3-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-4"
             },
@@ -35,19 +17,37 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "rsync",
+                "purl": "pkg:rpm/vmware/rsync?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.2.3-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-4.0-0046",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-04-29T05:24:58Z",
+    "published": "2021-06-15T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-46"
         }
     ],
     "related": [
-        "CVE-2020-14387",
-        "CVE-2021-31525"
+        "CVE-2021-31525",
+        "CVE-2020-14387"
     ]
 }

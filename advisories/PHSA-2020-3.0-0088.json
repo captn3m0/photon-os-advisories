@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "elasticsearch",
-                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-3"
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -39,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "kibana",
-                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
+                "name": "elasticsearch",
+                "purl": "pkg:rpm/vmware/elasticsearch?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -56,18 +56,18 @@
         }
     ],
     "id": "PHSA-2020-3.0-0088",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2020-05-10T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-88"
         }
     ],
     "related": [
-        "CVE-2019-7621",
         "CVE-2019-16884",
+        "CVE-2019-7614",
         "CVE-2019-7616",
-        "CVE-2019-7614"
+        "CVE-2019-7621"
     ]
 }

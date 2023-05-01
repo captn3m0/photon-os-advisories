@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "bluez",
-                "purl": "pkg:rpm/vmware/bluez?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.58-5.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "libtiff",
                 "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
             },
@@ -35,20 +17,38 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.58-5.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2022-4.0-0245",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-04-30T05:25:37Z",
+    "published": "2022-09-15T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-245"
         }
     ],
     "related": [
-        "CVE-2022-39177",
         "CVE-2022-2953",
+        "CVE-2022-39177",
         "CVE-2022-39176"
     ]
 }

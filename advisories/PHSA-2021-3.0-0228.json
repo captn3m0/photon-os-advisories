@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "rust",
-                "purl": "pkg:rpm/vmware/rust?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.51.0-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "docker",
                 "purl": "pkg:rpm/vmware/docker?distro=photon-3"
             },
@@ -53,23 +35,41 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "rust",
+                "purl": "pkg:rpm/vmware/rust?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.51.0-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-3.0-0228",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-04-30T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-228"
         }
     ],
     "related": [
+        "CVE-2020-25864",
+        "CVE-2021-21284",
+        "CVE-2021-28876",
         "CVE-2021-21285",
         "CVE-2021-28879",
-        "CVE-2021-21284",
-        "CVE-2021-28878",
-        "CVE-2021-28876",
-        "CVE-2020-25864"
+        "CVE-2021-28878"
     ]
 }

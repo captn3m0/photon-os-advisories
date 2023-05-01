@@ -20,17 +20,17 @@
         }
     ],
     "id": "PHSA-2021-3.0-0342",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-04-29T05:24:58Z",
+    "published": "2021-12-12T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-342"
         }
     ],
     "related": [
-        "CVE-2021-37750",
+        "CVE-2021-36222",
         "CVE-2020-28196",
-        "CVE-2021-36222"
+        "CVE-2021-37750"
     ]
 }

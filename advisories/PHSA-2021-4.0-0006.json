@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "c-ares",
-                "purl": "pkg:rpm/vmware/c-ares?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.16.1-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "perl",
                 "purl": "pkg:rpm/vmware/perl?distro=photon-4"
             },
@@ -31,6 +13,24 @@
                     },
                     {
                         "fixed": "5.30.1-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "c-ares",
+                "purl": "pkg:rpm/vmware/c-ares?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.16.1-2.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -56,18 +56,18 @@
         }
     ],
     "id": "PHSA-2021-4.0-0006",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-03-18T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-6"
         }
     ],
     "related": [
-        "CVE-2020-8277",
         "CVE-2021-22173",
         "CVE-2020-10543",
-        "CVE-2021-22174"
+        "CVE-2021-22174",
+        "CVE-2020-8277"
     ]
 }

@@ -20,12 +20,12 @@
         }
     ],
     "id": "PHSA-2023-4.0-0369",
-    "modified": "2023-04-28T05:25:06Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-04-04T05:24:17Z",
+    "published": "2023-04-03T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-369"
         }
     ],
     "related": [

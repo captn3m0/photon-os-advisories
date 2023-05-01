@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -21,8 +21,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -75,8 +75,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -92,20 +92,20 @@
         }
     ],
     "id": "PHSA-2019-3.0-0030",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2019-09-23T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-30"
         }
     ],
     "related": [
         "CVE-2019-16413",
-        "CVE-2019-16056",
-        "CVE-2019-16714",
         "CVE-2019-15902",
+        "CVE-2019-16994",
         "CVE-2019-16995",
-        "CVE-2019-16994"
+        "CVE-2019-16056",
+        "CVE-2019-16714"
     ]
 }

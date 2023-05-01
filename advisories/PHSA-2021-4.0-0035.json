@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "libxml2",
-                "purl": "pkg:rpm/vmware/libxml2?distro=photon-4"
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -12,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "2.9.11-1.ph4"
+                        "fixed": "1.0.0.rc93-2.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -39,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "runc",
-                "purl": "pkg:rpm/vmware/runc?distro=photon-4"
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -48,7 +48,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.0.0.rc93-2.ph4"
+                        "fixed": "2.9.11-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -56,20 +56,20 @@
         }
     ],
     "id": "PHSA-2021-4.0-0035",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-06-02T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-35"
         }
     ],
     "related": [
-        "CVE-2021-3517",
-        "CVE-2021-20231",
-        "CVE-2021-3537",
-        "CVE-2021-3518",
+        "CVE-2021-20232",
         "CVE-2021-30465",
-        "CVE-2021-20232"
+        "CVE-2021-3537",
+        "CVE-2021-3517",
+        "CVE-2021-3518",
+        "CVE-2021-20231"
     ]
 }

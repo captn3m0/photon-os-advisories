@@ -38,16 +38,16 @@
         }
     ],
     "id": "PHSA-2020-3.0-0106",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-04-30T05:25:37Z",
+    "published": "2020-06-25T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-106"
         }
     ],
     "related": [
-        "CVE-2020-8177",
-        "CVE-2020-7015"
+        "CVE-2020-7015",
+        "CVE-2020-8177"
     ]
 }

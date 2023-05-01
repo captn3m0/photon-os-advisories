@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "openssl",
-                "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.0.2y-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "openldap",
                 "purl": "pkg:rpm/vmware/openldap?distro=photon-3"
             },
@@ -31,6 +13,42 @@
                     },
                     {
                         "fixed": "2.4.57-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "nxtgn-openssl",
+                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.1.1j-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.0.2y-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -71,57 +89,39 @@
                 ],
                 "type": "ECOSYSTEM"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "nxtgn-openssl",
-                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.1.1j-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
         }
     ],
     "id": "PHSA-2021-3.0-0200",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-02-27T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-200"
         }
     ],
     "related": [
-        "CVE-2020-36230",
-        "CVE-2020-36225",
-        "CVE-2021-25281",
-        "CVE-2021-23839",
-        "CVE-2020-36223",
-        "CVE-2020-35662",
-        "CVE-2021-25282",
-        "CVE-2020-36227",
-        "CVE-2020-36228",
-        "CVE-2021-3115",
-        "CVE-2021-3144",
-        "CVE-2020-28243",
-        "CVE-2021-25283",
-        "CVE-2020-36222",
-        "CVE-2020-36221",
-        "CVE-2020-36224",
-        "CVE-2021-23840",
-        "CVE-2020-28972",
-        "CVE-2020-36226",
         "CVE-2020-36229",
+        "CVE-2021-3115",
+        "CVE-2020-36223",
+        "CVE-2021-25283",
+        "CVE-2020-36230",
+        "CVE-2021-25281",
+        "CVE-2020-35662",
+        "CVE-2021-23841",
+        "CVE-2021-23839",
+        "CVE-2020-36227",
+        "CVE-2020-36221",
+        "CVE-2021-23840",
         "CVE-2021-3148",
-        "CVE-2021-23841"
+        "CVE-2021-25282",
+        "CVE-2020-28972",
+        "CVE-2020-36222",
+        "CVE-2020-36225",
+        "CVE-2020-36226",
+        "CVE-2021-3144",
+        "CVE-2020-36224",
+        "CVE-2020-28243",
+        "CVE-2020-36228"
     ]
 }

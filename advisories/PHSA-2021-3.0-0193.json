@@ -3,6 +3,24 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.174-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "cassandra",
                 "purl": "pkg:rpm/vmware/cassandra?distro=photon-3"
             },
@@ -21,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -41,24 +59,6 @@
                 "ecosystem": "photon:3.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.174-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -111,8 +111,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -120,7 +120,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "4.19.174-2.ph3"
+                        "fixed": "4.19.174-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -128,23 +128,23 @@
         }
     ],
     "id": "PHSA-2021-3.0-0193",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-02-12T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-193"
         }
     ],
     "related": [
-        "CVE-2021-3326",
-        "CVE-2020-36158",
-        "CVE-2021-39648",
-        "CVE-2021-3178",
-        "CVE-2021-39657",
-        "CVE-2020-17516",
         "CVE-2021-3347",
+        "CVE-2021-3178",
         "CVE-2021-3348",
-        "CVE-2020-27825"
+        "CVE-2020-17516",
+        "CVE-2021-3326",
+        "CVE-2020-27825",
+        "CVE-2021-39657",
+        "CVE-2020-36158",
+        "CVE-2021-39648"
     ]
 }

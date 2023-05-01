@@ -21,24 +21,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "nginx",
-                "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.16.1-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "libsolv",
                 "purl": "pkg:rpm/vmware/libsolv?distro=photon-3"
             },
@@ -89,22 +71,40 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.16.1-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0057",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2020-02-14T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-57"
         }
     ],
     "related": [
-        "CVE-2019-20372",
+        "CVE-2019-10773",
         "CVE-2019-9674",
         "CVE-2019-20387",
-        "CVE-2019-10773",
-        "CVE-2019-18276"
+        "CVE-2019-18276",
+        "CVE-2019-20372"
     ]
 }

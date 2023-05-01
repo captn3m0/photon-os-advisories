@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "ruby",
-                "purl": "pkg:rpm/vmware/ruby?distro=photon-4"
+                "name": "subversion",
+                "purl": "pkg:rpm/vmware/subversion?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -12,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "2.7.3-1.ph4"
+                        "fixed": "1.14.1-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -39,6 +39,24 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.32-5.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
                 "name": "openvswitch",
                 "purl": "pkg:rpm/vmware/openvswitch?distro=photon-4"
             },
@@ -57,8 +75,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "subversion",
-                "purl": "pkg:rpm/vmware/subversion?distro=photon-4"
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -66,25 +84,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.14.1-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.32-5.ph4"
+                        "fixed": "2.7.3-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,31 +110,31 @@
         }
     ],
     "id": "PHSA-2021-4.0-0008",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-04-13T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-8"
         }
     ],
     "related": [
-        "CVE-2020-36228",
         "CVE-2020-36230",
-        "CVE-2020-36227",
-        "CVE-2020-36226",
-        "CVE-2020-36225",
-        "CVE-2020-36222",
-        "CVE-2020-36221",
-        "CVE-2020-36224",
-        "CVE-2020-36229",
-        "CVE-2020-17525",
-        "CVE-2021-3470",
-        "CVE-2020-27618",
-        "CVE-2020-36223",
         "CVE-2020-27827",
-        "CVE-2021-27212",
+        "CVE-2020-36222",
+        "CVE-2020-27618",
+        "CVE-2020-36229",
+        "CVE-2020-36225",
+        "CVE-2020-36226",
+        "CVE-2020-36224",
+        "CVE-2020-25692",
+        "CVE-2020-36227",
+        "CVE-2020-36221",
+        "CVE-2020-36228",
+        "CVE-2020-17525",
         "CVE-2013-1655",
-        "CVE-2020-25692"
+        "CVE-2020-36223",
+        "CVE-2021-3470",
+        "CVE-2021-27212"
     ]
 }

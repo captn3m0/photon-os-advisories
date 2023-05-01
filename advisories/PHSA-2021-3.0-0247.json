@@ -38,16 +38,16 @@
         }
     ],
     "id": "PHSA-2021-3.0-0247",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-04-28T05:25:06Z",
+    "published": "2021-06-03T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-247"
         }
     ],
     "related": [
-        "CVE-2020-13597",
-        "CVE-2020-8565"
+        "CVE-2020-8565",
+        "CVE-2020-13597"
     ]
 }

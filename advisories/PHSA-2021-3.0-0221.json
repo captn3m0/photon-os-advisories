@@ -3,8 +3,44 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.186-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "rpm",
+                "purl": "pkg:rpm/vmware/rpm?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.14.2-10.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -39,42 +75,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.186-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.186-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             },
@@ -93,8 +93,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "rpm",
-                "purl": "pkg:rpm/vmware/rpm?distro=photon-3"
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -102,7 +102,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "4.14.2-10.ph3"
+                        "fixed": "4.19.186-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,28 +110,28 @@
         }
     ],
     "id": "PHSA-2021-3.0-0221",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-04-20T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-221"
         }
     ],
     "related": [
-        "CVE-2021-29264",
-        "CVE-2021-28971",
+        "CVE-2021-31916",
         "CVE-2021-29154",
+        "CVE-2021-28971",
+        "CVE-2021-3421",
+        "CVE-2021-29647",
+        "CVE-2021-20271",
+        "CVE-2021-0941",
+        "CVE-2021-28660",
+        "CVE-2021-29264",
         "CVE-2021-3483",
-        "CVE-2021-28964",
-        "CVE-2021-29650",
         "CVE-2021-28688",
         "CVE-2021-28972",
-        "CVE-2021-28660",
-        "CVE-2021-29647",
-        "CVE-2021-0941",
-        "CVE-2021-31916",
-        "CVE-2021-20271",
-        "CVE-2021-3421"
+        "CVE-2021-29650",
+        "CVE-2021-28964"
     ]
 }

@@ -38,16 +38,16 @@
         }
     ],
     "id": "PHSA-2022-4.0-0224",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-04-27T05:25:52Z",
+    "published": "2022-08-06T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-224"
         }
     ],
     "related": [
-        "CVE-2021-46828",
-        "CVE-2021-46784"
+        "CVE-2021-46784",
+        "CVE-2021-46828"
     ]
 }

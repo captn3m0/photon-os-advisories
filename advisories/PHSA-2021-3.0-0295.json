@@ -38,16 +38,16 @@
         }
     ],
     "id": "PHSA-2021-3.0-0295",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-09-04T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-295"
         }
     ],
     "related": [
-        "CVE-2021-38604",
-        "CVE-2021-38185"
+        "CVE-2021-38185",
+        "CVE-2021-38604"
     ]
 }

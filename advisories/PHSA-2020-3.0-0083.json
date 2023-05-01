@@ -3,6 +3,24 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "lz4",
+                "purl": "pkg:rpm/vmware/lz4?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.2-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "sqlite",
                 "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
             },
@@ -13,24 +31,6 @@
                     },
                     {
                         "fixed": "3.31.1-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "ansible",
-                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.8.10-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -57,8 +57,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "unzip",
-                "purl": "pkg:rpm/vmware/unzip?distro=photon-3"
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -66,7 +66,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "6.0-15.ph3"
+                        "fixed": "2.8.10-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -93,8 +93,8 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "lz4",
-                "purl": "pkg:rpm/vmware/lz4?distro=photon-3"
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -102,7 +102,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.9.2-1.ph3"
+                        "fixed": "6.0-15.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,32 +110,32 @@
         }
     ],
     "id": "PHSA-2020-3.0-0083",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2020-04-23T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-83"
         }
     ],
     "related": [
-        "CVE-2020-2800",
-        "CVE-2020-2767",
-        "CVE-2020-1733",
-        "CVE-2020-2816",
-        "CVE-2020-1712",
-        "CVE-2020-2756",
-        "CVE-2020-2778",
-        "CVE-2019-17543",
-        "CVE-2020-2803",
-        "CVE-2020-2754",
-        "CVE-2020-2755",
         "CVE-2020-2773",
-        "CVE-2020-9327",
-        "CVE-2020-2781",
         "CVE-2020-2830",
-        "CVE-2020-2805",
+        "CVE-2020-1733",
         "CVE-2018-1000035",
-        "CVE-2020-2757"
+        "CVE-2020-2778",
+        "CVE-2020-2756",
+        "CVE-2020-2800",
+        "CVE-2020-9327",
+        "CVE-2020-2754",
+        "CVE-2019-17543",
+        "CVE-2020-2757",
+        "CVE-2020-2781",
+        "CVE-2020-2767",
+        "CVE-2020-2805",
+        "CVE-2020-1712",
+        "CVE-2020-2816",
+        "CVE-2020-2803",
+        "CVE-2020-2755"
     ]
 }

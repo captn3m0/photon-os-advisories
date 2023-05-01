@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "sqlite",
-                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.27.2-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-3"
             },
@@ -31,6 +13,24 @@
                     },
                     {
                         "fixed": "1.9.7-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.27.2-3.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -56,17 +56,17 @@
         }
     ],
     "id": "PHSA-2019-3.0-0018",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2019-06-12T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-18"
         }
     ],
     "related": [
+        "CVE-2019-12450",
         "CVE-2019-8457",
-        "CVE-2018-16875",
-        "CVE-2019-12450"
+        "CVE-2018-16875"
     ]
 }

@@ -3,6 +3,24 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "kibana",
+                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.4.3-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "systemd",
                 "purl": "pkg:rpm/vmware/systemd?distro=photon-3"
             },
@@ -35,38 +53,20 @@
                 ],
                 "type": "ECOSYSTEM"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "kibana",
-                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.4.3-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
         }
     ],
     "id": "PHSA-2019-3.0-0012",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2019-04-25T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-12"
         }
     ],
     "related": [
+        "CVE-2019-9936",
         "CVE-2019-7609",
-        "CVE-2019-3842",
-        "CVE-2019-9936"
+        "CVE-2019-3842"
     ]
 }

@@ -38,16 +38,16 @@
         }
     ],
     "id": "PHSA-2020-3.0-0161",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-04-29T05:24:58Z",
+    "published": "2020-11-07T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-161"
         }
     ],
     "related": [
-        "CVE-2020-13943",
-        "CVE-2020-27619"
+        "CVE-2020-27619",
+        "CVE-2020-13943"
     ]
 }

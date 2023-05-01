@@ -21,24 +21,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "kafka",
-                "purl": "pkg:rpm/vmware/kafka?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.0.0-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "lua",
                 "purl": "pkg:rpm/vmware/lua?distro=photon-4"
             },
@@ -53,25 +35,43 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "kafka",
+                "purl": "pkg:rpm/vmware/kafka?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.0.0-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-4.0-0130",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-11-28T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-130"
         }
     ],
     "related": [
         "CVE-2021-41772",
-        "CVE-2021-34558",
-        "CVE-2021-38153",
-        "CVE-2021-38297",
         "CVE-2021-41771",
+        "CVE-2021-29923",
         "CVE-2021-43519",
+        "CVE-2021-38297",
         "CVE-2021-36221",
-        "CVE-2021-29923"
+        "CVE-2021-34558",
+        "CVE-2021-38153"
     ]
 }

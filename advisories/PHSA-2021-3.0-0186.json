@@ -3,24 +3,6 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
-                "name": "nodejs",
-                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "10.22.1-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
                 "name": "atftp",
                 "purl": "pkg:rpm/vmware/atftp?distro=photon-3"
             },
@@ -57,6 +39,24 @@
         {
             "package": {
                 "ecosystem": "photon:3.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "10.22.1-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
                 "name": "sudo",
                 "purl": "pkg:rpm/vmware/sudo?distro=photon-3"
             },
@@ -74,24 +74,24 @@
         }
     ],
     "id": "PHSA-2021-3.0-0186",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2021-01-22T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-186"
         }
     ],
     "related": [
-        "CVE-2020-8265",
-        "CVE-2020-6097",
-        "CVE-2020-25682",
         "CVE-2020-25686",
-        "CVE-2021-23240",
-        "CVE-2020-25685",
-        "CVE-2020-25687",
+        "CVE-2020-8265",
         "CVE-2020-25684",
+        "CVE-2021-23240",
         "CVE-2020-25681",
-        "CVE-2020-25683"
+        "CVE-2020-25687",
+        "CVE-2020-25683",
+        "CVE-2020-25685",
+        "CVE-2020-25682",
+        "CVE-2020-6097"
     ]
 }

@@ -3,44 +3,44 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.4.0-3.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.118-4.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.118-5.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "lua",
+                "purl": "pkg:rpm/vmware/lua?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.4.4-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -75,8 +75,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -84,7 +84,25 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "5.10.118-5.ph4"
+                        "fixed": "5.10.118-6.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.4.0-3.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -111,24 +129,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.118-6.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "ImageMagick",
                 "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
             },
@@ -147,8 +147,8 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "lua",
-                "purl": "pkg:rpm/vmware/lua?distro=photon-4"
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -156,7 +156,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "5.4.4-3.ph4"
+                        "fixed": "5.10.118-4.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -164,23 +164,23 @@
         }
     ],
     "id": "PHSA-2022-4.0-0214",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2022-07-21T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-214"
         }
     ],
     "related": [
-        "CVE-2022-32547",
         "CVE-2022-29526",
         "CVE-2022-32545",
-        "CVE-2022-2058",
-        "CVE-2022-2057",
-        "CVE-2022-2056",
         "CVE-2022-33099",
+        "CVE-2022-2057",
+        "CVE-2022-32547",
+        "CVE-2022-2056",
+        "CVE-2022-32546",
         "CVE-2022-21505",
-        "CVE-2022-32546"
+        "CVE-2022-2058"
     ]
 }

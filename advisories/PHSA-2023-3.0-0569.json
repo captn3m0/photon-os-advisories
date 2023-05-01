@@ -5,13 +5,6 @@
                 "ecosystem": "photon:3.0",
                 "name": "libxml2",
                 "purl": "pkg:rpm/vmware/libxml2?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libxml2",
-                "purl": "pkg:rpm/vmware/libxml2?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -27,12 +20,12 @@
         }
     ],
     "id": "PHSA-2023-3.0-0569",
-    "modified": "2023-04-28T05:25:06Z",
-    "published": "2019-03-06T00:00:00Z",
+    "modified": "2023-04-24T05:24:44Z",
+    "published": "2023-04-23T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-3"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-569"
         }
     ],
     "related": [

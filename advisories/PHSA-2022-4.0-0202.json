@@ -21,24 +21,6 @@
         {
             "package": {
                 "ecosystem": "photon:4.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.4.0-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
                 "name": "openssl",
                 "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
             },
@@ -53,28 +35,46 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.4.0-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2022-4.0-0202",
-    "modified": "2023-03-16T05:25:30Z",
-    "published": "2021-03-12T00:00:00Z",
+    "modified": "2023-05-01T05:24:55Z",
+    "published": "2022-06-22T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-4"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-202"
         }
     ],
     "related": [
-        "CVE-2022-28330",
-        "CVE-2022-26377",
-        "CVE-2022-28614",
-        "CVE-2022-30556",
-        "CVE-2022-30522",
-        "CVE-2022-1623",
-        "CVE-2022-2068",
+        "CVE-2022-28615",
         "CVE-2022-29404",
-        "CVE-2022-31813",
+        "CVE-2022-30522",
+        "CVE-2022-26377",
+        "CVE-2022-2068",
+        "CVE-2022-1623",
+        "CVE-2022-30556",
         "CVE-2022-1622",
-        "CVE-2022-28615"
+        "CVE-2022-28330",
+        "CVE-2022-31813",
+        "CVE-2022-28614"
     ]
 }
