@@ -6,6 +6,24 @@
                 "name": "nginx",
                 "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:4.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.22.0-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0342",
