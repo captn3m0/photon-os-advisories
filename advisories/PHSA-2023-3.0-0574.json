@@ -6,10 +6,28 @@
                 "name": "net-snmp",
                 "purl": "pkg:rpm/vmware/net-snmp?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "net-snmp",
+                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.8-10.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0574",
-    "modified": "2023-04-29T05:24:58Z",
+    "modified": "2023-05-01T05:24:55Z",
     "published": "2019-03-06T00:00:00Z",
     "references": [
         {
