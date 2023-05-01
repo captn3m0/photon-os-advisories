@@ -38,7 +38,7 @@ def created_date(file):
 
 
 def advisory_slug(os_version, advisory):
-    _id = int(float(advisory.split("-")[2]))
+    _id = int(float(advisory.split("-")[-1]))
     return f"{os_version}.0-{_id}"
 
 
@@ -126,9 +126,10 @@ def merge_advisories(advisory_file, data):
         current = copy.deepcopy(original)
     # merge the data
     assert current["id"] == data["id"]
+
     # Add any new data, but use a set, to avoid
     # duplicate entries
-    for key in ['affected', 'references', 'related']:
+    for key in ['affected', 'related', 'references']:
         if current[key]:
             current[key].extend(data[key])
             current[key] = dedup_dicts(current[key])
