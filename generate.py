@@ -166,6 +166,11 @@ def merge_advisories(advisory_file, data):
     if no_important_changes:
         return None
 
+    # If there were important changes, but modified hasn't changed
+    # bump the timestamp so downstream can pick up changes
+    if original['modified'] == current['modified']:
+        current['modified'] = datetime.utcnow().isoformat("T") + "Z"
+
     return current
 
 def fetch_cve_metadata(PHOTON_VERSIONS):
