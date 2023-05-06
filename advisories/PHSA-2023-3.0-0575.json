@@ -1,0 +1,42 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "dmidecode",
+                "purl": "pkg:rpm/vmware/dmidecode?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "freetype2",
+                "purl": "pkg:rpm/vmware/freetype2?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "photon:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0575",
+    "modified": "2023-05-06T05:25:04Z",
+    "published": "2023-05-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-575"
+        }
+    ],
+    "related": [
+        "CVE-2023-24539",
+        "CVE-2023-29400",
+        "CVE-2023-2004",
+        "CVE-2023-29013",
+        "CVE-2023-24540",
+        "CVE-2023-30630"
+    ]
+}
