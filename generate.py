@@ -87,7 +87,7 @@ def get_osv(cve_data_all_versions):
                 def affected(pkg, cves, os_version):
                     r = {
                         "package": {
-                            "ecosystem": f"photon:{os_version}.0",
+                            "ecosystem": f"Photon OS:{os_version}.0",
                             "name": pkg,
                             "purl": f"pkg:rpm/vmware/{pkg}?distro=photon-{os_version}",
                         }
