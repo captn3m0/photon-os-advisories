@@ -35,10 +35,46 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:1.0",
+                "name": "salt3",
+                "purl": "pkg:rpm/vmware/salt3?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2019.2.4-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:1.0",
+                "name": "salt",
+                "purl": "pkg:rpm/vmware/salt?distro=photon-1"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2019.2.4-2.ph1"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-0364",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-05-07T05:25:00Z",
     "published": "2021-02-27T00:00:00Z",
     "references": [
         {

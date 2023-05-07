@@ -20,10 +20,31 @@
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "dmidecode",
+                "purl": "pkg:rpm/vmware/dmidecode?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "freetype2",
+                "purl": "pkg:rpm/vmware/freetype2?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0575",
-    "modified": "2023-05-06T05:25:04Z",
+    "modified": "2023-05-07T05:25:00Z",
     "published": "2023-05-05T00:00:00Z",
     "references": [
         {

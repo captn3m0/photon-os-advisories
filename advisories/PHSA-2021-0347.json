@@ -35,10 +35,46 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:2.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.0.0.rc93-2.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:2.0",
+                "name": "python-cryptography",
+                "purl": "pkg:rpm/vmware/python-cryptography?distro=photon-2"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.3.1-2.ph2"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-0347",
-    "modified": "2023-03-16T05:25:30Z",
+    "modified": "2023-05-07T05:25:00Z",
     "published": "2021-05-19T00:00:00Z",
     "references": [
         {

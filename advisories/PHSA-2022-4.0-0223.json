@@ -17,10 +17,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rsync",
+                "purl": "pkg:rpm/vmware/rsync?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.2.4-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2022-4.0-0223",
-    "modified": "2023-03-31T02:19:57Z",
+    "modified": "2023-05-07T05:25:00Z",
     "published": "2022-08-04T00:00:00Z",
     "references": [
         {

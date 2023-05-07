@@ -6,10 +6,17 @@
                 "name": "freetype2",
                 "purl": "pkg:rpm/vmware/freetype2?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "freetype2",
+                "purl": "pkg:rpm/vmware/freetype2?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0384",
-    "modified": "2023-05-05T05:25:30Z",
+    "modified": "2023-05-07T05:25:00Z",
     "published": "2023-04-29T00:00:00Z",
     "references": [
         {

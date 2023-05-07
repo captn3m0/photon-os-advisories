@@ -17,10 +17,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "python-Twisted",
+                "purl": "pkg:rpm/vmware/python-Twisted?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "19.10.0-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0109",
-    "modified": "2023-04-27T05:25:52Z",
+    "modified": "2023-05-07T05:25:00Z",
     "published": "2020-07-03T00:00:00Z",
     "references": [
         {

@@ -17,10 +17,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.8-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-4.0-0075",
-    "modified": "2023-04-27T05:25:52Z",
+    "modified": "2023-05-07T05:25:00Z",
     "published": "2021-08-03T00:00:00Z",
     "references": [
         {
