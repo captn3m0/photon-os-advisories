@@ -2,78 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.190-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.28-13.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.190-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.190-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
@@ -103,6 +31,24 @@
                     },
                     {
                         "fixed": "4.19.190-5.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.190-3.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0251",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-14T05:24:59Z",
     "published": "2021-06-09T00:00:00Z",
     "references": [
         {
@@ -119,7 +65,7 @@
         }
     ],
     "related": [
-        "CVE-2021-3573",
-        "CVE-2021-33574"
+        "CVE-2021-33574",
+        "CVE-2021-3573"
     ]
 }

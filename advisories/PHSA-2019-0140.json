@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.6.5-5.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.26-15.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "python3",
                 "purl": "pkg:rpm/vmware/python3?distro=photon-2"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2019-0140",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-25T17:51:42Z",
     "published": "2019-03-14T00:00:00Z",
     "references": [
         {

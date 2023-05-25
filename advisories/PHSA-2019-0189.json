@@ -2,114 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.9.201-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.9.201-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.9.201-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.9.201-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "libarchive",
-                "purl": "pkg:rpm/vmware/libarchive?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.3.1-5.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "libxslt",
-                "purl": "pkg:rpm/vmware/libxslt?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.1.29-7.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-2"
@@ -218,7 +110,7 @@
         }
     ],
     "id": "PHSA-2019-0189",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-25T17:51:42Z",
     "published": "2019-11-14T00:00:00Z",
     "references": [
         {

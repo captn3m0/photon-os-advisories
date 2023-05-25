@@ -2,60 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "sqlite-autoconf",
-                "purl": "pkg:rpm/vmware/sqlite-autoconf?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.32.1-2.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "apache-tomcat",
-                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.5.51-3.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "net-snmp",
-                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.7.3-10.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "sqlite-autoconf",
                 "purl": "pkg:rpm/vmware/sqlite-autoconf?distro=photon-1"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2020-0308",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-26T07:02:13Z",
     "published": "2020-07-15T00:00:00Z",
     "references": [
         {

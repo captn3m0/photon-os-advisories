@@ -2,60 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "mysql",
-                "purl": "pkg:rpm/vmware/mysql?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.7.37-1.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "expat",
-                "purl": "pkg:rpm/vmware/expat?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.9-5.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "bindutils",
-                "purl": "pkg:rpm/vmware/bindutils?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "9.16.27-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "mysql",
                 "purl": "pkg:rpm/vmware/mysql?distro=photon-1"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2022-0467",
-    "modified": "2023-05-07T11:51:37.369245Z",
+    "modified": "2022-04-19T01:12:05Z",
     "published": "2022-02-04T00:00:00Z",
     "references": [
         {

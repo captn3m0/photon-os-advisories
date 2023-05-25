@@ -2,132 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "libvirt",
-                "purl": "pkg:rpm/vmware/libvirt?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.2.0-3.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.4.104-1.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "subversion",
-                "purl": "pkg:rpm/vmware/subversion?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.9.4-4.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "ncurses",
-                "purl": "pkg:rpm/vmware/ncurses?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.0-8.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "apr",
-                "purl": "pkg:rpm/vmware/apr?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.5.2-7.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.4.104-1.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "krb5",
-                "purl": "pkg:rpm/vmware/krb5?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.16-1.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "libvirt",
                 "purl": "pkg:rpm/vmware/libvirt?distro=photon-1"
@@ -254,7 +128,7 @@
         }
     ],
     "id": "PHSA-2017-0093",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-26T07:02:13Z",
     "published": "2017-12-18T00:00:00Z",
     "references": [
         {

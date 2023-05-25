@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "dhcp",
-                "purl": "pkg:rpm/vmware/dhcp?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.4.2-6.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "dhcp",
                 "purl": "pkg:rpm/vmware/dhcp?distro=photon-4"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-4.0-0259",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-14T05:24:59Z",
     "published": "2022-10-06T00:00:00Z",
     "references": [
         {
@@ -47,7 +29,7 @@
         }
     ],
     "related": [
-        "CVE-2022-2929",
-        "CVE-2022-2928"
+        "CVE-2022-2928",
+        "CVE-2022-2929"
     ]
 }

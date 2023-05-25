@@ -2,78 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "gnutls",
-                "purl": "pkg:rpm/vmware/gnutls?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.6.3-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "apache-tomcat",
-                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.5.40-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "wpa_supplicant",
-                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.7-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "wpa_supplicant",
-                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.7-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "apache-tomcat",
                 "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
@@ -103,6 +31,24 @@
                     },
                     {
                         "fixed": "3.6.3-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "wpa_supplicant",
+                "purl": "pkg:rpm/vmware/wpa_supplicant?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.7-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2019-3.0-0011",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2019-04-23T00:00:00Z",
     "references": [
         {
@@ -119,12 +65,12 @@
         }
     ],
     "related": [
-        "CVE-2019-9497",
-        "CVE-2019-3829",
         "CVE-2019-9498",
         "CVE-2019-3836",
-        "CVE-2019-9499",
+        "CVE-2019-9496",
         "CVE-2019-0199",
-        "CVE-2019-9496"
+        "CVE-2019-9497",
+        "CVE-2019-3829",
+        "CVE-2019-9499"
     ]
 }

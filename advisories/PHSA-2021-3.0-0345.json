@@ -2,97 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "runc",
-                "purl": "pkg:rpm/vmware/runc?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.0.0.rc93-9.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             },
@@ -111,8 +21,26 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.0.0.rc93-9.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -129,8 +57,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "runc",
-                "purl": "pkg:rpm/vmware/runc?distro=photon-3"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -138,7 +66,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.0.0.rc93-9.ph3"
+                        "fixed": "4.19.219-3.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -175,42 +103,6 @@
                     },
                     {
                         "fixed": "4.19.219-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -218,7 +110,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0345",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-12-20T00:00:00Z",
     "references": [
         {
@@ -227,7 +119,7 @@
         }
     ],
     "related": [
-        "CVE-2020-36385",
-        "CVE-2021-43784"
+        "CVE-2021-43784",
+        "CVE-2020-36385"
     ]
 }

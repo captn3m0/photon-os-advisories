@@ -2,97 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.132-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.132-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.132-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "postgresql10",
-                "purl": "pkg:rpm/vmware/postgresql10?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "10.22-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "postgresql",
-                "purl": "pkg:rpm/vmware/postgresql?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "14.5-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
             },
@@ -111,24 +21,6 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.132-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
                 "name": "postgresql",
                 "purl": "pkg:rpm/vmware/postgresql?distro=photon-4"
             },
@@ -139,6 +31,42 @@
                     },
                     {
                         "fixed": "14.5-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.132-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.132-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -175,42 +103,6 @@
                     },
                     {
                         "fixed": "10.22-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.132-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.132-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -218,7 +110,7 @@
         }
     ],
     "id": "PHSA-2022-4.0-0238",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-08-26T00:00:00Z",
     "references": [
         {
@@ -227,20 +119,20 @@
         }
     ],
     "related": [
-        "CVE-2022-33743",
-        "CVE-2022-33741",
-        "CVE-2022-2078",
-        "CVE-2022-1012",
         "CVE-2022-33742",
-        "CVE-2022-33744",
-        "CVE-2022-33740",
-        "CVE-2022-34918",
+        "CVE-2022-33743",
         "CVE-2022-1508",
-        "CVE-2022-1789",
+        "CVE-2022-2078",
+        "CVE-2021-33656",
+        "CVE-2022-33740",
+        "CVE-2022-2625",
         "CVE-2022-26365",
         "CVE-2022-2327",
-        "CVE-2021-33656",
+        "CVE-2022-34918",
+        "CVE-2022-33741",
+        "CVE-2022-1789",
+        "CVE-2022-33744",
         "CVE-2022-1852",
-        "CVE-2022-2625"
+        "CVE-2022-1012"
     ]
 }

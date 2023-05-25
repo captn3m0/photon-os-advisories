@@ -2,7 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "kubernetes",
                 "purl": "pkg:rpm/vmware/kubernetes?distro=photon-4"
             },
@@ -13,24 +13,6 @@
                     },
                     {
                         "fixed": "1.23.9-10.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "cups",
-                "purl": "pkg:rpm/vmware/cups?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.7-3.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -49,24 +31,6 @@
                     },
                     {
                         "fixed": "2.2.7-3.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "kubernetes",
-                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.23.9-10.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2023-4.0-0364",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2023-03-24T00:00:00Z",
     "references": [
         {
@@ -84,8 +48,8 @@
     ],
     "related": [
         "CVE-2020-10001",
+        "CVE-2019-2228",
         "CVE-2022-3162",
-        "CVE-2022-3294",
-        "CVE-2019-2228"
+        "CVE-2022-3294"
     ]
 }

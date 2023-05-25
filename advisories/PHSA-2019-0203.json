@@ -2,132 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "systemd",
-                "purl": "pkg:rpm/vmware/systemd?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "228-49.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.4.37-1.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "strongswan",
-                "purl": "pkg:rpm/vmware/strongswan?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.5.2-4.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.59.0-4.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "binutils",
-                "purl": "pkg:rpm/vmware/binutils?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.31-2.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.7.15-3.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "net-snmp",
-                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.7.3-7.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "systemd",
                 "purl": "pkg:rpm/vmware/systemd?distro=photon-1"
@@ -254,7 +128,7 @@
         }
     ],
     "id": "PHSA-2019-0203",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-26T07:02:13Z",
     "published": "2019-01-18T00:00:00Z",
     "references": [
         {

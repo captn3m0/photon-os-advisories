@@ -2,78 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "docker",
-                "purl": "pkg:rpm/vmware/docker?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "18.09.9-5.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "erlang",
-                "purl": "pkg:rpm/vmware/erlang?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "19.3-3.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "rpm",
-                "purl": "pkg:rpm/vmware/rpm?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.14.2-1.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "tcl",
-                "purl": "pkg:rpm/vmware/tcl?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.6.6-5.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "docker",
                 "purl": "pkg:rpm/vmware/docker?distro=photon-1"
@@ -146,7 +74,7 @@
         }
     ],
     "id": "PHSA-2021-0414",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-26T07:02:13Z",
     "published": "2021-07-21T00:00:00Z",
     "references": [
         {

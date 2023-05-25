@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "strongswan",
-                "purl": "pkg:rpm/vmware/strongswan?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.5.2-6.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "strongswan",
                 "purl": "pkg:rpm/vmware/strongswan?distro=photon-2"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2019-0125",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-25T17:51:42Z",
     "published": "2019-01-29T00:00:00Z",
     "references": [
         {

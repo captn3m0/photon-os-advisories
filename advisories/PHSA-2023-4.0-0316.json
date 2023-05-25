@@ -2,25 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "openvswitch",
-                "purl": "pkg:rpm/vmware/openvswitch?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.14.0-12.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "sudo",
                 "purl": "pkg:rpm/vmware/sudo?distro=photon-4"
             },
@@ -49,24 +31,6 @@
                     },
                     {
                         "fixed": "2.14.0-12.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "sudo",
-                "purl": "pkg:rpm/vmware/sudo?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.9.5-3.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2023-4.0-0316",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-12T05:25:09Z",
     "published": "2023-01-18T00:00:00Z",
     "references": [
         {
@@ -83,8 +47,8 @@
         }
     ],
     "related": [
-        "CVE-2022-4338",
         "CVE-2022-4337",
-        "CVE-2023-22809"
+        "CVE-2023-22809",
+        "CVE-2022-4338"
     ]
 }

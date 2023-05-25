@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "mariadb",
-                "purl": "pkg:rpm/vmware/mariadb?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "10.9.4-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "git",
-                "purl": "pkg:rpm/vmware/git?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.35.6-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "git",
                 "purl": "pkg:rpm/vmware/git?distro=photon-4"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2023-4.0-0327",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-14T05:24:59Z",
     "published": "2023-02-06T00:00:00Z",
     "references": [
         {
@@ -83,8 +47,8 @@
         }
     ],
     "related": [
-        "CVE-2022-23521",
+        "CVE-2022-41903",
         "CVE-2022-47015",
-        "CVE-2022-41903"
+        "CVE-2022-23521"
     ]
 }

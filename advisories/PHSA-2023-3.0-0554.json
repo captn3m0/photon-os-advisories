@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.2.5169-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-3"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2023-3.0-0554",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2023-03-21T00:00:00Z",
     "references": [
         {
@@ -47,11 +29,11 @@
         }
     ],
     "related": [
-        "CVE-2022-3520",
-        "CVE-2022-4292",
         "CVE-2022-2946",
+        "CVE-2022-4292",
         "CVE-2022-3324",
         "CVE-2022-3591",
+        "CVE-2022-3520",
         "CVE-2022-2819"
     ]
 }

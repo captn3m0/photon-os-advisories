@@ -2,25 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.2.7-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "bluez",
                 "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
             },
@@ -38,35 +20,25 @@
         },
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "bluez",
-                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "redis",
                 "purl": "pkg:rpm/vmware/redis?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "bluez",
-                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.2.7-5.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],
     "id": "PHSA-2023-3.0-0570",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2023-04-25T00:00:00Z",
     "references": [
         {
@@ -75,9 +47,9 @@
         }
     ],
     "related": [
-        "CVE-2021-43400",
         "CVE-2022-3563",
         "CVE-2022-3637",
+        "CVE-2021-43400",
         "CVE-2023-28856"
     ]
 }

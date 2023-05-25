@@ -2,7 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "httpd",
                 "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
             },
@@ -13,96 +13,6 @@
                     },
                     {
                         "fixed": "2.4.41-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "subversion",
-                "purl": "pkg:rpm/vmware/subversion?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.10.2-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "sudo",
-                "purl": "pkg:rpm/vmware/sudo?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.8.23-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "openjdk8",
-                "purl": "pkg:rpm/vmware/openjdk8?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.8.0.222-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.7.15-11.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "unbound",
-                "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.8.0-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -121,6 +31,24 @@
                     },
                     {
                         "fixed": "1.8.23-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.7.15-11.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -157,42 +85,6 @@
                     },
                     {
                         "fixed": "1.8.0.222-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.4.41-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.7.15-11.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -218,7 +110,7 @@
         }
     ],
     "id": "PHSA-2019-3.0-0035",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2019-10-18T00:00:00Z",
     "references": [
         {
@@ -227,25 +119,25 @@
         }
     ],
     "related": [
+        "CVE-2019-2786",
+        "CVE-2019-2766",
+        "CVE-2019-2842",
+        "CVE-2019-16935",
+        "CVE-2019-10081",
+        "CVE-2018-11782",
+        "CVE-2019-2816",
+        "CVE-2019-2996",
+        "CVE-2019-16866",
         "CVE-2019-2821",
         "CVE-2018-11803",
+        "CVE-2019-2762",
+        "CVE-2019-10098",
+        "CVE-2019-2745",
+        "CVE-2019-0203",
+        "CVE-2019-2818",
+        "CVE-2019-14287",
         "CVE-2019-2769",
         "CVE-2019-10092",
-        "CVE-2019-10082",
-        "CVE-2019-10081",
-        "CVE-2019-2766",
-        "CVE-2019-16935",
-        "CVE-2019-2745",
-        "CVE-2019-14287",
-        "CVE-2018-11782",
-        "CVE-2019-0203",
-        "CVE-2019-2786",
-        "CVE-2019-2842",
-        "CVE-2019-2996",
-        "CVE-2019-2762",
-        "CVE-2019-2818",
-        "CVE-2019-16866",
-        "CVE-2019-2816",
-        "CVE-2019-10098"
+        "CVE-2019-10082"
     ]
 }

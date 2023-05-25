@@ -2,135 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.61-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.61-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.61-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.32-9.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.61-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.61-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.32-9.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -165,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -175,6 +49,42 @@
                     },
                     {
                         "fixed": "5.10.61-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.61-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.32-9.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -182,7 +92,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0095",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-09-04T00:00:00Z",
     "references": [
         {
@@ -191,22 +101,22 @@
         }
     ],
     "related": [
-        "CVE-2020-28974",
-        "CVE-2021-35477",
-        "CVE-2021-38166",
-        "CVE-2021-37159",
-        "CVE-2020-27675",
         "CVE-2021-38604",
-        "CVE-2021-34556",
-        "CVE-2021-3679",
-        "CVE-2021-3656",
-        "CVE-2021-38204",
+        "CVE-2020-27675",
+        "CVE-2021-37576",
         "CVE-2020-28941",
-        "CVE-2020-27673",
-        "CVE-2020-12352",
-        "CVE-2020-8694",
+        "CVE-2021-34556",
         "CVE-2020-3702",
+        "CVE-2020-27673",
+        "CVE-2021-35477",
         "CVE-2021-3653",
-        "CVE-2021-37576"
+        "CVE-2021-3679",
+        "CVE-2020-8694",
+        "CVE-2021-37159",
+        "CVE-2021-38166",
+        "CVE-2021-38204",
+        "CVE-2020-12352",
+        "CVE-2020-28974",
+        "CVE-2021-3656"
     ]
 }

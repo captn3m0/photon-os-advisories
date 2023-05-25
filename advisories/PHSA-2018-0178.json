@@ -2,78 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "strongswan",
-                "purl": "pkg:rpm/vmware/strongswan?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.5.2-3.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "postgresql",
-                "purl": "pkg:rpm/vmware/postgresql?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "9.6.10-1.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.7.15-1.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:1.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.5.5-2.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "strongswan",
                 "purl": "pkg:rpm/vmware/strongswan?distro=photon-1"
@@ -146,7 +74,7 @@
         }
     ],
     "id": "PHSA-2018-0178",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-26T07:02:13Z",
     "published": "2018-08-23T00:00:00Z",
     "references": [
         {

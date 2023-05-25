@@ -2,7 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "bindutils",
                 "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
             },
@@ -13,24 +13,6 @@
                     },
                     {
                         "fixed": "9.15.5-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "sqlite",
-                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.30.1-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -49,24 +31,6 @@
                     },
                     {
                         "fixed": "3.30.1-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "bindutils",
-                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "9.15.5-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0049",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-01-18T00:00:00Z",
     "references": [
         {
@@ -84,17 +48,17 @@
     ],
     "related": [
         "CVE-2019-19603",
+        "CVE-2019-19880",
+        "CVE-2019-19646",
+        "CVE-2019-19317",
+        "CVE-2019-19925",
+        "CVE-2018-5744",
         "CVE-2019-6467",
         "CVE-2018-5743",
-        "CVE-2019-6471",
-        "CVE-2019-19880",
-        "CVE-2019-20218",
-        "CVE-2019-19317",
-        "CVE-2019-6465",
         "CVE-2018-5745",
-        "CVE-2019-19925",
         "CVE-2019-19645",
-        "CVE-2018-5744",
-        "CVE-2019-19646"
+        "CVE-2019-20218",
+        "CVE-2019-6471",
+        "CVE-2019-6465"
     ]
 }

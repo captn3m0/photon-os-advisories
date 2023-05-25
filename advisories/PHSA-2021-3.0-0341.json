@@ -2,79 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             },
@@ -92,9 +20,9 @@
         },
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "wireshark",
-                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -102,7 +30,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "3.6.0-1.ph3"
+                        "fixed": "4.19.219-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -121,6 +49,24 @@
                     },
                     {
                         "fixed": "4.19.219-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.6.0-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -157,60 +103,6 @@
                     },
                     {
                         "fixed": "4.19.219-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.219-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "wireshark",
-                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.6.0-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -218,7 +110,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0341",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-12-11T00:00:00Z",
     "references": [
         {
@@ -227,18 +119,18 @@
         }
     ],
     "related": [
-        "CVE-2021-39926",
-        "CVE-2021-4002",
-        "CVE-2021-39928",
-        "CVE-2021-3640",
-        "CVE-2021-45868",
-        "CVE-2021-39925",
-        "CVE-2021-39922",
         "CVE-2021-39924",
-        "CVE-2021-39921",
-        "CVE-2021-3752",
-        "CVE-2021-39923",
+        "CVE-2021-39928",
+        "CVE-2021-39920",
+        "CVE-2021-39926",
+        "CVE-2021-39925",
         "CVE-2021-39929",
-        "CVE-2021-39920"
+        "CVE-2021-39922",
+        "CVE-2021-3752",
+        "CVE-2021-3640",
+        "CVE-2021-39923",
+        "CVE-2021-45868",
+        "CVE-2021-4002",
+        "CVE-2021-39921"
     ]
 }

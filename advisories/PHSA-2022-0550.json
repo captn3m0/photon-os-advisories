@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "grub2",
-                "purl": "pkg:rpm/vmware/grub2?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.06~rc1-2.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "grub2",
                 "purl": "pkg:rpm/vmware/grub2?distro=photon-2"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-0550",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-12-23T03:42:38Z",
     "published": "2022-12-21T00:00:00Z",
     "references": [
         {

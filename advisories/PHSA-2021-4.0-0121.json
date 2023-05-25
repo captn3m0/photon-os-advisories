@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.2.3428-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "apr",
-                "purl": "pkg:rpm/vmware/apr?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.7.0-3.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-4"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0121",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-14T05:24:59Z",
     "published": "2021-10-29T00:00:00Z",
     "references": [
         {
@@ -84,7 +48,7 @@
     ],
     "related": [
         "CVE-2021-35940",
-        "CVE-2021-3872",
-        "CVE-2021-3875"
+        "CVE-2021-3875",
+        "CVE-2021-3872"
     ]
 }

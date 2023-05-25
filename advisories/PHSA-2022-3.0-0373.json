@@ -2,60 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "openssl",
-                "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.0.2zc-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "zookeeper",
-                "purl": "pkg:rpm/vmware/zookeeper?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.8.0-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "nxtgn-openssl",
-                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.1.1m-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "openssl",
                 "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
@@ -75,24 +21,6 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "zookeeper",
-                "purl": "pkg:rpm/vmware/zookeeper?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.8.0-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
                 "name": "nxtgn-openssl",
                 "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-3"
             },
@@ -103,6 +31,24 @@
                     },
                     {
                         "fixed": "1.1.1m-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "zookeeper",
+                "purl": "pkg:rpm/vmware/zookeeper?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.8.0-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2022-3.0-0373",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-03-16T00:00:00Z",
     "references": [
         {

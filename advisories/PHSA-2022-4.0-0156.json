@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.2.3428-9.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "freetype2",
-                "purl": "pkg:rpm/vmware/freetype2?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.10.2-3.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-4"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2022-4.0-0156",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-02-25T00:00:00Z",
     "references": [
         {
@@ -83,10 +47,10 @@
         }
     ],
     "related": [
-        "CVE-2022-0407",
         "CVE-2022-0413",
+        "CVE-2022-0407",
         "CVE-2022-0443",
-        "CVE-2022-0392",
-        "CVE-2020-15999"
+        "CVE-2020-15999",
+        "CVE-2022-0392"
     ]
 }

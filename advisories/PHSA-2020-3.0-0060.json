@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "nodejs",
-                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "13.8.0-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "nodejs",
                 "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0060",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-12T05:25:09Z",
     "published": "2020-02-23T00:00:00Z",
     "references": [
         {
@@ -47,8 +29,8 @@
         }
     ],
     "related": [
+        "CVE-2019-15604",
         "CVE-2019-15605",
-        "CVE-2019-15606",
-        "CVE-2019-15604"
+        "CVE-2019-15606"
     ]
 }

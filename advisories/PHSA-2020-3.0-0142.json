@@ -2,43 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.145-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.145-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             },
@@ -56,7 +20,25 @@
         },
         {
             "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
+                "name": "cifs-utils",
+                "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.8-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
             },
@@ -74,7 +56,7 @@
         },
         {
             "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             },
@@ -92,25 +74,7 @@
         },
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libxml2",
-                "purl": "pkg:rpm/vmware/libxml2?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.9.10-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-3"
             },
@@ -121,96 +85,6 @@
                     },
                     {
                         "fixed": "1.13.15-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "kubernetes",
-                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.17.11-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "cifs-utils",
-                "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.8-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.145-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "kubernetes",
-                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.17.11-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "cifs-utils",
-                "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.8-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -273,8 +147,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -282,43 +156,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "4.19.145-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.145-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.13.15-1.ph3"
+                        "fixed": "1.17.11-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -326,7 +164,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0142",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-09-19T00:00:00Z",
     "references": [
         {
@@ -335,20 +173,20 @@
         }
     ],
     "related": [
-        "CVE-2020-14385",
-        "CVE-2020-8557",
-        "CVE-2020-25212",
-        "CVE-2020-14314",
-        "CVE-2020-15586",
-        "CVE-2020-8555",
-        "CVE-2019-0149",
-        "CVE-2020-24977",
-        "CVE-2020-26088",
-        "CVE-2019-11252",
-        "CVE-2020-14342",
-        "CVE-2020-25285",
-        "CVE-2020-25641",
         "CVE-2020-8559",
-        "CVE-2019-19448"
+        "CVE-2020-26088",
+        "CVE-2020-14314",
+        "CVE-2020-25212",
+        "CVE-2020-25641",
+        "CVE-2019-11252",
+        "CVE-2020-14385",
+        "CVE-2020-14342",
+        "CVE-2020-24977",
+        "CVE-2020-15586",
+        "CVE-2019-19448",
+        "CVE-2020-8557",
+        "CVE-2020-8555",
+        "CVE-2020-25285",
+        "CVE-2019-0149"
     ]
 }

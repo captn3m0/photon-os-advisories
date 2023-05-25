@@ -2,43 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "nodejs",
-                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "16.19.1-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.86.0-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "haproxy",
                 "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
             },
@@ -56,9 +20,9 @@
         },
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
+                "ecosystem": "Photon OS:3.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -66,7 +30,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.6.8-3.ph3"
+                        "fixed": "7.86.0-4.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -93,24 +57,6 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "haproxy",
-                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.6-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
                 "name": "containerd",
                 "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
             },
@@ -121,24 +67,6 @@
                     },
                     {
                         "fixed": "1.6.8-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.86.0-4.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -146,7 +74,7 @@
         }
     ],
     "id": "PHSA-2023-3.0-0545",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2023-03-07T00:00:00Z",
     "references": [
         {
@@ -155,18 +83,18 @@
         }
     ],
     "related": [
-        "CVE-2023-23915",
-        "CVE-2019-9514",
-        "CVE-2023-25173",
-        "CVE-2023-23919",
         "CVE-2023-23918",
-        "CVE-2019-9513",
-        "CVE-2023-23916",
+        "CVE-2023-23919",
         "CVE-2023-23920",
-        "CVE-2023-25153",
-        "CVE-2023-23914",
+        "CVE-2023-23915",
+        "CVE-2019-9515",
+        "CVE-2019-9514",
         "CVE-2023-25725",
+        "CVE-2023-25173",
+        "CVE-2023-23916",
+        "CVE-2023-25153",
         "CVE-2019-9512",
-        "CVE-2019-9515"
+        "CVE-2023-23914",
+        "CVE-2019-9513"
     ]
 }

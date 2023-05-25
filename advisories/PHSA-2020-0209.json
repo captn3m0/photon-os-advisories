@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "ipmitool",
-                "purl": "pkg:rpm/vmware/ipmitool?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.8.18-2.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "ipmitool",
                 "purl": "pkg:rpm/vmware/ipmitool?distro=photon-2"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2020-0209",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-14T00:05:02Z",
     "published": "2020-02-19T00:00:00Z",
     "references": [
         {

@@ -2,60 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "docker",
-                "purl": "pkg:rpm/vmware/docker?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "19.03.15-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.7.14-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "rust",
-                "purl": "pkg:rpm/vmware/rust?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.51.0-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "rust",
                 "purl": "pkg:rpm/vmware/rust?distro=photon-3"
@@ -75,24 +21,6 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.7.14-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
                 "name": "docker",
                 "purl": "pkg:rpm/vmware/docker?distro=photon-3"
             },
@@ -103,6 +31,24 @@
                     },
                     {
                         "fixed": "19.03.15-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.7.14-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0228",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-13T05:25:06Z",
     "published": "2021-04-30T00:00:00Z",
     "references": [
         {
@@ -119,11 +65,11 @@
         }
     ],
     "related": [
-        "CVE-2020-25864",
         "CVE-2021-21284",
+        "CVE-2020-25864",
         "CVE-2021-28876",
         "CVE-2021-21285",
-        "CVE-2021-28879",
-        "CVE-2021-28878"
+        "CVE-2021-28878",
+        "CVE-2021-28879"
     ]
 }

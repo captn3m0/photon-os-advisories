@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.77.0-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "curl",
                 "purl": "pkg:rpm/vmware/curl?distro=photon-4"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0069",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-07-25T00:00:00Z",
     "references": [
         {
@@ -47,9 +29,9 @@
         }
     ],
     "related": [
+        "CVE-2021-22925",
         "CVE-2021-22924",
         "CVE-2021-22922",
-        "CVE-2021-22925",
         "CVE-2021-22923"
     ]
 }

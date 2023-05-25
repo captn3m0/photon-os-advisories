@@ -2,7 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "squid",
                 "purl": "pkg:rpm/vmware/squid?distro=photon-4"
             },
@@ -21,8 +21,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "squid",
-                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -30,7 +30,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "4.17-2.ph4"
+                        "fixed": "247.13-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -38,7 +38,7 @@
         }
     ],
     "id": "PHSA-2023-4.0-0310",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2023-01-09T00:00:00Z",
     "references": [
         {
@@ -47,7 +47,8 @@
         }
     ],
     "related": [
-        "CVE-2022-41318",
-        "CVE-2022-41317"
+        "CVE-2022-3821",
+        "CVE-2022-41317",
+        "CVE-2022-41318"
     ]
 }

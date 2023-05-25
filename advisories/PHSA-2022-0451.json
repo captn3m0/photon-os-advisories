@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.2.3408-4.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-2"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-0451",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-03-16T21:29:29Z",
     "published": "2022-03-13T00:00:00Z",
     "references": [
         {

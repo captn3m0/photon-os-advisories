@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libarchive",
-                "purl": "pkg:rpm/vmware/libarchive?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.3.3-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "libarchive",
                 "purl": "pkg:rpm/vmware/libarchive?distro=photon-3"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2019-3.0-0004",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-13T05:25:06Z",
     "published": "2019-03-09T00:00:00Z",
     "references": [
         {

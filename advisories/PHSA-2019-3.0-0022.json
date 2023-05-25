@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "binutils",
-                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.31.1-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "binutils",
                 "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2019-3.0-0022",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2019-06-25T00:00:00Z",
     "references": [
         {
@@ -47,11 +29,11 @@
         }
     ],
     "related": [
-        "CVE-2018-20623",
+        "CVE-2019-9071",
         "CVE-2018-20671",
-        "CVE-2019-9074",
-        "CVE-2018-20651",
         "CVE-2019-9073",
-        "CVE-2019-9071"
+        "CVE-2018-20623",
+        "CVE-2019-9074",
+        "CVE-2018-20651"
     ]
 }

@@ -2,31 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "nginx",
-                "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "nginx",
-                "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.22.0-4.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "nginx",
                 "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
@@ -45,7 +20,7 @@
         }
     ],
     "id": "PHSA-2023-4.0-0342",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-13T05:25:06Z",
     "published": "2023-02-28T00:00:00Z",
     "references": [
         {
@@ -54,7 +29,7 @@
         }
     ],
     "related": [
-        "CVE-2019-9513",
-        "CVE-2019-9511"
+        "CVE-2019-9511",
+        "CVE-2019-9513"
     ]
 }

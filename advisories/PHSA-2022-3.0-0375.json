@@ -2,7 +2,25 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.32.1-5.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
                 "name": "httpd",
                 "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
             },
@@ -13,186 +31,6 @@
                     },
                     {
                         "fixed": "2.4.53-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "bindutils",
-                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "9.16.27-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.7.5-18.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "squashfs-tools",
-                "purl": "pkg:rpm/vmware/squashfs-tools?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.5.1-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "nodejs",
-                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "16.14.2-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.17.2-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "util-linux",
-                "purl": "pkg:rpm/vmware/util-linux?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.32.1-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "bluez",
-                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.58-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "nodejs",
-                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "16.14.2-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "bindutils",
-                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "9.16.27-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "util-linux",
-                "purl": "pkg:rpm/vmware/util-linux?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.32.1-5.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -237,8 +75,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "squashfs-tools",
-                "purl": "pkg:rpm/vmware/squashfs-tools?distro=photon-3"
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -246,25 +84,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "4.5.1-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.4.53-1.ph3"
+                        "fixed": "9.16.27-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -283,6 +103,42 @@
                     },
                     {
                         "fixed": "1.17.2-5.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "squashfs-tools",
+                "purl": "pkg:rpm/vmware/squashfs-tools?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.5.1-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "16.14.2-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -290,7 +146,7 @@
         }
     ],
     "id": "PHSA-2022-3.0-0375",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-03-26T00:00:00Z",
     "references": [
         {
@@ -299,18 +155,18 @@
         }
     ],
     "related": [
-        "CVE-2021-3737",
-        "CVE-2022-0563",
-        "CVE-2022-0204",
-        "CVE-2022-23943",
-        "CVE-2021-40153",
+        "CVE-2021-25220",
         "CVE-2022-24921",
         "CVE-2022-0778",
-        "CVE-2022-22719",
-        "CVE-2021-25220",
-        "CVE-2022-0396",
-        "CVE-2021-41072",
         "CVE-2022-22720",
-        "CVE-2022-22721"
+        "CVE-2022-22719",
+        "CVE-2021-3737",
+        "CVE-2021-40153",
+        "CVE-2021-41072",
+        "CVE-2022-0396",
+        "CVE-2022-22721",
+        "CVE-2022-0204",
+        "CVE-2022-0563",
+        "CVE-2022-23943"
     ]
 }

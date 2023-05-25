@@ -2,7 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "cifs-utils",
                 "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-4"
             },
@@ -13,24 +13,6 @@
                     },
                     {
                         "fixed": "6.13-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "rpm",
-                "purl": "pkg:rpm/vmware/rpm?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.16.1.2-4.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -49,24 +31,6 @@
                     },
                     {
                         "fixed": "4.16.1.2-4.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "cifs-utils",
-                "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.13-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0030",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-14T05:24:59Z",
     "published": "2021-05-21T00:00:00Z",
     "references": [
         {
@@ -83,7 +47,7 @@
         }
     ],
     "related": [
-        "CVE-2021-20208",
-        "CVE-2021-20266"
+        "CVE-2021-20266",
+        "CVE-2021-20208"
     ]
 }

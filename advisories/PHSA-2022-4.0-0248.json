@@ -2,50 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.142-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.142-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
             },
@@ -82,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -102,29 +59,11 @@
                 "ecosystem": "Photon OS:4.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.142-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
             }
         }
     ],
     "id": "PHSA-2022-4.0-0248",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-09-20T00:00:00Z",
     "references": [
         {
@@ -133,16 +72,16 @@
         }
     ],
     "related": [
-        "CVE-2022-3028",
+        "CVE-2022-26373",
         "CVE-2022-20409",
-        "CVE-2022-36879",
+        "CVE-2022-36946",
         "CVE-2022-2905",
+        "CVE-2022-29901",
+        "CVE-2022-3028",
+        "CVE-2022-36879",
+        "CVE-2022-3176",
         "CVE-2022-2153",
         "CVE-2022-29900",
-        "CVE-2022-29901",
-        "CVE-2022-3176",
-        "CVE-2022-36946",
-        "CVE-2022-39190",
-        "CVE-2022-26373"
+        "CVE-2022-39190"
     ]
 }

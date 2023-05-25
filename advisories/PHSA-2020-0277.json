@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "bash",
-                "purl": "pkg:rpm/vmware/bash?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.3.48-5.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "trousers",
-                "purl": "pkg:rpm/vmware/trousers?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "0.3.14-3.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "bash",
                 "purl": "pkg:rpm/vmware/bash?distro=photon-1"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2020-0277",
-    "modified": "2023-05-07T11:51:39.020576Z",
+    "modified": "2023-05-26T05:23:28Z",
     "published": "2020-02-15T00:00:00Z",
     "references": [
         {

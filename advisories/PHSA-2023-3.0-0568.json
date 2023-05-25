@@ -2,32 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libevent",
-                "purl": "pkg:rpm/vmware/libevent?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.1.12-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "nasm",
                 "purl": "pkg:rpm/vmware/nasm?distro=photon-3"
             },
@@ -45,7 +20,7 @@
         },
         {
             "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-3"
             },
@@ -64,13 +39,6 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
                 "name": "libevent",
                 "purl": "pkg:rpm/vmware/libevent?distro=photon-3"
             },
@@ -85,28 +53,10 @@
                 ],
                 "type": "ECOSYSTEM"
             }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "nasm",
-                "purl": "pkg:rpm/vmware/nasm?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.16.01-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
         }
     ],
     "id": "PHSA-2023-3.0-0568",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2023-04-19T00:00:00Z",
     "references": [
         {
@@ -115,60 +65,60 @@
         }
     ],
     "related": [
-        "CVE-2022-2345",
-        "CVE-2022-2874",
-        "CVE-2018-19755",
-        "CVE-2022-2522",
-        "CVE-2018-1000886",
-        "CVE-2022-2598",
-        "CVE-2022-2816",
-        "CVE-2022-3352",
-        "CVE-2022-2343",
-        "CVE-2022-3153",
-        "CVE-2016-10197",
-        "CVE-2022-2889",
-        "CVE-2022-3256",
-        "CVE-2022-2257",
-        "CVE-2022-2264",
-        "CVE-2020-24978",
-        "CVE-2016-10196",
-        "CVE-2022-4141",
-        "CVE-2022-2571",
-        "CVE-2016-10195",
-        "CVE-2022-2580",
-        "CVE-2022-2849",
-        "CVE-2022-3296",
-        "CVE-2022-2286",
-        "CVE-2022-3491",
-        "CVE-2022-2817",
-        "CVE-2022-2862",
-        "CVE-2022-2285",
-        "CVE-2022-3278",
-        "CVE-2022-2288",
-        "CVE-2022-2284",
         "CVE-2022-2980",
-        "CVE-2022-3099",
-        "CVE-2022-3234",
-        "CVE-2022-2304",
-        "CVE-2022-3235",
-        "CVE-2022-2344",
-        "CVE-2022-2287",
-        "CVE-2022-2845",
-        "CVE-2022-3297",
-        "CVE-2023-1264",
-        "CVE-2022-3705",
+        "CVE-2022-2874",
+        "CVE-2022-2598",
+        "CVE-2016-10195",
         "CVE-2021-45257",
-        "CVE-2022-2982",
+        "CVE-2022-3278",
+        "CVE-2022-2304",
+        "CVE-2022-4141",
+        "CVE-2022-2862",
+        "CVE-2023-1264",
+        "CVE-2022-2343",
+        "CVE-2016-10196",
+        "CVE-2022-3099",
+        "CVE-2022-3352",
+        "CVE-2022-2287",
         "CVE-2022-3037",
-        "CVE-2022-2923",
-        "CVE-2023-1170",
-        "CVE-2019-7147",
-        "CVE-2023-1175",
-        "CVE-2018-20535",
-        "CVE-2022-2289",
-        "CVE-2022-3134",
+        "CVE-2022-3491",
+        "CVE-2022-2264",
         "CVE-2022-3016",
+        "CVE-2022-2289",
+        "CVE-2016-10197",
+        "CVE-2018-20535",
+        "CVE-2022-2817",
+        "CVE-2022-3297",
+        "CVE-2022-3134",
+        "CVE-2023-1175",
+        "CVE-2022-3235",
+        "CVE-2022-2580",
+        "CVE-2022-2344",
+        "CVE-2022-2288",
+        "CVE-2022-3234",
+        "CVE-2022-3153",
+        "CVE-2020-24978",
+        "CVE-2022-3296",
+        "CVE-2022-2889",
+        "CVE-2022-4293",
+        "CVE-2019-7147",
+        "CVE-2022-2257",
+        "CVE-2022-2345",
+        "CVE-2022-2284",
+        "CVE-2022-2816",
         "CVE-2022-2581",
-        "CVE-2022-4293"
+        "CVE-2022-2845",
+        "CVE-2022-2849",
+        "CVE-2022-3256",
+        "CVE-2022-2571",
+        "CVE-2022-2285",
+        "CVE-2022-2286",
+        "CVE-2022-2982",
+        "CVE-2022-2923",
+        "CVE-2018-19755",
+        "CVE-2022-3705",
+        "CVE-2023-1170",
+        "CVE-2018-1000886",
+        "CVE-2022-2522"
     ]
 }

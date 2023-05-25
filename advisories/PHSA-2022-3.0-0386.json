@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "lua",
-                "purl": "pkg:rpm/vmware/lua?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.3.5-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "lua",
                 "purl": "pkg:rpm/vmware/lua?distro=photon-3"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-3.0-0386",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-03-31T02:19:57Z",
     "published": "2022-04-22T00:00:00Z",
     "references": [
         {

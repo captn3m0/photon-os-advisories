@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "gnupg",
-                "purl": "pkg:rpm/vmware/gnupg?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.23-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "gnupg",
                 "purl": "pkg:rpm/vmware/gnupg?distro=photon-4"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-4.0-0218",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-03-31T02:19:57Z",
     "published": "2022-07-29T00:00:00Z",
     "references": [
         {

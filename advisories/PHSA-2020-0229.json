@@ -2,96 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "PyYAML",
-                "purl": "pkg:rpm/vmware/PyYAML?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.12-6.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "envoy",
-                "purl": "pkg:rpm/vmware/envoy?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.13.1-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "kubernetes",
-                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.13.12-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "zsh",
-                "purl": "pkg:rpm/vmware/zsh?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.8-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "gnupg",
-                "purl": "pkg:rpm/vmware/gnupg?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.18-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "PyYAML",
                 "purl": "pkg:rpm/vmware/PyYAML?distro=photon-2"
@@ -182,7 +92,7 @@
         }
     ],
     "id": "PHSA-2020-0229",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-25T17:51:42Z",
     "published": "2020-04-14T00:00:00Z",
     "references": [
         {

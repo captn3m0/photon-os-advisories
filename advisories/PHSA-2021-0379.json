@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "subversion",
-                "purl": "pkg:rpm/vmware/subversion?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.10.4-2.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "util-linux",
-                "purl": "pkg:rpm/vmware/util-linux?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.32.1-2.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "subversion",
                 "purl": "pkg:rpm/vmware/subversion?distro=photon-1"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-0379",
-    "modified": "2023-05-07T11:51:38.104248Z",
+    "modified": "2023-05-26T05:23:25Z",
     "published": "2021-04-09T00:00:00Z",
     "references": [
         {

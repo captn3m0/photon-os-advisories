@@ -2,60 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "libyang",
-                "purl": "pkg:rpm/vmware/libyang?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "libxml2",
-                "purl": "pkg:rpm/vmware/libxml2?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "bluez",
-                "purl": "pkg:rpm/vmware/bluez?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "libyang",
-                "purl": "pkg:rpm/vmware/libyang?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.1.55-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-4"
             },
@@ -66,96 +13,6 @@
                     },
                     {
                         "fixed": "9.0.1392-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "libxml2",
-                "purl": "pkg:rpm/vmware/libxml2?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.9.12-8.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.0.0-8.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "bluez",
-                "purl": "pkg:rpm/vmware/bluez?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.65-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "libyang",
-                "purl": "pkg:rpm/vmware/libyang?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.1.55-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "libxml2",
-                "purl": "pkg:rpm/vmware/libxml2?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.9.12-8.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -182,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -191,7 +48,25 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "9.0.1392-1.ph4"
+                        "fixed": "2.9.12-8.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libyang",
+                "purl": "pkg:rpm/vmware/libyang?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.1.55-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -217,7 +92,7 @@
         }
     ],
     "id": "PHSA-2023-4.0-0380",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2023-04-25T00:00:00Z",
     "references": [
         {
@@ -226,59 +101,59 @@
         }
     ],
     "related": [
-        "CVE-2022-2345",
+        "CVE-2022-2980",
         "CVE-2022-2874",
-        "CVE-2022-2522",
         "CVE-2022-2598",
-        "CVE-2022-2816",
-        "CVE-2022-3352",
-        "CVE-2022-2343",
-        "CVE-2022-3153",
-        "CVE-2022-2889",
-        "CVE-2022-3637",
-        "CVE-2022-3256",
-        "CVE-2022-2257",
-        "CVE-2022-2264",
-        "CVE-2023-28484",
-        "CVE-2022-3563",
+        "CVE-2022-3278",
+        "CVE-2022-2304",
         "CVE-2022-4141",
-        "CVE-2022-2571",
-        "CVE-2021-43400",
-        "CVE-2022-2580",
-        "CVE-2022-2849",
-        "CVE-2022-3296",
-        "CVE-2022-2286",
+        "CVE-2022-2862",
+        "CVE-2023-1264",
+        "CVE-2022-2343",
+        "CVE-2022-3099",
+        "CVE-2022-3352",
+        "CVE-2022-2287",
+        "CVE-2022-3037",
         "CVE-2022-3491",
+        "CVE-2022-2264",
+        "CVE-2022-3016",
+        "CVE-2022-2289",
+        "CVE-2022-3563",
+        "CVE-2021-43400",
         "CVE-2023-29469",
         "CVE-2022-2817",
-        "CVE-2022-2862",
-        "CVE-2023-28856",
-        "CVE-2022-2285",
-        "CVE-2022-3278",
-        "CVE-2022-2288",
-        "CVE-2023-26917",
-        "CVE-2022-2284",
-        "CVE-2022-2980",
-        "CVE-2022-3099",
-        "CVE-2022-3234",
-        "CVE-2022-2304",
-        "CVE-2022-3235",
-        "CVE-2022-2344",
-        "CVE-2022-2287",
-        "CVE-2022-2845",
         "CVE-2022-3297",
-        "CVE-2023-1264",
-        "CVE-2023-26916",
-        "CVE-2022-3705",
-        "CVE-2022-2982",
-        "CVE-2022-3037",
-        "CVE-2022-2923",
-        "CVE-2023-1170",
-        "CVE-2023-1175",
-        "CVE-2022-2289",
+        "CVE-2023-28484",
         "CVE-2022-3134",
-        "CVE-2022-3016",
+        "CVE-2023-26917",
+        "CVE-2023-1175",
+        "CVE-2022-3235",
+        "CVE-2022-2580",
+        "CVE-2022-2344",
+        "CVE-2022-2288",
+        "CVE-2022-3234",
+        "CVE-2022-3153",
+        "CVE-2022-3296",
+        "CVE-2022-2889",
+        "CVE-2022-4293",
+        "CVE-2023-28856",
+        "CVE-2022-2257",
+        "CVE-2022-2345",
+        "CVE-2022-3637",
+        "CVE-2022-2284",
+        "CVE-2022-2816",
         "CVE-2022-2581",
-        "CVE-2022-4293"
+        "CVE-2022-2845",
+        "CVE-2022-2849",
+        "CVE-2022-3256",
+        "CVE-2022-2571",
+        "CVE-2022-2285",
+        "CVE-2022-2286",
+        "CVE-2022-2982",
+        "CVE-2023-26916",
+        "CVE-2022-2923",
+        "CVE-2022-3705",
+        "CVE-2023-1170",
+        "CVE-2022-2522"
     ]
 }

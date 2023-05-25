@@ -2,43 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.4.0-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libtar",
-                "purl": "pkg:rpm/vmware/libtar?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.2.20-6.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "open-iscsi",
                 "purl": "pkg:rpm/vmware/open-iscsi?distro=photon-3"
             },
@@ -67,24 +31,6 @@
                     },
                     {
                         "fixed": "4.4.0-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "open-iscsi",
-                "purl": "pkg:rpm/vmware/open-iscsi?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.1.1-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2022-3.0-0437",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-08-18T00:00:00Z",
     "references": [
         {
@@ -119,12 +65,12 @@
         }
     ],
     "related": [
-        "CVE-2021-33644",
-        "CVE-2021-33645",
-        "CVE-2020-17437",
         "CVE-2020-13987",
-        "CVE-2022-34526",
+        "CVE-2020-17437",
+        "CVE-2021-33644",
         "CVE-2021-33646",
-        "CVE-2021-33643"
+        "CVE-2022-34526",
+        "CVE-2021-33643",
+        "CVE-2021-33645"
     ]
 }

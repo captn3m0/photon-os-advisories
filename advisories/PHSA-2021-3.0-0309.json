@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.4.48-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.2.3408-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-3"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0309",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-12T05:25:09Z",
     "published": "2021-10-02T00:00:00Z",
     "references": [
         {
@@ -83,9 +47,9 @@
         }
     ],
     "related": [
-        "CVE-2021-40438",
         "CVE-2021-36160",
-        "CVE-2021-3778",
-        "CVE-2021-34798"
+        "CVE-2021-40438",
+        "CVE-2021-34798",
+        "CVE-2021-3778"
     ]
 }

@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "libjpeg-turbo",
-                "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.5.2-2.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "krb5",
-                "purl": "pkg:rpm/vmware/krb5?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.16-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "libjpeg-turbo",
                 "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-2"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2017-0007",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-25T17:51:42Z",
     "published": "2017-12-18T00:00:00Z",
     "references": [
         {

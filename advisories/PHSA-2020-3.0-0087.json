@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.13.3-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-3"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0087",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-03-31T02:19:57Z",
     "published": "2020-05-09T00:00:00Z",
     "references": [
         {

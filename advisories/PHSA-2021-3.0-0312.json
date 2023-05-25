@@ -2,43 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.4.48-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.2.3408-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "apache-tomcat",
                 "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
             },
@@ -67,24 +31,6 @@
                     },
                     {
                         "fixed": "8.2.3408-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "apache-tomcat",
-                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.5.60-4.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0312",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-10-09T00:00:00Z",
     "references": [
         {
@@ -119,8 +65,8 @@
         }
     ],
     "related": [
-        "CVE-2021-39275",
+        "CVE-2021-3796",
         "CVE-2021-41079",
-        "CVE-2021-3796"
+        "CVE-2021-39275"
     ]
 }

@@ -2,25 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "kibana",
-                "purl": "pkg:rpm/vmware/kibana?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.8.10-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "curl",
                 "purl": "pkg:rpm/vmware/curl?distro=photon-3"
             },
@@ -49,24 +31,6 @@
                     },
                     {
                         "fixed": "6.8.10-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.61.1-7.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0106",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-06-25T00:00:00Z",
     "references": [
         {
@@ -83,7 +47,7 @@
         }
     ],
     "related": [
-        "CVE-2020-7015",
-        "CVE-2020-8177"
+        "CVE-2020-8177",
+        "CVE-2020-7015"
     ]
 }

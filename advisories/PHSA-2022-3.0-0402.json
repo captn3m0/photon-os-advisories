@@ -2,78 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.18.1-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.4.13-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "cifs-utils",
-                "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.8-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.4.13-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-3"
@@ -103,6 +31,24 @@
                     },
                     {
                         "fixed": "6.8-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.4.13-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2022-3.0-0402",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-06-09T00:00:00Z",
     "references": [
         {
@@ -119,10 +65,10 @@
         }
     ],
     "related": [
-        "CVE-2022-31030",
-        "CVE-2022-27239",
         "CVE-2022-24675",
-        "CVE-2022-29869",
-        "CVE-2022-28327"
+        "CVE-2022-27239",
+        "CVE-2022-31030",
+        "CVE-2022-28327",
+        "CVE-2022-29869"
     ]
 }

@@ -2,7 +2,25 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.5-5.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
                 "name": "libjpeg-turbo",
                 "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-3"
             },
@@ -13,96 +31,6 @@
                     },
                     {
                         "fixed": "2.0.0-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "bindutils",
-                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "9.15.6-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libgd",
-                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.5-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "unzip",
-                "purl": "pkg:rpm/vmware/unzip?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.0-14.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "libgd",
-                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.5-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "unzip",
-                "purl": "pkg:rpm/vmware/unzip?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.0-14.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -129,8 +57,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "libjpeg-turbo",
-                "purl": "pkg:rpm/vmware/libjpeg-turbo?distro=photon-3"
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -138,7 +66,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "2.0.0-4.ph3"
+                        "fixed": "6.0-14.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -146,7 +74,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0063",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-02-28T00:00:00Z",
     "references": [
         {
@@ -155,12 +83,12 @@
         }
     ],
     "related": [
-        "CVE-2018-19664",
-        "CVE-2018-14553",
         "CVE-2014-8140",
+        "CVE-2014-8139",
+        "CVE-2018-14553",
         "CVE-2014-8141",
-        "CVE-2019-6470",
+        "CVE-2018-19664",
         "CVE-2019-6477",
-        "CVE-2014-8139"
+        "CVE-2019-6470"
     ]
 }

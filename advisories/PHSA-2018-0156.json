@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.0.10-1.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "redis",
                 "purl": "pkg:rpm/vmware/redis?distro=photon-1"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2018-0156",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-26T07:02:13Z",
     "published": "2018-07-02T00:00:00Z",
     "references": [
         {

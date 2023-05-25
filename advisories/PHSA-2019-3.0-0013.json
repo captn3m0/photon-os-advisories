@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.4.39-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "tar",
-                "purl": "pkg:rpm/vmware/tar?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.30-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "tar",
                 "purl": "pkg:rpm/vmware/tar?distro=photon-3"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2019-3.0-0013",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2019-04-30T00:00:00Z",
     "references": [
         {
@@ -83,12 +47,12 @@
         }
     ],
     "related": [
-        "CVE-2019-9923",
-        "CVE-2019-0215",
-        "CVE-2019-0217",
-        "CVE-2019-0211",
-        "CVE-2018-17189",
         "CVE-2019-0190",
-        "CVE-2018-17199"
+        "CVE-2019-0215",
+        "CVE-2019-0211",
+        "CVE-2018-17199",
+        "CVE-2019-0217",
+        "CVE-2019-9923",
+        "CVE-2018-17189"
     ]
 }

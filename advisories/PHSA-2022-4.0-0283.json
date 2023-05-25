@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.10.0-8.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "python3",
                 "purl": "pkg:rpm/vmware/python3?distro=photon-4"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-4.0-0283",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-11-16T00:00:00Z",
     "references": [
         {
@@ -47,7 +29,7 @@
         }
     ],
     "related": [
-        "CVE-2022-45061",
-        "CVE-2022-42919"
+        "CVE-2022-42919",
+        "CVE-2022-45061"
     ]
 }

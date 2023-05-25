@@ -2,25 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "openvswitch",
-                "purl": "pkg:rpm/vmware/openvswitch?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.12.0-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "libgd",
                 "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
             },
@@ -49,24 +31,6 @@
                     },
                     {
                         "fixed": "2.12.0-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "libgd",
-                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.5-8.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0292",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-08-31T00:00:00Z",
     "references": [
         {
@@ -83,7 +47,7 @@
         }
     ],
     "related": [
-        "CVE-2021-36980",
-        "CVE-2021-38115"
+        "CVE-2021-38115",
+        "CVE-2021-36980"
     ]
 }

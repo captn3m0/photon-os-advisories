@@ -2,31 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "libbpf",
-                "purl": "pkg:rpm/vmware/libbpf?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "libbpf",
-                "purl": "pkg:rpm/vmware/libbpf?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.1.0-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "libbpf",
                 "purl": "pkg:rpm/vmware/libbpf?distro=photon-4"
@@ -45,7 +20,7 @@
         }
     ],
     "id": "PHSA-2023-4.0-0377",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-04-26T05:24:54Z",
     "published": "2023-04-16T00:00:00Z",
     "references": [
         {

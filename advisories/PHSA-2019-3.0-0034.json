@@ -2,153 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.76-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "yarn",
-                "purl": "pkg:rpm/vmware/yarn?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.10.1-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.76-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "tcpdump",
-                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.9.3-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.76-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libpcap",
-                "purl": "pkg:rpm/vmware/libpcap?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.9.1-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "rsyslog",
-                "purl": "pkg:rpm/vmware/rsyslog?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.1907.0-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.76-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -183,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "libpcap",
-                "purl": "pkg:rpm/vmware/libpcap?distro=photon-3"
+                "name": "tcpdump",
+                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -192,7 +48,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.9.1-1.ph3"
+                        "fixed": "4.9.3-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -211,6 +67,42 @@
                     },
                     {
                         "fixed": "1.10.1-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.76-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libpcap",
+                "purl": "pkg:rpm/vmware/libpcap?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.1-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -239,42 +131,6 @@
                 "ecosystem": "Photon OS:3.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.76-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "tcpdump",
-                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.9.3-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -290,7 +146,7 @@
         }
     ],
     "id": "PHSA-2019-3.0-0034",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2019-10-15T00:00:00Z",
     "references": [
         {
@@ -299,41 +155,41 @@
         }
     ],
     "related": [
-        "CVE-2018-14465",
-        "CVE-2018-16452",
-        "CVE-2019-15161",
-        "CVE-2018-14462",
-        "CVE-2019-15162",
-        "CVE-2018-14461",
-        "CVE-2018-16451",
-        "CVE-2018-14469",
-        "CVE-2019-15166",
-        "CVE-2018-16300",
-        "CVE-2019-15918",
-        "CVE-2018-14880",
-        "CVE-2018-16301",
-        "CVE-2018-10103",
-        "CVE-2018-14882",
-        "CVE-2018-16227",
-        "CVE-2018-14468",
-        "CVE-2018-14467",
-        "CVE-2019-15164",
-        "CVE-2019-17040",
-        "CVE-2019-19319",
-        "CVE-2019-15165",
-        "CVE-2019-14821",
-        "CVE-2018-16229",
-        "CVE-2018-16230",
-        "CVE-2018-14470",
-        "CVE-2018-14881",
-        "CVE-2018-16228",
-        "CVE-2018-14466",
         "CVE-2019-5448",
         "CVE-2018-14879",
-        "CVE-2018-14463",
-        "CVE-2019-15163",
+        "CVE-2018-10103",
+        "CVE-2019-17040",
+        "CVE-2018-16301",
+        "CVE-2018-16230",
+        "CVE-2018-16451",
+        "CVE-2018-14881",
+        "CVE-2018-14470",
+        "CVE-2019-15166",
+        "CVE-2019-14821",
+        "CVE-2018-14882",
+        "CVE-2018-14469",
+        "CVE-2018-16300",
+        "CVE-2018-14466",
+        "CVE-2018-14461",
         "CVE-2018-14464",
-        "CVE-2018-10105",
-        "CVE-2019-14835"
+        "CVE-2019-15918",
+        "CVE-2018-14465",
+        "CVE-2018-16228",
+        "CVE-2019-15161",
+        "CVE-2019-19319",
+        "CVE-2018-14880",
+        "CVE-2018-16229",
+        "CVE-2019-15163",
+        "CVE-2018-14462",
+        "CVE-2019-14835",
+        "CVE-2018-14463",
+        "CVE-2018-16452",
+        "CVE-2019-15164",
+        "CVE-2018-14467",
+        "CVE-2018-14468",
+        "CVE-2019-15165",
+        "CVE-2019-15162",
+        "CVE-2018-16227",
+        "CVE-2018-10105"
     ]
 }

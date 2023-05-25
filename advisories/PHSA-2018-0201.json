@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "nginx",
-                "purl": "pkg:rpm/vmware/nginx?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.13.8-6.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "nginx",
                 "purl": "pkg:rpm/vmware/nginx?distro=photon-1"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2018-0201",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-26T07:02:13Z",
     "published": "2018-12-20T00:00:00Z",
     "references": [
         {

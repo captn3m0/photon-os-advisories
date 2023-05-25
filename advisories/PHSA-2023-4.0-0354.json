@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.0.0-7.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "redis",
                 "purl": "pkg:rpm/vmware/redis?distro=photon-4"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2023-4.0-0354",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2023-03-11T00:00:00Z",
     "references": [
         {

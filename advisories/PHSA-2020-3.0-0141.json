@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "openssl",
-                "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.0.2w-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "commons-httpclient",
-                "purl": "pkg:rpm/vmware/commons-httpclient?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.1-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "openssl",
                 "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0141",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-09-17T00:00:00Z",
     "references": [
         {
@@ -83,9 +47,9 @@
         }
     ],
     "related": [
-        "CVE-2020-1968",
         "CVE-2015-5262",
         "CVE-2014-3577",
+        "CVE-2020-1968",
         "CVE-2012-5783"
     ]
 }

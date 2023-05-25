@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "apache-ant",
-                "purl": "pkg:rpm/vmware/apache-ant?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.10.10-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "apache-ant",
                 "purl": "pkg:rpm/vmware/apache-ant?distro=photon-4"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0073",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-07-30T00:00:00Z",
     "references": [
         {

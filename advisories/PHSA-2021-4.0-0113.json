@@ -2,78 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "docker",
-                "purl": "pkg:rpm/vmware/docker?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "19.03.15-5.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.2.3428-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "openssh",
-                "purl": "pkg:rpm/vmware/openssh?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.8p1-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.4.4-6.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-4"
@@ -85,24 +13,6 @@
                     },
                     {
                         "fixed": "8.2.3428-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.4.4-6.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -139,6 +49,24 @@
                     },
                     {
                         "fixed": "8.8p1-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.4.4-6.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -146,7 +74,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0113",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-10-09T00:00:00Z",
     "references": [
         {
@@ -156,9 +84,9 @@
     ],
     "related": [
         "CVE-2016-20012",
-        "CVE-2021-3796",
-        "CVE-2021-41617",
         "CVE-2021-41089",
-        "CVE-2021-41103"
+        "CVE-2021-41617",
+        "CVE-2021-41103",
+        "CVE-2021-3796"
     ]
 }

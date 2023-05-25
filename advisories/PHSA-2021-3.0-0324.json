@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "rust",
-                "purl": "pkg:rpm/vmware/rust?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.51.0-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "kafka",
-                "purl": "pkg:rpm/vmware/kafka?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.0.0-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "rust",
                 "purl": "pkg:rpm/vmware/rust?distro=photon-3"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0324",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-13T05:25:06Z",
     "published": "2021-11-02T00:00:00Z",
     "references": [
         {

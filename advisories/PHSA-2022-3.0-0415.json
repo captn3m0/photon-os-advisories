@@ -2,60 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "mysql",
-                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.0.29-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.2.5151-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "nxtgn-openssl",
-                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.1.1o-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-3"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2022-3.0-0415",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-07-07T00:00:00Z",
     "references": [
         {
@@ -119,27 +65,27 @@
         }
     ],
     "related": [
-        "CVE-2022-21444",
-        "CVE-2022-2126",
-        "CVE-2022-21460",
-        "CVE-2022-2097",
-        "CVE-2022-21478",
-        "CVE-2022-21482",
+        "CVE-2021-22570",
+        "CVE-2022-2125",
+        "CVE-2022-21417",
         "CVE-2022-21454",
+        "CVE-2022-2183",
+        "CVE-2022-21451",
+        "CVE-2022-21444",
+        "CVE-2022-21479",
+        "CVE-2022-21425",
+        "CVE-2022-21412",
+        "CVE-2022-21482",
+        "CVE-2022-21483",
+        "CVE-2022-2175",
         "CVE-2022-2124",
         "CVE-2022-21489",
-        "CVE-2021-22570",
-        "CVE-2022-21417",
-        "CVE-2022-21427",
-        "CVE-2022-2129",
-        "CVE-2022-21483",
-        "CVE-2022-21451",
-        "CVE-2022-21425",
-        "CVE-2022-2175",
-        "CVE-2022-21412",
-        "CVE-2022-2183",
+        "CVE-2022-2097",
         "CVE-2022-2182",
-        "CVE-2022-21479",
-        "CVE-2022-2125"
+        "CVE-2022-21478",
+        "CVE-2022-2126",
+        "CVE-2022-2129",
+        "CVE-2022-21427",
+        "CVE-2022-21460"
     ]
 }

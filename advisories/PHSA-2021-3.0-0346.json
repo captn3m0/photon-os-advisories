@@ -2,25 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.4.52-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-3"
             },
@@ -31,114 +13,6 @@
                     },
                     {
                         "fixed": "8.2.3408-9.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.8.17-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "pkg-config",
-                "purl": "pkg:rpm/vmware/pkg-config?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "0.29.2-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "bluez",
-                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.58-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.8.17-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "pkg-config",
-                "purl": "pkg:rpm/vmware/pkg-config?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "0.29.2-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "bluez",
-                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.58-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -165,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -174,7 +48,43 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "8.2.3408-9.ph3"
+                        "fixed": "5.58-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "pkg-config",
+                "purl": "pkg:rpm/vmware/pkg-config?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.29.2-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.8.17-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -182,7 +92,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0346",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-12-26T00:00:00Z",
     "references": [
         {
@@ -191,12 +101,12 @@
         }
     ],
     "related": [
-        "CVE-2021-27218",
-        "CVE-2021-3984",
-        "CVE-2021-4019",
         "CVE-2021-41805",
-        "CVE-2020-35457",
         "CVE-2021-44790",
+        "CVE-2021-4019",
+        "CVE-2021-3984",
+        "CVE-2020-35457",
+        "CVE-2021-27218",
         "CVE-2021-41229"
     ]
 }

@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "mysql",
-                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.0.32-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "mysql",
                 "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2023-3.0-0523",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2023-02-01T00:00:00Z",
     "references": [
         {
@@ -47,23 +29,23 @@
         }
     ],
     "related": [
-        "CVE-2023-21875",
-        "CVE-2023-21883",
-        "CVE-2023-21880",
-        "CVE-2023-21836",
         "CVE-2023-21876",
         "CVE-2023-21879",
-        "CVE-2023-21863",
-        "CVE-2023-21878",
+        "CVE-2023-21873",
+        "CVE-2023-21875",
         "CVE-2023-21869",
-        "CVE-2023-21870",
         "CVE-2023-21881",
-        "CVE-2023-21867",
-        "CVE-2023-21868",
         "CVE-2023-21887",
+        "CVE-2023-21870",
+        "CVE-2023-21880",
+        "CVE-2023-21883",
+        "CVE-2023-21878",
+        "CVE-2023-21868",
         "CVE-2023-21882",
         "CVE-2023-21871",
         "CVE-2023-21877",
-        "CVE-2023-21873"
+        "CVE-2023-21836",
+        "CVE-2023-21863",
+        "CVE-2023-21867"
     ]
 }

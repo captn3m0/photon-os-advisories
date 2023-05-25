@@ -2,25 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "rubygem-bundler",
-                "purl": "pkg:rpm/vmware/rubygem-bundler?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.21-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "python3-urllib3",
                 "purl": "pkg:rpm/vmware/python3-urllib3?distro=photon-4"
             },
@@ -31,24 +13,6 @@
                     },
                     {
                         "fixed": "1.25.11-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "zeromq",
-                "purl": "pkg:rpm/vmware/zeromq?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.3.4-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -85,24 +49,6 @@
                     },
                     {
                         "fixed": "2.2.21-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "python3-urllib3",
-                "purl": "pkg:rpm/vmware/python3-urllib3?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.25.11-2.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0060",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-07-13T00:00:00Z",
     "references": [
         {
@@ -119,9 +65,9 @@
         }
     ],
     "related": [
+        "CVE-2021-33503",
         "CVE-2020-36400",
         "CVE-2020-36327",
-        "CVE-2021-33503",
         "CVE-2019-3881"
     ]
 }

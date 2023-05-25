@@ -2,7 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "runc",
                 "purl": "pkg:rpm/vmware/runc?distro=photon-3"
             },
@@ -13,42 +13,6 @@
                     },
                     {
                         "fixed": "1.0.0.rc93-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "python-cryptography",
-                "purl": "pkg:rpm/vmware/python-cryptography?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.8-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "tar",
-                "purl": "pkg:rpm/vmware/tar?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.30-5.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -67,24 +31,6 @@
                     },
                     {
                         "fixed": "2.8-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "runc",
-                "purl": "pkg:rpm/vmware/runc?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.0.0.rc93-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0239",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-05-19T00:00:00Z",
     "references": [
         {
@@ -119,8 +65,8 @@
         }
     ],
     "related": [
-        "CVE-2021-20193",
         "CVE-2021-30465",
+        "CVE-2021-20193",
         "CVE-2020-36242"
     ]
 }

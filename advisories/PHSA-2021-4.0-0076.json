@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "wireshark",
-                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.4.7-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "wireshark",
                 "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0076",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-03-31T02:19:57Z",
     "published": "2021-08-05T00:00:00Z",
     "references": [
         {

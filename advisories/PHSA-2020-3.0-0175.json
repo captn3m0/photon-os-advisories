@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "openssl",
-                "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.0.2w-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "nxtgn-openssl",
-                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.1.1g-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "openssl",
                 "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0175",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-10T05:24:59Z",
     "published": "2020-12-10T00:00:00Z",
     "references": [
         {

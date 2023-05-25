@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "cpio",
-                "purl": "pkg:rpm/vmware/cpio?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.12-3.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "grub2",
-                "purl": "pkg:rpm/vmware/grub2?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.04-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "cpio",
                 "purl": "pkg:rpm/vmware/cpio?distro=photon-1"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2020-0267",
-    "modified": "2023-05-07T11:51:39.118569Z",
+    "modified": "2023-05-26T05:23:29Z",
     "published": "2020-01-27T00:00:00Z",
     "references": [
         {

@@ -2,97 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.104-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.7.1-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.104-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.104-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "apache-tomcat",
-                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.5.51-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "linux-aws",
                 "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
             },
@@ -129,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -138,7 +48,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.7.1-1.ph3"
+                        "fixed": "8.5.51-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -183,8 +93,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -192,25 +102,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "4.19.104-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "apache-tomcat",
-                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.5.51-1.ph3"
+                        "fixed": "1.7.1-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -218,7 +110,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0069",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-03-14T00:00:00Z",
     "references": [
         {
@@ -227,23 +119,23 @@
         }
     ],
     "related": [
-        "CVE-2020-12652",
         "CVE-2019-19037",
-        "CVE-2020-12653",
-        "CVE-2020-12654",
-        "CVE-2020-1745",
-        "CVE-2019-3016",
         "CVE-2020-10690",
-        "CVE-2020-12769",
+        "CVE-2019-3016",
+        "CVE-2020-12653",
         "CVE-2020-7955",
-        "CVE-2020-7219",
-        "CVE-2020-14416",
-        "CVE-2019-17569",
-        "CVE-2019-19046",
-        "CVE-2019-20806",
+        "CVE-2020-12652",
+        "CVE-2020-12654",
         "CVE-2020-8428",
+        "CVE-2020-1938",
+        "CVE-2020-7219",
         "CVE-2020-1935",
+        "CVE-2019-19046",
+        "CVE-2020-1745",
+        "CVE-2020-14416",
         "CVE-2019-19462",
-        "CVE-2020-1938"
+        "CVE-2019-17569",
+        "CVE-2019-20806",
+        "CVE-2020-12769"
     ]
 }

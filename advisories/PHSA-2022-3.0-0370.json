@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.232-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-3"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-3.0-0370",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-03-10T00:00:00Z",
     "references": [
         {
@@ -47,11 +29,11 @@
         }
     ],
     "related": [
-        "CVE-2022-26966",
         "CVE-2022-25375",
         "CVE-2022-25258",
         "CVE-2022-0847",
-        "CVE-2022-20008",
-        "CVE-2022-27223"
+        "CVE-2022-27223",
+        "CVE-2022-26966",
+        "CVE-2022-20008"
     ]
 }

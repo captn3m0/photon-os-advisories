@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "squid",
-                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.17-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "libtirpc",
-                "purl": "pkg:rpm/vmware/libtirpc?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.2.6-3.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "squid",
                 "purl": "pkg:rpm/vmware/squid?distro=photon-4"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2022-4.0-0224",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-08-06T00:00:00Z",
     "references": [
         {
@@ -83,7 +47,7 @@
         }
     ],
     "related": [
-        "CVE-2021-46784",
-        "CVE-2021-46828"
+        "CVE-2021-46828",
+        "CVE-2021-46784"
     ]
 }

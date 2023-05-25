@@ -2,60 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.86.0-4.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "haproxy",
-                "purl": "pkg:rpm/vmware/haproxy?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.6.0-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.6.8-4.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "haproxy",
                 "purl": "pkg:rpm/vmware/haproxy?distro=photon-4"
@@ -75,24 +21,6 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.6.8-4.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
                 "name": "curl",
                 "purl": "pkg:rpm/vmware/curl?distro=photon-4"
             },
@@ -103,6 +31,24 @@
                     },
                     {
                         "fixed": "7.86.0-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.6.8-4.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2023-4.0-0350",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2023-03-07T00:00:00Z",
     "references": [
         {
@@ -120,10 +66,10 @@
     ],
     "related": [
         "CVE-2023-23915",
+        "CVE-2023-25725",
         "CVE-2023-25173",
         "CVE-2023-23916",
         "CVE-2023-25153",
-        "CVE-2023-23914",
-        "CVE-2023-25725"
+        "CVE-2023-23914"
     ]
 }

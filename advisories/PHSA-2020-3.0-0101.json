@@ -2,7 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "bindutils",
                 "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
             },
@@ -13,24 +13,6 @@
                     },
                     {
                         "fixed": "9.16.3-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "sqlite",
-                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.32.1-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -49,24 +31,6 @@
                     },
                     {
                         "fixed": "3.32.1-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "bindutils",
-                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "9.16.3-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0101",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-06-03T00:00:00Z",
     "references": [
         {
@@ -83,12 +47,12 @@
         }
     ],
     "related": [
+        "CVE-2020-13632",
         "CVE-2020-13435",
         "CVE-2020-13630",
+        "CVE-2020-8617",
         "CVE-2020-13631",
         "CVE-2020-13434",
-        "CVE-2020-13632",
-        "CVE-2020-8617",
         "CVE-2020-8616"
     ]
 }

@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "freetype2",
-                "purl": "pkg:rpm/vmware/freetype2?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.7.1-6.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "freetype2",
                 "purl": "pkg:rpm/vmware/freetype2?distro=photon-2"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-0442",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-02-23T18:29:47Z",
     "published": "2022-02-16T00:00:00Z",
     "references": [
         {

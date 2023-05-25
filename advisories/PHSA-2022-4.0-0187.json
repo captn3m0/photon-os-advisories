@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "mysql",
-                "purl": "pkg:rpm/vmware/mysql?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.0.29-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "mysql",
                 "purl": "pkg:rpm/vmware/mysql?distro=photon-4"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-4.0-0187",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-05-20T00:00:00Z",
     "references": [
         {
@@ -47,17 +29,17 @@
         }
     ],
     "related": [
-        "CVE-2022-21451",
-        "CVE-2022-21425",
-        "CVE-2022-21482",
-        "CVE-2022-21412",
         "CVE-2022-21454",
         "CVE-2022-21417",
+        "CVE-2022-21489",
+        "CVE-2022-21412",
+        "CVE-2022-21482",
+        "CVE-2022-21483",
+        "CVE-2022-21451",
+        "CVE-2022-21478",
+        "CVE-2022-21425",
         "CVE-2022-21479",
         "CVE-2022-21427",
-        "CVE-2022-21489",
-        "CVE-2022-21460",
-        "CVE-2022-21483",
-        "CVE-2022-21478"
+        "CVE-2022-21460"
     ]
 }

@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libmspack",
-                "purl": "pkg:rpm/vmware/libmspack?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "0.10.1alpha-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "docker",
-                "purl": "pkg:rpm/vmware/docker?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "18.09.9-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "docker",
                 "purl": "pkg:rpm/vmware/docker?distro=photon-3"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0085",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-05-02T00:00:00Z",
     "references": [
         {
@@ -83,9 +47,9 @@
         }
     ],
     "related": [
-        "CVE-2018-18584",
-        "CVE-2019-13509",
+        "CVE-2019-1010305",
         "CVE-2019-13139",
-        "CVE-2019-1010305"
+        "CVE-2018-18584",
+        "CVE-2019-13509"
     ]
 }

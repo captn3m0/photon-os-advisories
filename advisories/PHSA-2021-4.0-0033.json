@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.75.0-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "openssh",
-                "purl": "pkg:rpm/vmware/openssh?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.5p1-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "curl",
                 "purl": "pkg:rpm/vmware/curl?distro=photon-4"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0033",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-05-27T00:00:00Z",
     "references": [
         {
@@ -83,8 +47,8 @@
         }
     ],
     "related": [
+        "CVE-2021-22901",
         "CVE-2021-22898",
-        "CVE-2021-28041",
-        "CVE-2021-22901"
+        "CVE-2021-28041"
     ]
 }

@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "squid",
-                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.16-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "squid",
                 "purl": "pkg:rpm/vmware/squid?distro=photon-4"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0063",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-07-20T00:00:00Z",
     "references": [
         {
@@ -47,13 +29,13 @@
         }
     ],
     "related": [
-        "CVE-2021-31808",
-        "CVE-2021-31806",
-        "CVE-2021-28116",
         "CVE-2021-28651",
-        "CVE-2021-31807",
         "CVE-2021-28662",
         "CVE-2021-33620",
-        "CVE-2021-28652"
+        "CVE-2021-28116",
+        "CVE-2021-31806",
+        "CVE-2021-28652",
+        "CVE-2021-31807",
+        "CVE-2021-31808"
     ]
 }

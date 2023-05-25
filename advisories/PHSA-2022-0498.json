@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "go",
-                "purl": "pkg:rpm/vmware/go?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.18.1-2.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-2"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-0498",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-07-25T17:10:11Z",
     "published": "2022-07-20T00:00:00Z",
     "references": [
         {

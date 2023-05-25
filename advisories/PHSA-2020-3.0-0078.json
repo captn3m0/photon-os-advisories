@@ -2,133 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "yarn",
-                "purl": "pkg:rpm/vmware/yarn?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.10.1-8.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "haproxy",
-                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.0.10-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.7.17-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.7.5-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.1.0-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "ansible",
-                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.8.10-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "bubblewrap",
-                "purl": "pkg:rpm/vmware/bubblewrap?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "0.3.0-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "libvirt",
                 "purl": "pkg:rpm/vmware/libvirt?distro=photon-3"
             },
@@ -147,8 +21,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "bubblewrap",
-                "purl": "pkg:rpm/vmware/bubblewrap?distro=photon-3"
+                "name": "python2",
+                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -156,61 +30,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "0.3.0-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "ansible",
-                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.8.10-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "yarn",
-                "purl": "pkg:rpm/vmware/yarn?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.10.1-8.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.1.0-1.ph3"
+                        "fixed": "2.7.17-4.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -237,8 +57,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "libvirt",
-                "purl": "pkg:rpm/vmware/libvirt?distro=photon-3"
+                "name": "yarn",
+                "purl": "pkg:rpm/vmware/yarn?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -246,7 +66,61 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "4.7.0-5.ph3"
+                        "fixed": "1.10.1-8.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.8.10-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.1.0-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "bubblewrap",
+                "purl": "pkg:rpm/vmware/bubblewrap?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.3.0-3.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -265,24 +139,6 @@
                     },
                     {
                         "fixed": "2.0.10-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.7.17-4.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -290,7 +146,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0078",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-04-08T00:00:00Z",
     "references": [
         {
@@ -300,18 +156,18 @@
     ],
     "related": [
         "CVE-2019-10206",
-        "CVE-2020-11100",
-        "CVE-2019-14856",
-        "CVE-2019-20485",
-        "CVE-2020-10684",
-        "CVE-2020-1738",
-        "CVE-2020-8492",
         "CVE-2020-1739",
-        "CVE-2020-1735",
-        "CVE-2019-14973",
         "CVE-2019-15608",
+        "CVE-2019-14856",
         "CVE-2020-1740",
+        "CVE-2019-10217",
+        "CVE-2020-1738",
+        "CVE-2019-14973",
+        "CVE-2020-10684",
+        "CVE-2020-1735",
         "CVE-2020-5291",
-        "CVE-2019-10217"
+        "CVE-2020-8492",
+        "CVE-2019-20485",
+        "CVE-2020-11100"
     ]
 }

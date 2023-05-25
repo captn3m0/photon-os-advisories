@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "git",
-                "purl": "pkg:rpm/vmware/git?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.23.3-2.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "containerd",
-                "purl": "pkg:rpm/vmware/containerd?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.4.4-2.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "git",
                 "purl": "pkg:rpm/vmware/git?distro=photon-1"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-0369",
-    "modified": "2023-05-07T11:51:38.206132Z",
+    "modified": "2023-05-26T05:23:25Z",
     "published": "2021-03-11T00:00:00Z",
     "references": [
         {

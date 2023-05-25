@@ -2,60 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "expat",
-                "purl": "pkg:rpm/vmware/expat?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.9-4.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.0.0533-17.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "python-numpy",
-                "purl": "pkg:rpm/vmware/python-numpy?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.12.1-7.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "expat",
                 "purl": "pkg:rpm/vmware/expat?distro=photon-2"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2022-0435",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-02-15T21:42:03Z",
     "published": "2022-01-31T00:00:00Z",
     "references": [
         {

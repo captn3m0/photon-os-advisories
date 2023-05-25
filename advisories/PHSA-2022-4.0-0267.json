@@ -2,7 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "pgbouncer",
                 "purl": "pkg:rpm/vmware/pgbouncer?distro=photon-4"
             },
@@ -13,24 +13,6 @@
                     },
                     {
                         "fixed": "1.14.0-4.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "openssl",
-                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.0.6-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -49,24 +31,6 @@
                     },
                     {
                         "fixed": "3.0.6-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "pgbouncer",
-                "purl": "pkg:rpm/vmware/pgbouncer?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.14.0-4.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2022-4.0-0267",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-10-21T00:00:00Z",
     "references": [
         {
@@ -83,7 +47,7 @@
         }
     ],
     "related": [
-        "CVE-2021-3935",
-        "CVE-2022-3358"
+        "CVE-2022-3358",
+        "CVE-2021-3935"
     ]
 }

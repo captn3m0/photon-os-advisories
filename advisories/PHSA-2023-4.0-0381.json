@@ -2,31 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "net-snmp",
-                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "net-snmp",
-                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.8-10.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "net-snmp",
                 "purl": "pkg:rpm/vmware/net-snmp?distro=photon-4"
@@ -45,7 +20,7 @@
         }
     ],
     "id": "PHSA-2023-4.0-0381",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-12T05:25:09Z",
     "published": "2023-04-26T00:00:00Z",
     "references": [
         {
@@ -54,7 +29,7 @@
         }
     ],
     "related": [
-        "CVE-2022-44792",
-        "CVE-2022-44793"
+        "CVE-2022-44793",
+        "CVE-2022-44792"
     ]
 }

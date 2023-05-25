@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "krb5",
-                "purl": "pkg:rpm/vmware/krb5?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.17-2.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "krb5",
                 "purl": "pkg:rpm/vmware/krb5?distro=photon-3"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0342",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-14T05:24:59Z",
     "published": "2021-12-12T00:00:00Z",
     "references": [
         {
@@ -48,7 +30,7 @@
     ],
     "related": [
         "CVE-2021-36222",
-        "CVE-2020-28196",
-        "CVE-2021-37750"
+        "CVE-2021-37750",
+        "CVE-2020-28196"
     ]
 }

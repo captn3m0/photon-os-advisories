@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "unbound",
-                "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.13.1-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "cifs-utils",
-                "purl": "pkg:rpm/vmware/cifs-utils?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.8-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "unbound",
                 "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0236",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-05-13T00:00:00Z",
     "references": [
         {
@@ -83,18 +47,18 @@
         }
     ],
     "related": [
-        "CVE-2019-25032",
+        "CVE-2019-25036",
+        "CVE-2019-25039",
         "CVE-2019-25041",
-        "CVE-2019-25042",
-        "CVE-2021-20208",
         "CVE-2019-25034",
         "CVE-2019-25037",
-        "CVE-2019-25039",
-        "CVE-2019-25031",
-        "CVE-2019-25038",
-        "CVE-2019-25040",
-        "CVE-2019-25036",
         "CVE-2019-25033",
-        "CVE-2019-25035"
+        "CVE-2019-25038",
+        "CVE-2019-25031",
+        "CVE-2019-25035",
+        "CVE-2019-25040",
+        "CVE-2019-25042",
+        "CVE-2021-20208",
+        "CVE-2019-25032"
     ]
 }

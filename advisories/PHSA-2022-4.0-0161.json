@@ -2,25 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.2.4436-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "cyrus-sasl",
                 "purl": "pkg:rpm/vmware/cyrus-sasl?distro=photon-4"
             },
@@ -49,24 +31,6 @@
                     },
                     {
                         "fixed": "8.2.4436-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "cyrus-sasl",
-                "purl": "pkg:rpm/vmware/cyrus-sasl?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.1.27-7.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2022-4.0-0161",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-03-13T00:00:00Z",
     "references": [
         {
@@ -83,15 +47,15 @@
         }
     ],
     "related": [
-        "CVE-2022-24407",
-        "CVE-2022-0368",
-        "CVE-2022-0417",
-        "CVE-2022-0156",
-        "CVE-2022-0696",
-        "CVE-2021-4193",
-        "CVE-2022-0393",
         "CVE-2022-0158",
-        "CVE-2021-4173",
-        "CVE-2022-0319"
+        "CVE-2022-0368",
+        "CVE-2021-4193",
+        "CVE-2022-0417",
+        "CVE-2022-0696",
+        "CVE-2022-24407",
+        "CVE-2022-0393",
+        "CVE-2022-0319",
+        "CVE-2022-0156",
+        "CVE-2021-4173"
     ]
 }

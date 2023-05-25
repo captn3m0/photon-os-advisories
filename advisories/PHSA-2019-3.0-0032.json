@@ -2,43 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "openssl",
-                "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.0.2t-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "curl",
-                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.61.1-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "libvirt",
                 "purl": "pkg:rpm/vmware/libvirt?distro=photon-3"
             },
@@ -85,24 +49,6 @@
                     },
                     {
                         "fixed": "7.61.1-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "libvirt",
-                "purl": "pkg:rpm/vmware/libvirt?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.7.0-4.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2019-3.0-0032",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2019-10-04T00:00:00Z",
     "references": [
         {
@@ -119,12 +65,12 @@
         }
     ],
     "related": [
-        "CVE-2019-5482",
-        "CVE-2019-10168",
         "CVE-2019-5481",
         "CVE-2019-10167",
-        "CVE-2019-1547",
         "CVE-2019-1563",
+        "CVE-2019-5482",
+        "CVE-2019-10168",
+        "CVE-2019-1547",
         "CVE-2019-10166"
     ]
 }

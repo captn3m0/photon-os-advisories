@@ -2,60 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.0.13-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.28-15.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "mysql",
-                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.0.26-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0281",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-08-10T00:00:00Z",
     "references": [
         {
@@ -119,12 +65,12 @@
         }
     ],
     "related": [
-        "CVE-2021-2357",
-        "CVE-2021-2339",
-        "CVE-2021-32761",
-        "CVE-2021-2356",
         "CVE-2021-2352",
+        "CVE-2021-2339",
+        "CVE-2021-2357",
         "CVE-2021-35942",
-        "CVE-2021-2354"
+        "CVE-2021-2354",
+        "CVE-2021-2356",
+        "CVE-2021-32761"
     ]
 }

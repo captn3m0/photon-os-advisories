@@ -2,25 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "openjdk11",
-                "purl": "pkg:rpm/vmware/openjdk11?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "11.0.12-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "ImageMagick",
                 "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
             },
@@ -31,24 +13,6 @@
                     },
                     {
                         "fixed": "7.1.0.19-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "glib",
-                "purl": "pkg:rpm/vmware/glib?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.58.0-9.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -67,24 +31,6 @@
                     },
                     {
                         "fixed": "2.58.0-9.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "ImageMagick",
-                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "7.1.0.19-5.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2022-3.0-0449",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2022-09-09T00:00:00Z",
     "references": [
         {
@@ -119,8 +65,8 @@
         }
     ],
     "related": [
-        "CVE-2022-0284",
         "CVE-2021-3800",
+        "CVE-2022-0284",
         "CVE-2022-34169"
     ]
 }

@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "yarn",
-                "purl": "pkg:rpm/vmware/yarn?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.10.1-4.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "yarn",
                 "purl": "pkg:rpm/vmware/yarn?distro=photon-2"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2019-0181",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-14T00:05:02Z",
     "published": "2019-10-15T00:00:00Z",
     "references": [
         {

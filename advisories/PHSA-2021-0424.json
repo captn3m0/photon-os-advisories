@@ -2,60 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "util-linux",
-                "purl": "pkg:rpm/vmware/util-linux?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.27.1-7.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "vim",
-                "purl": "pkg:rpm/vmware/vim?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.0.0533-14.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "runc",
-                "purl": "pkg:rpm/vmware/runc?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.0.0.rc93-4.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "util-linux",
                 "purl": "pkg:rpm/vmware/util-linux?distro=photon-1"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2021-0424",
-    "modified": "2023-05-07T11:51:37.770456Z",
+    "modified": "2023-05-26T05:23:23Z",
     "published": "2021-08-13T00:00:00Z",
     "references": [
         {

@@ -2,25 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.132-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "grub2",
                 "purl": "pkg:rpm/vmware/grub2?distro=photon-3"
             },
@@ -49,24 +31,6 @@
                     },
                     {
                         "fixed": "4.19.132-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "grub2",
-                "purl": "pkg:rpm/vmware/grub2?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.04-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0120",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-07-30T00:00:00Z",
     "references": [
         {
@@ -83,14 +47,14 @@
         }
     ],
     "related": [
-        "CVE-2020-15707",
+        "CVE-2020-15780",
+        "CVE-2020-15706",
         "CVE-2020-14310",
-        "CVE-2020-10713",
+        "CVE-2020-15707",
+        "CVE-2020-14309",
+        "CVE-2020-15705",
         "CVE-2020-14308",
         "CVE-2020-14311",
-        "CVE-2020-14309",
-        "CVE-2020-15706",
-        "CVE-2020-15780",
-        "CVE-2020-15705"
+        "CVE-2020-10713"
     ]
 }

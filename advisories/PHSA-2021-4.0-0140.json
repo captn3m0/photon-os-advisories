@@ -2,25 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "selinux-policy",
-                "purl": "pkg:rpm/vmware/selinux-policy?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.14.8-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "libselinux",
                 "purl": "pkg:rpm/vmware/libselinux?distro=photon-4"
             },
@@ -31,42 +13,6 @@
                     },
                     {
                         "fixed": "3.2-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:4.0",
-                "name": "lapack",
-                "purl": "pkg:rpm/vmware/lapack?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.9.0-2.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "lapack",
-                "purl": "pkg:rpm/vmware/lapack?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.9.0-2.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -93,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "libselinux",
-                "purl": "pkg:rpm/vmware/libselinux?distro=photon-4"
+                "name": "lapack",
+                "purl": "pkg:rpm/vmware/lapack?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -102,7 +48,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "3.2-1.ph4"
+                        "fixed": "3.9.0-2.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -110,7 +56,7 @@
         }
     ],
     "id": "PHSA-2021-4.0-0140",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-12-21T00:00:00Z",
     "references": [
         {
@@ -119,10 +65,10 @@
         }
     ],
     "related": [
-        "CVE-2021-36086",
         "CVE-2021-4048",
+        "CVE-2021-36086",
         "CVE-2020-24612",
-        "CVE-2021-36085",
-        "CVE-2021-36084"
+        "CVE-2021-36084",
+        "CVE-2021-36085"
     ]
 }

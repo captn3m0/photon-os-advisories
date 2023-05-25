@@ -2,25 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "openvswitch",
-                "purl": "pkg:rpm/vmware/openvswitch?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.12.0-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "grub2",
                 "purl": "pkg:rpm/vmware/grub2?distro=photon-3"
             },
@@ -49,24 +31,6 @@
                     },
                     {
                         "fixed": "2.12.0-3.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "grub2",
-                "purl": "pkg:rpm/vmware/grub2?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.04-2.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-3.0-0202",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2021-03-03T00:00:00Z",
     "references": [
         {
@@ -83,14 +47,14 @@
         }
     ],
     "related": [
-        "CVE-2021-20233",
-        "CVE-2020-35498",
-        "CVE-2020-27779",
-        "CVE-2021-3418",
-        "CVE-2020-25647",
         "CVE-2020-14372",
+        "CVE-2020-25632",
+        "CVE-2020-27779",
+        "CVE-2020-25647",
         "CVE-2020-27749",
+        "CVE-2021-3418",
+        "CVE-2020-35498",
         "CVE-2021-20225",
-        "CVE-2020-25632"
+        "CVE-2021-20233"
     ]
 }

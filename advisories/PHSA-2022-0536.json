@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "redis",
-                "purl": "pkg:rpm/vmware/redis?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "6.2.7-2.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "redis",
                 "purl": "pkg:rpm/vmware/redis?distro=photon-2"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-0536",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-11-11T21:51:29Z",
     "published": "2022-11-05T00:00:00Z",
     "references": [
         {

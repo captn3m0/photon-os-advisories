@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "nodejs",
-                "purl": "pkg:rpm/vmware/nodejs?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "10.24.0-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "nodejs",
                 "purl": "pkg:rpm/vmware/nodejs?distro=photon-2"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2021-0330",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-25T17:51:42Z",
     "published": "2021-03-16T00:00:00Z",
     "references": [
         {

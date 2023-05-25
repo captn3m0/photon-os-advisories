@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "unbound",
-                "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.8.0-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "unbound",
                 "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0096",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-13T05:25:06Z",
     "published": "2020-05-28T00:00:00Z",
     "references": [
         {
@@ -47,7 +29,7 @@
         }
     ],
     "related": [
-        "CVE-2020-12663",
-        "CVE-2020-12662"
+        "CVE-2020-12662",
+        "CVE-2020-12663"
     ]
 }

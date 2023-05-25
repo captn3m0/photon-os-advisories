@@ -2,7 +2,7 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "PyYAML",
                 "purl": "pkg:rpm/vmware/PyYAML?distro=photon-3"
             },
@@ -20,25 +20,7 @@
         },
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "gnutls",
-                "purl": "pkg:rpm/vmware/gnutls?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.6.13-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "postgresql",
                 "purl": "pkg:rpm/vmware/postgresql?distro=photon-3"
             },
@@ -49,42 +31,6 @@
                     },
                     {
                         "fixed": "10.10-4.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "file",
-                "purl": "pkg:rpm/vmware/file?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.38-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "gnupg",
-                "purl": "pkg:rpm/vmware/gnupg?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.2.18-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -103,24 +49,6 @@
                     },
                     {
                         "fixed": "5.38-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "postgresql",
-                "purl": "pkg:rpm/vmware/postgresql?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "10.10-4.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -157,24 +85,6 @@
                     },
                     {
                         "fixed": "3.6.13-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "PyYAML",
-                "purl": "pkg:rpm/vmware/PyYAML?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.13-5.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -182,7 +92,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0080",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-04-14T00:00:00Z",
     "references": [
         {
@@ -191,13 +101,13 @@
         }
     ],
     "related": [
-        "CVE-2019-8905",
-        "CVE-2019-8904",
-        "CVE-2020-11501",
-        "CVE-2019-14855",
-        "CVE-2020-1747",
         "CVE-2020-1720",
+        "CVE-2019-14855",
+        "CVE-2019-8905",
+        "CVE-2020-1747",
         "CVE-2019-8906",
-        "CVE-2019-8907"
+        "CVE-2020-11501",
+        "CVE-2019-8907",
+        "CVE-2019-8904"
     ]
 }

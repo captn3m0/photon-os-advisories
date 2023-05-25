@@ -2,78 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:3.0",
-                "name": "mysql",
-                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.0.21-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.7.17-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.7.5-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:3.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "4.19.132-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:3.0",
                 "name": "python3",
                 "purl": "pkg:rpm/vmware/python3?distro=photon-3"
@@ -85,24 +13,6 @@
                     },
                     {
                         "fixed": "3.7.5-5.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "mysql",
-                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "8.0.21-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -139,6 +49,24 @@
                     },
                     {
                         "fixed": "4.19.132-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.0.21-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -146,7 +74,7 @@
         }
     ],
     "id": "PHSA-2020-3.0-0118",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-15T05:25:03Z",
     "published": "2020-07-25T00:00:00Z",
     "references": [
         {
@@ -155,42 +83,45 @@
         }
     ],
     "related": [
-        "CVE-2019-19036",
-        "CVE-2019-15902",
-        "CVE-2020-14575",
-        "CVE-2020-14663",
-        "CVE-2020-14680",
-        "CVE-2020-14654",
-        "CVE-2020-14591",
-        "CVE-2019-20907",
-        "CVE-2020-14553",
-        "CVE-2020-14540",
-        "CVE-2020-14620",
-        "CVE-2019-20934",
-        "CVE-2020-12771",
-        "CVE-2020-14550",
-        "CVE-2020-14568",
-        "CVE-2020-14576",
-        "CVE-2020-12655",
         "CVE-2020-14597",
-        "CVE-2020-14702",
-        "CVE-2020-14697",
         "CVE-2020-14631",
+        "CVE-2020-12655",
         "CVE-2020-14656",
-        "CVE-2020-14623",
-        "CVE-2020-15436",
-        "CVE-2020-14632",
-        "CVE-2020-14586",
-        "CVE-2020-14619",
-        "CVE-2020-14559",
-        "CVE-2019-7221",
-        "CVE-2020-14614",
-        "CVE-2020-14651",
-        "CVE-2020-15393",
-        "CVE-2020-14641",
+        "CVE-2019-20934",
         "CVE-2020-14547",
-        "CVE-2020-14539",
+        "CVE-2019-12378",
+        "CVE-2020-14632",
+        "CVE-2020-14623",
+        "CVE-2019-15902",
+        "CVE-2020-14586",
+        "CVE-2020-14550",
+        "CVE-2020-14591",
+        "CVE-2019-7221",
+        "CVE-2019-12456",
+        "CVE-2020-14663",
+        "CVE-2020-12771",
+        "CVE-2020-15393",
+        "CVE-2020-14559",
+        "CVE-2020-14576",
+        "CVE-2020-14680",
         "CVE-2020-14643",
-        "CVE-2020-14624"
+        "CVE-2020-14620",
+        "CVE-2019-20907",
+        "CVE-2020-14651",
+        "CVE-2020-14624",
+        "CVE-2020-14553",
+        "CVE-2020-14641",
+        "CVE-2020-14568",
+        "CVE-2020-14539",
+        "CVE-2020-15436",
+        "CVE-2019-19036",
+        "CVE-2020-14702",
+        "CVE-2019-3887",
+        "CVE-2020-14575",
+        "CVE-2020-14540",
+        "CVE-2020-14697",
+        "CVE-2020-14619",
+        "CVE-2020-14614",
+        "CVE-2020-14654"
     ]
 }

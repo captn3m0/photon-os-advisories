@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "glibc",
-                "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.22-34.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "python-numpy",
-                "purl": "pkg:rpm/vmware/python-numpy?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.12.1-6.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-1"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-0371",
-    "modified": "2023-05-07T11:51:38.184877Z",
+    "modified": "2023-05-26T05:23:25Z",
     "published": "2021-03-16T00:00:00Z",
     "references": [
         {

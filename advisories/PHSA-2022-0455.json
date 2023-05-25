@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:2.0",
-                "name": "httpd",
-                "purl": "pkg:rpm/vmware/httpd?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.4.53-1.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:2.0",
                 "name": "httpd",
                 "purl": "pkg:rpm/vmware/httpd?distro=photon-2"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2022-0455",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-04-15T23:34:11Z",
     "published": "2022-03-25T00:00:00Z",
     "references": [
         {

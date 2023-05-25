@@ -2,42 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "tar",
-                "purl": "pkg:rpm/vmware/tar?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "1.29-5.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "photon:2.0",
-                "name": "libsepol",
-                "purl": "pkg:rpm/vmware/libsepol?distro=photon-2"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "2.6-2.ph2"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "tar",
                 "purl": "pkg:rpm/vmware/tar?distro=photon-1"
@@ -74,7 +38,7 @@
         }
     ],
     "id": "PHSA-2021-0395",
-    "modified": "2023-05-07T11:51:37.952378Z",
+    "modified": "2023-05-26T05:23:24Z",
     "published": "2021-06-02T00:00:00Z",
     "references": [
         {

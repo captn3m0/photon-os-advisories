@@ -2,21 +2,25 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:4.0",
-                "name": "dmidecode",
-                "purl": "pkg:rpm/vmware/dmidecode?distro=photon-4"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:4.0",
                 "name": "dmidecode",
                 "purl": "pkg:rpm/vmware/dmidecode?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.5-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
             }
         }
     ],
     "id": "PHSA-2023-4.0-0386",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2023-05-05T05:25:30Z",
     "published": "2023-05-05T00:00:00Z",
     "references": [
         {

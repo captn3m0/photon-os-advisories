@@ -2,24 +2,6 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "photon:1.0",
-                "name": "perl",
-                "purl": "pkg:rpm/vmware/perl?distro=photon-1"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.24.1-6.ph1"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
                 "ecosystem": "Photon OS:1.0",
                 "name": "perl",
                 "purl": "pkg:rpm/vmware/perl?distro=photon-1"
@@ -38,7 +20,7 @@
         }
     ],
     "id": "PHSA-2020-0302",
-    "modified": "2023-05-07T05:25:00Z",
+    "modified": "2022-01-26T07:02:13Z",
     "published": "2020-06-23T00:00:00Z",
     "references": [
         {
