@@ -105,8 +105,8 @@ def get_osv(cve_data_all_versions):
 
                 yield {
                     "id": advisory,
-                    "modified": modified.isoformat("T") + "Z",
-                    "published": published.isoformat("T") + "Z",
+                    "modified": modified.isoformat("T", timespec='seconds') + "Z",
+                    "published": published.isoformat("T", timespec='seconds') + "Z",
                     "related": cves,
                     "affected": [affected(pkg, cves, os_version) for pkg in packages],
                     "references": [
@@ -142,7 +142,7 @@ def merge_advisories(advisory_file, data):
         min(
             datetime.strptime(current["published"], "%Y-%m-%dT%H:%M:%SZ"),
             datetime.strptime(data["published"], "%Y-%m-%dT%H:%M:%SZ"),
-        ).isoformat("T")
+        ).isoformat("T", timespec='seconds')
         + "Z"
     )
 
@@ -150,7 +150,7 @@ def merge_advisories(advisory_file, data):
         max(
             datetime.strptime(current["modified"], "%Y-%m-%dT%H:%M:%SZ"),
             datetime.strptime(data["modified"], "%Y-%m-%dT%H:%M:%SZ"),
-        ).isoformat("T")
+        ).isoformat("T", timespec='seconds')
         + "Z"
     )
 
@@ -169,7 +169,7 @@ def merge_advisories(advisory_file, data):
     # If there were important changes, but modified hasn't changed
     # bump the timestamp so downstream can pick up changes
     if original['modified'] == current['modified']:
-        current['modified'] = datetime.utcnow().isoformat("T") + "Z"
+        current['modified'] = datetime.utcnow().isoformat("T", timespec='seconds') + "Z"
 
     return current
 
