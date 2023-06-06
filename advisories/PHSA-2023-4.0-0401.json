@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "net-snmp",
+                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0401",
+    "modified": "2023-06-06T05:26:16Z",
+    "published": "2023-06-02T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-401"
+        }
+    ],
+    "related": [
+        "CVE-2022-24810",
+        "CVE-2022-24808",
+        "CVE-2022-24805",
+        "CVE-2022-24806",
+        "CVE-2022-24807",
+        "CVE-2022-24809"
+    ]
+}

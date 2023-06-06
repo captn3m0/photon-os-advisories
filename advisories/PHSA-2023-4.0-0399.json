@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+                "name": "libuv",
+                "purl": "pkg:rpm/vmware/libuv?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -12,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "5.10.142-1.ph4"
+                        "fixed": "1.45.0-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -21,8 +21,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+                "name": "shadow",
+                "purl": "pkg:rpm/vmware/shadow?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -30,7 +30,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "5.10.142-1.ph4"
+                        "fixed": "4.8.1-5.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -39,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -48,41 +48,26 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "5.10.142-1.ph4"
+                        "fixed": "2.35-7.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             }
         }
     ],
-    "id": "PHSA-2022-4.0-0248",
+    "id": "PHSA-2023-4.0-0399",
     "modified": "2023-06-06T05:26:16Z",
-    "published": "2022-09-20T00:00:00Z",
+    "published": "2023-05-31T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-248"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-399"
         }
     ],
     "related": [
-        "CVE-2022-26373",
-        "CVE-2022-20409",
-        "CVE-2022-36946",
-        "CVE-2022-2905",
-        "CVE-2022-29901",
-        "CVE-2022-3028",
-        "CVE-2022-36879",
-        "CVE-2022-3176",
-        "CVE-2022-2153",
-        "CVE-2022-29900",
-        "CVE-2022-39190",
-        "CVE-2022-39188"
+        "CVE-2023-29383",
+        "CVE-2020-8252",
+        "CVE-2023-1972",
+        "CVE-2022-4285"
     ]
 }

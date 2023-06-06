@@ -2,27 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "linux-aws",
-                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "5.10.158-1.ph4"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -30,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "5.10.158-1.ph4"
+                        "fixed": "4.19.280-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -38,9 +20,45 @@
         },
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.280-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.280-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
                 "name": "linux-rt",
-                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -48,7 +66,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "5.10.158-1.ph4"
+                        "fixed": "4.19.280-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -56,9 +74,9 @@
         },
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
+                "ecosystem": "Photon OS:3.0",
                 "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -66,28 +84,27 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "5.10.158-1.ph4"
+                        "fixed": "4.19.280-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
             }
         }
     ],
-    "id": "PHSA-2022-4.0-0299",
+    "id": "PHSA-2023-3.0-0573",
     "modified": "2023-06-06T05:26:16Z",
-    "published": "2022-12-15T00:00:00Z",
+    "published": "2023-04-28T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-299"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-573"
         }
     ],
     "related": [
-        "CVE-2021-3759",
-        "CVE-2022-47946",
-        "CVE-2022-3169",
-        "CVE-2022-42895",
-        "CVE-2022-42896",
-        "CVE-2022-3435"
+        "CVE-2023-2194",
+        "CVE-2023-30772",
+        "CVE-2023-1855",
+        "CVE-2023-1990",
+        "CVE-2023-1989"
     ]
 }

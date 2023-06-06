@@ -161,10 +161,38 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0142",
-    "modified": "2023-05-15T05:25:03Z",
+    "modified": "2023-06-06T05:26:16Z",
     "published": "2020-09-19T00:00:00Z",
     "references": [
         {
@@ -187,6 +215,9 @@
         "CVE-2020-8557",
         "CVE-2020-8555",
         "CVE-2020-25285",
-        "CVE-2019-0149"
+        "CVE-2019-0149",
+        "CVE-2019-1002100",
+        "CVE-2020-12888",
+        "CVE-2019-1002101"
     ]
 }

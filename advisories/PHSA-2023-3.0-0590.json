@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "net-snmp",
+                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.8-11.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0590",
+    "modified": "2023-06-06T05:26:16Z",
+    "published": "2023-06-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-590"
+        }
+    ],
+    "related": [
+        "CVE-2022-24810",
+        "CVE-2022-24808",
+        "CVE-2022-24805",
+        "CVE-2022-24806",
+        "CVE-2022-24807",
+        "CVE-2022-24809"
+    ]
+}

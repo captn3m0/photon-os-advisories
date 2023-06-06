@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "haproxy",
-                "purl": "pkg:rpm/vmware/haproxy?distro=photon-4"
+                "name": "unzip",
+                "purl": "pkg:rpm/vmware/unzip?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -12,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "2.6.0-3.ph4"
+                        "fixed": "6.0-15.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -21,8 +21,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "consul",
-                "purl": "pkg:rpm/vmware/consul?distro=photon-4"
+                "name": "libvirt",
+                "purl": "pkg:rpm/vmware/libvirt?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -30,27 +30,25 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.11.9-1.ph4"
+                        "fixed": "7.10.0-3.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
             }
         }
     ],
-    "id": "PHSA-2023-4.0-0373",
+    "id": "PHSA-2023-4.0-0397",
     "modified": "2023-06-06T05:26:16Z",
-    "published": "2023-04-10T00:00:00Z",
+    "published": "2023-05-24T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-373"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-397"
         }
     ],
     "related": [
-        "CVE-2022-29153",
-        "CVE-2023-0056",
-        "CVE-2021-41803",
-        "CVE-2023-0836",
-        "CVE-2022-40716"
+        "CVE-2022-0530",
+        "CVE-2023-2700",
+        "CVE-2022-0529"
     ]
 }

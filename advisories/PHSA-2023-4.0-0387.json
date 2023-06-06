@@ -17,10 +17,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libmicrohttpd",
+                "purl": "pkg:rpm/vmware/libmicrohttpd?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.9.76-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0387",
-    "modified": "2023-05-15T05:25:03Z",
+    "modified": "2023-06-06T05:26:16Z",
     "published": "2023-05-05T00:00:00Z",
     "references": [
         {
@@ -32,6 +50,7 @@
         "CVE-2023-24540",
         "CVE-2023-29013",
         "CVE-2023-24539",
-        "CVE-2023-29400"
+        "CVE-2023-29400",
+        "CVE-2023-27371"
     ]
 }

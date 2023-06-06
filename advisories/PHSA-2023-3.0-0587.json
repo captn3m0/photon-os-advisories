@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "kubernetes",
-                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -12,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.12.10-1.ph3"
+                        "fixed": "8.2.5169-9.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -21,8 +21,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "python2",
-                "purl": "pkg:rpm/vmware/python2?distro=photon-3"
+                "name": "consul",
+                "purl": "pkg:rpm/vmware/consul?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -30,7 +30,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "2.7.15-10.ph3"
+                        "fixed": "1.11.9-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -39,8 +39,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "binutils",
-                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
+                "name": "bazel",
+                "purl": "pkg:rpm/vmware/bazel?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -48,32 +48,27 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "2.32-1.ph3"
+                        "fixed": "6.1.2-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
             }
         }
     ],
-    "id": "PHSA-2019-3.0-0031",
+    "id": "PHSA-2023-3.0-0587",
     "modified": "2023-06-06T05:26:16Z",
-    "published": "2019-09-28T00:00:00Z",
+    "published": "2023-05-26T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-31"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-587"
         }
     ],
     "related": [
-        "CVE-2019-11249",
-        "CVE-2019-11248",
-        "CVE-2019-1010204",
-        "CVE-2019-11247",
-        "CVE-2019-11246",
-        "CVE-2019-11253",
-        "CVE-2019-16056",
-        "CVE-2018-12698",
-        "CVE-2018-12934",
-        "CVE-2018-12697"
+        "CVE-2022-3474",
+        "CVE-2023-2609",
+        "CVE-2022-29153",
+        "CVE-2022-40716",
+        "CVE-2021-41803"
     ]
 }
