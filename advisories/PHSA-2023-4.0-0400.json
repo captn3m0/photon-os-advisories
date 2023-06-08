@@ -6,10 +6,17 @@
                 "name": "libcap",
                 "purl": "pkg:rpm/vmware/libcap?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "cups",
+                "purl": "pkg:rpm/vmware/cups?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0400",
-    "modified": "2023-06-06T05:26:16Z",
+    "modified": "2023-06-08T05:26:39Z",
     "published": "2023-06-02T00:00:00Z",
     "references": [
         {
@@ -19,6 +26,7 @@
     ],
     "related": [
         "CVE-2023-2603",
-        "CVE-2023-2602"
+        "CVE-2023-2602",
+        "CVE-2023-32324"
     ]
 }
