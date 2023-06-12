@@ -13,10 +13,46 @@
                 "name": "cups",
                 "purl": "pkg:rpm/vmware/cups?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libcap",
+                "purl": "pkg:rpm/vmware/libcap?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.43-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "cups",
+                "purl": "pkg:rpm/vmware/cups?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.7-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0400",
-    "modified": "2023-06-08T05:26:39Z",
+    "modified": "2023-06-12T05:26:43Z",
     "published": "2023-06-02T00:00:00Z",
     "references": [
         {
