@@ -6,10 +6,28 @@
                 "name": "open-vm-tools",
                 "purl": "pkg:rpm/vmware/open-vm-tools?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "open-vm-tools",
+                "purl": "pkg:rpm/vmware/open-vm-tools?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "12.2.0-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0597",
-    "modified": "2023-06-14T04:33:14Z",
+    "modified": "2023-06-14T05:26:55Z",
     "published": "2023-06-14T00:00:00Z",
     "references": [
         {
