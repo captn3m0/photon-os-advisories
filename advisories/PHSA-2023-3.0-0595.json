@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0595",
+    "modified": "2023-06-14T04:33:14Z",
+    "published": "2023-06-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-595"
+        }
+    ],
+    "related": [
+        "CVE-2023-34152",
+        "CVE-2023-34153",
+        "CVE-2023-34151"
+    ]
+}

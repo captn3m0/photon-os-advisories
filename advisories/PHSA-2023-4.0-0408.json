@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "open-vm-tools",
+                "purl": "pkg:rpm/vmware/open-vm-tools?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0408",
+    "modified": "2023-06-14T04:33:14Z",
+    "published": "2023-06-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-408"
+        }
+    ],
+    "related": [
+        "CVE-2023-20867"
+    ]
+}

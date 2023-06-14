@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "open-vm-tools",
+                "purl": "pkg:rpm/vmware/open-vm-tools?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0597",
+    "modified": "2023-06-14T04:33:14Z",
+    "published": "2023-06-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-597"
+        }
+    ],
+    "related": [
+        "CVE-2023-20867"
+    ]
+}
