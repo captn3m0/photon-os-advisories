@@ -6,10 +6,28 @@
                 "name": "cassandra",
                 "purl": "pkg:rpm/vmware/cassandra?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "cassandra",
+                "purl": "pkg:rpm/vmware/cassandra?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.0.10-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0404",
-    "modified": "2023-06-15T05:26:49Z",
+    "modified": "2023-06-15T12:45:22Z",
     "published": "2023-06-07T00:00:00Z",
     "references": [
         {
