@@ -1,0 +1,66 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openjdk17",
+                "purl": "pkg:rpm/vmware/openjdk17?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0598",
+    "modified": "2023-06-17T05:26:52Z",
+    "published": "2023-06-16T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-598"
+        }
+    ],
+    "related": [
+        "CVE-2023-21954",
+        "CVE-2023-21938",
+        "CVE-2023-21939",
+        "CVE-2023-1611",
+        "CVE-2023-21930",
+        "CVE-2023-21968",
+        "CVE-2022-21360",
+        "CVE-2023-21967",
+        "CVE-2023-21937"
+    ]
+}
