@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0411",
+    "modified": "2023-06-20T05:27:08Z",
+    "published": "2023-06-16T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-411"
+        }
+    ],
+    "related": [
+        "CVE-2023-28709"
+    ]
+}

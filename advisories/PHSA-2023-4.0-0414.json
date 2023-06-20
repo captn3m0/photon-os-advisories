@@ -1,0 +1,34 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openjdk11",
+                "purl": "pkg:rpm/vmware/openjdk11?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0414",
+    "modified": "2023-06-20T05:27:08Z",
+    "published": "2023-06-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-414"
+        }
+    ],
+    "related": [
+        "CVE-2023-21954",
+        "CVE-2023-21968",
+        "CVE-2020-14152",
+        "CVE-2023-21930",
+        "CVE-2023-21938",
+        "CVE-2018-11813",
+        "CVE-2023-21939",
+        "CVE-2020-14153",
+        "CVE-2023-21937",
+        "CVE-2023-21967",
+        "CVE-2023-21843",
+        "CVE-2023-21835"
+    ]
+}

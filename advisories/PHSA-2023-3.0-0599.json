@@ -13,10 +13,17 @@
                 "name": "falco",
                 "purl": "pkg:rpm/vmware/falco?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0599",
-    "modified": "2023-06-18T05:26:53Z",
+    "modified": "2023-06-20T05:27:08Z",
     "published": "2023-06-17T00:00:00Z",
     "references": [
         {
@@ -26,6 +33,7 @@
     ],
     "related": [
         "CVE-2023-3138",
-        "CVE-2020-27304"
+        "CVE-2020-27304",
+        "CVE-2023-28709"
     ]
 }
