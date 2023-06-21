@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0597",
-    "modified": "2023-06-14T05:26:55Z",
+    "modified": "2023-06-21T05:27:14Z",
     "published": "2023-06-14T00:00:00Z",
     "references": [
         {
@@ -36,6 +43,7 @@
         }
     ],
     "related": [
-        "CVE-2023-20867"
+        "CVE-2023-20867",
+        "CVE-2023-2952"
     ]
 }
