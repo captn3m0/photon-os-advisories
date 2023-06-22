@@ -1,0 +1,58 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "syslinux",
+                "purl": "pkg:rpm/vmware/syslinux?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "shadow",
+                "purl": "pkg:rpm/vmware/shadow?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0415",
+    "modified": "2023-06-22T05:27:09Z",
+    "published": "2023-06-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-415"
+        }
+    ],
+    "related": [
+        "CVE-2013-4235",
+        "CVE-2020-11080",
+        "CVE-2018-14048",
+        "CVE-2016-3751",
+        "CVE-2023-0217",
+        "CVE-2017-12652",
+        "CVE-2021-4214",
+        "CVE-2019-6129",
+        "CVE-2018-1000168",
+        "CVE-2023-0215",
+        "CVE-2023-0216",
+        "CVE-2022-4304",
+        "CVE-2018-13785",
+        "CVE-2023-0401",
+        "CVE-2015-0973",
+        "CVE-2022-4450",
+        "CVE-2022-4203",
+        "CVE-2014-9495",
+        "CVE-2018-14550",
+        "CVE-2022-3996",
+        "CVE-2023-0466",
+        "CVE-2023-0286"
+    ]
+}

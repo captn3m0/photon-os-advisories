@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "syslinux",
+                "purl": "pkg:rpm/vmware/syslinux?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0602",
+    "modified": "2023-06-22T05:27:09Z",
+    "published": "2023-06-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-602"
+        }
+    ],
+    "related": [
+        "CVE-2019-6129",
+        "CVE-2014-9495",
+        "CVE-2018-14550",
+        "CVE-2018-14048",
+        "CVE-2016-3751",
+        "CVE-2017-12652",
+        "CVE-2018-13785",
+        "CVE-2015-0973",
+        "CVE-2021-4214"
+    ]
+}
