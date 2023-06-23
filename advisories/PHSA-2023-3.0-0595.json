@@ -31,10 +31,17 @@
                 "name": "openssl",
                 "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0595",
-    "modified": "2023-06-22T05:27:09Z",
+    "modified": "2023-06-23T07:23:47Z",
     "published": "2023-06-11T00:00:00Z",
     "references": [
         {
@@ -47,6 +54,7 @@
         "CVE-2023-34153",
         "CVE-2023-34151",
         "CVE-2023-0464",
-        "CVE-2023-2650"
+        "CVE-2023-2650",
+        "CVE-2023-28466"
     ]
 }

@@ -20,10 +20,17 @@
                 "name": "shadow",
                 "purl": "pkg:rpm/vmware/shadow?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "calico",
+                "purl": "pkg:rpm/vmware/calico?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0415",
-    "modified": "2023-06-22T05:27:09Z",
+    "modified": "2023-06-23T07:23:47Z",
     "published": "2023-06-22T00:00:00Z",
     "references": [
         {
@@ -53,6 +60,10 @@
         "CVE-2018-14550",
         "CVE-2022-3996",
         "CVE-2023-0466",
-        "CVE-2023-0286"
+        "CVE-2023-0286",
+        "CVE-2023-29404",
+        "CVE-2023-29403",
+        "CVE-2023-29402",
+        "CVE-2023-29405"
     ]
 }
