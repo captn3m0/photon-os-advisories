@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "sysstat",
+                "purl": "pkg:rpm/vmware/sysstat?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0408",
-    "modified": "2023-06-14T05:26:55Z",
+    "modified": "2023-06-23T05:27:21Z",
     "published": "2023-06-13T00:00:00Z",
     "references": [
         {
@@ -36,6 +43,7 @@
         }
     ],
     "related": [
-        "CVE-2023-20867"
+        "CVE-2023-20867",
+        "CVE-2023-33204"
     ]
 }
