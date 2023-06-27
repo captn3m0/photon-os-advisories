@@ -1,0 +1,70 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "cmake",
+                "purl": "pkg:rpm/vmware/cmake?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "calico",
+                "purl": "pkg:rpm/vmware/calico?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0603",
+    "modified": "2023-06-27T05:27:44Z",
+    "published": "2023-06-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-603"
+        }
+    ],
+    "related": [
+        "CVE-2023-28322",
+        "CVE-2021-22926",
+        "CVE-2022-37967",
+        "CVE-2016-0755",
+        "CVE-2020-25720",
+        "CVE-2022-44640",
+        "CVE-2022-27774",
+        "CVE-2021-22923",
+        "CVE-2019-5443",
+        "CVE-2023-27536",
+        "CVE-2021-22925",
+        "CVE-2016-5420",
+        "CVE-2016-5421",
+        "CVE-2023-29405",
+        "CVE-2016-5419",
+        "CVE-2023-29404",
+        "CVE-2022-32221",
+        "CVE-2023-29402",
+        "CVE-2022-38023",
+        "CVE-2022-37966",
+        "CVE-2023-2828",
+        "CVE-2023-0614",
+        "CVE-2023-27535",
+        "CVE-2021-22924",
+        "CVE-2023-2911",
+        "CVE-2023-0225",
+        "CVE-2023-29403"
+    ]
+}
