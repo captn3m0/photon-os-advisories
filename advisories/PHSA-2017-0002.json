@@ -89,10 +89,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:2.0",
+                "name": "bash",
+                "purl": "pkg:rpm/vmware/bash?distro=photon-2"
+            }
         }
     ],
     "id": "PHSA-2017-0002",
-    "modified": "2022-01-25T17:51:42Z",
+    "modified": "2023-06-26T05:27:34Z",
     "published": "2017-11-17T00:00:00Z",
     "references": [
         {
