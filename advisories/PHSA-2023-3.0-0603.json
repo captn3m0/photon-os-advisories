@@ -27,10 +27,17 @@
                 "name": "bindutils",
                 "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "etcd",
+                "purl": "pkg:rpm/vmware/etcd?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0603",
-    "modified": "2023-06-27T05:27:44Z",
+    "modified": "2023-06-29T05:27:55Z",
     "published": "2023-06-26T00:00:00Z",
     "references": [
         {
@@ -65,6 +72,7 @@
         "CVE-2021-22924",
         "CVE-2023-2911",
         "CVE-2023-0225",
-        "CVE-2023-29403"
+        "CVE-2023-29403",
+        "CVE-2018-1099"
     ]
 }
