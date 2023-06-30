@@ -13,10 +13,46 @@
                 "name": "nodejs",
                 "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "syslinux",
+                "purl": "pkg:rpm/vmware/syslinux?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.04-8.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "16.20.0-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0602",
-    "modified": "2023-06-23T07:23:47Z",
+    "modified": "2023-06-30T05:27:41Z",
     "published": "2023-06-21T00:00:00Z",
     "references": [
         {

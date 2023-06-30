@@ -6,10 +6,28 @@
                 "name": "binutils",
                 "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.32-8.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0604",
-    "modified": "2023-06-28T05:27:41Z",
+    "modified": "2023-06-30T05:27:41Z",
     "published": "2023-06-27T00:00:00Z",
     "references": [
         {
