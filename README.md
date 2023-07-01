@@ -29,6 +29,11 @@ republishes the advisories in the OSV format, and syncs them against the
 - [ ] Schema: Provide summary/details/severity
 - [ ] Schema: Provide SHA256 hashes under database_specific
 
+## Contributing
+
+Contributions are welcome! Since the advisories are automatically generated, please don't make
+manual updates to the JSON advisory files. Instead update the generation script: `generate.py`.
+
 ## License
 
 Licensed under the [MIT License](https://nemo.mit-license.org/). See LICENSE file for details.
