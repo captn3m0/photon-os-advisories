@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python-cryptography",
+                "purl": "pkg:rpm/vmware/python-cryptography?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0405",
+    "modified": "2023-07-02T05:27:51Z",
+    "published": "2023-06-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-405"
+        }
+    ],
+    "related": [
+        "CVE-2023-23931"
+    ]
+}
