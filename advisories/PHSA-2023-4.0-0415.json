@@ -106,10 +106,28 @@
                 "name": "pmd-ng",
                 "purl": "pkg:rpm/vmware/pmd-ng?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "pmd-ng",
+                "purl": "pkg:rpm/vmware/pmd-ng?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.1-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0415",
-    "modified": "2023-07-02T07:34:03Z",
+    "modified": "2023-07-03T05:28:04Z",
     "published": "2023-06-22T00:00:00Z",
     "references": [
         {
