@@ -1,0 +1,60 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nginx-ingress",
+                "purl": "pkg:rpm/vmware/nginx-ingress?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "kube-bench",
+                "purl": "pkg:rpm/vmware/kube-bench?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "ntp",
+                "purl": "pkg:rpm/vmware/ntp?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nxtgn-openssl",
+                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0606",
+    "modified": "2023-07-03T05:28:04Z",
+    "published": "2023-07-02T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-606"
+        }
+    ],
+    "related": [
+        "CVE-2023-26551",
+        "CVE-2023-0296",
+        "CVE-2023-26553",
+        "CVE-2023-2650",
+        "CVE-2023-1076",
+        "CVE-2023-1077",
+        "CVE-2023-26555",
+        "CVE-2023-26552",
+        "CVE-2019-15562",
+        "CVE-2023-26554"
+    ]
+}

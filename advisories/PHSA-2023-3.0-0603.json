@@ -124,10 +124,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0603",
-    "modified": "2023-06-30T05:27:41Z",
+    "modified": "2023-07-03T05:28:04Z",
     "published": "2023-06-26T00:00:00Z",
     "references": [
         {

@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "docker-compose",
+                "purl": "pkg:rpm/vmware/docker-compose?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0604",
-    "modified": "2023-06-30T05:27:41Z",
+    "modified": "2023-07-03T05:28:04Z",
     "published": "2023-06-27T00:00:00Z",
     "references": [
         {
@@ -38,6 +45,7 @@
     "related": [
         "CVE-2023-25588",
         "CVE-2023-25584",
-        "CVE-2023-25585"
+        "CVE-2023-25585",
+        "CVE-2023-25173"
     ]
 }
