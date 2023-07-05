@@ -6,10 +6,28 @@
                 "name": "libtiff",
                 "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.5.0-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0607",
-    "modified": "2023-07-05T05:28:11Z",
+    "modified": "2023-07-05T20:37:39Z",
     "published": "2023-07-04T00:00:00Z",
     "references": [
         {
