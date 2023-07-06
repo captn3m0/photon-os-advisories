@@ -199,10 +199,24 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libarchive",
+                "purl": "pkg:rpm/vmware/libarchive?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0417",
-    "modified": "2023-07-03T05:28:04Z",
+    "modified": "2023-07-06T05:28:26Z",
     "published": "2023-06-30T00:00:00Z",
     "references": [
         {
@@ -234,6 +248,21 @@
         "CVE-2016-7946",
         "CVE-2023-25584",
         "CVE-2023-26555",
-        "CVE-2023-0799"
+        "CVE-2023-0799",
+        "CVE-2023-2650",
+        "CVE-2023-0464",
+        "CVE-2019-19921",
+        "CVE-2023-1255",
+        "CVE-2023-0795",
+        "CVE-2021-36976",
+        "CVE-2023-0796",
+        "CVE-2023-25435",
+        "CVE-2023-27561",
+        "CVE-2022-23471",
+        "CVE-2023-3316",
+        "CVE-2023-0797",
+        "CVE-2023-0465",
+        "CVE-2023-2731",
+        "CVE-2023-25153"
     ]
 }

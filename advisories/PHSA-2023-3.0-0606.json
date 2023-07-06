@@ -124,10 +124,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0606",
-    "modified": "2023-07-03T14:37:38Z",
+    "modified": "2023-07-06T05:28:26Z",
     "published": "2023-07-02T00:00:00Z",
     "references": [
         {
@@ -145,6 +152,14 @@
         "CVE-2023-26555",
         "CVE-2023-26552",
         "CVE-2019-15562",
-        "CVE-2023-26554"
+        "CVE-2023-26554",
+        "CVE-2023-30588",
+        "CVE-2023-0464",
+        "CVE-2023-30585",
+        "CVE-2020-11080",
+        "CVE-2023-30581",
+        "CVE-2023-0465",
+        "CVE-2023-30590",
+        "CVE-2023-30589"
     ]
 }

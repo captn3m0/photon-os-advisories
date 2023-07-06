@@ -1,0 +1,81 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "cmake",
+                "purl": "pkg:rpm/vmware/cmake?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "coredns",
+                "purl": "pkg:rpm/vmware/coredns?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0420",
+    "modified": "2023-07-06T05:28:26Z",
+    "published": "2023-07-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-420"
+        }
+    ],
+    "related": [
+        "CVE-2020-15106",
+        "CVE-2021-3669",
+        "CVE-2020-15114",
+        "CVE-2018-1098",
+        "CVE-2018-1099",
+        "CVE-2016-5419",
+        "CVE-2015-3153",
+        "CVE-2020-15115",
+        "CVE-2014-3613",
+        "CVE-2019-5443",
+        "CVE-2014-3620",
+        "CVE-2016-5421",
+        "CVE-2020-15136",
+        "CVE-2019-9513",
+        "CVE-2013-1944",
+        "CVE-2016-1544",
+        "CVE-2023-0296",
+        "CVE-2016-5420",
+        "CVE-2020-15113",
+        "CVE-2019-9511",
+        "CVE-2016-0755",
+        "CVE-2020-11080",
+        "CVE-2015-8659",
+        "CVE-2020-15112"
+    ]
+}

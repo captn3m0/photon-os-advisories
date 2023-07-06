@@ -1,0 +1,44 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "coredns",
+                "purl": "pkg:rpm/vmware/coredns?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nerdctl",
+                "purl": "pkg:rpm/vmware/nerdctl?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0608",
+    "modified": "2023-07-06T05:28:26Z",
+    "published": "2023-07-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-608"
+        }
+    ],
+    "related": [
+        "CVE-2023-28642",
+        "CVE-2022-23471",
+        "CVE-2023-25809",
+        "CVE-2020-15106",
+        "CVE-2019-19921",
+        "CVE-2020-15114",
+        "CVE-2018-1098",
+        "CVE-2023-0296",
+        "CVE-2018-1099",
+        "CVE-2020-15112",
+        "CVE-2020-15113",
+        "CVE-2023-27561",
+        "CVE-2020-15115",
+        "CVE-2023-25153",
+        "CVE-2020-15136"
+    ]
+}
