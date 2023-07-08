@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0610",
+    "modified": "2023-07-08T05:28:15Z",
+    "published": "2023-07-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-610"
+        }
+    ],
+    "related": [
+        "CVE-2023-3316",
+        "CVE-2023-2908",
+        "CVE-2023-2731"
+    ]
+}
