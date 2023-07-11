@@ -249,10 +249,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0417",
-    "modified": "2023-07-06T18:38:09Z",
+    "modified": "2023-07-11T16:59:05Z",
     "published": "2023-06-30T00:00:00Z",
     "references": [
         {
@@ -299,6 +306,7 @@
         "CVE-2023-0797",
         "CVE-2023-0465",
         "CVE-2023-2731",
-        "CVE-2023-25153"
+        "CVE-2023-25153",
+        "CVE-2020-25720"
     ]
 }

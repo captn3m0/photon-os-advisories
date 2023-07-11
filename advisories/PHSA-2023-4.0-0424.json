@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "tcpdump",
+                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0424",
+    "modified": "2023-07-11T16:59:05Z",
+    "published": "2023-07-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-424"
+        }
+    ],
+    "related": [
+        "CVE-2020-8036",
+        "CVE-2023-3428"
+    ]
+}
