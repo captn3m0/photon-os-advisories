@@ -1,0 +1,68 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "falco",
+                "purl": "pkg:rpm/vmware/falco?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "bzr",
+                "purl": "pkg:rpm/vmware/bzr?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "tcpdump",
+                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0611",
+    "modified": "2023-07-12T23:06:35Z",
+    "published": "2023-07-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-611"
+        }
+    ],
+    "related": [
+        "CVE-2022-32148",
+        "CVE-2022-24921",
+        "CVE-2022-27664",
+        "CVE-2022-1705",
+        "CVE-2022-30635",
+        "CVE-2022-29804",
+        "CVE-2022-1962",
+        "CVE-2022-30633",
+        "CVE-2022-32189",
+        "CVE-2020-8036",
+        "CVE-2022-41716",
+        "CVE-2022-23773",
+        "CVE-2022-2879",
+        "CVE-2022-23772",
+        "CVE-2022-30629",
+        "CVE-2022-28327",
+        "CVE-2017-14176",
+        "CVE-2023-3428",
+        "CVE-2022-28131",
+        "CVE-2022-30580",
+        "CVE-2022-41715",
+        "CVE-2022-30631",
+        "CVE-2022-30634",
+        "CVE-2022-30632",
+        "CVE-2022-30630"
+    ]
+}

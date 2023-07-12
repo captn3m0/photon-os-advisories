@@ -49,10 +49,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0608",
-    "modified": "2023-07-06T18:38:06Z",
+    "modified": "2023-07-12T23:06:35Z",
     "published": "2023-07-05T00:00:00Z",
     "references": [
         {
@@ -75,6 +82,7 @@
         "CVE-2023-27561",
         "CVE-2020-15115",
         "CVE-2023-25153",
-        "CVE-2020-15136"
+        "CVE-2020-15136",
+        "CVE-2023-28466"
     ]
 }
