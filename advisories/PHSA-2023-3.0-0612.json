@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0612",
+    "modified": "2023-07-14T05:28:17Z",
+    "published": "2023-07-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-612"
+        }
+    ],
+    "related": [
+        "CVE-2018-5711"
+    ]
+}
