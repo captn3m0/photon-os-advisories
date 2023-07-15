@@ -56,10 +56,28 @@
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.285-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0608",
-    "modified": "2023-07-12T23:06:35Z",
+    "modified": "2023-07-14T05:28:17Z",
     "published": "2023-07-05T00:00:00Z",
     "references": [
         {
