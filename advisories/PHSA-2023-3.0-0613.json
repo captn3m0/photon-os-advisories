@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0613",
+    "modified": "2023-07-15T05:28:17Z",
+    "published": "2023-07-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-613"
+        }
+    ],
+    "related": [
+        "CVE-2022-24834"
+    ]
+}

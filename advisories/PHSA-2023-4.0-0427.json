@@ -1,0 +1,63 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "calico",
+                "purl": "pkg:rpm/vmware/calico?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0427",
+    "modified": "2023-07-15T05:28:17Z",
+    "published": "2023-07-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-427"
+        }
+    ],
+    "related": [
+        "CVE-2020-15114",
+        "CVE-2018-1098",
+        "CVE-2020-15113",
+        "CVE-2023-2727",
+        "CVE-2020-15136",
+        "CVE-2023-0296",
+        "CVE-2022-28224",
+        "CVE-2023-27043",
+        "CVE-2022-1996",
+        "CVE-2023-36824",
+        "CVE-2020-15112",
+        "CVE-2023-2431",
+        "CVE-2022-24834",
+        "CVE-2020-15106",
+        "CVE-2022-40897",
+        "CVE-2018-1099",
+        "CVE-2023-32082",
+        "CVE-2021-28235",
+        "CVE-2023-2728",
+        "CVE-2020-15115"
+    ]
+}

@@ -20,10 +20,17 @@
                 "name": "tar",
                 "purl": "pkg:rpm/vmware/tar?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "falco",
+                "purl": "pkg:rpm/vmware/falco?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0425",
-    "modified": "2023-07-12T23:06:35Z",
+    "modified": "2023-07-15T05:28:17Z",
     "published": "2023-07-12T00:00:00Z",
     "references": [
         {
@@ -34,6 +41,17 @@
     "related": [
         "CVE-2018-6553",
         "CVE-2023-25809",
-        "CVE-2022-48303"
+        "CVE-2022-48303",
+        "CVE-2023-29400",
+        "CVE-2023-24540",
+        "CVE-2022-41722",
+        "CVE-2023-24534",
+        "CVE-2022-41724",
+        "CVE-2023-24538",
+        "CVE-2023-24536",
+        "CVE-2023-24537",
+        "CVE-2022-41725",
+        "CVE-2023-24539",
+        "CVE-2023-24532"
     ]
 }
