@@ -27,10 +27,17 @@
                 "name": "calico",
                 "purl": "pkg:rpm/vmware/calico?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "flannel",
+                "purl": "pkg:rpm/vmware/flannel?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0427",
-    "modified": "2023-07-15T05:28:17Z",
+    "modified": "2023-07-16T05:28:13Z",
     "published": "2023-07-14T00:00:00Z",
     "references": [
         {

@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "gdb",
+                "purl": "pkg:rpm/vmware/gdb?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0614",
+    "modified": "2023-07-16T05:28:13Z",
+    "published": "2023-07-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-614"
+        }
+    ],
+    "related": [
+        "CVE-2018-25032"
+    ]
+}

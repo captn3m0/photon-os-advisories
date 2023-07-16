@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gnuplot",
+                "purl": "pkg:rpm/vmware/gnuplot?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0428",
+    "modified": "2023-07-16T05:28:13Z",
+    "published": "2023-07-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-428"
+        }
+    ],
+    "related": [
+        "CVE-2020-25559"
+    ]
+}
