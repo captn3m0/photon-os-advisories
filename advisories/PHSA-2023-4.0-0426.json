@@ -13,10 +13,17 @@
                 "name": "git-lfs",
                 "purl": "pkg:rpm/vmware/git-lfs?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0426",
-    "modified": "2023-07-14T05:28:17Z",
+    "modified": "2023-07-18T05:28:21Z",
     "published": "2023-07-13T00:00:00Z",
     "references": [
         {
