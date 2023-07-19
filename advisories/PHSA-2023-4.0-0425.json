@@ -27,10 +27,82 @@
                 "name": "falco",
                 "purl": "pkg:rpm/vmware/falco?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "cups",
+                "purl": "pkg:rpm/vmware/cups?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.4.6-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "tar",
+                "purl": "pkg:rpm/vmware/tar?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.34-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.1.4-9.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "falco",
+                "purl": "pkg:rpm/vmware/falco?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.35.0-4.0510183001.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0425",
-    "modified": "2023-07-15T05:28:17Z",
+    "modified": "2023-07-18T05:28:21Z",
     "published": "2023-07-12T00:00:00Z",
     "references": [
         {

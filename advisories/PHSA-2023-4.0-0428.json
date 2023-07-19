@@ -6,10 +6,28 @@
                 "name": "gnuplot",
                 "purl": "pkg:rpm/vmware/gnuplot?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gnuplot",
+                "purl": "pkg:rpm/vmware/gnuplot?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.4.6-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0428",
-    "modified": "2023-07-18T05:28:21Z",
+    "modified": "2023-07-19T02:26:36Z",
     "published": "2023-07-15T00:00:00Z",
     "references": [
         {
