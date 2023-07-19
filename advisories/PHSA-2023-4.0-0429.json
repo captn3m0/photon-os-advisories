@@ -24,10 +24,24 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "fuse-overlayfs-snapshotter",
+                "purl": "pkg:rpm/vmware/fuse-overlayfs-snapshotter?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "podman",
+                "purl": "pkg:rpm/vmware/podman?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0429",
-    "modified": "2023-07-19T02:26:36Z",
+    "modified": "2023-07-19T05:28:23Z",
     "published": "2023-07-18T00:00:00Z",
     "references": [
         {
@@ -36,6 +50,17 @@
         }
     ],
     "related": [
-        "CVE-2023-2829"
+        "CVE-2023-2829",
+        "CVE-2022-23648",
+        "CVE-2022-23471",
+        "CVE-2022-31030",
+        "CVE-2023-25809",
+        "CVE-2022-2990",
+        "CVE-2019-19921",
+        "CVE-2023-25153",
+        "CVE-2023-28642",
+        "CVE-2023-25173",
+        "CVE-2021-43816",
+        "CVE-2023-27561"
     ]
 }
