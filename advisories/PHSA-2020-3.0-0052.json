@@ -71,10 +71,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0052",
-    "modified": "2023-07-20T05:28:22Z",
+    "modified": "2023-07-20T13:38:03Z",
     "published": "2020-01-28T00:00:00Z",
     "references": [
         {
