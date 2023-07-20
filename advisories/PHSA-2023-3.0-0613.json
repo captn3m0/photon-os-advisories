@@ -6,10 +6,28 @@
                 "name": "redis",
                 "purl": "pkg:rpm/vmware/redis?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.2.13-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0613",
-    "modified": "2023-07-15T05:28:17Z",
+    "modified": "2023-07-19T05:28:23Z",
     "published": "2023-07-14T00:00:00Z",
     "references": [
         {
