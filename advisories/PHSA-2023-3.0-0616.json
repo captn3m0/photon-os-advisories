@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0616",
+    "modified": "2023-07-20T05:28:22Z",
+    "published": "2023-07-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-616"
+        }
+    ],
+    "related": [
+        "CVE-2023-32001"
+    ]
+}

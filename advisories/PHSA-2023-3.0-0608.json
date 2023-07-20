@@ -74,10 +74,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0608",
-    "modified": "2023-07-14T05:28:17Z",
+    "modified": "2023-07-20T05:28:22Z",
     "published": "2023-07-05T00:00:00Z",
     "references": [
         {
@@ -101,6 +108,10 @@
         "CVE-2020-15115",
         "CVE-2023-25153",
         "CVE-2020-15136",
-        "CVE-2023-28466"
+        "CVE-2023-28466",
+        "CVE-2023-25173",
+        "CVE-2023-35788",
+        "CVE-2023-3090",
+        "CVE-2023-3141"
     ]
 }

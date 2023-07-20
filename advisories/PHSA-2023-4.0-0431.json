@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0431",
+    "modified": "2023-07-20T05:28:22Z",
+    "published": "2023-07-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-431"
+        }
+    ],
+    "related": [
+        "CVE-2023-31486"
+    ]
+}

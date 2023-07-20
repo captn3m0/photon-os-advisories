@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "telegraf",
+                "purl": "pkg:rpm/vmware/telegraf?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0615",
+    "modified": "2023-07-20T05:28:22Z",
+    "published": "2023-07-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-615"
+        }
+    ],
+    "related": [
+        "CVE-2023-2829",
+        "CVE-2019-3826"
+    ]
+}
