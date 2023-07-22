@@ -274,10 +274,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "binutils-aarch64-linux-gnu",
+                "purl": "pkg:rpm/vmware/binutils-aarch64-linux-gnu?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0417",
-    "modified": "2023-07-18T05:28:21Z",
+    "modified": "2023-07-22T05:28:21Z",
     "published": "2023-06-30T00:00:00Z",
     "references": [
         {
@@ -327,6 +334,7 @@
         "CVE-2023-25153",
         "CVE-2020-25720",
         "CVE-2023-28642",
-        "CVE-2023-25809"
+        "CVE-2023-25809",
+        "CVE-2022-38533"
     ]
 }

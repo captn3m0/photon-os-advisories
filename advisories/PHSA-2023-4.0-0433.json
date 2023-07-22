@@ -1,0 +1,29 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "nerdctl",
+                "purl": "pkg:rpm/vmware/nerdctl?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0433",
+    "modified": "2023-07-22T05:28:21Z",
+    "published": "2023-07-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-433"
+        }
+    ],
+    "related": [
+        "CVE-2022-23471",
+        "CVE-2019-19921",
+        "CVE-2023-28642",
+        "CVE-2023-25153",
+        "CVE-2023-25809",
+        "CVE-2023-27561",
+        "CVE-2023-25173"
+    ]
+}
