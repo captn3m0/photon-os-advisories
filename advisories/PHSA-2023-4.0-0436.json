@@ -27,10 +27,17 @@
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0436",
-    "modified": "2023-07-25T05:28:22Z",
+    "modified": "2023-07-26T05:28:24Z",
     "published": "2023-07-25T00:00:00Z",
     "references": [
         {
@@ -40,6 +47,7 @@
     ],
     "related": [
         "CVE-2023-3111",
-        "CVE-2023-2124"
+        "CVE-2023-2124",
+        "CVE-2023-3446"
     ]
 }

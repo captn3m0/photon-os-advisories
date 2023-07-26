@@ -1,0 +1,52 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openresty",
+                "purl": "pkg:rpm/vmware/openresty?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0617",
+    "modified": "2023-07-26T05:28:24Z",
+    "published": "2023-07-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-617"
+        }
+    ],
+    "related": [
+        "CVE-2023-22048",
+        "CVE-2022-41742",
+        "CVE-2023-31486",
+        "CVE-2023-22057",
+        "CVE-2022-41741",
+        "CVE-2023-22058",
+        "CVE-2021-3520",
+        "CVE-2023-22005",
+        "CVE-2023-22053",
+        "CVE-2019-17543",
+        "CVE-2023-22046",
+        "CVE-2023-22038",
+        "CVE-2023-22033",
+        "CVE-2023-22054",
+        "CVE-2023-22056",
+        "CVE-2023-22008"
+    ]
+}
