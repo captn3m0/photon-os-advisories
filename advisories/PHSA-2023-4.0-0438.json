@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0438",
+    "modified": "2023-07-27T05:28:23Z",
+    "published": "2023-07-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-438"
+        }
+    ],
+    "related": [
+        "CVE-2021-40812"
+    ]
+}

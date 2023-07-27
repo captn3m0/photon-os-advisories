@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "fuse-overlayfs-snapshotter",
+                "purl": "pkg:rpm/vmware/fuse-overlayfs-snapshotter?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0618",
+    "modified": "2023-07-27T05:28:23Z",
+    "published": "2023-07-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-618"
+        }
+    ],
+    "related": [
+        "CVE-2022-23471",
+        "CVE-2023-25173",
+        "CVE-2021-43816"
+    ]
+}
