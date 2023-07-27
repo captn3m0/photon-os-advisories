@@ -6,10 +6,28 @@
                 "name": "openssl",
                 "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.0.9-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0434",
-    "modified": "2023-07-22T05:28:21Z",
+    "modified": "2023-07-26T05:28:24Z",
     "published": "2023-07-21T00:00:00Z",
     "references": [
         {
