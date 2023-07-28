@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0439",
+    "modified": "2023-07-28T05:28:50Z",
+    "published": "2023-07-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-439"
+        }
+    ],
+    "related": [
+        "CVE-2021-3697"
+    ]
+}

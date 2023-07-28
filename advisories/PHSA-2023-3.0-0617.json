@@ -20,10 +20,17 @@
                 "name": "perl",
                 "purl": "pkg:rpm/vmware/perl?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0617",
-    "modified": "2023-07-26T05:28:24Z",
+    "modified": "2023-07-28T05:28:50Z",
     "published": "2023-07-25T00:00:00Z",
     "references": [
         {
@@ -47,6 +54,8 @@
         "CVE-2023-22033",
         "CVE-2023-22054",
         "CVE-2023-22056",
-        "CVE-2023-22008"
+        "CVE-2023-22008",
+        "CVE-2021-3695",
+        "CVE-2022-28734"
     ]
 }

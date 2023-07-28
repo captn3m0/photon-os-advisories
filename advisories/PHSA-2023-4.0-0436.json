@@ -124,10 +124,24 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0436",
-    "modified": "2023-07-27T01:54:20Z",
+    "modified": "2023-07-28T05:28:50Z",
     "published": "2023-07-25T00:00:00Z",
     "references": [
         {
@@ -138,6 +152,10 @@
     "related": [
         "CVE-2023-3111",
         "CVE-2023-2124",
-        "CVE-2023-3446"
+        "CVE-2023-3446",
+        "CVE-2023-3649",
+        "CVE-2021-3695",
+        "CVE-2022-28734",
+        "CVE-2023-3648"
     ]
 }
