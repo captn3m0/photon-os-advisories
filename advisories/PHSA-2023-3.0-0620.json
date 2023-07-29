@@ -1,0 +1,42 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "lua",
+                "purl": "pkg:rpm/vmware/lua?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0620",
+    "modified": "2023-07-29T05:28:35Z",
+    "published": "2023-07-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-620"
+        }
+    ],
+    "related": [
+        "CVE-2023-0667",
+        "CVE-2020-24370",
+        "CVE-2023-0666",
+        "CVE-2021-3697",
+        "CVE-2023-3648",
+        "CVE-2021-44647"
+    ]
+}
