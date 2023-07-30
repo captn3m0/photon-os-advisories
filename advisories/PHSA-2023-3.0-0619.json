@@ -13,10 +13,17 @@
                 "name": "nss",
                 "purl": "pkg:rpm/vmware/nss?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "pcre2",
+                "purl": "pkg:rpm/vmware/pcre2?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0619",
-    "modified": "2023-07-28T05:28:50Z",
+    "modified": "2023-07-30T05:28:34Z",
     "published": "2023-07-27T00:00:00Z",
     "references": [
         {
@@ -26,6 +33,7 @@
     ],
     "related": [
         "CVE-2021-39241",
-        "CVE-2019-11745"
+        "CVE-2019-11745",
+        "CVE-2022-41409"
     ]
 }
