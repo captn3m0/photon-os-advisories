@@ -6,10 +6,17 @@
                 "name": "openssh",
                 "purl": "pkg:rpm/vmware/openssh?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gdb",
+                "purl": "pkg:rpm/vmware/gdb?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0440",
-    "modified": "2023-07-30T05:28:34Z",
+    "modified": "2023-08-01T05:28:36Z",
     "published": "2023-07-29T00:00:00Z",
     "references": [
         {
@@ -18,6 +25,19 @@
         }
     ],
     "related": [
-        "CVE-2023-38408"
+        "CVE-2023-38408",
+        "CVE-2023-25584",
+        "CVE-2023-25585",
+        "CVE-2022-38533",
+        "CVE-2019-9076",
+        "CVE-2023-1579",
+        "CVE-2023-25586",
+        "CVE-2018-9996",
+        "CVE-2021-46195",
+        "CVE-2023-25588",
+        "CVE-2020-16599",
+        "CVE-2021-45078",
+        "CVE-2021-3549",
+        "CVE-2022-4285"
     ]
 }

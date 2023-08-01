@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ostree",
+                "purl": "pkg:rpm/vmware/ostree?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0442",
+    "modified": "2023-08-01T05:28:36Z",
+    "published": "2023-08-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-442"
+        }
+    ],
+    "related": [
+        "CVE-2022-47085"
+    ]
+}
