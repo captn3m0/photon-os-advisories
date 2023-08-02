@@ -27,10 +27,82 @@
                 "name": "grub2",
                 "purl": "pkg:rpm/vmware/grub2?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.28.0-8.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.0.34-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.06-6.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openresty",
+                "purl": "pkg:rpm/vmware/openresty?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.21.4.1-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0617",
-    "modified": "2023-07-28T05:28:50Z",
+    "modified": "2023-08-02T05:28:49Z",
     "published": "2023-07-25T00:00:00Z",
     "references": [
         {
