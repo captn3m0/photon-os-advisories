@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0443",
+    "modified": "2023-08-02T05:28:49Z",
+    "published": "2023-08-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-443"
+        }
+    ],
+    "related": [
+        "CVE-2023-0614",
+        "CVE-2018-10919",
+        "CVE-2023-0225",
+        "CVE-2023-0922"
+    ]
+}

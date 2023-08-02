@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0624",
+    "modified": "2023-08-02T05:28:49Z",
+    "published": "2023-08-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-624"
+        }
+    ],
+    "related": [
+        "CVE-2023-36054"
+    ]
+}
