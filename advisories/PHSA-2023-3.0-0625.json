@@ -6,10 +6,28 @@
                 "name": "samba-client",
                 "purl": "pkg:rpm/vmware/samba-client?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.17.10-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0625",
-    "modified": "2023-08-04T05:29:12Z",
+    "modified": "2023-08-04T10:37:23Z",
     "published": "2023-08-01T00:00:00Z",
     "references": [
         {
