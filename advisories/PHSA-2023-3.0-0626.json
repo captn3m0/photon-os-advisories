@@ -6,10 +6,28 @@
                 "name": "libwebp",
                 "purl": "pkg:rpm/vmware/libwebp?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libwebp",
+                "purl": "pkg:rpm/vmware/libwebp?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.0.3-6.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0626",
-    "modified": "2023-08-05T05:28:31Z",
+    "modified": "2023-08-05T06:37:19Z",
     "published": "2023-08-03T00:00:00Z",
     "references": [
         {

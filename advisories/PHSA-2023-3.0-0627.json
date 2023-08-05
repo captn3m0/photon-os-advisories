@@ -6,10 +6,28 @@
                 "name": "sudo",
                 "purl": "pkg:rpm/vmware/sudo?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "sudo",
+                "purl": "pkg:rpm/vmware/sudo?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.14p3-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0627",
-    "modified": "2023-08-05T05:28:31Z",
+    "modified": "2023-08-05T06:37:19Z",
     "published": "2023-08-04T00:00:00Z",
     "references": [
         {
