@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0628",
+    "modified": "2023-08-06T05:28:41Z",
+    "published": "2023-08-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-628"
+        }
+    ],
+    "related": [
+        "CVE-2023-38408"
+    ]
+}
