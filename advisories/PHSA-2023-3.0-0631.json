@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "flannel",
+                "purl": "pkg:rpm/vmware/flannel?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0631",
+    "modified": "2023-08-12T05:28:46Z",
+    "published": "2023-08-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-631"
+        }
+    ],
+    "related": [
+        "CVE-2018-1098",
+        "CVE-2020-15115",
+        "CVE-2021-28235"
+    ]
+}
