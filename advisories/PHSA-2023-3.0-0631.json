@@ -24,10 +24,31 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "kubernetes-dns",
+                "purl": "pkg:rpm/vmware/kubernetes-dns?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "calico",
+                "purl": "pkg:rpm/vmware/calico?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0631",
-    "modified": "2023-08-12T21:37:10Z",
+    "modified": "2023-08-19T05:28:44Z",
     "published": "2023-08-11T00:00:00Z",
     "references": [
         {
@@ -38,6 +59,18 @@
     "related": [
         "CVE-2018-1098",
         "CVE-2020-15115",
-        "CVE-2021-28235"
+        "CVE-2021-28235",
+        "CVE-2020-15113",
+        "CVE-2023-2431",
+        "CVE-2020-15136",
+        "CVE-2023-32082",
+        "CVE-2020-15112",
+        "CVE-2020-15106",
+        "CVE-2020-15114",
+        "CVE-2021-25743",
+        "CVE-2023-2727",
+        "CVE-2023-2728",
+        "CVE-2023-0296",
+        "CVE-2018-1099"
     ]
 }
