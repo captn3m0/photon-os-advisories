@@ -99,10 +99,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nxtgn-openssl",
+                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0631",
-    "modified": "2023-08-19T14:37:34Z",
+    "modified": "2023-08-23T05:28:16Z",
     "published": "2023-08-11T00:00:00Z",
     "references": [
         {
@@ -125,6 +132,7 @@
         "CVE-2023-2727",
         "CVE-2023-2728",
         "CVE-2023-0296",
-        "CVE-2018-1099"
+        "CVE-2018-1099",
+        "CVE-2023-3817"
     ]
 }

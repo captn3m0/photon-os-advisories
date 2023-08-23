@@ -124,10 +124,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openldap",
+                "purl": "pkg:rpm/vmware/openldap?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0621",
-    "modified": "2023-08-02T17:37:20Z",
+    "modified": "2023-08-23T05:28:16Z",
     "published": "2023-07-29T00:00:00Z",
     "references": [
         {
@@ -137,6 +144,7 @@
     ],
     "related": [
         "CVE-2023-3338",
-        "CVE-2023-3111"
+        "CVE-2023-3111",
+        "CVE-2023-2953"
     ]
 }

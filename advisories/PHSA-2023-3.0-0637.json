@@ -1,0 +1,49 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nxtgn-openssl",
+                "purl": "pkg:rpm/vmware/nxtgn-openssl?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "iperf",
+                "purl": "pkg:rpm/vmware/iperf?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "gdb",
+                "purl": "pkg:rpm/vmware/gdb?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0637",
+    "modified": "2023-08-23T05:28:16Z",
+    "published": "2023-08-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-637"
+        }
+    ],
+    "related": [
+        "CVE-2022-38533",
+        "CVE-2023-38403",
+        "CVE-2021-3549",
+        "CVE-2023-3446",
+        "CVE-2023-40225",
+        "CVE-2022-4285"
+    ]
+}

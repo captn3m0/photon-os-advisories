@@ -49,10 +49,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0450",
-    "modified": "2023-08-21T01:50:47Z",
+    "modified": "2023-08-23T05:28:16Z",
     "published": "2023-08-14T00:00:00Z",
     "references": [
         {
@@ -62,6 +69,7 @@
     ],
     "related": [
         "CVE-2023-39417",
-        "CVE-2023-3896"
+        "CVE-2023-3896",
+        "CVE-2023-3817"
     ]
 }
