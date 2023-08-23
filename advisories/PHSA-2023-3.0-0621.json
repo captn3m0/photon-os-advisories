@@ -131,10 +131,28 @@
                 "name": "openldap",
                 "purl": "pkg:rpm/vmware/openldap?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openldap",
+                "purl": "pkg:rpm/vmware/openldap?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.4.57-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0621",
-    "modified": "2023-08-23T05:28:16Z",
+    "modified": "2023-08-23T14:37:34Z",
     "published": "2023-07-29T00:00:00Z",
     "references": [
         {
