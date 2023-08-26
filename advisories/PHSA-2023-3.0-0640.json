@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0640",
+    "modified": "2023-08-26T05:29:06Z",
+    "published": "2023-08-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-640"
+        }
+    ],
+    "related": [
+        "CVE-2023-3817"
+    ]
+}
