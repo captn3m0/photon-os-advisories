@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0642",
+    "modified": "2023-09-01T05:29:59Z",
+    "published": "2023-09-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-642"
+        }
+    ],
+    "related": [
+        "CVE-2023-32006",
+        "CVE-2023-32002"
+    ]
+}
