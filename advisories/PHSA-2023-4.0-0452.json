@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "elfutils",
+                "purl": "pkg:rpm/vmware/elfutils?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0452",
+    "modified": "2023-09-01T23:47:41Z",
+    "published": "2023-08-16T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-452"
+        }
+    ],
+    "related": [
+        "CVE-2021-33294"
+    ]
+}

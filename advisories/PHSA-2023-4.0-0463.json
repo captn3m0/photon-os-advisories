@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "open-vm-tools",
+                "purl": "pkg:rpm/vmware/open-vm-tools?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "hwloc",
+                "purl": "pkg:rpm/vmware/hwloc?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0463",
+    "modified": "2023-09-01T23:47:41Z",
+    "published": "2023-09-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-463"
+        }
+    ],
+    "related": [
+        "CVE-2023-36191",
+        "CVE-2022-47022",
+        "CVE-2023-20900"
+    ]
+}

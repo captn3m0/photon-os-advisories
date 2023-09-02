@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "open-vm-tools",
+                "purl": "pkg:rpm/vmware/open-vm-tools?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0642",
-    "modified": "2023-09-01T10:37:10Z",
+    "modified": "2023-09-01T23:47:41Z",
     "published": "2023-09-01T00:00:00Z",
     "references": [
         {
@@ -37,6 +44,7 @@
     ],
     "related": [
         "CVE-2023-32006",
-        "CVE-2023-32002"
+        "CVE-2023-32002",
+        "CVE-2023-20900"
     ]
 }
