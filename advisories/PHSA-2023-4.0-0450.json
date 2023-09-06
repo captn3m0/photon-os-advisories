@@ -74,10 +74,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "postgresql13",
+                "purl": "pkg:rpm/vmware/postgresql13?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0450",
-    "modified": "2023-08-23T14:37:38Z",
+    "modified": "2023-09-06T05:30:01Z",
     "published": "2023-08-14T00:00:00Z",
     "references": [
         {
