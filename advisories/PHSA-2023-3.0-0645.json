@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "xerces-c",
+                "purl": "pkg:rpm/vmware/xerces-c?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libssh",
+                "purl": "pkg:rpm/vmware/libssh?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0645",
+    "modified": "2023-09-07T05:31:02Z",
+    "published": "2023-09-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-645"
+        }
+    ],
+    "related": [
+        "CVE-2023-1667",
+        "CVE-2012-0880",
+        "CVE-2023-2283"
+    ]
+}
