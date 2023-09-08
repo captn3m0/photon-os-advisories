@@ -99,10 +99,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.11.0-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0465",
-    "modified": "2023-09-07T05:31:02Z",
+    "modified": "2023-09-08T05:30:56Z",
     "published": "2023-09-06T00:00:00Z",
     "references": [
         {
@@ -112,6 +130,7 @@
     ],
     "related": [
         "CVE-2023-40283",
-        "CVE-2023-4194"
+        "CVE-2023-4194",
+        "CVE-2020-22218"
     ]
 }
