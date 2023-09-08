@@ -117,10 +117,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0465",
-    "modified": "2023-09-08T05:30:56Z",
+    "modified": "2023-09-08T06:37:29Z",
     "published": "2023-09-06T00:00:00Z",
     "references": [
         {
