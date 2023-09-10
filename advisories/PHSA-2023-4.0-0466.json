@@ -49,10 +49,17 @@
                 "name": "libssh",
                 "purl": "pkg:rpm/vmware/libssh?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "apache-tomcat",
+                "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0466",
-    "modified": "2023-09-08T06:37:29Z",
+    "modified": "2023-09-10T05:31:03Z",
     "published": "2023-09-07T00:00:00Z",
     "references": [
         {
@@ -63,6 +70,7 @@
     "related": [
         "CVE-2023-2007",
         "CVE-2023-2283",
-        "CVE-2023-1667"
+        "CVE-2023-1667",
+        "CVE-2023-34981"
     ]
 }

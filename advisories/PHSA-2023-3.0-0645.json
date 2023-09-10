@@ -49,10 +49,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0645",
-    "modified": "2023-09-07T15:37:29Z",
+    "modified": "2023-09-10T05:31:03Z",
     "published": "2023-09-07T00:00:00Z",
     "references": [
         {
@@ -63,6 +70,11 @@
     "related": [
         "CVE-2023-1667",
         "CVE-2012-0880",
-        "CVE-2023-2283"
+        "CVE-2023-2283",
+        "CVE-2023-4735",
+        "CVE-2023-4751",
+        "CVE-2023-4736",
+        "CVE-2023-4738",
+        "CVE-2023-4734"
     ]
 }

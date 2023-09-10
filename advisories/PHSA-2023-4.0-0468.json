@@ -1,0 +1,33 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "suricata",
+                "purl": "pkg:rpm/vmware/suricata?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0468",
+    "modified": "2023-09-10T05:31:03Z",
+    "published": "2023-09-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-468"
+        }
+    ],
+    "related": [
+        "CVE-2023-35853",
+        "CVE-2022-47695",
+        "CVE-2023-35852",
+        "CVE-2021-46174"
+    ]
+}

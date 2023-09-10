@@ -24,10 +24,17 @@
                 "name": "wireshark",
                 "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0467",
-    "modified": "2023-09-08T06:37:29Z",
+    "modified": "2023-09-10T05:31:03Z",
     "published": "2023-09-08T00:00:00Z",
     "references": [
         {
@@ -38,6 +45,14 @@
     "related": [
         "CVE-2023-4513",
         "CVE-2023-4511",
-        "CVE-2023-4512"
+        "CVE-2023-4512",
+        "CVE-2023-4735",
+        "CVE-2023-4733",
+        "CVE-2023-4736",
+        "CVE-2023-4750",
+        "CVE-2023-4738",
+        "CVE-2023-4734",
+        "CVE-2023-4781",
+        "CVE-2023-4752"
     ]
 }

@@ -1,0 +1,42 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openvswitch",
+                "purl": "pkg:rpm/vmware/openvswitch?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0646",
+    "modified": "2023-09-10T05:31:03Z",
+    "published": "2023-09-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-646"
+        }
+    ],
+    "related": [
+        "CVE-2023-1668",
+        "CVE-2022-47695",
+        "CVE-2022-48566",
+        "CVE-2022-48564",
+        "CVE-2022-48565",
+        "CVE-2022-48560"
+    ]
+}
