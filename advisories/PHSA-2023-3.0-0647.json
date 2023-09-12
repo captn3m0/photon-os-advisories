@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0647",
+    "modified": "2023-09-12T05:31:06Z",
+    "published": "2023-09-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-647"
+        }
+    ],
+    "related": [
+        "CVE-2023-4733",
+        "CVE-2023-4781",
+        "CVE-2023-4752",
+        "CVE-2023-4750"
+    ]
+}
