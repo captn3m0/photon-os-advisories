@@ -31,10 +31,17 @@
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0467",
-    "modified": "2023-09-10T05:31:03Z",
+    "modified": "2023-09-14T05:31:17Z",
     "published": "2023-09-08T00:00:00Z",
     "references": [
         {
@@ -53,6 +60,7 @@
         "CVE-2023-4738",
         "CVE-2023-4734",
         "CVE-2023-4781",
-        "CVE-2023-4752"
+        "CVE-2023-4752",
+        "CVE-2023-2176"
     ]
 }
