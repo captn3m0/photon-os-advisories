@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "c-ares",
+                "purl": "pkg:rpm/vmware/c-ares?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0649",
+    "modified": "2023-09-15T05:31:18Z",
+    "published": "2023-09-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-649"
+        }
+    ],
+    "related": [
+        "CVE-2023-31130",
+        "CVE-2023-31147",
+        "CVE-2023-31124",
+        "CVE-2023-32067"
+    ]
+}
