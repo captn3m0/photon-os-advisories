@@ -27,10 +27,17 @@
                 "name": "redis",
                 "purl": "pkg:rpm/vmware/redis?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "mozjs",
+                "purl": "pkg:rpm/vmware/mozjs?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0469",
-    "modified": "2023-09-14T05:31:17Z",
+    "modified": "2023-09-16T05:31:31Z",
     "published": "2023-09-13T00:00:00Z",
     "references": [
         {
@@ -42,6 +49,9 @@
         "CVE-2023-39615",
         "CVE-2023-41053",
         "CVE-2021-4147",
-        "CVE-2023-22995"
+        "CVE-2023-22995",
+        "CVE-2021-23960",
+        "CVE-2021-29984",
+        "CVE-2021-23954"
     ]
 }

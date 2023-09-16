@@ -6,10 +6,17 @@
                 "name": "c-ares",
                 "purl": "pkg:rpm/vmware/c-ares?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "mozjs60",
+                "purl": "pkg:rpm/vmware/mozjs60?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0649",
-    "modified": "2023-09-15T05:31:18Z",
+    "modified": "2023-09-16T05:31:31Z",
     "published": "2023-09-14T00:00:00Z",
     "references": [
         {
@@ -21,6 +28,9 @@
         "CVE-2023-31130",
         "CVE-2023-31147",
         "CVE-2023-31124",
-        "CVE-2023-32067"
+        "CVE-2023-32067",
+        "CVE-2019-17026",
+        "CVE-2020-15656",
+        "CVE-2021-29984"
     ]
 }
