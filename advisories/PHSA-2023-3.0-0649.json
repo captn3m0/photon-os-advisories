@@ -13,10 +13,28 @@
                 "name": "mozjs60",
                 "purl": "pkg:rpm/vmware/mozjs60?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "c-ares",
+                "purl": "pkg:rpm/vmware/c-ares?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.19.1-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0649",
-    "modified": "2023-09-16T05:31:31Z",
+    "modified": "2023-09-17T05:31:15Z",
     "published": "2023-09-14T00:00:00Z",
     "references": [
         {
