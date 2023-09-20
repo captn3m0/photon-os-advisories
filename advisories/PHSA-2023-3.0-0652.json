@@ -6,10 +6,28 @@
                 "name": "libssh2",
                 "purl": "pkg:rpm/vmware/libssh2?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libssh2",
+                "purl": "pkg:rpm/vmware/libssh2?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.9.0-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0652",
-    "modified": "2023-09-17T05:31:15Z",
+    "modified": "2023-09-20T05:31:19Z",
     "published": "2023-09-16T00:00:00Z",
     "references": [
         {

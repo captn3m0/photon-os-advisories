@@ -13,10 +13,46 @@
                 "name": "suricata",
                 "purl": "pkg:rpm/vmware/suricata?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.35-11.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "suricata",
+                "purl": "pkg:rpm/vmware/suricata?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.0.13-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0468",
-    "modified": "2023-09-10T05:31:03Z",
+    "modified": "2023-09-20T05:31:19Z",
     "published": "2023-09-09T00:00:00Z",
     "references": [
         {
