@@ -6,10 +6,28 @@
                 "name": "mozjs",
                 "purl": "pkg:rpm/vmware/mozjs?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "mozjs",
+                "purl": "pkg:rpm/vmware/mozjs?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "78.15.0-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0475",
-    "modified": "2023-09-21T22:37:53Z",
+    "modified": "2023-09-25T05:31:04Z",
     "published": "2023-09-21T00:00:00Z",
     "references": [
         {
