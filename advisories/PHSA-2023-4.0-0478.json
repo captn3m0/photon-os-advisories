@@ -6,10 +6,28 @@
                 "name": "binutils",
                 "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.35-13.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0478",
-    "modified": "2023-09-26T05:30:38Z",
+    "modified": "2023-09-26T08:37:44Z",
     "published": "2023-09-25T00:00:00Z",
     "references": [
         {
