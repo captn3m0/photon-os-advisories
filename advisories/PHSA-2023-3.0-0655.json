@@ -1,0 +1,34 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0655",
+    "modified": "2023-09-27T05:30:45Z",
+    "published": "2023-09-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-655"
+        }
+    ],
+    "related": [
+        "CVE-2020-21490",
+        "CVE-2022-48065",
+        "CVE-2022-48064",
+        "CVE-2018-14048",
+        "CVE-2020-19724"
+    ]
+}
