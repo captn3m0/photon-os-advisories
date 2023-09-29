@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libwebp",
+                "purl": "pkg:rpm/vmware/libwebp?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0657",
+    "modified": "2023-09-29T05:31:22Z",
+    "published": "2023-09-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-657"
+        }
+    ],
+    "related": [
+        "CVE-2023-4863"
+    ]
+}
