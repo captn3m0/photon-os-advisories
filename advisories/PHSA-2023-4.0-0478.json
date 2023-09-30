@@ -31,10 +31,28 @@
                 "name": "libwebp",
                 "purl": "pkg:rpm/vmware/libwebp?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libwebp",
+                "purl": "pkg:rpm/vmware/libwebp?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.1.0-7.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0478",
-    "modified": "2023-09-30T05:31:11Z",
+    "modified": "2023-09-30T06:37:18Z",
     "published": "2023-09-25T00:00:00Z",
     "references": [
         {
