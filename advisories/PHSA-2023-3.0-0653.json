@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "elfutils",
+                "purl": "pkg:rpm/vmware/elfutils?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0653",
+    "modified": "2023-09-30T05:31:11Z",
+    "published": "2023-09-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-653"
+        }
+    ],
+    "related": [
+        "CVE-2020-21047"
+    ]
+}
