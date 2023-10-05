@@ -6,10 +6,28 @@
                 "name": "bindutils",
                 "purl": "pkg:rpm/vmware/bindutils?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.16.42-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0481",
-    "modified": "2023-10-01T03:07:25Z",
+    "modified": "2023-10-04T05:30:59Z",
     "published": "2023-09-29T00:00:00Z",
     "references": [
         {
