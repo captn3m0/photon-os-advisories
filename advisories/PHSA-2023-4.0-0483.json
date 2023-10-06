@@ -34,10 +34,17 @@
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "netkit-telnet",
+                "purl": "pkg:rpm/vmware/netkit-telnet?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0483",
-    "modified": "2023-10-05T18:52:19Z",
+    "modified": "2023-10-06T05:31:07Z",
     "published": "2023-10-05T00:00:00Z",
     "references": [
         {
@@ -46,6 +53,7 @@
         }
     ],
     "related": [
-        "CVE-2023-42754"
+        "CVE-2023-42754",
+        "CVE-2022-39028"
     ]
 }

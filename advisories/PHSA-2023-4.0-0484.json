@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0484",
+    "modified": "2023-10-06T05:31:07Z",
+    "published": "2023-10-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-484"
+        }
+    ],
+    "related": [
+        "CVE-2023-29409",
+        "CVE-2023-29406",
+        "CVE-2023-39318",
+        "CVE-2023-39319"
+    ]
+}
