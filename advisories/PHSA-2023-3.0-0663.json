@@ -6,10 +6,28 @@
                 "name": "tornado",
                 "purl": "pkg:rpm/vmware/tornado?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "tornado",
+                "purl": "pkg:rpm/vmware/tornado?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.5.2-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0663",
-    "modified": "2023-10-11T05:30:52Z",
+    "modified": "2023-10-11T06:38:05Z",
     "published": "2023-10-07T00:00:00Z",
     "references": [
         {
