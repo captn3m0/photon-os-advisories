@@ -6,10 +6,28 @@
                 "name": "curl",
                 "purl": "pkg:rpm/vmware/curl?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.1.2-6.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0487",
-    "modified": "2023-10-11T20:15:57Z",
+    "modified": "2023-10-12T05:30:42Z",
     "published": "2023-10-11T00:00:00Z",
     "references": [
         {

@@ -6,10 +6,28 @@
                 "name": "wireshark",
                 "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.6.18-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0668",
-    "modified": "2023-10-12T05:30:42Z",
+    "modified": "2023-10-12T07:37:23Z",
     "published": "2023-10-12T00:00:00Z",
     "references": [
         {
