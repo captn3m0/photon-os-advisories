@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0668",
+    "modified": "2023-10-12T05:30:42Z",
+    "published": "2023-10-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-668"
+        }
+    ],
+    "related": [
+        "CVE-2023-5371"
+    ]
+}
