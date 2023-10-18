@@ -31,10 +31,28 @@
                 "name": "libX11",
                 "purl": "pkg:rpm/vmware/libX11?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libX11",
+                "purl": "pkg:rpm/vmware/libX11?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.8.5-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0668",
-    "modified": "2023-10-18T05:31:58Z",
+    "modified": "2023-10-18T11:37:25Z",
     "published": "2023-10-12T00:00:00Z",
     "references": [
         {
