@@ -13,10 +13,46 @@
                 "name": "nginx",
                 "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.32-13.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.22.0-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0672",
-    "modified": "2023-10-21T05:30:55Z",
+    "modified": "2023-10-21T09:37:10Z",
     "published": "2023-10-20T00:00:00Z",
     "references": [
         {
