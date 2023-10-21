@@ -1,0 +1,33 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0672",
+    "modified": "2023-10-21T05:30:55Z",
+    "published": "2023-10-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-672"
+        }
+    ],
+    "related": [
+        "CVE-2022-47010",
+        "CVE-2023-44487",
+        "CVE-2022-47011",
+        "CVE-2022-35205"
+    ]
+}
