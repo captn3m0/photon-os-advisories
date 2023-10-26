@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0673",
+    "modified": "2023-10-26T05:31:58Z",
+    "published": "2023-10-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-673"
+        }
+    ],
+    "related": [
+        "CVE-2023-45145"
+    ]
+}
