@@ -6,10 +6,24 @@
                 "name": "redis",
                 "purl": "pkg:rpm/vmware/redis?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nghttp2",
+                "purl": "pkg:rpm/vmware/nghttp2?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0673",
-    "modified": "2023-10-26T05:31:58Z",
+    "modified": "2023-10-27T05:32:05Z",
     "published": "2023-10-26T00:00:00Z",
     "references": [
         {
@@ -18,6 +32,9 @@
         }
     ],
     "related": [
-        "CVE-2023-45145"
+        "CVE-2023-45145",
+        "CVE-2023-40745",
+        "CVE-2023-41175",
+        "CVE-2023-44487"
     ]
 }

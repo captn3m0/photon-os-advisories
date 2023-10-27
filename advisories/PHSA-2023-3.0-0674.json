@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "zlib",
+                "purl": "pkg:rpm/vmware/zlib?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0674",
+    "modified": "2023-10-27T05:32:05Z",
+    "published": "2023-10-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-674"
+        }
+    ],
+    "related": [
+        "CVE-2023-45853"
+    ]
+}

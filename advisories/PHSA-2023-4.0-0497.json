@@ -3,29 +3,30 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "openssl",
-                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
+                "name": "zlib",
+                "purl": "pkg:rpm/vmware/zlib?distro=photon-4"
             }
         },
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "nghttp2",
-                "purl": "pkg:rpm/vmware/nghttp2?distro=photon-4"
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
             }
         }
     ],
-    "id": "PHSA-2023-4.0-0496",
+    "id": "PHSA-2023-4.0-0497",
     "modified": "2023-10-27T05:32:05Z",
     "published": "2023-10-25T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-496"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-497"
         }
     ],
     "related": [
-        "CVE-2023-5363",
-        "CVE-2023-44487"
+        "CVE-2023-41175",
+        "CVE-2023-40745",
+        "CVE-2023-45853"
     ]
 }
