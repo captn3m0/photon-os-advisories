@@ -6,10 +6,28 @@
                 "name": "httpd",
                 "purl": "pkg:rpm/vmware/httpd?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.4.58-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0502",
-    "modified": "2023-11-02T05:31:52Z",
+    "modified": "2023-11-03T02:37:53Z",
     "published": "2023-11-01T00:00:00Z",
     "references": [
         {
