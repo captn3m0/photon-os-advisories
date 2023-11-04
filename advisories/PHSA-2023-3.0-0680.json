@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0680",
+    "modified": "2023-11-04T05:31:13Z",
+    "published": "2023-11-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-680"
+        }
+    ],
+    "related": [
+        "CVE-2023-43622",
+        "CVE-2023-31122",
+        "CVE-2023-45802"
+    ]
+}

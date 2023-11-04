@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "coredns",
+                "purl": "pkg:rpm/vmware/coredns?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0505",
+    "modified": "2023-11-04T05:31:13Z",
+    "published": "2023-11-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-505"
+        }
+    ],
+    "related": [
+        "CVE-2021-28235",
+        "CVE-2023-32082"
+    ]
+}
