@@ -6,10 +6,28 @@
                 "name": "coredns",
                 "purl": "pkg:rpm/vmware/coredns?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "coredns",
+                "purl": "pkg:rpm/vmware/coredns?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.11.1-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0681",
-    "modified": "2023-11-04T05:31:13Z",
+    "modified": "2023-11-05T05:31:35Z",
     "published": "2023-11-04T00:00:00Z",
     "references": [
         {
