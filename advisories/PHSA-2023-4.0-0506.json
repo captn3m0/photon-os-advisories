@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "traceroute",
+                "purl": "pkg:rpm/vmware/traceroute?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0506",
+    "modified": "2023-11-06T05:31:14Z",
+    "published": "2023-11-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-506"
+        }
+    ],
+    "related": [
+        "CVE-2023-46316"
+    ]
+}

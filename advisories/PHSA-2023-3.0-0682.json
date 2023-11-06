@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "traceroute",
+                "purl": "pkg:rpm/vmware/traceroute?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0682",
+    "modified": "2023-11-06T05:31:14Z",
+    "published": "2023-11-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-682"
+        }
+    ],
+    "related": [
+        "CVE-2023-46316"
+    ]
+}
