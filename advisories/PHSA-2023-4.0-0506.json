@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gdk-pixbuf",
+                "purl": "pkg:rpm/vmware/gdk-pixbuf?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0506",
-    "modified": "2023-11-07T03:37:38Z",
+    "modified": "2023-11-07T05:32:03Z",
     "published": "2023-11-05T00:00:00Z",
     "references": [
         {
@@ -36,6 +43,8 @@
         }
     ],
     "related": [
-        "CVE-2023-46316"
+        "CVE-2023-46316",
+        "CVE-2020-29385",
+        "CVE-2021-44648"
     ]
 }

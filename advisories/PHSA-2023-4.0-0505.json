@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0505",
-    "modified": "2023-11-05T05:31:35Z",
+    "modified": "2023-11-07T05:32:03Z",
     "published": "2023-11-04T00:00:00Z",
     "references": [
         {
@@ -37,6 +44,8 @@
     ],
     "related": [
         "CVE-2021-28235",
-        "CVE-2023-32082"
+        "CVE-2023-32082",
+        "CVE-2023-4693",
+        "CVE-2023-4692"
     ]
 }

@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "zchunk",
+                "purl": "pkg:rpm/vmware/zchunk?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "librdkafka",
+                "purl": "pkg:rpm/vmware/librdkafka?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0683",
+    "modified": "2023-11-07T05:32:03Z",
+    "published": "2023-11-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-683"
+        }
+    ],
+    "related": [
+        "CVE-2021-3520",
+        "CVE-2023-46228"
+    ]
+}
