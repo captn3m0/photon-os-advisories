@@ -31,10 +31,28 @@
                 "name": "gdk-pixbuf",
                 "purl": "pkg:rpm/vmware/gdk-pixbuf?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gdk-pixbuf",
+                "purl": "pkg:rpm/vmware/gdk-pixbuf?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.42.0-6.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0506",
-    "modified": "2023-11-07T05:32:03Z",
+    "modified": "2023-11-08T05:32:18Z",
     "published": "2023-11-05T00:00:00Z",
     "references": [
         {

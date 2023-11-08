@@ -6,10 +6,28 @@
                 "name": "zchunk",
                 "purl": "pkg:rpm/vmware/zchunk?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "zchunk",
+                "purl": "pkg:rpm/vmware/zchunk?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.1.7-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0507",
-    "modified": "2023-11-07T05:32:03Z",
+    "modified": "2023-11-08T05:32:18Z",
     "published": "2023-11-06T00:00:00Z",
     "references": [
         {
