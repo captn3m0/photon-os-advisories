@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "memcached",
+                "purl": "pkg:rpm/vmware/memcached?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0685",
+    "modified": "2023-11-10T05:32:14Z",
+    "published": "2023-11-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-685"
+        }
+    ],
+    "related": [
+        "CVE-2023-46853",
+        "CVE-2023-46852"
+    ]
+}

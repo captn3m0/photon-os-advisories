@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gdb",
+                "purl": "pkg:rpm/vmware/gdb?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "apr-util",
+                "purl": "pkg:rpm/vmware/apr-util?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0508",
+    "modified": "2023-11-10T05:32:14Z",
+    "published": "2023-11-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-508"
+        }
+    ],
+    "related": [
+        "CVE-2022-25147",
+        "CVE-2023-1972"
+    ]
+}
