@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0686",
+    "modified": "2023-11-12T05:32:10Z",
+    "published": "2023-11-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-686"
+        }
+    ],
+    "related": [
+        "CVE-2023-22079",
+        "CVE-2023-22066",
+        "CVE-2023-22032",
+        "CVE-2023-22112",
+        "CVE-2023-22059",
+        "CVE-2023-22068",
+        "CVE-2023-22092",
+        "CVE-2023-22103",
+        "CVE-2023-22070",
+        "CVE-2023-22084",
+        "CVE-2023-22114",
+        "CVE-2023-22064",
+        "CVE-2023-22078",
+        "CVE-2023-22097"
+    ]
+}
