@@ -6,10 +6,28 @@
                 "name": "memcached",
                 "purl": "pkg:rpm/vmware/memcached?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "memcached",
+                "purl": "pkg:rpm/vmware/memcached?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.6.22-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0685",
-    "modified": "2023-11-10T05:32:14Z",
+    "modified": "2023-11-11T05:32:12Z",
     "published": "2023-11-09T00:00:00Z",
     "references": [
         {

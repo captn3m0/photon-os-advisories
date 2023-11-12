@@ -6,10 +6,28 @@
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.2.5169-13.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0684",
-    "modified": "2023-11-10T05:32:14Z",
+    "modified": "2023-11-11T05:32:12Z",
     "published": "2023-11-09T00:00:00Z",
     "references": [
         {
