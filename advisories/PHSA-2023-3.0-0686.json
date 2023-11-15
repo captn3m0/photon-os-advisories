@@ -6,10 +6,17 @@
                 "name": "mysql",
                 "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "gdb",
+                "purl": "pkg:rpm/vmware/gdb?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0686",
-    "modified": "2023-11-12T05:32:10Z",
+    "modified": "2023-11-15T07:01:36Z",
     "published": "2023-11-11T00:00:00Z",
     "references": [
         {
@@ -31,6 +38,10 @@
         "CVE-2023-22114",
         "CVE-2023-22064",
         "CVE-2023-22078",
-        "CVE-2023-22097"
+        "CVE-2023-22097",
+        "CVE-2023-25585",
+        "CVE-2023-25584",
+        "CVE-2023-25588",
+        "CVE-2023-1972"
     ]
 }

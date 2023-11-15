@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "sssd",
+                "purl": "pkg:rpm/vmware/sssd?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0687",
+    "modified": "2023-11-15T07:01:36Z",
+    "published": "2023-11-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-687"
+        }
+    ],
+    "related": [
+        "CVE-2023-34060"
+    ]
+}
