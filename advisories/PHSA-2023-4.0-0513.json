@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "postgresql14",
+                "purl": "pkg:rpm/vmware/postgresql14?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0513",
+    "modified": "2023-11-16T21:22:09Z",
+    "published": "2023-11-16T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-513"
+        }
+    ],
+    "related": [
+        "CVE-2023-5868",
+        "CVE-2023-5870",
+        "CVE-2023-5869"
+    ]
+}
