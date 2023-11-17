@@ -6,10 +6,28 @@
                 "name": "sssd",
                 "purl": "pkg:rpm/vmware/sssd?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "sssd",
+                "purl": "pkg:rpm/vmware/sssd?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.8.1-11.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0687",
-    "modified": "2023-11-15T07:01:36Z",
+    "modified": "2023-11-17T05:32:29Z",
     "published": "2023-11-15T00:00:00Z",
     "references": [
         {

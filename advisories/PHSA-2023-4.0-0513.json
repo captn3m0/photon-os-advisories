@@ -13,10 +13,46 @@
                 "name": "gst-plugins-bad",
                 "purl": "pkg:rpm/vmware/gst-plugins-bad?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gst-plugins-bad",
+                "purl": "pkg:rpm/vmware/gst-plugins-bad?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.17.1-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "postgresql14",
+                "purl": "pkg:rpm/vmware/postgresql14?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "14.10-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0513",
-    "modified": "2023-11-17T05:32:29Z",
+    "modified": "2023-11-17T16:40:13Z",
     "published": "2023-11-16T00:00:00Z",
     "references": [
         {
