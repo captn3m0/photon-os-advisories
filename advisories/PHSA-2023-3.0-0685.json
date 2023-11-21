@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0685",
-    "modified": "2023-11-11T05:32:12Z",
+    "modified": "2023-11-21T05:32:36Z",
     "published": "2023-11-09T00:00:00Z",
     "references": [
         {
@@ -37,6 +44,7 @@
     ],
     "related": [
         "CVE-2023-46853",
-        "CVE-2023-46852"
+        "CVE-2023-46852",
+        "CVE-2023-40217"
     ]
 }
