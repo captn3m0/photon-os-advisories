@@ -6,10 +6,28 @@
                 "name": "python3",
                 "purl": "pkg:rpm/vmware/python3?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.10.11-5.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0515",
-    "modified": "2023-11-21T05:32:36Z",
+    "modified": "2023-11-21T09:37:33Z",
     "published": "2023-11-17T00:00:00Z",
     "references": [
         {
