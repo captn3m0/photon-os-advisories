@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0689",
+    "modified": "2023-11-24T05:33:59Z",
+    "published": "2023-11-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-689"
+        }
+    ],
+    "related": [
+        "CVE-2023-46724",
+        "CVE-2023-46847"
+    ]
+}
