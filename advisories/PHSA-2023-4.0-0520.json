@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0520",
+    "modified": "2023-11-25T05:32:41Z",
+    "published": "2023-11-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-520"
+        }
+    ],
+    "related": [
+        "CVE-2023-5824",
+        "CVE-2023-48233",
+        "CVE-2023-48232",
+        "CVE-2023-48234",
+        "CVE-2023-48237",
+        "CVE-2023-48236",
+        "CVE-2023-46846",
+        "CVE-2023-46728",
+        "CVE-2023-48235",
+        "CVE-2023-48231"
+    ]
+}

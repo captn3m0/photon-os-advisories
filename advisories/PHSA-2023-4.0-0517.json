@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "nmap",
+                "purl": "pkg:rpm/vmware/nmap?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0517",
-    "modified": "2023-11-24T05:33:59Z",
+    "modified": "2023-11-25T05:32:41Z",
     "published": "2023-11-20T00:00:00Z",
     "references": [
         {
@@ -37,6 +44,16 @@
     ],
     "related": [
         "CVE-2023-46724",
-        "CVE-2023-46847"
+        "CVE-2023-46847",
+        "CVE-2020-24342",
+        "CVE-2020-24371",
+        "CVE-2019-6706",
+        "CVE-2020-15945",
+        "CVE-2020-24370",
+        "CVE-2021-43519",
+        "CVE-2020-24369",
+        "CVE-2022-33099",
+        "CVE-2020-15888",
+        "CVE-2021-44647"
     ]
 }
