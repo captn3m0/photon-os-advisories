@@ -31,10 +31,28 @@
                 "name": "calico",
                 "purl": "pkg:rpm/vmware/calico?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "calico",
+                "purl": "pkg:rpm/vmware/calico?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.26.1-5.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0518",
-    "modified": "2023-11-25T05:32:41Z",
+    "modified": "2023-11-26T00:53:55Z",
     "published": "2023-11-22T00:00:00Z",
     "references": [
         {

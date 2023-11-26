@@ -13,10 +13,46 @@
                 "name": "squid",
                 "purl": "pkg:rpm/vmware/squid?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.0.2112-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.5-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0520",
-    "modified": "2023-11-25T05:32:41Z",
+    "modified": "2023-11-26T00:53:55Z",
     "published": "2023-11-24T00:00:00Z",
     "references": [
         {

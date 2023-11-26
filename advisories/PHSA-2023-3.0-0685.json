@@ -31,10 +31,28 @@
                 "name": "python3",
                 "purl": "pkg:rpm/vmware/python3?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.7.5-32.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0685",
-    "modified": "2023-11-21T05:32:36Z",
+    "modified": "2023-11-25T05:32:41Z",
     "published": "2023-11-09T00:00:00Z",
     "references": [
         {
