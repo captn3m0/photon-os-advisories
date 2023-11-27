@@ -1,0 +1,40 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0692",
+    "modified": "2023-11-27T05:32:47Z",
+    "published": "2023-11-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-692"
+        }
+    ],
+    "related": [
+        "CVE-2023-48234",
+        "CVE-2023-48233",
+        "CVE-2023-48236",
+        "CVE-2023-48237",
+        "CVE-2023-48231",
+        "CVE-2023-32643",
+        "CVE-2023-48235",
+        "CVE-2023-32636",
+        "CVE-2023-29499",
+        "CVE-2023-32665",
+        "CVE-2023-32611"
+    ]
+}
