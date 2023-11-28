@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "syslog-ng",
+                "purl": "pkg:rpm/vmware/syslog-ng?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0693",
+    "modified": "2023-11-28T05:32:38Z",
+    "published": "2023-11-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-693"
+        }
+    ],
+    "related": [
+        "CVE-2022-38725"
+    ]
+}
