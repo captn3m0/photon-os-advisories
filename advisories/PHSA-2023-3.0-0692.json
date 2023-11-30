@@ -13,10 +13,46 @@
                 "name": "glib",
                 "purl": "pkg:rpm/vmware/glib?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.58.3-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.2.5169-14.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0692",
-    "modified": "2023-11-27T05:32:47Z",
+    "modified": "2023-11-29T05:32:18Z",
     "published": "2023-11-26T00:00:00Z",
     "references": [
         {
