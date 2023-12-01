@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0523",
+    "modified": "2023-12-01T05:32:31Z",
+    "published": "2023-12-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-523"
+        }
+    ],
+    "related": [
+        "CVE-2023-3961"
+    ]
+}
