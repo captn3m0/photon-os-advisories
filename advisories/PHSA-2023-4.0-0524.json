@@ -6,10 +6,28 @@
                 "name": "ImageMagick",
                 "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.1.1.11-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0524",
-    "modified": "2023-12-08T05:33:01Z",
+    "modified": "2023-12-08T19:37:22Z",
     "published": "2023-12-07T00:00:00Z",
     "references": [
         {
