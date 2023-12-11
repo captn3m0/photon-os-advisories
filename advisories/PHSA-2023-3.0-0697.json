@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0697",
+    "modified": "2023-12-11T05:32:56Z",
+    "published": "2023-12-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-697"
+        }
+    ],
+    "related": [
+        "CVE-2023-46728",
+        "CVE-2023-5341",
+        "CVE-2023-46846"
+    ]
+}
