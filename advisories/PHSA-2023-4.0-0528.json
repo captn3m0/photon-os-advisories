@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "nmap",
+                "purl": "pkg:rpm/vmware/nmap?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0528",
+    "modified": "2023-12-13T05:32:14Z",
+    "published": "2023-12-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-528"
+        }
+    ],
+    "related": [
+        "CVE-2019-17498",
+        "CVE-2023-47100"
+    ]
+}
