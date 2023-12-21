@@ -6,10 +6,28 @@
                 "name": "squid",
                 "purl": "pkg:rpm/vmware/squid?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.9-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0698",
-    "modified": "2023-12-19T05:33:40Z",
+    "modified": "2023-12-20T05:32:49Z",
     "published": "2023-12-10T00:00:00Z",
     "references": [
         {
