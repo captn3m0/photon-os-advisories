@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0693",
-    "modified": "2023-11-29T05:32:18Z",
+    "modified": "2023-12-22T05:32:25Z",
     "published": "2023-11-27T00:00:00Z",
     "references": [
         {
@@ -36,6 +43,7 @@
         }
     ],
     "related": [
-        "CVE-2022-38725"
+        "CVE-2022-38725",
+        "CVE-2023-25809"
     ]
 }

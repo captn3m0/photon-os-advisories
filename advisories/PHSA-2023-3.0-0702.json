@@ -1,0 +1,33 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0702",
+    "modified": "2023-12-22T05:32:25Z",
+    "published": "2023-12-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-702"
+        }
+    ],
+    "related": [
+        "CVE-2023-39326",
+        "CVE-2023-45285",
+        "CVE-2023-45283",
+        "CVE-2023-48706"
+    ]
+}
