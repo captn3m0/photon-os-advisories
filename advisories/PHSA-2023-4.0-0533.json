@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2023-4.0-0533",
+    "modified": "2023-12-24T05:33:23Z",
+    "published": "2023-12-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-533"
+        }
+    ],
+    "related": [
+        "CVE-2023-4813"
+    ]
+}
