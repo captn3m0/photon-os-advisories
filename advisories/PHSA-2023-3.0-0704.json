@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "python-certifi",
+                "purl": "pkg:rpm/vmware/python-certifi?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0704",
+    "modified": "2023-12-27T22:35:54Z",
+    "published": "2023-12-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-704"
+        }
+    ],
+    "related": [
+        "CVE-2023-37920",
+        "CVE-2022-23491"
+    ]
+}
