@@ -31,10 +31,28 @@
                 "name": "runc",
                 "purl": "pkg:rpm/vmware/runc?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.1.4-9.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0693",
-    "modified": "2023-12-22T05:32:25Z",
+    "modified": "2023-12-27T22:35:54Z",
     "published": "2023-11-27T00:00:00Z",
     "references": [
         {

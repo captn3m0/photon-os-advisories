@@ -6,10 +6,28 @@
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.28-24.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0691",
-    "modified": "2023-12-22T05:32:25Z",
+    "modified": "2023-12-27T22:35:54Z",
     "published": "2023-11-23T00:00:00Z",
     "references": [
         {
