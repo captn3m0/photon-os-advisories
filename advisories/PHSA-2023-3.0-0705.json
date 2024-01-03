@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "shadow",
+                "purl": "pkg:rpm/vmware/shadow?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0705",
+    "modified": "2024-01-03T05:33:19Z",
+    "published": "2023-12-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-705"
+        }
+    ],
+    "related": [
+        "CVE-2023-4641"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "tar",
+                "purl": "pkg:rpm/vmware/tar?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2023-3.0-0703",
+    "modified": "2024-01-03T05:33:19Z",
+    "published": "2023-12-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-703"
+        }
+    ],
+    "related": [
+        "CVE-2023-39804"
+    ]
+}

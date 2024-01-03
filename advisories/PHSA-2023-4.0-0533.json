@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-cryptography",
+                "purl": "pkg:rpm/vmware/python3-cryptography?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0533",
-    "modified": "2023-12-26T05:32:58Z",
+    "modified": "2024-01-03T05:33:19Z",
     "published": "2023-12-23T00:00:00Z",
     "references": [
         {
@@ -36,6 +43,7 @@
         }
     ],
     "related": [
-        "CVE-2023-4813"
+        "CVE-2023-4813",
+        "CVE-2023-49083"
     ]
 }
