@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0537",
+    "modified": "2024-01-04T05:33:09Z",
+    "published": "2024-01-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-537"
+        }
+    ],
+    "related": [
+        "CVE-2023-5981"
+    ]
+}

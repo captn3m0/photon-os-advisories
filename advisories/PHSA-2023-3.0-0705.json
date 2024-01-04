@@ -6,10 +6,17 @@
                 "name": "shadow",
                 "purl": "pkg:rpm/vmware/shadow?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0705",
-    "modified": "2024-01-03T05:33:19Z",
+    "modified": "2024-01-04T05:33:09Z",
     "published": "2023-12-28T00:00:00Z",
     "references": [
         {
@@ -18,6 +25,7 @@
         }
     ],
     "related": [
-        "CVE-2023-4641"
+        "CVE-2023-4641",
+        "CVE-2023-5981"
     ]
 }
