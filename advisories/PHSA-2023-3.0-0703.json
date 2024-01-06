@@ -6,10 +6,28 @@
                 "name": "tar",
                 "purl": "pkg:rpm/vmware/tar?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "tar",
+                "purl": "pkg:rpm/vmware/tar?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.30-7.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0703",
-    "modified": "2024-01-03T05:33:19Z",
+    "modified": "2024-01-05T05:34:07Z",
     "published": "2023-12-22T00:00:00Z",
     "references": [
         {

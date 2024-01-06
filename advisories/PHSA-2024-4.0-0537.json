@@ -6,10 +6,28 @@
                 "name": "gnutls",
                 "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.7.10-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0537",
-    "modified": "2024-01-04T05:33:09Z",
+    "modified": "2024-01-05T05:34:07Z",
     "published": "2024-01-03T00:00:00Z",
     "references": [
         {

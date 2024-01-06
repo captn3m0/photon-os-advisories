@@ -6,10 +6,28 @@
                 "name": "python3-certifi",
                 "purl": "pkg:rpm/vmware/python3-certifi?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-certifi",
+                "purl": "pkg:rpm/vmware/python3-certifi?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2023.11.17-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0534",
-    "modified": "2024-01-03T05:33:19Z",
+    "modified": "2024-01-05T05:34:07Z",
     "published": "2023-12-24T00:00:00Z",
     "references": [
         {
