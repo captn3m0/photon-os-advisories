@@ -13,10 +13,46 @@
                 "name": "squid",
                 "purl": "pkg:rpm/vmware/squid?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.06-12.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.6-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0538",
-    "modified": "2024-01-06T05:33:16Z",
+    "modified": "2024-01-06T15:37:25Z",
     "published": "2024-01-03T00:00:00Z",
     "references": [
         {
