@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0538",
+    "modified": "2024-01-06T05:33:16Z",
+    "published": "2024-01-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-538"
+        }
+    ],
+    "related": [
+        "CVE-2023-50269",
+        "CVE-2021-3696"
+    ]
+}

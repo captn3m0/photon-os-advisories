@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openresty",
+                "purl": "pkg:rpm/vmware/openresty?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0539",
+    "modified": "2024-01-06T05:33:16Z",
+    "published": "2024-01-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-539"
+        }
+    ],
+    "related": [
+        "CVE-2023-44487"
+    ]
+}
