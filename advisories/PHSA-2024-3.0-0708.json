@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0708",
+    "modified": "2024-01-08T05:34:08Z",
+    "published": "2024-01-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-708"
+        }
+    ],
+    "related": [
+        "CVE-2023-6277"
+    ]
+}
