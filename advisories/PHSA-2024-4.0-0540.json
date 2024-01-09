@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "tar",
+                "purl": "pkg:rpm/vmware/tar?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0540",
+    "modified": "2024-01-09T05:33:18Z",
+    "published": "2024-01-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-540"
+        }
+    ],
+    "related": [
+        "CVE-2023-39804"
+    ]
+}
