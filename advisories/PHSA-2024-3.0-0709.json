@@ -6,10 +6,28 @@
                 "name": "openresty",
                 "purl": "pkg:rpm/vmware/openresty?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openresty",
+                "purl": "pkg:rpm/vmware/openresty?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.21.4.3-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0709",
-    "modified": "2024-01-09T05:33:18Z",
+    "modified": "2024-01-10T05:32:35Z",
     "published": "2024-01-07T00:00:00Z",
     "references": [
         {
