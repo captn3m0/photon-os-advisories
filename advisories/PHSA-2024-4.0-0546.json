@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0546",
+    "modified": "2024-01-11T19:20:22Z",
+    "published": "2024-01-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-546"
+        }
+    ],
+    "related": [
+        "CVE-2023-7104"
+    ]
+}
