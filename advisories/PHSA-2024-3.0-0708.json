@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0708",
-    "modified": "2024-01-10T05:32:35Z",
+    "modified": "2024-01-13T05:33:46Z",
     "published": "2024-01-05T00:00:00Z",
     "references": [
         {
@@ -36,6 +43,7 @@
         }
     ],
     "related": [
-        "CVE-2023-6277"
+        "CVE-2023-6277",
+        "CVE-2023-45866"
     ]
 }
