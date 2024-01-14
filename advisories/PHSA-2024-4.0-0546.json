@@ -6,10 +6,28 @@
                 "name": "sqlite",
                 "purl": "pkg:rpm/vmware/sqlite?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.38.5-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0546",
-    "modified": "2024-01-11T19:20:22Z",
+    "modified": "2024-01-14T05:33:11Z",
     "published": "2024-01-11T00:00:00Z",
     "references": [
         {
