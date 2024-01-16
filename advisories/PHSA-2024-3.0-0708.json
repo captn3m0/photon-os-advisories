@@ -31,10 +31,28 @@
                 "name": "bluez",
                 "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.65-4.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0708",
-    "modified": "2024-01-13T05:33:46Z",
+    "modified": "2024-01-15T05:33:31Z",
     "published": "2024-01-05T00:00:00Z",
     "references": [
         {

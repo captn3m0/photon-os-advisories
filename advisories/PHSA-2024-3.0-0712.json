@@ -13,10 +13,46 @@
                 "name": "sqlite",
                 "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.35.5-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libssh",
+                "purl": "pkg:rpm/vmware/libssh?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.9.8-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0712",
-    "modified": "2024-01-13T05:33:46Z",
+    "modified": "2024-01-15T05:33:31Z",
     "published": "2024-01-12T00:00:00Z",
     "references": [
         {
