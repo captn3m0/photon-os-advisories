@@ -74,10 +74,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "net-snmp",
+                "purl": "pkg:rpm/vmware/net-snmp?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0542",
-    "modified": "2024-01-14T05:33:11Z",
+    "modified": "2024-01-17T05:34:04Z",
     "published": "2024-01-08T00:00:00Z",
     "references": [
         {
@@ -88,6 +95,7 @@
     "related": [
         "CVE-2023-48795",
         "CVE-2023-6918",
-        "CVE-2023-45866"
+        "CVE-2023-45866",
+        "CVE-2020-15862"
     ]
 }

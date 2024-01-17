@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0547",
+    "modified": "2024-01-17T05:34:04Z",
+    "published": "2024-01-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-547"
+        }
+    ],
+    "related": [
+        "CVE-2023-5764"
+    ]
+}
