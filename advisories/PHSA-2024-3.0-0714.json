@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "Linux-PAM",
+                "purl": "pkg:rpm/vmware/Linux-PAM?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0714",
+    "modified": "2024-01-22T17:47:47Z",
+    "published": "2024-01-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-714"
+        }
+    ],
+    "related": [
+        "CVE-2024-22365"
+    ]
+}
