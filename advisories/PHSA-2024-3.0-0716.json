@@ -1,0 +1,51 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nss",
+                "purl": "pkg:rpm/vmware/nss?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0716",
+    "modified": "2024-01-22T05:26:16Z",
+    "published": "2024-01-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-716"
+        }
+    ],
+    "related": [
+        "CVE-2024-20984",
+        "CVE-2024-20973",
+        "CVE-2024-20985",
+        "CVE-2023-4421",
+        "CVE-2024-20976",
+        "CVE-2024-20967",
+        "CVE-2024-20972",
+        "CVE-2024-20982",
+        "CVE-2024-20962",
+        "CVE-2024-20966",
+        "CVE-2024-20977",
+        "CVE-2024-20978",
+        "CVE-2024-20970",
+        "CVE-2024-20965",
+        "CVE-2024-20974",
+        "CVE-2024-20981",
+        "CVE-2024-20961",
+        "CVE-2024-20971",
+        "CVE-2024-20964",
+        "CVE-2024-20969",
+        "CVE-2024-20960",
+        "CVE-2024-20963"
+    ]
+}
