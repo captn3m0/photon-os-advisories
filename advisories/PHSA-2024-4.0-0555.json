@@ -1,0 +1,51 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "procps-ng",
+                "purl": "pkg:rpm/vmware/procps-ng?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0555",
+    "modified": "2024-01-23T05:26:25Z",
+    "published": "2024-01-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-555"
+        }
+    ],
+    "related": [
+        "CVE-2024-20967",
+        "CVE-2024-20981",
+        "CVE-2024-20960",
+        "CVE-2024-20969",
+        "CVE-2024-20964",
+        "CVE-2024-20962",
+        "CVE-2024-20973",
+        "CVE-2024-20974",
+        "CVE-2024-20977",
+        "CVE-2024-20966",
+        "CVE-2024-20982",
+        "CVE-2024-20985",
+        "CVE-2024-20965",
+        "CVE-2024-20972",
+        "CVE-2024-20976",
+        "CVE-2024-20970",
+        "CVE-2024-20984",
+        "CVE-2024-20978",
+        "CVE-2024-20961",
+        "CVE-2023-4016",
+        "CVE-2024-20971",
+        "CVE-2024-20963"
+    ]
+}
