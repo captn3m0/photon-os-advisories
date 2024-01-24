@@ -6,10 +6,28 @@
                 "name": "Linux-PAM",
                 "purl": "pkg:rpm/vmware/Linux-PAM?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "Linux-PAM",
+                "purl": "pkg:rpm/vmware/Linux-PAM?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.3.0-2.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0714",
-    "modified": "2024-01-22T17:47:47Z",
+    "modified": "2024-01-23T05:26:25Z",
     "published": "2024-01-18T00:00:00Z",
     "references": [
         {

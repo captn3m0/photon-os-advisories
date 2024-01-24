@@ -6,10 +6,28 @@
                 "name": "Linux-PAM",
                 "purl": "pkg:rpm/vmware/Linux-PAM?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "Linux-PAM",
+                "purl": "pkg:rpm/vmware/Linux-PAM?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.5.3-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0554",
-    "modified": "2024-01-22T17:47:47Z",
+    "modified": "2024-01-23T05:26:25Z",
     "published": "2024-01-20T00:00:00Z",
     "references": [
         {
