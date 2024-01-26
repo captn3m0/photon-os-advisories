@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "powershell",
+                "purl": "pkg:rpm/vmware/powershell?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0556",
+    "modified": "2024-01-26T05:26:20Z",
+    "published": "2024-01-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-556"
+        }
+    ],
+    "related": [
+        "CVE-2024-0057"
+    ]
+}
