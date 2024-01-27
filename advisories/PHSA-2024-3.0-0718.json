@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0718",
+    "modified": "2024-01-27T05:26:09Z",
+    "published": "2024-01-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-718"
+        }
+    ],
+    "related": [
+        "CVE-2024-0208",
+        "CVE-2024-0209"
+    ]
+}
