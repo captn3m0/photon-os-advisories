@@ -6,10 +6,45 @@
                 "name": "powershell",
                 "purl": "pkg:rpm/vmware/powershell?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0556",
-    "modified": "2024-01-26T05:26:20Z",
+    "modified": "2024-01-30T05:26:26Z",
     "published": "2024-01-25T00:00:00Z",
     "references": [
         {
@@ -18,6 +53,10 @@
         }
     ],
     "related": [
-        "CVE-2024-0057"
+        "CVE-2024-0057",
+        "CVE-2024-0553",
+        "CVE-2024-0567",
+        "CVE-2024-0607",
+        "CVE-2024-0340"
     ]
 }

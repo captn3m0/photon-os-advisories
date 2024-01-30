@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0557",
+    "modified": "2024-01-30T05:26:26Z",
+    "published": "2024-01-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-557"
+        }
+    ],
+    "related": [
+        "CVE-2024-0208",
+        "CVE-2024-0209"
+    ]
+}
