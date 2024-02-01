@@ -3,31 +3,6 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "wireshark",
-                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "wireshark",
-                "purl": "pkg:rpm/vmware/wireshark?distro=photon-3"
-            },
-            "ranges": {
-                "events": [
-                    {
-                        "introduced": "0"
-                    },
-                    {
-                        "fixed": "3.6.20-1.ph3"
-                    }
-                ],
-                "type": "ECOSYSTEM"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             }
@@ -61,18 +36,16 @@
             }
         }
     ],
-    "id": "PHSA-2024-3.0-0718",
+    "id": "PHSA-2024-3.0-0720",
     "modified": "2024-02-01T05:26:41Z",
-    "published": "2024-01-26T00:00:00Z",
+    "published": "2024-01-31T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-718"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-720"
         }
     ],
     "related": [
-        "CVE-2024-0208",
-        "CVE-2024-0209",
-        "CVE-2024-0340"
+        "CVE-2024-0565"
     ]
 }

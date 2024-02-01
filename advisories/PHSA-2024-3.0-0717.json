@@ -49,10 +49,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0717",
-    "modified": "2024-01-30T05:26:26Z",
+    "modified": "2024-02-01T05:26:41Z",
     "published": "2024-01-25T00:00:00Z",
     "references": [
         {
@@ -62,6 +69,8 @@
     ],
     "related": [
         "CVE-2024-0057",
-        "CVE-2023-5115"
+        "CVE-2023-5115",
+        "CVE-2024-0567",
+        "CVE-2024-0553"
     ]
 }
