@@ -56,10 +56,28 @@
                 "name": "gnutls",
                 "purl": "pkg:rpm/vmware/gnutls?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.6.16-6.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0717",
-    "modified": "2024-02-01T05:26:41Z",
+    "modified": "2024-02-01T13:37:12Z",
     "published": "2024-01-25T00:00:00Z",
     "references": [
         {
