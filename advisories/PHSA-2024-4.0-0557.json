@@ -6,10 +6,28 @@
                 "name": "wireshark",
                 "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.0.12-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0557",
-    "modified": "2024-01-30T05:26:26Z",
+    "modified": "2024-01-31T05:27:00Z",
     "published": "2024-01-29T00:00:00Z",
     "references": [
         {
