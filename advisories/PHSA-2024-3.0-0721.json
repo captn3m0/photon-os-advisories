@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0721",
+    "modified": "2024-02-05T05:26:31Z",
+    "published": "2024-02-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-721"
+        }
+    ],
+    "related": [
+        "CVE-2023-5678",
+        "CVE-2024-0727"
+    ]
+}
