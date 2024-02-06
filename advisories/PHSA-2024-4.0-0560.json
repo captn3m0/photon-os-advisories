@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "sendmail",
+                "purl": "pkg:rpm/vmware/sendmail?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0560",
+    "modified": "2024-02-06T05:26:31Z",
+    "published": "2024-02-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-560"
+        }
+    ],
+    "related": [
+        "CVE-2023-51765"
+    ]
+}
