@@ -6,10 +6,28 @@
                 "name": "ansible",
                 "purl": "pkg:rpm/vmware/ansible?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.14.12-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0561",
-    "modified": "2024-02-08T05:26:28Z",
+    "modified": "2024-02-08T15:38:15Z",
     "published": "2024-02-07T00:00:00Z",
     "references": [
         {
