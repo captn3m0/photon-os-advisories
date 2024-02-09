@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0715",
+    "modified": "2024-02-09T05:26:28Z",
+    "published": "2024-01-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-715"
+        }
+    ],
+    "related": [
+        "CVE-2023-4806"
+    ]
+}
