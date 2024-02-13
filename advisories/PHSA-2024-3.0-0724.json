@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "ansible",
+                "purl": "pkg:rpm/vmware/ansible?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0724",
+    "modified": "2024-02-13T05:26:48Z",
+    "published": "2024-02-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-724"
+        }
+    ],
+    "related": [
+        "CVE-2024-0690"
+    ]
+}
