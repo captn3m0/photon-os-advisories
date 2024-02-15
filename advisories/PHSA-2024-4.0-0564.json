@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "postgresql14",
+                "purl": "pkg:rpm/vmware/postgresql14?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0564",
+    "modified": "2024-02-15T01:40:07Z",
+    "published": "2024-02-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-564"
+        }
+    ],
+    "related": [
+        "CVE-2024-0985"
+    ]
+}

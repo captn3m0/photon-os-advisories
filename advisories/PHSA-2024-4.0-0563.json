@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0563",
+    "modified": "2024-02-15T01:40:07Z",
+    "published": "2024-02-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-563"
+        }
+    ],
+    "related": [
+        "CVE-2023-5517",
+        "CVE-2023-4408",
+        "CVE-2023-50387",
+        "CVE-2023-6516",
+        "CVE-2023-5679",
+        "CVE-2023-50868"
+    ]
+}
