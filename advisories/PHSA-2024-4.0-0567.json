@@ -6,10 +6,28 @@
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.0.2142-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0567",
-    "modified": "2024-02-19T05:26:35Z",
+    "modified": "2024-02-20T05:26:40Z",
     "published": "2024-02-18T00:00:00Z",
     "references": [
         {

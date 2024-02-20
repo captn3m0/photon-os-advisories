@@ -6,10 +6,28 @@
                 "name": "postgresql14",
                 "purl": "pkg:rpm/vmware/postgresql14?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "postgresql14",
+                "purl": "pkg:rpm/vmware/postgresql14?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "14.11-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0564",
-    "modified": "2024-02-15T01:40:07Z",
+    "modified": "2024-02-20T05:26:40Z",
     "published": "2024-02-14T00:00:00Z",
     "references": [
         {
