@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libuv",
+                "purl": "pkg:rpm/vmware/libuv?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0568",
+    "modified": "2024-02-20T05:26:40Z",
+    "published": "2024-02-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-568"
+        }
+    ],
+    "related": [
+        "CVE-2024-24806"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libuv",
+                "purl": "pkg:rpm/vmware/libuv?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0728",
+    "modified": "2024-02-20T05:26:40Z",
+    "published": "2024-02-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-728"
+        }
+    ],
+    "related": [
+        "CVE-2024-24806"
+    ]
+}
