@@ -117,10 +117,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0565",
-    "modified": "2024-02-21T05:26:37Z",
+    "modified": "2024-02-21T06:37:24Z",
     "published": "2024-02-15T00:00:00Z",
     "references": [
         {

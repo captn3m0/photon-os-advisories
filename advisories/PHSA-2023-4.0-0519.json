@@ -17,10 +17,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-urllib3",
+                "purl": "pkg:rpm/vmware/python3-urllib3?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0519",
-    "modified": "2024-02-21T05:26:37Z",
+    "modified": "2024-02-21T06:37:24Z",
     "published": "2023-11-23T00:00:00Z",
     "references": [
         {
