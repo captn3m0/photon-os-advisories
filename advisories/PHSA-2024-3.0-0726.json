@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0726",
+    "modified": "2024-02-23T05:27:01Z",
+    "published": "2024-02-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-726"
+        }
+    ],
+    "related": [
+        "CVE-2023-50868",
+        "CVE-2023-50387"
+    ]
+}
