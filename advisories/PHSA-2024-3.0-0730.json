@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0730",
+    "modified": "2024-02-24T05:26:37Z",
+    "published": "2024-02-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-730"
+        }
+    ],
+    "related": [
+        "CVE-2024-25062"
+    ]
+}
