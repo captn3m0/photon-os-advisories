@@ -6,10 +6,17 @@
                 "name": "dnsmasq",
                 "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0572",
-    "modified": "2024-02-22T05:26:44Z",
+    "modified": "2024-02-25T05:26:33Z",
     "published": "2024-02-21T00:00:00Z",
     "references": [
         {
@@ -19,6 +26,7 @@
     ],
     "related": [
         "CVE-2023-50868",
-        "CVE-2023-50387"
+        "CVE-2023-50387",
+        "CVE-2024-25062"
     ]
 }
