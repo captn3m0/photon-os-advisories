@@ -49,10 +49,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0705",
-    "modified": "2024-01-05T05:34:07Z",
+    "modified": "2024-02-29T05:27:09Z",
     "published": "2023-12-28T00:00:00Z",
     "references": [
         {
@@ -62,6 +69,7 @@
     ],
     "related": [
         "CVE-2023-4641",
-        "CVE-2023-5981"
+        "CVE-2023-5981",
+        "CVE-2023-51385"
     ]
 }

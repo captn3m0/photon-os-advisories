@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "dnsmasq",
+                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0731",
+    "modified": "2024-02-29T05:27:09Z",
+    "published": "2024-02-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-731"
+        }
+    ],
+    "related": [
+        "CVE-2023-50387",
+        "CVE-2023-50868"
+    ]
+}
