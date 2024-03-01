@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2023-4.0-0536",
-    "modified": "2024-01-05T05:34:07Z",
+    "modified": "2024-03-01T05:28:04Z",
     "published": "2023-12-28T00:00:00Z",
     "references": [
         {
@@ -36,6 +43,7 @@
         }
     ],
     "related": [
-        "CVE-2023-4641"
+        "CVE-2023-4641",
+        "CVE-2023-51385"
     ]
 }

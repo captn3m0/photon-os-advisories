@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0545",
+    "modified": "2024-03-01T05:28:04Z",
+    "published": "2024-01-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-545"
+        }
+    ],
+    "related": [
+        "CVE-2023-51384"
+    ]
+}
