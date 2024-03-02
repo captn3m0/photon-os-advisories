@@ -34,10 +34,17 @@
                 "name": "apache-tomcat",
                 "purl": "pkg:rpm/vmware/apache-tomcat?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "c-ares",
+                "purl": "pkg:rpm/vmware/c-ares?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0574",
-    "modified": "2024-03-01T05:28:04Z",
+    "modified": "2024-03-02T05:27:37Z",
     "published": "2024-02-29T00:00:00Z",
     "references": [
         {
@@ -49,6 +56,7 @@
         "CVE-2024-23849",
         "CVE-2024-23850",
         "CVE-2023-46589",
-        "CVE-2024-1151"
+        "CVE-2024-1151",
+        "CVE-2024-25629"
     ]
 }

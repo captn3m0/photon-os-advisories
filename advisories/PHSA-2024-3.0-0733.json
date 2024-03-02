@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "c-ares",
+                "purl": "pkg:rpm/vmware/c-ares?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0733",
+    "modified": "2024-03-02T05:27:37Z",
+    "published": "2024-02-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-733"
+        }
+    ],
+    "related": [
+        "CVE-2024-25629"
+    ]
+}
