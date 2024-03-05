@@ -56,10 +56,28 @@
                 "name": "openssh",
                 "purl": "pkg:rpm/vmware/openssh?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.8p1-18.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2023-3.0-0705",
-    "modified": "2024-02-29T05:27:09Z",
+    "modified": "2024-03-04T05:26:43Z",
     "published": "2023-12-28T00:00:00Z",
     "references": [
         {
