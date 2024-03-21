@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nss",
+                "purl": "pkg:rpm/vmware/nss?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0739",
+    "modified": "2024-03-21T05:28:28Z",
+    "published": "2024-03-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-739"
+        }
+    ],
+    "related": [
+        "CVE-2023-5388"
+    ]
+}
