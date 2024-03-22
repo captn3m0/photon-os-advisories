@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0582",
+    "modified": "2024-03-22T05:28:09Z",
+    "published": "2024-03-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-582"
+        }
+    ],
+    "related": [
+        "CVE-2024-28757"
+    ]
+}
