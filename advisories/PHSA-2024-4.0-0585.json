@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0585",
+    "modified": "2024-03-30T05:40:14Z",
+    "published": "2024-03-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-585"
+        }
+    ],
+    "related": [
+        "CVE-2024-2004",
+        "CVE-2024-2398"
+    ]
+}
