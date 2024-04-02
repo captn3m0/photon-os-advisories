@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "tcpdump",
+                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0587",
+    "modified": "2024-04-02T05:40:02Z",
+    "published": "2024-04-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-587"
+        }
+    ],
+    "related": [
+        "CVE-2024-2397"
+    ]
+}
