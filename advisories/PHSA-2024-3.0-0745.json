@@ -3,29 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:3.0",
-                "name": "linux-secure",
-                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
             }
         },
         {
@@ -38,22 +17,35 @@
         {
             "package": {
                 "ecosystem": "Photon OS:3.0",
-                "name": "tcpdump",
-                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-3"
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-3"
             }
         }
     ],
-    "id": "PHSA-2024-3.0-0744",
+    "id": "PHSA-2024-3.0-0745",
     "modified": "2024-04-03T05:41:14Z",
-    "published": "2024-04-01T00:00:00Z",
+    "published": "2024-04-02T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-744"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-745"
         }
     ],
     "related": [
-        "CVE-2022-48627",
-        "CVE-2024-2397"
+        "CVE-2023-52458"
     ]
 }
