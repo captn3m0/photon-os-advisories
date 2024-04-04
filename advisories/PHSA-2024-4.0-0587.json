@@ -6,10 +6,28 @@
                 "name": "tcpdump",
                 "purl": "pkg:rpm/vmware/tcpdump?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "tcpdump",
+                "purl": "pkg:rpm/vmware/tcpdump?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.99.4-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0587",
-    "modified": "2024-04-02T05:40:02Z",
+    "modified": "2024-04-03T05:41:14Z",
     "published": "2024-04-01T00:00:00Z",
     "references": [
         {
