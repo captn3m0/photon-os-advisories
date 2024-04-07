@@ -6,10 +6,28 @@
                 "name": "curl",
                 "purl": "pkg:rpm/vmware/curl?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.1.2-8.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0743",
-    "modified": "2024-04-06T05:34:01Z",
+    "modified": "2024-04-07T05:25:44Z",
     "published": "2024-03-27T00:00:00Z",
     "references": [
         {
