@@ -1,0 +1,35 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0747",
+    "modified": "2024-04-08T05:32:41Z",
+    "published": "2024-04-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-747"
+        }
+    ],
+    "related": [
+        "CVE-2023-44431",
+        "CVE-2023-51580",
+        "CVE-2024-28085",
+        "CVE-2023-51589",
+        "CVE-2023-51592",
+        "CVE-2023-51596"
+    ]
+}

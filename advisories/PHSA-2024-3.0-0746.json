@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0746",
+    "modified": "2024-04-08T05:32:41Z",
+    "published": "2024-04-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-746"
+        }
+    ],
+    "related": [
+        "CVE-2023-45288"
+    ]
+}

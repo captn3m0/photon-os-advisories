@@ -53,10 +53,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2021-4.0-0119",
-    "modified": "2023-05-15T05:25:03Z",
+    "modified": "2024-04-08T05:32:41Z",
     "published": "2021-10-27T00:00:00Z",
     "references": [
         {
@@ -102,6 +109,7 @@
         "CVE-2021-35641",
         "CVE-2021-41099",
         "CVE-2021-35647",
-        "CVE-2021-35630"
+        "CVE-2021-35630",
+        "CVE-2023-45288"
     ]
 }
