@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0591",
+    "modified": "2024-04-12T05:24:08Z",
+    "published": "2024-04-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-591"
+        }
+    ],
+    "related": [
+        "CVE-2023-51592",
+        "CVE-2023-44431",
+        "CVE-2023-51589",
+        "CVE-2024-28085",
+        "CVE-2024-27316",
+        "CVE-2023-51580",
+        "CVE-2023-51596"
+    ]
+}
