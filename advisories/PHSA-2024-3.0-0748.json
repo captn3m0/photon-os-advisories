@@ -6,10 +6,28 @@
                 "name": "httpd",
                 "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.4.59-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0748",
-    "modified": "2024-04-18T05:25:25Z",
+    "modified": "2024-04-18T19:37:23Z",
     "published": "2024-04-11T00:00:00Z",
     "references": [
         {
