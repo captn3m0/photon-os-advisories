@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0748",
+    "modified": "2024-04-18T05:25:25Z",
+    "published": "2024-04-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-748"
+        }
+    ],
+    "related": [
+        "CVE-2024-27316"
+    ]
+}
