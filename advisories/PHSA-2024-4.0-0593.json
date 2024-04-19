@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0593",
+    "modified": "2024-04-19T05:24:25Z",
+    "published": "2024-04-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-593"
+        }
+    ],
+    "related": [
+        "CVE-2024-25111"
+    ]
+}
