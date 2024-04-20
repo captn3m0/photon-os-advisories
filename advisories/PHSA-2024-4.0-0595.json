@@ -1,0 +1,30 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-pycryptodomex",
+                "purl": "pkg:rpm/vmware/python3-pycryptodomex?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-pycryptodome",
+                "purl": "pkg:rpm/vmware/python3-pycryptodome?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0595",
+    "modified": "2024-04-20T05:24:30Z",
+    "published": "2024-04-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-595"
+        }
+    ],
+    "related": [
+        "CVE-2023-52323"
+    ]
+}
