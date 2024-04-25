@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0750",
+    "modified": "2024-04-25T05:24:37Z",
+    "published": "2024-04-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-750"
+        }
+    ],
+    "related": [
+        "CVE-2024-2961"
+    ]
+}

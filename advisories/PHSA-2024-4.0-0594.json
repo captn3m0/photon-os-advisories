@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0594",
+    "modified": "2024-04-25T05:24:37Z",
+    "published": "2024-04-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-594"
+        }
+    ],
+    "related": [
+        "CVE-2024-2961"
+    ]
+}
