@@ -13,10 +13,46 @@
                 "name": "python3-pycryptodome",
                 "purl": "pkg:rpm/vmware/python3-pycryptodome?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-pycryptodomex",
+                "purl": "pkg:rpm/vmware/python3-pycryptodomex?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.20.0-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-pycryptodome",
+                "purl": "pkg:rpm/vmware/python3-pycryptodome?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.20.0-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0595",
-    "modified": "2024-04-20T05:24:30Z",
+    "modified": "2024-04-25T05:24:37Z",
     "published": "2024-04-19T00:00:00Z",
     "references": [
         {
