@@ -6,10 +6,28 @@
                 "name": "sssd",
                 "purl": "pkg:rpm/vmware/sssd?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "sssd",
+                "purl": "pkg:rpm/vmware/sssd?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.8.2-12.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0599",
-    "modified": "2024-04-26T05:24:26Z",
+    "modified": "2024-04-27T05:24:45Z",
     "published": "2024-04-26T00:00:00Z",
     "references": [
         {
