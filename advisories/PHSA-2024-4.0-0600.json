@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0600",
+    "modified": "2024-04-30T05:24:34Z",
+    "published": "2024-04-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-600"
+        }
+    ],
+    "related": [
+        "CVE-2024-27282"
+    ]
+}
