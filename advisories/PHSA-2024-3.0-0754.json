@@ -6,10 +6,28 @@
                 "name": "ruby",
                 "purl": "pkg:rpm/vmware/ruby?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.5.8-8.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0754",
-    "modified": "2024-05-01T05:24:34Z",
+    "modified": "2024-05-02T04:37:54Z",
     "published": "2024-04-30T00:00:00Z",
     "references": [
         {
