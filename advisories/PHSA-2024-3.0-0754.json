@@ -24,10 +24,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "python3-pycryptodomex",
+                "purl": "pkg:rpm/vmware/python3-pycryptodomex?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0754",
-    "modified": "2024-05-02T04:37:54Z",
+    "modified": "2024-05-02T05:24:09Z",
     "published": "2024-04-30T00:00:00Z",
     "references": [
         {
@@ -36,6 +43,7 @@
         }
     ],
     "related": [
-        "CVE-2024-27282"
+        "CVE-2024-27282",
+        "CVE-2023-52323"
     ]
 }
