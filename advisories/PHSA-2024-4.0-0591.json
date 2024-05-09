@@ -206,10 +206,28 @@
                 "name": "nghttp2",
                 "purl": "pkg:rpm/vmware/nghttp2?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "nghttp2",
+                "purl": "pkg:rpm/vmware/nghttp2?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.57.0-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0591",
-    "modified": "2024-05-09T05:24:13Z",
+    "modified": "2024-05-09T21:37:31Z",
     "published": "2024-04-11T00:00:00Z",
     "references": [
         {
