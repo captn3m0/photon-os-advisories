@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "unixODBC",
+                "purl": "pkg:rpm/vmware/unixODBC?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0757",
+    "modified": "2024-05-10T05:24:17Z",
+    "published": "2024-05-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-757"
+        }
+    ],
+    "related": [
+        "CVE-2024-1013"
+    ]
+}
