@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "suricata",
+                "purl": "pkg:rpm/vmware/suricata?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0606",
+    "modified": "2024-05-11T05:24:16Z",
+    "published": "2024-05-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-606"
+        }
+    ],
+    "related": [
+        "CVE-2024-32664",
+        "CVE-2024-32867",
+        "CVE-2024-32663"
+    ]
+}
