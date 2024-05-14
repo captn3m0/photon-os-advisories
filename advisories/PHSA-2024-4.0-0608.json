@@ -1,0 +1,44 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "postgresql14",
+                "purl": "pkg:rpm/vmware/postgresql14?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0608",
+    "modified": "2024-05-14T05:24:56Z",
+    "published": "2024-05-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-608"
+        }
+    ],
+    "related": [
+        "CVE-2024-21047",
+        "CVE-2024-21062",
+        "CVE-2024-21069",
+        "CVE-2024-21096",
+        "CVE-2024-21008",
+        "CVE-2024-21009",
+        "CVE-2024-21000",
+        "CVE-2024-21013",
+        "CVE-2024-21087",
+        "CVE-2024-20998",
+        "CVE-2024-21060",
+        "CVE-2024-20994",
+        "CVE-2024-21054",
+        "CVE-2024-4317",
+        "CVE-2024-21102"
+    ]
+}
