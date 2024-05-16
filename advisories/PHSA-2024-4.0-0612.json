@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "less",
+                "purl": "pkg:rpm/vmware/less?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0612",
+    "modified": "2024-05-16T05:24:35Z",
+    "published": "2024-05-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-612"
+        }
+    ],
+    "related": [
+        "CVE-2024-32487"
+    ]
+}

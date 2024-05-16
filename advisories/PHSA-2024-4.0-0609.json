@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libvirt",
+                "purl": "pkg:rpm/vmware/libvirt?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0609",
+    "modified": "2024-05-16T05:24:35Z",
+    "published": "2024-05-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-609"
+        }
+    ],
+    "related": [
+        "CVE-2024-4418"
+    ]
+}
