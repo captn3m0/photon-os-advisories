@@ -6,10 +6,28 @@
                 "name": "less",
                 "purl": "pkg:rpm/vmware/less?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "less",
+                "purl": "pkg:rpm/vmware/less?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "530-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0759",
-    "modified": "2024-05-24T05:24:32Z",
+    "modified": "2024-05-24T13:37:31Z",
     "published": "2024-05-15T00:00:00Z",
     "references": [
         {
