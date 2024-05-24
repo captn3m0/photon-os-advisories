@@ -17,10 +17,17 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0611",
-    "modified": "2024-05-24T05:24:32Z",
+    "modified": "2024-05-24T08:37:40Z",
     "published": "2024-05-15T00:00:00Z",
     "references": [
         {
