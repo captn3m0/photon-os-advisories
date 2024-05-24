@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "less",
+                "purl": "pkg:rpm/vmware/less?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0759",
+    "modified": "2024-05-24T05:24:32Z",
+    "published": "2024-05-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-759"
+        }
+    ],
+    "related": [
+        "CVE-2024-32487"
+    ]
+}
