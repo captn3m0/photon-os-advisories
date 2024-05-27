@@ -1,0 +1,59 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "18.16.0-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gnupg",
+                "purl": "pkg:rpm/vmware/gnupg?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.41-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0011",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-05-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-11"
+        }
+    ],
+    "related": [
+        "CVE-2023-23920",
+        "CVE-2022-3515",
+        "CVE-2023-23918",
+        "CVE-2022-3602",
+        "CVE-2022-43548",
+        "CVE-2022-3786",
+        "CVE-2023-23919",
+        "CVE-2022-34903"
+    ]
+}

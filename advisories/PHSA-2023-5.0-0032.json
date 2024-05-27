@@ -1,0 +1,65 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openjdk11",
+                "purl": "pkg:rpm/vmware/openjdk11?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "11.0.20-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "sysstat",
+                "purl": "pkg:rpm/vmware/sysstat?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "12.7.2-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0032",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-06-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-32"
+        }
+    ],
+    "related": [
+        "CVE-2023-21954",
+        "CVE-2023-21967",
+        "CVE-2023-21937",
+        "CVE-2020-14153",
+        "CVE-2023-33204",
+        "CVE-2023-21938",
+        "CVE-2023-21930",
+        "CVE-2023-21843",
+        "CVE-2022-39377",
+        "CVE-2018-11813",
+        "CVE-2023-21939",
+        "CVE-2023-21968",
+        "CVE-2020-14152",
+        "CVE-2023-21835"
+    ]
+}

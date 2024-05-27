@@ -1,0 +1,66 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openresty",
+                "purl": "pkg:rpm/vmware/openresty?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.21.4.1-8.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.0.34-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0056",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-07-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-56"
+        }
+    ],
+    "related": [
+        "CVE-2023-22005",
+        "CVE-2023-22008",
+        "CVE-2023-22053",
+        "CVE-2022-41742",
+        "CVE-2021-3520",
+        "CVE-2023-22056",
+        "CVE-2023-22046",
+        "CVE-2019-17543",
+        "CVE-2023-22054",
+        "CVE-2023-22058",
+        "CVE-2023-22038",
+        "CVE-2023-22033",
+        "CVE-2022-41741",
+        "CVE-2023-22048",
+        "CVE-2023-22057"
+    ]
+}

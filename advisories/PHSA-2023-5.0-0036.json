@@ -1,0 +1,100 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nmap",
+                "purl": "pkg:rpm/vmware/nmap?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.93-7.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "lua",
+                "purl": "pkg:rpm/vmware/lua?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.4.6-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libXi",
+                "purl": "pkg:rpm/vmware/libXi?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.7.10-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.39-3.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0036",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-06-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-36"
+        }
+    ],
+    "related": [
+        "CVE-2016-7946",
+        "CVE-2020-15888",
+        "CVE-2022-28805",
+        "CVE-2020-24371",
+        "CVE-2021-43519",
+        "CVE-2020-24369",
+        "CVE-2023-1972",
+        "CVE-2016-7945",
+        "CVE-2021-44647",
+        "CVE-2020-24370",
+        "CVE-2020-24342",
+        "CVE-2020-15945",
+        "CVE-2022-33099"
+    ]
+}

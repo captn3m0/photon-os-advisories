@@ -1,0 +1,47 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.0.35-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0147",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-11-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-147"
+        }
+    ],
+    "related": [
+        "CVE-2023-22097",
+        "CVE-2023-22112",
+        "CVE-2023-22066",
+        "CVE-2023-22032",
+        "CVE-2023-22078",
+        "CVE-2023-22103",
+        "CVE-2023-22084",
+        "CVE-2023-22079",
+        "CVE-2023-22068",
+        "CVE-2023-22114",
+        "CVE-2023-22059",
+        "CVE-2023-22064",
+        "CVE-2023-22092",
+        "CVE-2023-22070"
+    ]
+}

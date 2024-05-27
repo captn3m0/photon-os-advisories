@@ -1,0 +1,61 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.0.1876-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "suricata",
+                "purl": "pkg:rpm/vmware/suricata?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.0.0-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0091",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-09-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91"
+        }
+    ],
+    "related": [
+        "CVE-2023-35852",
+        "CVE-2023-4733",
+        "CVE-2023-4752",
+        "CVE-2023-4738",
+        "CVE-2023-4736",
+        "CVE-2023-4781",
+        "CVE-2023-4734",
+        "CVE-2023-35853",
+        "CVE-2023-4750",
+        "CVE-2023-4735"
+    ]
+}

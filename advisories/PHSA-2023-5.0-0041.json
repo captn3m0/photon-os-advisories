@@ -1,0 +1,130 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "telegraf",
+                "purl": "pkg:rpm/vmware/telegraf?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.27.1-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "18.16.1-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "dnsmasq",
+                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.89-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0041",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-06-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-41"
+        }
+    ],
+    "related": [
+        "CVE-2023-30590",
+        "CVE-2019-13139",
+        "CVE-2019-13509",
+        "CVE-2018-10892",
+        "CVE-2020-35380",
+        "CVE-2020-27534",
+        "CVE-2021-38698",
+        "CVE-2021-42836",
+        "CVE-2023-0466",
+        "CVE-2020-7219",
+        "CVE-2020-13401",
+        "CVE-2022-46908",
+        "CVE-2023-25173",
+        "CVE-2018-15664",
+        "CVE-2023-25153",
+        "CVE-2023-2816",
+        "CVE-2021-21284",
+        "CVE-2020-15257",
+        "CVE-2020-36066",
+        "CVE-2022-23471",
+        "CVE-2021-20227",
+        "CVE-2022-23648",
+        "CVE-2021-32760",
+        "CVE-2020-10750",
+        "CVE-2022-29153",
+        "CVE-2023-2650",
+        "CVE-2023-30581",
+        "CVE-2020-25864",
+        "CVE-2019-16884",
+        "CVE-2021-37219",
+        "CVE-2018-19653",
+        "CVE-2022-35737",
+        "CVE-2021-41103",
+        "CVE-2021-21285",
+        "CVE-2021-31239",
+        "CVE-2023-1255",
+        "CVE-2021-21334",
+        "CVE-2022-31030",
+        "CVE-2019-19794",
+        "CVE-2023-28450",
+        "CVE-2022-40716",
+        "CVE-2023-30585",
+        "CVE-2023-30588",
+        "CVE-2020-28053",
+        "CVE-2023-0464",
+        "CVE-2019-5736",
+        "CVE-2021-42248",
+        "CVE-2019-3826",
+        "CVE-2023-0465",
+        "CVE-2020-36067",
+        "CVE-2023-30589",
+        "CVE-2018-20699",
+        "CVE-2019-15752",
+        "CVE-2020-13250"
+    ]
+}

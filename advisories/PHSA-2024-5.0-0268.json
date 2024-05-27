@@ -1,0 +1,67 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libvirt",
+                "purl": "pkg:rpm/vmware/libvirt?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.3.0-7.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.4.0-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0268",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2024-05-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-268"
+        }
+    ],
+    "related": [
+        "CVE-2024-21069",
+        "CVE-2024-21009",
+        "CVE-2024-21013",
+        "CVE-2024-21047",
+        "CVE-2024-21054",
+        "CVE-2024-21008",
+        "CVE-2024-21015",
+        "CVE-2024-21062",
+        "CVE-2024-21060",
+        "CVE-2024-21096",
+        "CVE-2024-20994",
+        "CVE-2024-21087",
+        "CVE-2024-21000",
+        "CVE-2024-20998",
+        "CVE-2024-4418",
+        "CVE-2024-21102"
+    ]
+}

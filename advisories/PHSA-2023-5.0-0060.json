@@ -1,0 +1,63 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gdb",
+                "purl": "pkg:rpm/vmware/gdb?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "13.2-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "xinetd",
+                "purl": "pkg:rpm/vmware/xinetd?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.3.15-11.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0060",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-07-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-60"
+        }
+    ],
+    "related": [
+        "CVE-2023-25584",
+        "CVE-2023-25588",
+        "CVE-2021-3530",
+        "CVE-2020-16599",
+        "CVE-2013-4342",
+        "CVE-2023-1972",
+        "CVE-2023-1579",
+        "CVE-2022-4285",
+        "CVE-2022-38533",
+        "CVE-2023-25585",
+        "CVE-2022-37434",
+        "CVE-2023-25586"
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gstreamer",
+                "purl": "pkg:rpm/vmware/gstreamer?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.22.7-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "haproxy",
+                "purl": "pkg:rpm/vmware/haproxy?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.8.2-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0167",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-12-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-167"
+        }
+    ],
+    "related": [
+        "CVE-2023-45539",
+        "CVE-2023-40475",
+        "CVE-2023-44446",
+        "CVE-2023-40474",
+        "CVE-2024-0444",
+        "CVE-2023-40476",
+        "CVE-2023-44429"
+    ]
+}

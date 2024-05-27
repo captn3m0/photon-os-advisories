@@ -1,0 +1,91 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "chromium",
+                "purl": "pkg:rpm/vmware/chromium?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "119.0.6045.176-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.18.8-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0160",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-12-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-160"
+        }
+    ],
+    "related": [
+        "CVE-2023-5483",
+        "CVE-2023-5485",
+        "CVE-2023-4905",
+        "CVE-2023-5186",
+        "CVE-2023-4763",
+        "CVE-2023-5475",
+        "CVE-2023-4427",
+        "CVE-2023-4764",
+        "CVE-2023-4906",
+        "CVE-2023-5218",
+        "CVE-2023-5484",
+        "CVE-2023-5481",
+        "CVE-2023-5346",
+        "CVE-2023-3961",
+        "CVE-2023-4863",
+        "CVE-2023-4900",
+        "CVE-2023-5479",
+        "CVE-2023-4429",
+        "CVE-2023-4904",
+        "CVE-2023-4430",
+        "CVE-2023-4909",
+        "CVE-2023-5477",
+        "CVE-2023-5478",
+        "CVE-2023-4908",
+        "CVE-2023-4761",
+        "CVE-2023-5474",
+        "CVE-2023-5473",
+        "CVE-2023-4907",
+        "CVE-2023-4901",
+        "CVE-2023-5217",
+        "CVE-2023-5486",
+        "CVE-2023-4902",
+        "CVE-2023-4903",
+        "CVE-2023-5476",
+        "CVE-2023-5487",
+        "CVE-2023-4431",
+        "CVE-2023-4428",
+        "CVE-2023-5187",
+        "CVE-2023-4572",
+        "CVE-2023-4762"
+    ]
+}

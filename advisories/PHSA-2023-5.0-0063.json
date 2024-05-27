@@ -1,0 +1,37 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.18.5-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0063",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-08-02T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-63"
+        }
+    ],
+    "related": [
+        "CVE-2023-0225",
+        "CVE-2023-0922",
+        "CVE-2023-0614",
+        "CVE-2018-10919"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.1.4-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0247",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2024-04-16T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-247"
+        }
+    ],
+    "related": [
+        "CVE-2023-36617",
+        "CVE-2023-28755",
+        "CVE-2024-27280"
+    ]
+}

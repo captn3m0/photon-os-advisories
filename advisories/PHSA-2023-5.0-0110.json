@@ -1,0 +1,56 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "apr-util",
+                "purl": "pkg:rpm/vmware/apr-util?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.6.3-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.36-8.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0110",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-10-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-110"
+        }
+    ],
+    "related": [
+        "CVE-2023-4911",
+        "CVE-2023-0687",
+        "CVE-2022-25147",
+        "CVE-2023-5156",
+        "CVE-2023-4527"
+    ]
+}

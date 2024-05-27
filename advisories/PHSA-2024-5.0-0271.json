@@ -1,0 +1,38 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.39.3-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0271",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2024-05-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-271"
+        }
+    ],
+    "related": [
+        "CVE-2024-32021",
+        "CVE-2024-32020",
+        "CVE-2024-32004",
+        "CVE-2024-32465",
+        "CVE-2024-32002"
+    ]
+}

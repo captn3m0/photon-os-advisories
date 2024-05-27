@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "chromium",
+                "purl": "pkg:rpm/vmware/chromium?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "116.0.5845.96-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-0081",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2023-08-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-81"
+        }
+    ],
+    "related": [
+        "CVE-2023-4353",
+        "CVE-2023-4073",
+        "CVE-2023-4354",
+        "CVE-2023-4072",
+        "CVE-2023-3727",
+        "CVE-2023-4076"
+    ]
+}

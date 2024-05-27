@@ -1,0 +1,35 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.1.2-8.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0233",
+    "modified": "2024-05-27T05:24:02Z",
+    "published": "2024-03-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-233"
+        }
+    ],
+    "related": [
+        "CVE-2024-2398",
+        "CVE-2024-2004"
+    ]
+}
