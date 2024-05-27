@@ -19,7 +19,7 @@ jobs:
     # of simplejson (https://github.com/matrix-org/python-canonicaljson/pull/25/files)
     - uses: actions/setup-python@v4
       with:
-        python-version: 'pypy3.9'
+        python-version: 'pypy3.10'
     - name: Update data
       run: |
         mkdir -p advisories

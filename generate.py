@@ -5,7 +5,7 @@ import markdown
 import json
 import canonicaljson
 import urllib.request
-from datetime import datetime,UTC
+from datetime import datetime
 import copy
 import os
 import re
@@ -29,7 +29,7 @@ def last_modified_date(file):
         .decode("utf-8")
         .strip()
     )
-    return datetime.fromtimestamp(p, UTC)
+    return datetime.utcfromtimestamp(p)
 
 
 def created_date(file):
