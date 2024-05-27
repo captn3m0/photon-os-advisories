@@ -5,7 +5,7 @@ import markdown
 import json
 import canonicaljson
 import urllib.request
-from datetime import datetime
+from datetime import datetime,UTC
 import copy
 import os
 import re
@@ -14,9 +14,11 @@ from bs4 import BeautifulSoup
 CVE_REGEX = r"CVE-\d{4}-\d{4,7}"
 FILE_FORMAT = "/Security-Updates-{version}.md"
 ADVISORY_URL = "https://github.com/vmware/photon/wiki/Security-Update-{slug}"
-PHOTON_VERSIONS = range(1, 5)
+PHOTON_VERSIONS = range(1, 6)
 ADVISORIES_DIR = "photon-wiki"
-
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 Gecko/20100101 Firefox/126.0"
+}
 
 def last_modified_date(file):
     p = int(
@@ -27,7 +29,7 @@ def last_modified_date(file):
         .decode("utf-8")
         .strip()
     )
-    return datetime.utcfromtimestamp(p)
+    return datetime.fromtimestamp(p, UTC)
 
 
 def created_date(file):
@@ -140,16 +142,16 @@ def merge_advisories(advisory_file, data):
     # and the later modified date
     current["published"] = (
         min(
-            datetime.strptime(current["published"], "%Y-%m-%dT%H:%M:%SZ"),
-            datetime.strptime(data["published"], "%Y-%m-%dT%H:%M:%SZ"),
+            datetime.strptime(current["published"].replace('+00:00', ''), "%Y-%m-%dT%H:%M:%SZ"),
+            datetime.strptime(data["published"].replace('+00:00', ''),    "%Y-%m-%dT%H:%M:%SZ"),
         ).isoformat("T", timespec='seconds')
         + "Z"
     )
 
     current["modified"] = (
         max(
-            datetime.strptime(current["modified"], "%Y-%m-%dT%H:%M:%SZ"),
-            datetime.strptime(data["modified"], "%Y-%m-%dT%H:%M:%SZ"),
+            datetime.strptime(current["modified"].replace('+00:00', ''), "%Y-%m-%dT%H:%M:%SZ"),
+            datetime.strptime(data["modified"].replace('+00:00', ''),    "%Y-%m-%dT%H:%M:%SZ"),
         ).isoformat("T", timespec='seconds')
         + "Z"
     )
@@ -169,7 +171,7 @@ def merge_advisories(advisory_file, data):
     # If there were important changes, but modified hasn't changed
     # bump the timestamp so downstream can pick up changes
     if original['modified'] == current['modified']:
-        current['modified'] = datetime.utcnow().isoformat("T", timespec='seconds') + "Z"
+        current['modified'] = datetime.now().isoformat("T", timespec='seconds') + "Z"
 
     return current
 
@@ -177,7 +179,8 @@ def fetch_cve_metadata(PHOTON_VERSIONS):
     cve_metadata = {}
     for branch in PHOTON_VERSIONS:
         url = f"https://packages.vmware.com/photon/photon_cve_metadata/cve_data_photon{branch}.0.json"
-        with urllib.request.urlopen(url) as r:
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req) as r:
             data = json.loads(r.read().decode())
             for row in data:
                 row["os"] = branch
