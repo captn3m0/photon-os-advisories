@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0255",
+    "modified": "2024-05-29T05:24:23Z",
+    "published": "2024-04-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-255"
+        }
+    ],
+    "related": [
+        "CVE-2024-3177"
+    ]
+}
