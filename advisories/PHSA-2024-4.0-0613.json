@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "unixODBC",
+                "purl": "pkg:rpm/vmware/unixODBC?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0613",
+    "modified": "2024-05-30T05:24:22Z",
+    "published": "2024-05-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-613"
+        }
+    ],
+    "related": [
+        "CVE-2024-1013"
+    ]
+}

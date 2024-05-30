@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0761",
+    "modified": "2024-05-30T05:24:22Z",
+    "published": "2024-05-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-761"
+        }
+    ],
+    "related": [
+        "CVE-2024-32002"
+    ]
+}
