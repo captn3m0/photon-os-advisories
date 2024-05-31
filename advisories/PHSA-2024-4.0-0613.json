@@ -6,10 +6,28 @@
                 "name": "unixODBC",
                 "purl": "pkg:rpm/vmware/unixODBC?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "unixODBC",
+                "purl": "pkg:rpm/vmware/unixODBC?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.3.9-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0613",
-    "modified": "2024-05-30T05:24:22Z",
+    "modified": "2024-05-31T05:24:19Z",
     "published": "2024-05-18T00:00:00Z",
     "references": [
         {

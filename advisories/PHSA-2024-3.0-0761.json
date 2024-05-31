@@ -6,10 +6,28 @@
                 "name": "git",
                 "purl": "pkg:rpm/vmware/git?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.39.4-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0761",
-    "modified": "2024-05-30T05:24:22Z",
+    "modified": "2024-05-31T05:24:19Z",
     "published": "2024-05-29T00:00:00Z",
     "references": [
         {

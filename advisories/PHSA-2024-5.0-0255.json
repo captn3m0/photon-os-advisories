@@ -6,10 +6,28 @@
                 "name": "kubernetes",
                 "purl": "pkg:rpm/vmware/kubernetes?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "kubernetes",
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.27.13-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0255",
-    "modified": "2024-05-29T05:24:23Z",
+    "modified": "2024-05-31T05:24:19Z",
     "published": "2024-04-23T00:00:00Z",
     "references": [
         {

@@ -35,10 +35,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.17-5.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-4.0-0102",
-    "modified": "2024-05-30T05:24:22Z",
+    "modified": "2024-05-31T05:24:19Z",
     "published": "2021-09-17T00:00:00Z",
     "references": [
         {
