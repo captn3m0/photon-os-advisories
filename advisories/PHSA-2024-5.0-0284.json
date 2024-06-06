@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.20.2-3.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0284",
+    "modified": "2024-06-06T05:24:12Z",
+    "published": "2024-06-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-284"
+        }
+    ],
+    "related": [
+        "CVE-2024-26461",
+        "CVE-2024-26458",
+        "CVE-2024-26462"
+    ]
+}
