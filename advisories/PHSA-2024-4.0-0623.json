@@ -1,0 +1,35 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.7.1-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0623",
+    "modified": "2024-06-11T05:24:38Z",
+    "published": "2024-06-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-623"
+        }
+    ],
+    "related": [
+        "CVE-2023-46218",
+        "CVE-2023-46219"
+    ]
+}
