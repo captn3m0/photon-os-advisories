@@ -53,10 +53,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "librdkafka",
+                "purl": "pkg:rpm/vmware/librdkafka?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.5.0-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2021-4.0-0130",
-    "modified": "2023-05-15T05:25:03Z",
+    "modified": "2024-06-18T05:24:05Z",
     "published": "2021-11-28T00:00:00Z",
     "references": [
         {
@@ -72,6 +90,7 @@
         "CVE-2021-36221",
         "CVE-2021-41771",
         "CVE-2021-41772",
-        "CVE-2021-38297"
+        "CVE-2021-38297",
+        "CVE-2021-3520"
     ]
 }
