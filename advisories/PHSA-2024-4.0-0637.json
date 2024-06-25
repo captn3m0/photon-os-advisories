@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "openssl",
-                "purl": "pkg:rpm/vmware/openssl?distro=photon-5"
+                "ecosystem": "Photon OS:4.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -12,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "3.0.14-1.ph5"
+                        "fixed": "1.21.11-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -20,9 +20,9 @@
         },
         {
             "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "libarchive",
-                "purl": "pkg:rpm/vmware/libarchive?distro=photon-5"
+                "ecosystem": "Photon OS:4.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -30,24 +30,25 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "3.7.1-2.ph5"
+                        "fixed": "3.0.14-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
             }
         }
     ],
-    "id": "PHSA-2024-5.0-0301",
+    "id": "PHSA-2024-4.0-0637",
     "modified": "2024-06-25T05:24:10Z",
-    "published": "2024-06-21T00:00:00Z",
+    "published": "2024-06-24T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-301"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-637"
         }
     ],
     "related": [
-        "CVE-2024-4741",
-        "CVE-2024-26256"
+        "CVE-2024-24789",
+        "CVE-2024-24790",
+        "CVE-2024-4741"
     ]
 }
