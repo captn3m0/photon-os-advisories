@@ -17,10 +17,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libndp",
+                "purl": "pkg:rpm/vmware/libndp?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.7-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0636",
-    "modified": "2024-06-22T05:24:26Z",
+    "modified": "2024-06-26T05:24:34Z",
     "published": "2024-06-21T00:00:00Z",
     "references": [
         {
@@ -30,6 +48,7 @@
     ],
     "related": [
         "CVE-2024-27983",
-        "CVE-2024-27982"
+        "CVE-2024-27982",
+        "CVE-2024-5564"
     ]
 }
