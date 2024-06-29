@@ -17,10 +17,46 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.219-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.219-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0640",
-    "modified": "2024-06-27T05:24:04Z",
+    "modified": "2024-06-29T05:24:23Z",
     "published": "2024-06-26T00:00:00Z",
     "references": [
         {
@@ -29,6 +65,9 @@
         }
     ],
     "related": [
-        "CVE-2024-34459"
+        "CVE-2024-34459",
+        "CVE-2024-27019",
+        "CVE-2024-36902",
+        "CVE-2024-36971"
     ]
 }
