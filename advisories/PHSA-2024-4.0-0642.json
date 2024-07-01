@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0642",
+    "modified": "2024-07-01T11:31:35Z",
+    "published": "2024-07-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-642"
+        }
+    ],
+    "related": [
+        "CVE-2024-6387"
+    ]
+}
