@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "uriparser",
+                "purl": "pkg:rpm/vmware/uriparser?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0772",
+    "modified": "2024-07-24T19:49:39Z",
+    "published": "2024-07-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-772"
+        }
+    ],
+    "related": [
+        "CVE-2024-34402"
+    ]
+}

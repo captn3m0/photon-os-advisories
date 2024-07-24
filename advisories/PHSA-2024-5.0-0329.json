@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nano",
+                "purl": "pkg:rpm/vmware/nano?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0329",
+    "modified": "2024-07-24T19:49:39Z",
+    "published": "2024-07-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-329"
+        }
+    ],
+    "related": [
+        "CVE-2024-5742"
+    ]
+}

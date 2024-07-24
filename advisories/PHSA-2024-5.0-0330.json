@@ -6,10 +6,17 @@
                 "name": "httpd",
                 "purl": "pkg:rpm/vmware/httpd?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0330",
-    "modified": "2024-07-24T18:31:38Z",
+    "modified": "2024-07-24T19:49:39Z",
     "published": "2024-07-24T00:00:00Z",
     "references": [
         {
@@ -18,6 +25,10 @@
         }
     ],
     "related": [
-        "CVE-2024-39884"
+        "CVE-2024-39884",
+        "CVE-2024-1975",
+        "CVE-2024-1737",
+        "CVE-2024-0760",
+        "CVE-2024-4076"
     ]
 }

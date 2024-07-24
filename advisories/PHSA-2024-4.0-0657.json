@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0657",
+    "modified": "2024-07-24T19:49:39Z",
+    "published": "2024-07-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-657"
+        }
+    ],
+    "related": [
+        "CVE-2024-1737",
+        "CVE-2024-1975",
+        "CVE-2024-4076",
+        "CVE-2024-0760"
+    ]
+}
