@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0330",
+    "modified": "2024-07-24T18:31:38Z",
+    "published": "2024-07-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-330"
+        }
+    ],
+    "related": [
+        "CVE-2024-39884"
+    ]
+}

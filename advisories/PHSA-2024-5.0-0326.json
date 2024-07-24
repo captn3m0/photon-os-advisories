@@ -1,0 +1,35 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "suricata",
+                "purl": "pkg:rpm/vmware/suricata?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0326",
+    "modified": "2024-07-24T18:31:38Z",
+    "published": "2024-07-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-326"
+        }
+    ],
+    "related": [
+        "CVE-2024-24787",
+        "CVE-2024-24791",
+        "CVE-2024-37151",
+        "CVE-2024-38534",
+        "CVE-2024-38536",
+        "CVE-2024-38535"
+    ]
+}
