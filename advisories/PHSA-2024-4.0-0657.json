@@ -6,10 +6,28 @@
                 "name": "bindutils",
                 "purl": "pkg:rpm/vmware/bindutils?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.18.27-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0657",
-    "modified": "2024-07-24T19:49:39Z",
+    "modified": "2024-07-25T05:24:48Z",
     "published": "2024-07-24T00:00:00Z",
     "references": [
         {

@@ -6,10 +6,28 @@
                 "name": "nano",
                 "purl": "pkg:rpm/vmware/nano?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nano",
+                "purl": "pkg:rpm/vmware/nano?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "7.0-4.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0329",
-    "modified": "2024-07-24T19:49:39Z",
+    "modified": "2024-07-25T05:24:48Z",
     "published": "2024-07-24T00:00:00Z",
     "references": [
         {
