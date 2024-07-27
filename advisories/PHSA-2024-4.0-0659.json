@@ -17,10 +17,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "wget",
+                "purl": "pkg:rpm/vmware/wget?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.21.3-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-4.0-0659",
-    "modified": "2024-07-26T05:24:43Z",
+    "modified": "2024-07-27T05:24:56Z",
     "published": "2024-07-25T00:00:00Z",
     "references": [
         {
@@ -29,6 +47,7 @@
         }
     ],
     "related": [
-        "CVE-2024-39884"
+        "CVE-2024-39884",
+        "CVE-2024-38428"
     ]
 }
