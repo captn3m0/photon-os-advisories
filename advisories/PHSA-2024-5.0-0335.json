@@ -1,0 +1,52 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "8.4.2-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0335",
+    "modified": "2024-07-30T05:24:57Z",
+    "published": "2024-07-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-335"
+        }
+    ],
+    "related": [
+        "CVE-2024-21176",
+        "CVE-2024-21130",
+        "CVE-2024-21177",
+        "CVE-2024-21163",
+        "CVE-2024-21157",
+        "CVE-2024-21159",
+        "CVE-2024-21179",
+        "CVE-2024-21160",
+        "CVE-2024-21142",
+        "CVE-2024-21125",
+        "CVE-2024-21173",
+        "CVE-2024-21171",
+        "CVE-2024-21162",
+        "CVE-2024-21166",
+        "CVE-2024-21129",
+        "CVE-2024-21127",
+        "CVE-2024-20996",
+        "CVE-2024-21134",
+        "CVE-2024-21135"
+    ]
+}
