@@ -17,10 +17,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "shim-signed",
+                "purl": "pkg:rpm/vmware/shim-signed?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "15.8-2.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0332",
-    "modified": "2024-07-27T05:24:56Z",
+    "modified": "2024-08-08T05:24:47Z",
     "published": "2024-07-25T00:00:00Z",
     "references": [
         {
@@ -29,6 +47,13 @@
         }
     ],
     "related": [
-        "CVE-2024-6345"
+        "CVE-2024-6345",
+        "CVE-2023-40550",
+        "CVE-2022-28737",
+        "CVE-2023-40549",
+        "CVE-2023-40548",
+        "CVE-2023-40546",
+        "CVE-2023-40551",
+        "CVE-2023-40547"
     ]
 }

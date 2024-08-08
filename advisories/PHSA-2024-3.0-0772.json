@@ -24,10 +24,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "4.19.317-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0772",
-    "modified": "2024-07-25T05:24:48Z",
+    "modified": "2024-08-08T05:24:47Z",
     "published": "2024-07-17T00:00:00Z",
     "references": [
         {
@@ -36,6 +54,7 @@
         }
     ],
     "related": [
-        "CVE-2024-34402"
+        "CVE-2024-34402",
+        "CVE-2024-40902"
     ]
 }
