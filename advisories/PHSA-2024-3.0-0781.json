@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "keepalived",
+                "purl": "pkg:rpm/vmware/keepalived?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0781",
+    "modified": "2024-08-15T05:24:54Z",
+    "published": "2024-08-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-781"
+        }
+    ],
+    "related": [
+        "CVE-2024-41184"
+    ]
+}

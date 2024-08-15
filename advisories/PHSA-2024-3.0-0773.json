@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0773",
+    "modified": "2024-08-15T05:24:54Z",
+    "published": "2024-07-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-773"
+        }
+    ],
+    "related": [
+        "CVE-2024-1975",
+        "CVE-2024-1737",
+        "CVE-2024-0760",
+        "CVE-2024-4076"
+    ]
+}
