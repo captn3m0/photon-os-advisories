@@ -6,10 +6,28 @@
                 "name": "bindutils",
                 "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.18.27-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0773",
-    "modified": "2024-08-15T05:24:54Z",
+    "modified": "2024-08-16T05:24:58Z",
     "published": "2024-07-24T00:00:00Z",
     "references": [
         {

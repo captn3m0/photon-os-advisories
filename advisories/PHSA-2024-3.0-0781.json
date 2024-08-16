@@ -6,10 +6,28 @@
                 "name": "keepalived",
                 "purl": "pkg:rpm/vmware/keepalived?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "keepalived",
+                "purl": "pkg:rpm/vmware/keepalived?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.7-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0781",
-    "modified": "2024-08-15T05:24:54Z",
+    "modified": "2024-08-16T05:24:58Z",
     "published": "2024-08-14T00:00:00Z",
     "references": [
         {
