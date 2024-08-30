@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "python3-setuptools",
+                "purl": "pkg:rpm/vmware/python3-setuptools?distro=photon-3"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0786",
+    "modified": "2024-08-30T05:52:49Z",
+    "published": "2024-08-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-786"
+        }
+    ],
+    "related": [
+        "CVE-2024-6345"
+    ]
+}
