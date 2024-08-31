@@ -6,10 +6,28 @@
                 "name": "go",
                 "purl": "pkg:rpm/vmware/go?distro=photon-3"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.20.14-3.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-3.0-0785",
-    "modified": "2024-08-30T05:52:49Z",
+    "modified": "2024-08-31T05:25:08Z",
     "published": "2024-08-26T00:00:00Z",
     "references": [
         {
