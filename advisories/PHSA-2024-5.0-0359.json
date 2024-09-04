@@ -1,0 +1,94 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.1.106-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.1.106-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0359",
+    "modified": "2024-09-04T05:26:24Z",
+    "published": "2024-08-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-359"
+        }
+    ],
+    "related": [
+        "CVE-2024-43828",
+        "CVE-2024-43839",
+        "CVE-2024-42313",
+        "CVE-2024-43830",
+        "CVE-2024-43905",
+        "CVE-2024-43870",
+        "CVE-2024-43858",
+        "CVE-2024-43833",
+        "CVE-2024-43909",
+        "CVE-2024-42285",
+        "CVE-2024-44934",
+        "CVE-2024-43902",
+        "CVE-2024-42283",
+        "CVE-2024-43853",
+        "CVE-2024-43880",
+        "CVE-2024-41042",
+        "CVE-2024-43834",
+        "CVE-2024-43890",
+        "CVE-2024-43837",
+        "CVE-2024-43908",
+        "CVE-2024-42284",
+        "CVE-2024-43900",
+        "CVE-2024-43860",
+        "CVE-2024-43867",
+        "CVE-2024-43863",
+        "CVE-2024-43903",
+        "CVE-2024-43879",
+        "CVE-2024-43873",
+        "CVE-2024-43855",
+        "CVE-2024-43907",
+        "CVE-2023-52889",
+        "CVE-2024-42302",
+        "CVE-2024-43854",
+        "CVE-2024-44935",
+        "CVE-2024-42301",
+        "CVE-2024-43871",
+        "CVE-2024-43817",
+        "CVE-2024-43861",
+        "CVE-2024-42271",
+        "CVE-2024-43889",
+        "CVE-2024-43869",
+        "CVE-2024-43856",
+        "CVE-2024-43882"
+    ]
+}

@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "libtiff",
-                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
             },
             "ranges": {
                 "events": [
@@ -12,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "4.5.1-4.ph4"
+                        "fixed": "6.1.106-2.ph5"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -20,9 +20,9 @@
         },
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "python3",
-                "purl": "pkg:rpm/vmware/python3?distro=photon-4"
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-5"
             },
             "ranges": {
                 "events": [
@@ -30,25 +30,23 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "3.10.11-10.ph4"
+                        "fixed": "6.1.106-2.ph5"
                     }
                 ],
                 "type": "ECOSYSTEM"
             }
         }
     ],
-    "id": "PHSA-2024-4.0-0673",
+    "id": "PHSA-2024-5.0-0360",
     "modified": "2024-09-04T05:26:24Z",
-    "published": "2024-08-23T00:00:00Z",
+    "published": "2024-08-29T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-673"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-360"
         }
     ],
     "related": [
-        "CVE-2024-7006",
-        "CVE-2024-6923",
-        "CVE-2023-6597"
+        "CVE-2024-42314"
     ]
 }

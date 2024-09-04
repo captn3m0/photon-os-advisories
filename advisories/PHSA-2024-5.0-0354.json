@@ -17,10 +17,46 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.12.6-3.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.11.9-3.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0354",
-    "modified": "2024-08-24T05:25:37Z",
+    "modified": "2024-09-04T05:26:24Z",
     "published": "2024-08-24T00:00:00Z",
     "references": [
         {
@@ -29,6 +65,8 @@
         }
     ],
     "related": [
-        "CVE-2024-7006"
+        "CVE-2024-7006",
+        "CVE-2024-6923",
+        "CVE-2024-40896"
     ]
 }

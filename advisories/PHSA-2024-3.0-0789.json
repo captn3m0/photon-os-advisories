@@ -1,0 +1,34 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.21.0-1.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0789",
+    "modified": "2024-09-04T05:26:24Z",
+    "published": "2024-08-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-789"
+        }
+    ],
+    "related": [
+        "CVE-2024-33655"
+    ]
+}
