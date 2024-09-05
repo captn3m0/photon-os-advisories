@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "krb5",
-                "purl": "pkg:rpm/vmware/krb5?distro=photon-4"
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
             },
             "ranges": {
                 "events": [
@@ -12,24 +12,24 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "1.17-12.ph4"
+                        "fixed": "4.2.7-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
             }
         }
     ],
-    "id": "PHSA-2024-4.0-0679",
+    "id": "PHSA-2024-4.0-0683",
     "modified": "2024-09-05T05:26:25Z",
-    "published": "2024-09-02T00:00:00Z",
+    "published": "2024-09-04T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-679"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-683"
         }
     ],
     "related": [
-        "CVE-2024-37371",
-        "CVE-2024-37370"
+        "CVE-2024-8250",
+        "CVE-2024-24476"
     ]
 }
