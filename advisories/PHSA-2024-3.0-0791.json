@@ -1,0 +1,35 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "1.17-7.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0791",
+    "modified": "2024-09-06T05:26:21Z",
+    "published": "2024-09-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-791"
+        }
+    ],
+    "related": [
+        "CVE-2024-37370",
+        "CVE-2024-37371"
+    ]
+}
