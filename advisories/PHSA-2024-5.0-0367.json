@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-0367",
+    "modified": "2024-09-07T05:26:00Z",
+    "published": "2024-09-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-367"
+        }
+    ],
+    "related": [
+        "CVE-2024-43835",
+        "CVE-2024-43859"
+    ]
+}
