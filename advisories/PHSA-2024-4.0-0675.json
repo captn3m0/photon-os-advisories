@@ -1,0 +1,34 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "pyhton3-certifi",
+                "purl": "pkg:rpm/vmware/pyhton3-certifi?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2023.11.17-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0675",
+    "modified": "2024-09-11T05:27:51Z",
+    "published": "2024-08-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-675"
+        }
+    ],
+    "related": [
+        "CVE-2024-39689"
+    ]
+}
