@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.9-12.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0796",
+    "modified": "2024-09-18T09:21:02Z",
+    "published": "2024-09-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-796"
+        }
+    ],
+    "related": [
+        "CVE-2024-45492",
+        "CVE-2024-45491",
+        "CVE-2024-45490"
+    ]
+}
