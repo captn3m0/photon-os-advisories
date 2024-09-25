@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "wireshark",
-                "purl": "pkg:rpm/vmware/wireshark?distro=photon-4"
+                "ecosystem": "Photon OS:3.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-3"
             },
             "ranges": {
                 "events": [
@@ -12,25 +12,23 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "4.2.7-1.ph4"
+                        "fixed": "7.1.1.38-1.ph3"
                     }
                 ],
                 "type": "ECOSYSTEM"
             }
         }
     ],
-    "id": "PHSA-2024-4.0-0683",
+    "id": "PHSA-2024-3.0-0797",
     "modified": "2024-09-25T06:08:31Z",
-    "published": "2024-09-04T00:00:00Z",
+    "published": "2024-09-24T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-683"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-797"
         }
     ],
     "related": [
-        "CVE-2024-8250",
-        "CVE-2024-24476",
-        "CVE-2024-8645"
+        "CVE-2024-41817"
     ]
 }
