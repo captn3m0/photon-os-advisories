@@ -1,0 +1,78 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.226-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.10.226-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-4.0-0697",
+    "modified": "2024-09-28T06:18:24Z",
+    "published": "2024-09-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-697"
+        }
+    ],
+    "related": [
+        "CVE-2024-46756",
+        "CVE-2024-46714",
+        "CVE-2024-46755",
+        "CVE-2024-46705",
+        "CVE-2024-46757",
+        "CVE-2024-46800",
+        "CVE-2024-46713",
+        "CVE-2024-46750",
+        "CVE-2024-46722",
+        "CVE-2024-46719",
+        "CVE-2024-46758",
+        "CVE-2024-46743",
+        "CVE-2024-46724",
+        "CVE-2024-46771",
+        "CVE-2024-46723",
+        "CVE-2024-46731",
+        "CVE-2024-46777",
+        "CVE-2024-46798",
+        "CVE-2024-46737",
+        "CVE-2024-46738",
+        "CVE-2024-46747",
+        "CVE-2024-46759",
+        "CVE-2024-46782",
+        "CVE-2024-46739",
+        "CVE-2024-46791",
+        "CVE-2024-46740",
+        "CVE-2024-46725"
+    ]
+}
