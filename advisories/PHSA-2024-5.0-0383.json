@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "unzip",
-                "purl": "pkg:rpm/vmware/unzip?distro=photon-4"
+                "ecosystem": "Photon OS:5.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-5"
             },
             "ranges": {
                 "events": [
@@ -12,7 +12,7 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "6.0-15.ph4"
+                        "fixed": "7.2.6-1.ph5"
                     }
                 ],
                 "type": "ECOSYSTEM"
@@ -20,9 +20,9 @@
         },
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "libvirt",
-                "purl": "pkg:rpm/vmware/libvirt?distro=photon-4"
+                "ecosystem": "Photon OS:5.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-5"
             },
             "ranges": {
                 "events": [
@@ -30,27 +30,26 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "7.10.0-3.ph4"
+                        "fixed": "9.1.0724-2.ph5"
                     }
                 ],
                 "type": "ECOSYSTEM"
             }
         }
     ],
-    "id": "PHSA-2023-4.0-0397",
+    "id": "PHSA-2024-5.0-0383",
     "modified": "2024-10-16T05:26:45Z",
-    "published": "2023-05-24T00:00:00Z",
+    "published": "2024-10-15T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-397"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-383"
         }
     ],
     "related": [
-        "CVE-2022-0530",
-        "CVE-2023-2700",
-        "CVE-2022-0529",
-        "CVE-2018-1000035",
-        "CVE-2014-8139"
+        "CVE-2024-31227",
+        "CVE-2024-31228",
+        "CVE-2024-31449",
+        "CVE-2024-47814"
     ]
 }
