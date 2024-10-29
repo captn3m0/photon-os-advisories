@@ -17,10 +17,46 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.1.112-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.1.112-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0389",
-    "modified": "2024-10-26T05:23:38Z",
+    "modified": "2024-10-29T05:23:39Z",
     "published": "2024-10-25T00:00:00Z",
     "references": [
         {
@@ -29,6 +65,11 @@
         }
     ],
     "related": [
-        "CVE-2024-8508"
+        "CVE-2024-8508",
+        "CVE-2024-46841",
+        "CVE-2024-46786",
+        "CVE-2024-46811",
+        "CVE-2024-46809",
+        "CVE-2024-46834"
     ]
 }
