@@ -1,0 +1,13 @@
+[project]
+name = "photon-advisories"
+version = "0.1.0"
+description = "Generate VMWare Photon OS Advisories in the OSV format"
+readme = "README.md"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "bs4>=0.0.2",
+    "canonicaljson>=2.0.0",
+    "markdown>=3.7",
+    "pycparser>=2.22",
+    "soupsieve>=2.6",
+]

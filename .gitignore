@@ -1,0 +1,3 @@
+.venv/
+# Since we use pypy
+.python-version

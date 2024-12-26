@@ -5,7 +5,9 @@ import markdown
 import json
 import canonicaljson
 import urllib.request
+import urllib.error
 from datetime import datetime
+import datetime as DT
 import copy
 import os
 import re
@@ -29,7 +31,7 @@ def last_modified_date(file):
         .decode("utf-8")
         .strip()
     )
-    return datetime.utcfromtimestamp(p)
+    return datetime.fromtimestamp(p, DT.UTC)
 
 
 def created_date(file):
@@ -180,9 +182,19 @@ def fetch_cve_metadata(PHOTON_VERSIONS):
     for branch in PHOTON_VERSIONS:
         url = f"https://packages.vmware.com/photon/photon_cve_metadata/cve_data_photon{branch}.0.json"
         req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req) as r:
-            data = json.loads(r.read().decode())
-            for row in data:
+        cve_list = None
+        try:
+            with urllib.request.urlopen(req) as r:
+                cve_list = json.loads(r.read().decode())
+                with open(f"photon_cve_metadata/{branch}.0.json", "w") as f:
+                    f.write(canonicaljson.encode_canonical_json(cve_list))
+        except urllib.error.HTTPError as err:
+            if err.code == 404:
+                print(f"[-] No CVE metadata for Photon OS {branch}, loading from cache")
+                with open(f"photon_cve_metadata/{branch}.0.json", "r") as f:
+                    cve_list = json.load(f)
+        finally:
+            for row in cve_list:
                 row["os"] = branch
                 cve = row.pop("cve_id")
                 if (
@@ -197,7 +209,8 @@ def fetch_cve_metadata(PHOTON_VERSIONS):
                     cve_metadata[cve].append(row)
                 else:
                     cve_metadata[cve] = [row]
-            print(f"[+] CVE metadata for Photon OS {branch}.0: Added {len(data)} CVEs")
+            print(f"[+] CVE metadata for Photon OS {branch}.0: Added {len(cve_list)} CVEs")
+        
     return cve_metadata
 
 
