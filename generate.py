@@ -186,7 +186,7 @@ def fetch_cve_metadata(PHOTON_VERSIONS):
         try:
             with urllib.request.urlopen(req) as r:
                 cve_list = json.loads(r.read().decode())
-                with open(f"photon_cve_metadata/{branch}.0.json", "w") as f:
+                with open(f"photon_cve_metadata/{branch}.0.json", "wb") as f:
                     f.write(canonicaljson.encode_canonical_json(cve_list))
         except urllib.error.HTTPError as err:
             if err.code == 404:
