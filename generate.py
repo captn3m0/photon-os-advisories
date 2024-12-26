@@ -6,8 +6,8 @@ import json
 import canonicaljson
 import urllib.request
 import urllib.error
-from datetime import datetime
 import datetime as DT
+from datetime import datetime
 import copy
 import os
 import re
@@ -31,7 +31,7 @@ def last_modified_date(file):
         .decode("utf-8")
         .strip()
     )
-    return datetime.fromtimestamp(p, DT.UTC)
+    return datetime.fromtimestamp(p, DT.timezone.utc)
 
 
 def created_date(file):
