@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+                "name": "rubygem-nokogiri",
+                "purl": "pkg:rpm/vmware/rubygem-nokogiri?distro=photon-5"
             },
             "ranges": {
                 "events": [
@@ -12,26 +12,23 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "6.1.118-1.ph5"
+                        "fixed": "1.13.9-7.ph5"
                     }
                 ],
                 "type": "ECOSYSTEM"
             }
         }
     ],
-    "id": "PHSA-2024-5.0-0407",
-    "modified": "2025-01-01T05:25:32Z",
-    "published": "2024-11-21T00:00:00Z",
+    "id": "PHSA-2024-5.0-0432",
+    "modified": "2025-01-01T05:25:32+00:00Z",
+    "published": "2024-12-23T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-407"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-432"
         }
     ],
     "related": [
-        "CVE-2024-50036",
-        "CVE-2024-49991",
-        "CVE-2024-50010",
-        "CVE-2024-50012"
+        "CVE-2022-23476"
     ]
 }
