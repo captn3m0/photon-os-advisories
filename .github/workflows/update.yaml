@@ -32,6 +32,6 @@ jobs:
       with:
         commit_message: Update Advisories
         commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
-        file_pattern: "advisories/*.json"
+        file_pattern: "advisories/*.json photon_cve_metadata/*.json"
         skip_fetch: true
         skip_checkout: true
