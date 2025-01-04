@@ -1,0 +1,72 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "bcc",
+                "purl": "pkg:rpm/vmware/bcc?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.25.0-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.4.9-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "bpftrace",
+                "purl": "pkg:rpm/vmware/bpftrace?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "0.16.0-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2025-4.0-0729",
+    "modified": "2025-01-04T05:25:33+00:00Z",
+    "published": "2025-01-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-729"
+        }
+    ],
+    "related": [
+        "CVE-2024-2314",
+        "CVE-2024-50602",
+        "CVE-2024-2313"
+    ]
+}
