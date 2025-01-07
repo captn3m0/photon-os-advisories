@@ -1,0 +1,34 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "cups",
+                "purl": "pkg:rpm/vmware/cups?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.4.11-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-0436",
+    "modified": "2025-01-07T05:26:19+00:00Z",
+    "published": "2025-01-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-436"
+        }
+    ],
+    "related": [
+        "CVE-2024-47175"
+    ]
+}
