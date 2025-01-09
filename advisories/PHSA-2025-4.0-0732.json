@@ -12,32 +12,23 @@
                         "introduced": "0"
                     },
                     {
-                        "fixed": "5.10.230-1.ph4"
+                        "fixed": "5.10.232-1.ph4"
                     }
                 ],
                 "type": "ECOSYSTEM"
             }
         }
     ],
-    "id": "PHSA-2024-4.0-0722",
-    "modified": "2025-01-09T05:25:40Z",
-    "published": "2024-12-10T00:00:00Z",
+    "id": "PHSA-2025-4.0-0732",
+    "modified": "2025-01-09T05:25:40+00:00Z",
+    "published": "2025-01-08T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-722"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-732"
         }
     ],
     "related": [
-        "CVE-2024-50036",
-        "CVE-2024-50301",
-        "CVE-2024-50264",
-        "CVE-2024-50282",
-        "CVE-2024-53060",
-        "CVE-2024-53066",
-        "CVE-2024-50302",
-        "CVE-2024-53103",
-        "CVE-2024-50273",
-        "CVE-2024-50299"
+        "CVE-2024-53096"
     ]
 }

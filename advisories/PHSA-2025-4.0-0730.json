@@ -1,0 +1,129 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python-requests",
+                "purl": "pkg:rpm/vmware/python-requests?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.26.0-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python-tornado",
+                "purl": "pkg:rpm/vmware/python-tornado?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.0.4-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python-jinja2",
+                "purl": "pkg:rpm/vmware/python-jinja2?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.1.2-2.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python-gevent",
+                "purl": "pkg:rpm/vmware/python-gevent?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "21.8.0-3.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python-werkzeug",
+                "purl": "pkg:rpm/vmware/python-werkzeug?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "2.2.2-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python-virtualenv",
+                "purl": "pkg:rpm/vmware/python-virtualenv?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "20.1.0-4.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2025-4.0-0730",
+    "modified": "2025-01-09T05:25:40+00:00Z",
+    "published": "2025-01-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-730"
+        }
+    ],
+    "related": [
+        "CVE-2024-34069",
+        "CVE-2024-53899",
+        "CVE-2024-34064",
+        "CVE-2024-35195",
+        "CVE-2024-52804",
+        "CVE-2023-41419"
+    ]
+}

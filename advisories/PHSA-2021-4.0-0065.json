@@ -107,10 +107,38 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2021-4.0-0065",
-    "modified": "2023-05-15T05:25:03Z",
+    "modified": "2025-01-09T05:25:40Z",
     "published": "2021-07-21T00:00:00Z",
     "references": [
         {
@@ -120,6 +148,38 @@
     ],
     "related": [
         "CVE-2021-33910",
-        "CVE-2021-33909"
+        "CVE-2021-33909",
+        "CVE-2022-1729",
+        "CVE-2022-29581",
+        "CVE-2021-44733",
+        "CVE-2021-4197",
+        "CVE-2022-0854",
+        "CVE-2022-0185",
+        "CVE-2022-1353",
+        "CVE-2021-46933",
+        "CVE-2021-46935",
+        "CVE-2022-1516",
+        "CVE-2022-30594",
+        "CVE-2022-0617",
+        "CVE-2022-1998",
+        "CVE-2022-0847",
+        "CVE-2023-1582",
+        "CVE-2021-46936",
+        "CVE-2021-39685",
+        "CVE-2022-0001",
+        "CVE-2022-1158",
+        "CVE-2021-43975",
+        "CVE-2022-2991",
+        "CVE-2022-0494",
+        "CVE-2022-1055",
+        "CVE-2022-1786",
+        "CVE-2022-48626",
+        "CVE-2022-29582",
+        "CVE-2022-48629",
+        "CVE-2020-36516",
+        "CVE-2023-1249",
+        "CVE-2021-45095",
+        "CVE-2022-28893",
+        "CVE-2021-46934"
     ]
 }

@@ -1,0 +1,34 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-3"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "5.9-7.ph3"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2024-3.0-0809",
+    "modified": "2025-01-09T05:25:40+00:00Z",
+    "published": "2024-12-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-809"
+        }
+    ],
+    "related": [
+        "CVE-2024-45802"
+    ]
+}
