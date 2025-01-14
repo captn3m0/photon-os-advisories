@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "chromium",
+                "purl": "pkg:rpm/vmware/chromium?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-0445",
+    "modified": "2025-01-14T05:25:33+00:00Z",
+    "published": "2025-01-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-445"
+        }
+    ],
+    "related": [
+        "CVE-2024-10488",
+        "CVE-2024-10487"
+    ]
+}
