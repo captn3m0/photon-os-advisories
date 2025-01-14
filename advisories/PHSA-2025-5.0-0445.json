@@ -6,10 +6,28 @@
                 "name": "chromium",
                 "purl": "pkg:rpm/vmware/chromium?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "chromium",
+                "purl": "pkg:rpm/vmware/chromium?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "131.0.6778.268-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0445",
-    "modified": "2025-01-14T05:25:33+00:00Z",
+    "modified": "2025-01-14T05:25:33Z",
     "published": "2025-01-13T00:00:00Z",
     "references": [
         {
