@@ -53,10 +53,28 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "apache-tomcat9",
+                "purl": "pkg:rpm/vmware/apache-tomcat9?distro=photon-4"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "9.0.98-1.ph4"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
         }
     ],
     "id": "PHSA-2025-4.0-0729",
-    "modified": "2025-01-04T05:25:33+00:00Z",
+    "modified": "2025-01-16T05:26:20Z",
     "published": "2025-01-03T00:00:00Z",
     "references": [
         {
@@ -67,6 +85,9 @@
     "related": [
         "CVE-2024-2314",
         "CVE-2024-50602",
-        "CVE-2024-2313"
+        "CVE-2024-2313",
+        "CVE-2024-50379",
+        "CVE-2024-54677",
+        "CVE-2024-56337"
     ]
 }
