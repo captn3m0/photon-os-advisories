@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rsync",
+                "purl": "pkg:rpm/vmware/rsync?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "3.2.7-5.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-0447",
+    "modified": "2025-01-18T05:26:47+00:00Z",
+    "published": "2025-01-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-447"
+        }
+    ],
+    "related": [
+        "CVE-2024-12086",
+        "CVE-2024-12747",
+        "CVE-2024-12087",
+        "CVE-2024-12084",
+        "CVE-2024-12088",
+        "CVE-2024-12085"
+    ]
+}

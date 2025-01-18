@@ -1,0 +1,63 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.1.124-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-5"
+            },
+            "ranges": {
+                "events": [
+                    {
+                        "introduced": "0"
+                    },
+                    {
+                        "fixed": "6.1.124-1.ph5"
+                    }
+                ],
+                "type": "ECOSYSTEM"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-0449",
+    "modified": "2025-01-18T05:26:47+00:00Z",
+    "published": "2025-01-16T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-449"
+        }
+    ],
+    "related": [
+        "CVE-2024-56693",
+        "CVE-2024-56745",
+        "CVE-2024-56762",
+        "CVE-2024-57798",
+        "CVE-2024-56780",
+        "CVE-2024-56779",
+        "CVE-2024-56774",
+        "CVE-2024-56770",
+        "CVE-2024-56709",
+        "CVE-2024-44950",
+        "CVE-2024-56677",
+        "CVE-2024-57841"
+    ]
+}
