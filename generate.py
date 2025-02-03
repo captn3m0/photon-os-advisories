@@ -18,9 +18,12 @@ FILE_FORMAT = "/Security-Updates-{version}.md"
 ADVISORY_URL = "https://github.com/vmware/photon/wiki/Security-Update-{slug}"
 PHOTON_VERSIONS = range(1, 6)
 ADVISORIES_DIR = "photon-wiki"
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 Gecko/20100101 Firefox/126.0"
-}
+HEADERS = {"User-Agent": "Mozilla/5.0 Gecko/20100101 Firefox/126.0"}
+
+
+def format_as_rfc3339(timestamp):
+    return timestamp.strftime("%Y-%m-%dT%H:%M:%SZ")
+
 
 def last_modified_date(file):
     p = int(
@@ -98,19 +101,21 @@ def get_osv(cve_data_all_versions):
                     }
                     fixed_version = cve_fixed_version(pkg, cves, os_version, advisory)
                     if fixed_version:
-                        r["ranges"] = {
-                            "events": [
-                                {"introduced": "0"},
-                                {"fixed": fixed_version},
-                            ],
-                            "type": "ECOSYSTEM",
-                        }
+                        r["ranges"] = [
+                            {
+                                "events": [
+                                    {"introduced": "0"},
+                                    {"fixed": fixed_version},
+                                ],
+                                "type": "ECOSYSTEM",
+                            }
+                        ]
                     return r
 
                 yield {
                     "id": advisory,
-                    "modified": modified.isoformat("T", timespec='seconds') + "Z",
-                    "published": published.isoformat("T", timespec='seconds') + "Z",
+                    "modified": format_as_rfc3339(modified),
+                    "published": format_as_rfc3339(published),
                     "related": cves,
                     "affected": [affected(pkg, cves, os_version) for pkg in packages],
                     "references": [
@@ -122,8 +127,12 @@ def get_osv(cve_data_all_versions):
 def merge_advisories(advisory_file, data):
 
     def dedup_dicts(items):
-        dedupped = [ json.loads(i) for i in set(canonicaljson.encode_canonical_json(item) for item in items)]
+        dedupped = [
+            json.loads(i)
+            for i in set(canonicaljson.encode_canonical_json(item) for item in items)
+        ]
         return dedupped
+
     # read the current advisory data as json
     with open(advisory_file, "r") as f:
         original = json.load(f)
@@ -133,7 +142,7 @@ def merge_advisories(advisory_file, data):
 
     # Add any new data, but use a set, to avoid
     # duplicate entries
-    for key in ['affected', 'related', 'references']:
+    for key in ["affected", "related", "references"]:
         if current[key]:
             current[key].extend(data[key])
             current[key] = dedup_dicts(current[key])
@@ -144,17 +153,25 @@ def merge_advisories(advisory_file, data):
     # and the later modified date
     current["published"] = (
         min(
-            datetime.strptime(current["published"].replace('+00:00', ''), "%Y-%m-%dT%H:%M:%SZ"),
-            datetime.strptime(data["published"].replace('+00:00', ''),    "%Y-%m-%dT%H:%M:%SZ"),
-        ).isoformat("T", timespec='seconds')
+            datetime.strptime(
+                current["published"].replace("+00:00", ""), "%Y-%m-%dT%H:%M:%SZ"
+            ),
+            datetime.strptime(
+                data["published"].replace("+00:00", ""), "%Y-%m-%dT%H:%M:%SZ"
+            ),
+        ).isoformat("T", timespec="seconds")
         + "Z"
     )
 
     current["modified"] = (
         max(
-            datetime.strptime(current["modified"].replace('+00:00', ''), "%Y-%m-%dT%H:%M:%SZ"),
-            datetime.strptime(data["modified"].replace('+00:00', ''),    "%Y-%m-%dT%H:%M:%SZ"),
-        ).isoformat("T", timespec='seconds')
+            datetime.strptime(
+                current["modified"].replace("+00:00", ""), "%Y-%m-%dT%H:%M:%SZ"
+            ),
+            datetime.strptime(
+                data["modified"].replace("+00:00", ""), "%Y-%m-%dT%H:%M:%SZ"
+            ),
+        ).isoformat("T", timespec="seconds")
         + "Z"
     )
 
@@ -172,10 +189,11 @@ def merge_advisories(advisory_file, data):
 
     # If there were important changes, but modified hasn't changed
     # bump the timestamp so downstream can pick up changes
-    if original['modified'] == current['modified']:
-        current['modified'] = datetime.now().isoformat("T", timespec='seconds') + "Z"
+    if original["modified"] == current["modified"]:
+        current["modified"] = datetime.now().isoformat("T", timespec="seconds") + "Z"
 
     return current
+
 
 def fetch_cve_metadata(PHOTON_VERSIONS):
     cve_metadata = {}
@@ -209,20 +227,22 @@ def fetch_cve_metadata(PHOTON_VERSIONS):
                     cve_metadata[cve].append(row)
                 else:
                     cve_metadata[cve] = [row]
-            print(f"[+] CVE metadata for Photon OS {branch}.0: Added {len(cve_list)} CVEs")
-        
+            print(
+                f"[+] CVE metadata for Photon OS {branch}.0: Added {len(cve_list)} CVEs"
+            )
+
     return cve_metadata
 
 
-def __main__(advisory_id = None):
+def __main__(advisory_id=None):
     cve_metadata = fetch_cve_metadata(PHOTON_VERSIONS)
     advisories = set()
 
     for d in get_osv(cve_metadata):
-        advisories.add(d['id'])
+        advisories.add(d["id"])
         # If we are only running for a single advisory
         # Check and continue if it doesn't match
-        if advisory_id and d['id'] != advisory_id:
+        if advisory_id and d["id"] != advisory_id:
             continue
         fn = f"advisories/{d['id']}.json"
         if os.path.exists(fn):
@@ -240,7 +260,7 @@ def __main__(advisory_id = None):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) >=2:
+    if len(sys.argv) >= 2:
         __main__(sys.argv[1])
     else:
         __main__()
