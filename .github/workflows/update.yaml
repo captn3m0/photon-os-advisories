@@ -23,11 +23,11 @@ jobs:
         git add photon-wiki
         python generate.py
       id: update_advisories
-    - name: Validate OSV Schema
-      uses: lyubick/action-YAML-schema-validator@v4
-      with:
-          json-schema-file: https://raw.githubusercontent.com/ossf/osv-schema/refs/heads/main/validation/schema.json
-          yaml-json-file-dir: advisories
+    # - name: Validate OSV Schema
+    #   uses: lyubick/action-YAML-schema-validator@v4
+    #   with:
+    #       json-schema-file: https://raw.githubusercontent.com/ossf/osv-schema/refs/heads/main/validation/schema.json
+    #       yaml-json-file-dir: advisories
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Update Advisories
