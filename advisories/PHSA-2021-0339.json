@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:2.0",
+                "name": "nettle",
+                "purl": "pkg:rpm/vmware/nettle?distro=photon-2"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.7.2-1.ph2"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2021-0339",
-    "modified": "2022-01-25T17:51:42Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2021-04-21T00:00:00Z",
     "references": [
         {

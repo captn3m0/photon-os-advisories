@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:2.0",
+                "name": "sysstat",
+                "purl": "pkg:rpm/vmware/sysstat?distro=photon-2"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "12.2.0-1.ph2"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2019-0197",
-    "modified": "2022-01-25T17:51:42Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2019-12-28T00:00:00Z",
     "references": [
         {

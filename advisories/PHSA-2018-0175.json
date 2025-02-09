@@ -53,10 +53,70 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:1.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-1"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.24.1-2.ph1"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:1.0",
+                "name": "procps-ng",
+                "purl": "pkg:rpm/vmware/procps-ng?distro=photon-1"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.3.15-1.ph1"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:1.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-1"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.2o-3.ph1"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2018-0175",
-    "modified": "2022-01-26T07:02:13Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2018-08-15T00:00:00Z",
     "references": [
         {

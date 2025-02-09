@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:1.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-1"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "8.11.4-1.ph1"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2018-0185",
-    "modified": "2022-01-26T07:02:13Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2018-09-17T00:00:00Z",
     "references": [
         {

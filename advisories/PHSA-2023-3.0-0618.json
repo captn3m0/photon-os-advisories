@@ -24,10 +24,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "fuse-overlayfs-snapshotter",
+                "purl": "pkg:rpm/vmware/fuse-overlayfs-snapshotter?distro=photon-3"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.6-1.ph3"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2023-3.0-0618",
-    "modified": "2023-09-01T05:29:59Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2023-07-26T00:00:00Z",
     "references": [
         {

@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libgd",
+                "purl": "pkg:rpm/vmware/libgd?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.0-3.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2021-4.0-0100",
-    "modified": "2023-03-31T02:19:57Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2021-09-16T00:00:00Z",
     "references": [
         {

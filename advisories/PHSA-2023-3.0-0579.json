@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "nss",
+                "purl": "pkg:rpm/vmware/nss?distro=photon-3"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.44-10.ph3"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2023-3.0-0579",
-    "modified": "2023-05-13T05:25:06Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2023-05-13T00:00:00Z",
     "references": [
         {

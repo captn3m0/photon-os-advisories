@@ -24,10 +24,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "sendmail",
+                "purl": "pkg:rpm/vmware/sendmail?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "8.18.0.2-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-4.0-0560",
-    "modified": "2024-02-06T09:37:22Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2024-02-06T00:00:00Z",
     "references": [
         {

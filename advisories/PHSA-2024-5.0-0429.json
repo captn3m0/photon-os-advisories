@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.12-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-5.0-0429",
-    "modified": "2025-01-01T05:25:32+00:00Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2024-12-17T00:00:00Z",
     "references": [
         {

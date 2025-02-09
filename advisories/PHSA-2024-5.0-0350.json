@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.26.2-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-5.0-0350",
-    "modified": "2024-08-22T05:25:28Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2024-08-19T00:00:00Z",
     "references": [
         {

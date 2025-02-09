@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nss",
+                "purl": "pkg:rpm/vmware/nss?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.78-9.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-5.0-0342",
-    "modified": "2024-08-08T05:24:47Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2024-08-07T00:00:00Z",
     "references": [
         {

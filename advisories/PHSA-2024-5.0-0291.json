@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.75.2-3.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-5.0-0291",
-    "modified": "2024-06-13T05:24:05Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2024-06-12T00:00:00Z",
     "references": [
         {

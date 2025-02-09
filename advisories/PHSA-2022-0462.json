@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:1.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-1"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2.9-3.ph1"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2022-0462",
-    "modified": "2022-02-15T21:42:03Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2022-01-22T00:00:00Z",
     "references": [
         {

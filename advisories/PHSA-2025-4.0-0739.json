@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "grpc",
+                "purl": "pkg:rpm/vmware/grpc?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.59.3-2.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0739",
-    "modified": "2025-01-24T05:27:06+00:00Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2025-01-21T00:00:00Z",
     "references": [
         {

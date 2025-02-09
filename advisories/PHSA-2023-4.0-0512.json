@@ -24,10 +24,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "sssd",
+                "purl": "pkg:rpm/vmware/sssd?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.8.2-9.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2023-4.0-0512",
-    "modified": "2023-11-17T05:32:29Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2023-11-15T00:00:00Z",
     "references": [
         {

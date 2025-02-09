@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "tpm2-tools",
+                "purl": "pkg:rpm/vmware/tpm2-tools?distro=photon-3"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.1.3-4.ph3"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-3.0-0776",
-    "modified": "2024-08-08T05:24:47Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2024-08-02T00:00:00Z",
     "references": [
         {

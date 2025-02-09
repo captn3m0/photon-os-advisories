@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-3"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.4-11.ph3"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-3.0-0775",
-    "modified": "2024-08-03T05:24:41Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2024-08-02T00:00:00Z",
     "references": [
         {

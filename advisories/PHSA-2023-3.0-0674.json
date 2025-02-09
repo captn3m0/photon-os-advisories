@@ -24,10 +24,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "zlib",
+                "purl": "pkg:rpm/vmware/zlib?distro=photon-3"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.11-5.ph3"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2023-3.0-0674",
-    "modified": "2023-10-27T16:38:18Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2023-10-26T00:00:00Z",
     "references": [
         {

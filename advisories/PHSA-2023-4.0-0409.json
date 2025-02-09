@@ -24,10 +24,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openjdk17",
+                "purl": "pkg:rpm/vmware/openjdk17?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "17.0.8-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2023-4.0-0409",
-    "modified": "2023-06-19T05:26:56Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2023-06-15T00:00:00Z",
     "references": [
         {

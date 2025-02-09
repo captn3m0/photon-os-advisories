@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "tpm2-tools",
+                "purl": "pkg:rpm/vmware/tpm2-tools?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.3-3.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-5.0-0339",
-    "modified": "2024-08-06T05:24:40Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2024-08-02T00:00:00Z",
     "references": [
         {

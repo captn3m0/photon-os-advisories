@@ -24,10 +24,30 @@
                 "name": "git",
                 "purl": "pkg:rpm/vmware/git?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.39.3-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-4.0-0611",
-    "modified": "2024-05-24T08:37:40Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2024-05-15T00:00:00Z",
     "references": [
         {

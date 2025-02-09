@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:2.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-2"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.0.rc9-4.ph2"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2020-0275",
-    "modified": "2022-01-14T00:05:02Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2020-08-22T00:00:00Z",
     "references": [
         {

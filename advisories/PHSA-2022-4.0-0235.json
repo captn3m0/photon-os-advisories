@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "zstd",
+                "purl": "pkg:rpm/vmware/zstd?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.2-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2022-4.0-0235",
-    "modified": "2025-01-16T05:26:20Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2022-08-22T00:00:00Z",
     "references": [
         {

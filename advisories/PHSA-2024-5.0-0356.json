@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-certifi",
+                "purl": "pkg:rpm/vmware/python3-certifi?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2023.11.17-2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-5.0-0356",
-    "modified": "2025-01-09T05:25:40+00:00Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2024-08-27T00:00:00Z",
     "references": [
         {

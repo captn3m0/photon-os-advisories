@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.68.4-3.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-4.0-0721",
-    "modified": "2024-12-30T06:29:51+00:00Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2024-12-10T00:00:00Z",
     "references": [
         {

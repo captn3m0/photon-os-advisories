@@ -17,10 +17,30 @@
                 ],
                 "type": "ECOSYSTEM"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:2.0",
+                "name": "libtar",
+                "purl": "pkg:rpm/vmware/libtar?distro=photon-2"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.20-6.ph2"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2022-0509",
-    "modified": "2022-08-25T22:36:28Z",
+    "modified": "2025-01-24T05:27:06Z",
     "published": "2022-08-18T00:00:00Z",
     "references": [
         {
