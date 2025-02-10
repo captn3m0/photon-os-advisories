@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-3"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.5.8-9.ph3"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-3.0-0816",
+    "modified": "2025-02-10T09:08:46Z",
+    "published": "2025-01-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-3.0-816"
+        }
+    ],
+    "related": [
+        "CVE-2024-49761"
+    ]
+}

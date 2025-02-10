@@ -75,10 +75,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.5.1-5.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-5.0-0364",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2025-02-10T09:08:46Z",
     "published": "2024-09-05T00:00:00Z",
     "references": [
         {
@@ -91,6 +111,7 @@
         "CVE-2024-45492",
         "CVE-2024-45491",
         "CVE-2024-24476",
-        "CVE-2024-45490"
+        "CVE-2024-45490",
+        "CVE-2023-6277"
     ]
 }

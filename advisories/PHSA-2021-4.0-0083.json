@@ -75,10 +75,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "dnsmasq",
+                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.84-3.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2021-4.0-0083",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2025-02-10T09:08:46Z",
     "published": "2021-08-19T00:00:00Z",
     "references": [
         {
@@ -88,6 +108,9 @@
     ],
     "related": [
         "CVE-2021-3580",
-        "CVE-2021-32761"
+        "CVE-2021-32761",
+        "CVE-2023-49441",
+        "CVE-2023-50387",
+        "CVE-2023-50868"
     ]
 }

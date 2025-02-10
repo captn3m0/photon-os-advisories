@@ -1,0 +1,49 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.10.233-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-4.0-0742",
+    "modified": "2025-02-10T09:08:46Z",
+    "published": "2025-01-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-742"
+        }
+    ],
+    "related": [
+        "CVE-2024-55916",
+        "CVE-2024-57901",
+        "CVE-2024-57884",
+        "CVE-2024-54031",
+        "CVE-2024-56763",
+        "CVE-2024-57896",
+        "CVE-2024-57902",
+        "CVE-2024-56759",
+        "CVE-2024-57807",
+        "CVE-2024-56694",
+        "CVE-2024-57890",
+        "CVE-2024-53099",
+        "CVE-2024-49571",
+        "CVE-2024-57946"
+    ]
+}
