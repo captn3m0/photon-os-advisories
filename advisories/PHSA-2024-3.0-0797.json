@@ -37,10 +37,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "python-certifi",
+                "purl": "pkg:rpm/vmware/python-certifi?distro=photon-3"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2023.11.17-2.ph3"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-3.0-0797",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2025-02-19T05:26:53Z",
     "published": "2024-09-24T00:00:00Z",
     "references": [
         {
@@ -49,6 +69,7 @@
         }
     ],
     "related": [
-        "CVE-2024-41817"
+        "CVE-2024-41817",
+        "CVE-2024-39689"
     ]
 }
