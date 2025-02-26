@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "emacs",
+                "purl": "pkg:rpm/vmware/emacs?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "29.4-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0758",
-    "modified": "2025-02-21T05:28:06Z",
+    "modified": "2025-02-26T05:27:48Z",
     "published": "2025-02-20T00:00:00Z",
     "references": [
         {
@@ -52,6 +72,9 @@
     ],
     "related": [
         "CVE-2024-12133",
-        "CVE-2024-9143"
+        "CVE-2024-9143",
+        "CVE-2024-30203",
+        "CVE-2024-30204",
+        "CVE-2024-30205"
     ]
 }
