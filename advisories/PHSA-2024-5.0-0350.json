@@ -37,10 +37,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0350",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2025-03-21T06:01:28Z",
     "published": "2024-08-19T00:00:00Z",
     "references": [
         {
@@ -49,6 +56,10 @@
         }
     ],
     "related": [
-        "CVE-2024-7347"
+        "CVE-2024-7347",
+        "CVE-2024-35200",
+        "CVE-2024-31079",
+        "CVE-2024-32760",
+        "CVE-2024-34161"
     ]
 }
