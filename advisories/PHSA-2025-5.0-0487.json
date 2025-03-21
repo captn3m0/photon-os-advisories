@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
+                "ecosystem": "Photon OS:5.0",
                 "name": "kubernetes",
-                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-4"
+                "purl": "pkg:rpm/vmware/kubernetes?distro=photon-5"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "1.27.16-1.ph4"
+                            "fixed": "1.27.16-1.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -22,9 +22,9 @@
         },
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+                "ecosystem": "Photon OS:5.0",
+                "name": "libarchive",
+                "purl": "pkg:rpm/vmware/libarchive?distro=photon-5"
             },
             "ranges": [
                 {
@@ -33,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "5.10.234-9.ph4"
+                            "fixed": "3.7.1-6.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -41,20 +41,19 @@
             ]
         }
     ],
-    "id": "PHSA-2025-4.0-0769",
+    "id": "PHSA-2025-5.0-0487",
     "modified": "2025-03-21T05:29:22Z",
-    "published": "2025-03-18T00:00:00Z",
+    "published": "2025-03-20T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-769"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-487"
         }
     ],
     "related": [
+        "CVE-2025-1632",
         "CVE-2024-10220",
-        "CVE-2024-5321",
-        "CVE-2024-26669",
-        "CVE-2024-26668",
-        "CVE-2024-26718"
+        "CVE-2025-25724",
+        "CVE-2024-5321"
     ]
 }
