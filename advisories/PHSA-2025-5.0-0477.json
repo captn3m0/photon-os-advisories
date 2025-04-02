@@ -1,0 +1,44 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.06-20.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0477",
+    "modified": "2025-04-02T05:28:56Z",
+    "published": "2025-02-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-477"
+        }
+    ],
+    "related": [
+        "CVE-2021-3696",
+        "CVE-2021-3695",
+        "CVE-2022-3775",
+        "CVE-2021-3697",
+        "CVE-2022-28733",
+        "CVE-2022-28736",
+        "CVE-2022-2601",
+        "CVE-2022-28735",
+        "CVE-2022-28734"
+    ]
+}

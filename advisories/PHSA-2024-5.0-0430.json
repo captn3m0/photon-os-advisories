@@ -1,0 +1,58 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "procmail",
+                "purl": "pkg:rpm/vmware/procmail?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.22-6.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "open-iscsi",
+                "purl": "pkg:rpm/vmware/open-iscsi?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.1.6-3.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2024-5.0-0430",
+    "modified": "2025-04-02T05:28:56Z",
+    "published": "2024-12-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-430"
+        }
+    ],
+    "related": [
+        "CVE-2017-16844",
+        "CVE-2020-17437",
+        "CVE-2020-13987"
+    ]
+}
