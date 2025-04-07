@@ -39,10 +39,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0493",
-    "modified": "2025-04-03T05:30:03Z",
+    "modified": "2025-04-07T09:29:43Z",
     "published": "2025-04-02T00:00:00Z",
     "references": [
         {
@@ -51,6 +58,7 @@
         }
     ],
     "related": [
-        "CVE-2025-24813"
+        "CVE-2025-24813",
+        "CVE-2025-21756"
     ]
 }
