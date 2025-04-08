@@ -46,10 +46,30 @@
                 "name": "python3-idna",
                 "purl": "pkg:rpm/vmware/python3-idna?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-idna",
+                "purl": "pkg:rpm/vmware/python3-idna?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.3-4.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0462",
-    "modified": "2025-04-07T09:29:43Z",
+    "modified": "2025-04-08T05:29:01Z",
     "published": "2025-01-28T00:00:00Z",
     "references": [
         {

@@ -3,15 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "xz",
-                "purl": "pkg:rpm/vmware/xz?distro=photon-5"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "xz",
-                "purl": "pkg:rpm/vmware/xz?distro=photon-5"
+                "name": "rubygem-fluentd",
+                "purl": "pkg:rpm/vmware/rubygem-fluentd?distro=photon-5"
             },
             "ranges": [
                 {
@@ -20,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "5.4.0-4.ph5"
+                            "fixed": "1.15.2-4.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -28,16 +21,16 @@
             ]
         }
     ],
-    "id": "PHSA-2025-5.0-0496",
+    "id": "PHSA-2025-5.0-0497",
     "modified": "2025-04-08T05:29:01Z",
-    "published": "2025-04-03T00:00:00Z",
+    "published": "2025-04-07T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-496"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-497"
         }
     ],
     "related": [
-        "CVE-2025-31115"
+        "CVE-2022-39379"
     ]
 }

@@ -279,10 +279,50 @@
                 "name": "python3-jinja2",
                 "purl": "pkg:rpm/vmware/python3-jinja2?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-jinja2",
+                "purl": "pkg:rpm/vmware/python3-jinja2?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.2-5.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.11.9-7.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-5.0-0434",
-    "modified": "2025-04-07T09:29:43Z",
+    "modified": "2025-04-08T05:29:01Z",
     "published": "2024-12-31T00:00:00Z",
     "references": [
         {
