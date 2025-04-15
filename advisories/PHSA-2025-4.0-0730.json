@@ -247,10 +247,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-gevent",
+                "purl": "pkg:rpm/vmware/python3-gevent?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "21.8.0-3.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0730",
-    "modified": "2025-02-10T09:08:46Z",
+    "modified": "2025-04-15T05:29:12Z",
     "published": "2025-01-07T00:00:00Z",
     "references": [
         {
