@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-werkzeug",
+                "purl": "pkg:rpm/vmware/python3-werkzeug?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2.2-4.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0511",
+    "modified": "2025-04-26T05:29:33Z",
+    "published": "2025-04-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-511"
+        }
+    ],
+    "related": [
+        "CVE-2023-25577",
+        "CVE-2024-49767",
+        "CVE-2023-46136",
+        "CVE-2023-23934"
+    ]
+}
