@@ -39,10 +39,50 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "emacs",
+                "purl": "pkg:rpm/vmware/emacs?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "30.1-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.133-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0512",
-    "modified": "2025-04-25T05:30:00Z",
+    "modified": "2025-05-05T05:28:45Z",
     "published": "2025-04-24T00:00:00Z",
     "references": [
         {
@@ -52,6 +92,15 @@
     ],
     "related": [
         "CVE-2025-32415",
-        "CVE-2024-3772"
+        "CVE-2024-3772",
+        "CVE-2024-30202",
+        "CVE-2024-30205",
+        "CVE-2024-30204",
+        "CVE-2025-21759",
+        "CVE-2024-30203",
+        "CVE-2025-21739",
+        "CVE-2024-53920",
+        "CVE-2025-1244",
+        "CVE-2025-21714"
     ]
 }

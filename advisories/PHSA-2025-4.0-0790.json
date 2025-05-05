@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "python3-werkzeug",
-                "purl": "pkg:rpm/vmware/python3-werkzeug?distro=photon-5"
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "2.2.2-4.ph5"
+                            "fixed": "5.10.236-1.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -22,9 +22,9 @@
         },
         {
             "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "bindutils",
-                "purl": "pkg:rpm/vmware/bindutils?distro=photon-5"
+                "ecosystem": "Photon OS:4.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-4"
             },
             "ranges": [
                 {
@@ -33,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "9.20.7-1.ph5"
+                            "fixed": "8.9p1-10.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -41,21 +41,20 @@
             ]
         }
     ],
-    "id": "PHSA-2025-5.0-0511",
+    "id": "PHSA-2025-4.0-0790",
     "modified": "2025-05-05T05:28:45Z",
-    "published": "2025-04-24T00:00:00Z",
+    "published": "2025-05-01T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-511"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-790"
         }
     ],
     "related": [
-        "CVE-2023-25577",
-        "CVE-2024-49767",
-        "CVE-2023-46136",
-        "CVE-2023-23934",
-        "CVE-2024-11187",
-        "CVE-2024-12705"
+        "CVE-2025-32728",
+        "CVE-2025-22063",
+        "CVE-2025-21999",
+        "CVE-2025-22075",
+        "CVE-2025-22086"
     ]
 }

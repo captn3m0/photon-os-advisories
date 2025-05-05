@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "python3-werkzeug",
-                "purl": "pkg:rpm/vmware/python3-werkzeug?distro=photon-4"
+                "name": "frr",
+                "purl": "pkg:rpm/vmware/frr?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "2.2.2-2.ph4"
+                            "fixed": "10.2.1-1.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,19 +21,17 @@
             ]
         }
     ],
-    "id": "PHSA-2025-4.0-0788",
+    "id": "PHSA-2025-4.0-0789",
     "modified": "2025-05-05T05:28:45Z",
-    "published": "2025-04-24T00:00:00Z",
+    "published": "2025-04-25T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-788"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-789"
         }
     ],
     "related": [
-        "CVE-2023-25577",
-        "CVE-2023-23934",
-        "CVE-2024-49767",
-        "CVE-2023-46136"
+        "CVE-2024-44070",
+        "CVE-2024-34088"
     ]
 }

@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "python3-werkzeug",
-                "purl": "pkg:rpm/vmware/python3-werkzeug?distro=photon-4"
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-5"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "2.2.2-2.ph4"
+                            "fixed": "9.3p2-13.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,19 +21,16 @@
             ]
         }
     ],
-    "id": "PHSA-2025-4.0-0788",
+    "id": "PHSA-2025-5.0-0515",
     "modified": "2025-05-05T05:28:45Z",
-    "published": "2025-04-24T00:00:00Z",
+    "published": "2025-05-02T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-788"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-515"
         }
     ],
     "related": [
-        "CVE-2023-25577",
-        "CVE-2023-23934",
-        "CVE-2024-49767",
-        "CVE-2023-46136"
+        "CVE-2025-32728"
     ]
 }
