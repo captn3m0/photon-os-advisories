@@ -19,10 +19,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-jinja2",
+                "purl": "pkg:rpm/vmware/python3-jinja2?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.6-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0515",
-    "modified": "2025-05-05T05:28:45Z",
+    "modified": "2025-05-06T05:29:40Z",
     "published": "2025-05-02T00:00:00Z",
     "references": [
         {
@@ -31,6 +51,9 @@
         }
     ],
     "related": [
-        "CVE-2025-32728"
+        "CVE-2025-32728",
+        "CVE-2024-56201",
+        "CVE-2024-56326",
+        "CVE-2025-27516"
     ]
 }
