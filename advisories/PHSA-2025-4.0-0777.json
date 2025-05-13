@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "erlang",
-                "purl": "pkg:rpm/vmware/erlang?distro=photon-4"
+                "name": "apache-tomcat9",
+                "purl": "pkg:rpm/vmware/apache-tomcat9?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "26.2.5.10-1.ph4"
+                            "fixed": "9.0.98-2.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,18 +21,16 @@
             ]
         }
     ],
-    "id": "PHSA-2025-4.0-0782",
+    "id": "PHSA-2025-4.0-0777",
     "modified": "2025-05-13T05:29:59Z",
-    "published": "2025-04-16T00:00:00Z",
+    "published": "2025-04-08T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-782"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-777"
         }
     ],
     "related": [
-        "CVE-2025-30211",
-        "CVE-2024-53846",
-        "CVE-2025-26618"
+        "CVE-2025-24813"
     ]
 }

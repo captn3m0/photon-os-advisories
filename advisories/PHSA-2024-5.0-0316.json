@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "erlang",
-                "purl": "pkg:rpm/vmware/erlang?distro=photon-4"
+                "ecosystem": "Photon OS:5.0",
+                "name": "powershell",
+                "purl": "pkg:rpm/vmware/powershell?distro=photon-5"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "26.2.5.10-1.ph4"
+                            "fixed": "7.4.3-1.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,18 +21,19 @@
             ]
         }
     ],
-    "id": "PHSA-2025-4.0-0782",
+    "id": "PHSA-2024-5.0-0316",
     "modified": "2025-05-13T05:29:59Z",
-    "published": "2025-04-16T00:00:00Z",
+    "published": "2024-07-15T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-782"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-316"
         }
     ],
     "related": [
-        "CVE-2025-30211",
-        "CVE-2024-53846",
-        "CVE-2025-26618"
+        "CVE-2024-26190",
+        "CVE-2024-21409",
+        "CVE-2024-21392",
+        "CVE-2024-30045"
     ]
 }
