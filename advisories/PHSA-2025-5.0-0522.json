@@ -1,0 +1,93 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libsoup",
+                "purl": "pkg:rpm/vmware/libsoup?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.6.5-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.2.6-3.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gnuplot",
+                "purl": "pkg:rpm/vmware/gnuplot?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.4.5-6.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0522",
+    "modified": "2025-05-15T05:29:14Z",
+    "published": "2025-05-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-522"
+        }
+    ],
+    "related": [
+        "CVE-2025-31177",
+        "CVE-2025-46420",
+        "CVE-2025-32052",
+        "CVE-2025-4035",
+        "CVE-2025-32906",
+        "CVE-2025-32911",
+        "CVE-2025-46421",
+        "CVE-2025-32053",
+        "CVE-2025-32912",
+        "CVE-2025-32913",
+        "CVE-2025-2784",
+        "CVE-2025-32914",
+        "CVE-2025-32050",
+        "CVE-2025-32910",
+        "CVE-2025-32051",
+        "CVE-2024-46981",
+        "CVE-2025-32908",
+        "CVE-2025-32909"
+    ]
+}
