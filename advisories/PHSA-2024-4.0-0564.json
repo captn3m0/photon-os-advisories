@@ -89,10 +89,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "patch",
+                "purl": "pkg:rpm/vmware/patch?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.7.6-6.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2024-4.0-0564",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2025-05-17T05:29:25Z",
     "published": "2024-02-14T00:00:00Z",
     "references": [
         {
@@ -101,6 +121,7 @@
         }
     ],
     "related": [
-        "CVE-2024-0985"
+        "CVE-2024-0985",
+        "CVE-2018-20969"
     ]
 }
