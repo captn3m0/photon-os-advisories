@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "open-vm-tools",
+                "purl": "pkg:rpm/vmware/open-vm-tools?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-0523",
+    "modified": "2025-05-19T13:20:20Z",
+    "published": "2025-05-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-523"
+        }
+    ],
+    "related": [
+        "CVE-2025-22247"
+    ]
+}

@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0521",
-    "modified": "2025-05-14T05:29:16Z",
+    "modified": "2025-05-19T13:20:20Z",
     "published": "2025-05-13T00:00:00Z",
     "references": [
         {
@@ -31,6 +38,15 @@
         }
     ],
     "related": [
-        "CVE-2024-47619"
+        "CVE-2024-47619",
+        "CVE-2025-37797",
+        "CVE-2025-37884",
+        "CVE-2025-37808",
+        "CVE-2025-37879",
+        "CVE-2025-21839",
+        "CVE-2025-37823",
+        "CVE-2025-37820",
+        "CVE-2025-37836",
+        "CVE-2025-37885"
     ]
 }

@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "open-vm-tools",
+                "purl": "pkg:rpm/vmware/open-vm-tools?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2025-4.0-0797",
+    "modified": "2025-05-19T13:20:20Z",
+    "published": "2025-05-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-797"
+        }
+    ],
+    "related": [
+        "CVE-2025-22247"
+    ]
+}
