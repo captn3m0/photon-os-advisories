@@ -6,10 +6,30 @@
                 "name": "open-vm-tools",
                 "purl": "pkg:rpm/vmware/open-vm-tools?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "open-vm-tools",
+                "purl": "pkg:rpm/vmware/open-vm-tools?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "12.5.0-2.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0797",
-    "modified": "2025-05-19T13:20:20Z",
+    "modified": "2025-05-20T05:29:25Z",
     "published": "2025-05-13T00:00:00Z",
     "references": [
         {

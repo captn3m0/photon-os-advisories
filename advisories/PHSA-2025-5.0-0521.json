@@ -26,10 +26,30 @@
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.138-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0521",
-    "modified": "2025-05-19T13:20:20Z",
+    "modified": "2025-05-20T05:29:25Z",
     "published": "2025-05-13T00:00:00Z",
     "references": [
         {
