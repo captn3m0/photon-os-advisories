@@ -1,0 +1,115 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rubygem-kubeclient",
+                "purl": "pkg:rpm/vmware/rubygem-kubeclient?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.9.3-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rubygem-jmespath",
+                "purl": "pkg:rpm/vmware/rubygem-jmespath?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.6.1-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "dotnet-runtime",
+                "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.0.36-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-4.0-0804",
+    "modified": "2025-05-22T05:29:19Z",
+    "published": "2025-05-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-804"
+        }
+    ],
+    "related": [
+        "CVE-2024-43483",
+        "CVE-2023-33170",
+        "CVE-2022-0759",
+        "CVE-2024-43484",
+        "CVE-2023-21808",
+        "CVE-2022-41032",
+        "CVE-2023-33135",
+        "CVE-2023-24895",
+        "CVE-2023-28260",
+        "CVE-2024-21319",
+        "CVE-2023-35390",
+        "CVE-2022-30184",
+        "CVE-2023-36049",
+        "CVE-2024-20672",
+        "CVE-2023-33128",
+        "CVE-2022-34716",
+        "CVE-2023-36794",
+        "CVE-2023-24936",
+        "CVE-2024-21404",
+        "CVE-2023-24897",
+        "CVE-2022-32511",
+        "CVE-2024-38081",
+        "CVE-2023-35391",
+        "CVE-2023-38180",
+        "CVE-2023-36796",
+        "CVE-2023-36792",
+        "CVE-2023-21538",
+        "CVE-2023-29331",
+        "CVE-2024-0057",
+        "CVE-2023-33126",
+        "CVE-2023-36799",
+        "CVE-2023-33127",
+        "CVE-2022-38013",
+        "CVE-2024-0056",
+        "CVE-2024-21409",
+        "CVE-2023-29337",
+        "CVE-2023-36793",
+        "CVE-2023-36558",
+        "CVE-2023-44487",
+        "CVE-2024-43485"
+    ]
+}
