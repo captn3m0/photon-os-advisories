@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+                "name": "freetype2",
+                "purl": "pkg:rpm/vmware/freetype2?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "5.10.235-6.ph4"
+                            "fixed": "2.13.3-1.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -23,8 +23,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "python3-pydantic",
-                "purl": "pkg:rpm/vmware/python3-pydantic?distro=photon-4"
+                "name": "gnuplot",
+                "purl": "pkg:rpm/vmware/gnuplot?distro=photon-4"
             },
             "ranges": [
                 {
@@ -33,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "1.10.1-2.ph4"
+                            "fixed": "5.4.6-3.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -41,17 +41,17 @@
             ]
         }
     ],
-    "id": "PHSA-2025-4.0-0787",
+    "id": "PHSA-2025-4.0-0806",
     "modified": "2025-05-30T05:29:43Z",
-    "published": "2025-04-24T00:00:00Z",
+    "published": "2025-05-27T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-787"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-806"
         }
     ],
     "related": [
-        "CVE-2024-35839",
-        "CVE-2024-3772"
+        "CVE-2025-31177",
+        "CVE-2025-27363"
     ]
 }

@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-5"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "6.1.135-1.ph5"
+                            "fixed": "9.20.7-2.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,23 +21,16 @@
             ]
         }
     ],
-    "id": "PHSA-2025-5.0-0517",
+    "id": "PHSA-2025-5.0-0525",
     "modified": "2025-05-30T05:29:43Z",
-    "published": "2025-05-05T00:00:00Z",
+    "published": "2025-05-21T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-517"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-525"
         }
     ],
     "related": [
-        "CVE-2025-22075",
-        "CVE-2025-22093",
-        "CVE-2025-22063",
-        "CVE-2025-22086",
-        "CVE-2025-22089",
-        "CVE-2024-50063",
-        "CVE-2025-37785",
-        "CVE-2025-22056"
+        "CVE-2025-40775"
     ]
 }
