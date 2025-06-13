@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.38.5-5.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0790",
-    "modified": "2025-05-13T05:29:59Z",
+    "modified": "2025-06-13T05:30:32Z",
     "published": "2025-05-01T00:00:00Z",
     "references": [
         {
@@ -68,6 +88,7 @@
         "CVE-2025-22005",
         "CVE-2024-58093",
         "CVE-2025-22056",
-        "CVE-2025-21996"
+        "CVE-2025-21996",
+        "CVE-2025-29088"
     ]
 }
