@@ -6,10 +6,30 @@
                 "name": "dotnet-runtime",
                 "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "dotnet-runtime",
+                "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "8.0.17-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0535",
-    "modified": "2025-06-14T05:30:29Z",
+    "modified": "2025-06-14T07:37:48Z",
     "published": "2025-06-13T00:00:00Z",
     "references": [
         {

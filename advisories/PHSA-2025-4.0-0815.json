@@ -6,10 +6,30 @@
                 "name": "python3-setuptools",
                 "purl": "pkg:rpm/vmware/python3-setuptools?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-setuptools",
+                "purl": "pkg:rpm/vmware/python3-setuptools?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "65.5.1-7.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0815",
-    "modified": "2025-06-14T05:30:29Z",
+    "modified": "2025-06-14T07:37:43Z",
     "published": "2025-06-12T00:00:00Z",
     "references": [
         {
