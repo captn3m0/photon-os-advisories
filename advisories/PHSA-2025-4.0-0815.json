@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-setuptools",
+                "purl": "pkg:rpm/vmware/python3-setuptools?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2025-4.0-0815",
+    "modified": "2025-06-14T05:30:29Z",
+    "published": "2025-06-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-815"
+        }
+    ],
+    "related": [
+        "CVE-2025-47273"
+    ]
+}
