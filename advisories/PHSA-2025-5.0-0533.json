@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "6.1.126-1.ph5"
+                            "fixed": "6.1.141-1.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,18 +21,16 @@
             ]
         }
     ],
-    "id": "PHSA-2025-5.0-0458",
+    "id": "PHSA-2025-5.0-0533",
     "modified": "2025-06-24T05:32:08Z",
-    "published": "2025-01-23T00:00:00Z",
+    "published": "2025-06-12T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-458"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-533"
         }
     ],
     "related": [
-        "CVE-2024-56664",
-        "CVE-2024-53685",
-        "CVE-2024-50164"
+        "CVE-2024-53203"
     ]
 }
