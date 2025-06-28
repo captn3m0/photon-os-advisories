@@ -19,10 +19,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.10.238-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0814",
-    "modified": "2025-06-25T05:31:04Z",
+    "modified": "2025-06-28T05:31:34Z",
     "published": "2025-06-11T00:00:00Z",
     "references": [
         {
@@ -32,6 +52,20 @@
     ],
     "related": [
         "CVE-2025-37915",
-        "CVE-2025-37913"
+        "CVE-2025-37913",
+        "CVE-2025-37992",
+        "CVE-2025-38004",
+        "CVE-2025-38000",
+        "CVE-2025-37923",
+        "CVE-2025-37927",
+        "CVE-2025-37890",
+        "CVE-2025-37930",
+        "CVE-2025-37998",
+        "CVE-2025-38001",
+        "CVE-2025-37995",
+        "CVE-2024-46751",
+        "CVE-2025-38003",
+        "CVE-2024-43863",
+        "CVE-2025-37949"
     ]
 }
