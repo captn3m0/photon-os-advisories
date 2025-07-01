@@ -267,10 +267,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-werkzeug",
+                "purl": "pkg:rpm/vmware/python3-werkzeug?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2025-4.0-0730",
-    "modified": "2025-04-15T05:29:12Z",
+    "modified": "2025-07-01T06:14:53Z",
     "published": "2025-01-07T00:00:00Z",
     "references": [
         {

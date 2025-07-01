@@ -319,10 +319,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-werkzeug",
+                "purl": "pkg:rpm/vmware/python3-werkzeug?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0434",
-    "modified": "2025-04-08T05:29:01Z",
+    "modified": "2025-07-01T06:14:53Z",
     "published": "2024-12-31T00:00:00Z",
     "references": [
         {

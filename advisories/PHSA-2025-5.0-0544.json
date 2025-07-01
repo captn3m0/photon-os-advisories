@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "sudo",
+                "purl": "pkg:rpm/vmware/sudo?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-0544",
+    "modified": "2025-07-01T06:14:53Z",
+    "published": "2025-06-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-544"
+        }
+    ],
+    "related": [
+        "CVE-2025-32463",
+        "CVE-2025-32462"
+    ]
+}
