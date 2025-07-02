@@ -2,29 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "coredns",
-                "purl": "pkg:rpm/vmware/coredns?distro=photon-4"
-            },
-            "ranges": [
-                {
-                    "events": [
-                        {
-                            "introduced": "0"
-                        },
-                        {
-                            "fixed": "1.11.1-7.ph4"
-                        }
-                    ],
-                    "type": "ECOSYSTEM"
-                }
-            ]
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
+                "ecosystem": "Photon OS:5.0",
                 "name": "krb5",
-                "purl": "pkg:rpm/vmware/krb5?distro=photon-4"
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-5"
             },
             "ranges": [
                 {
@@ -33,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "1.17-14.ph4"
+                            "fixed": "1.20.2-7.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -42,9 +22,9 @@
         },
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "apache-tomcat9",
-                "purl": "pkg:rpm/vmware/apache-tomcat9?distro=photon-4"
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
             },
             "ranges": [
                 {
@@ -53,7 +33,27 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "9.0.106-1.ph4"
+                            "fixed": "6.1.141-5.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libarchive",
+                "purl": "pkg:rpm/vmware/libarchive?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.7.1-7.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -61,21 +61,18 @@
             ]
         }
     ],
-    "id": "PHSA-2025-4.0-0823",
+    "id": "PHSA-2025-5.0-0545",
     "modified": "2025-07-02T05:31:57Z",
-    "published": "2025-06-30T00:00:00Z",
+    "published": "2025-07-01T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-823"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-545"
         }
     ],
     "related": [
-        "CVE-2025-47950",
-        "CVE-2025-46701",
-        "CVE-2025-49125",
-        "CVE-2025-48988",
-        "CVE-2025-49124",
+        "CVE-2025-5914",
+        "CVE-2025-21969",
         "CVE-2024-3596"
     ]
 }

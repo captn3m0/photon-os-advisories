@@ -19,10 +19,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gobgp",
+                "purl": "pkg:rpm/vmware/gobgp?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.20.0-28.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0821",
-    "modified": "2025-06-26T05:31:15Z",
+    "modified": "2025-07-02T05:31:57Z",
     "published": "2025-06-25T00:00:00Z",
     "references": [
         {
@@ -31,6 +51,7 @@
         }
     ],
     "related": [
-        "CVE-2025-32414"
+        "CVE-2025-32414",
+        "CVE-2025-43972"
     ]
 }

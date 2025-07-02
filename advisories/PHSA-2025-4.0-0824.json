@@ -6,10 +6,30 @@
                 "name": "sudo",
                 "purl": "pkg:rpm/vmware/sudo?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "sudo",
+                "purl": "pkg:rpm/vmware/sudo?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.9.15p5-3.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0824",
-    "modified": "2025-07-01T06:14:53Z",
+    "modified": "2025-07-02T05:31:57Z",
     "published": "2025-06-30T00:00:00Z",
     "references": [
         {
