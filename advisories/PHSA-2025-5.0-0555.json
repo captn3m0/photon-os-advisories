@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-0555",
+    "modified": "2025-07-09T06:00:35Z",
+    "published": "2025-07-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-555"
+        }
+    ],
+    "related": [
+        "CVE-2025-48385",
+        "CVE-2025-48384"
+    ]
+}
