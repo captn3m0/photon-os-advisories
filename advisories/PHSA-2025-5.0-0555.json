@@ -6,10 +6,30 @@
                 "name": "git",
                 "purl": "pkg:rpm/vmware/git?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.40.4-4.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0555",
-    "modified": "2025-07-09T06:00:35Z",
+    "modified": "2025-07-10T05:31:23Z",
     "published": "2025-07-08T00:00:00Z",
     "references": [
         {
