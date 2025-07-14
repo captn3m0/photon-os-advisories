@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.10.18-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-4.0-0828",
+    "modified": "2025-07-14T05:29:56Z",
+    "published": "2025-07-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-828"
+        }
+    ],
+    "related": [
+        "CVE-2025-4330",
+        "CVE-2025-4517",
+        "CVE-2025-4138",
+        "CVE-2024-12718"
+    ]
+}
