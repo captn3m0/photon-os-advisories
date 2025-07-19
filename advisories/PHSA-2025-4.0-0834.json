@@ -1,0 +1,61 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.9.12-18.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "kafka",
+                "purl": "pkg:rpm/vmware/kafka?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.9.1-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-4.0-0834",
+    "modified": "2025-07-19T05:31:48Z",
+    "published": "2025-07-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-834"
+        }
+    ],
+    "related": [
+        "CVE-2025-27818",
+        "CVE-2025-49794",
+        "CVE-2022-49043",
+        "CVE-2025-6021",
+        "CVE-2025-49796",
+        "CVE-2025-27817"
+    ]
+}
