@@ -1,0 +1,38 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "apache-tomcat9",
+                "purl": "pkg:rpm/vmware/apache-tomcat9?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "9.0.107-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0565",
+    "modified": "2025-08-01T05:35:25Z",
+    "published": "2025-07-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-565"
+        }
+    ],
+    "related": [
+        "CVE-2025-52520",
+        "CVE-2025-53506",
+        "CVE-2025-52434"
+    ]
+}

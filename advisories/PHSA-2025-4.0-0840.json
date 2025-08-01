@@ -1,0 +1,42 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.10.239-4.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-4.0-0840",
+    "modified": "2025-08-01T05:35:25Z",
+    "published": "2025-07-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-840"
+        }
+    ],
+    "related": [
+        "CVE-2021-47182",
+        "CVE-2021-47070",
+        "CVE-2021-47498",
+        "CVE-2021-47421",
+        "CVE-2021-47193",
+        "CVE-2021-47183",
+        "CVE-2021-47076"
+    ]
+}
