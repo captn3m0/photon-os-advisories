@@ -1,0 +1,38 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "iperf",
+                "purl": "pkg:rpm/vmware/iperf?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.19.1-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-4.0-0849",
+    "modified": "2025-08-18T06:31:10Z",
+    "published": "2025-08-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-849"
+        }
+    ],
+    "related": [
+        "CVE-2025-54350",
+        "CVE-2025-54351",
+        "CVE-2025-54349"
+    ]
+}
