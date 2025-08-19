@@ -1,0 +1,40 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "git",
+                "purl": "pkg:rpm/vmware/git?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.43.7-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0590",
+    "modified": "2025-08-19T05:32:27Z",
+    "published": "2025-08-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-590"
+        }
+    ],
+    "related": [
+        "CVE-2025-46334",
+        "CVE-2025-46835",
+        "CVE-2025-27614",
+        "CVE-2025-48386",
+        "CVE-2025-27613"
+    ]
+}
