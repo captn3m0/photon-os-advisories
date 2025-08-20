@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.26.3-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0596",
+    "modified": "2025-08-20T05:33:33Z",
+    "published": "2025-08-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-596"
+        }
+    ],
+    "related": [
+        "CVE-2025-53859"
+    ]
+}

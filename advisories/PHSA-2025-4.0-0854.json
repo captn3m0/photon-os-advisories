@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.7.10-5.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-4.0-0854",
+    "modified": "2025-08-20T05:33:33Z",
+    "published": "2025-08-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-854"
+        }
+    ],
+    "related": [
+        "CVE-2025-32990",
+        "CVE-2025-32988",
+        "CVE-2025-32989",
+        "CVE-2025-6395"
+    ]
+}

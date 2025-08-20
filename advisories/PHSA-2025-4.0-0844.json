@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:5.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "6.1.147-1.ph5"
+                            "fixed": "5.10.240-1.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,52 +21,37 @@
             ]
         }
     ],
-    "id": "PHSA-2025-5.0-0575",
+    "id": "PHSA-2025-4.0-0844",
     "modified": "2025-08-20T05:33:33Z",
     "published": "2025-08-05T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-575"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-844"
         }
     ],
     "related": [
-        "CVE-2025-38396",
-        "CVE-2025-38444",
-        "CVE-2025-38488",
-        "CVE-2025-38380",
-        "CVE-2025-38472",
+        "CVE-2025-38399",
+        "CVE-2025-38464",
         "CVE-2025-38389",
-        "CVE-2025-38443",
         "CVE-2025-38466",
-        "CVE-2025-38468",
         "CVE-2025-38386",
-        "CVE-2025-38441",
+        "CVE-2025-38263",
         "CVE-2025-38462",
         "CVE-2025-38403",
         "CVE-2025-38461",
         "CVE-2025-38393",
-        "CVE-2025-38471",
         "CVE-2025-38391",
         "CVE-2025-38400",
         "CVE-2025-38387",
         "CVE-2025-38445",
         "CVE-2025-38457",
+        "CVE-2025-38193",
         "CVE-2025-38371",
-        "CVE-2025-38451",
-        "CVE-2025-38477",
-        "CVE-2025-38412",
-        "CVE-2025-38495",
-        "CVE-2025-38385",
         "CVE-2025-38350",
         "CVE-2025-38439",
         "CVE-2025-38465",
-        "CVE-2025-38494",
-        "CVE-2025-38470",
-        "CVE-2025-38375",
-        "CVE-2025-38364",
-        "CVE-2025-38455",
-        "CVE-2025-38456",
-        "CVE-2025-38382"
+        "CVE-2025-38102",
+        "CVE-2025-38211"
     ]
 }
