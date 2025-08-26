@@ -6,10 +6,30 @@
                 "name": "openjdk21",
                 "purl": "pkg:rpm/vmware/openjdk21?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openjdk21",
+                "purl": "pkg:rpm/vmware/openjdk21?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "21.0.8-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0600",
-    "modified": "2025-08-26T05:37:28Z",
+    "modified": "2025-08-26T09:40:17Z",
     "published": "2025-08-24T00:00:00Z",
     "references": [
         {
