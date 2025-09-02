@@ -59,10 +59,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libssh",
+                "purl": "pkg:rpm/vmware/libssh?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.11.2-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0597",
-    "modified": "2025-08-22T05:33:39Z",
+    "modified": "2025-09-02T05:32:44Z",
     "published": "2025-08-20T00:00:00Z",
     "references": [
         {
@@ -73,6 +93,12 @@
     "related": [
         "CVE-2025-8713",
         "CVE-2025-8714",
-        "CVE-2025-8715"
+        "CVE-2025-8715",
+        "CVE-2025-5351",
+        "CVE-2025-5318",
+        "CVE-2025-5987",
+        "CVE-2025-5372",
+        "CVE-2025-4877",
+        "CVE-2025-4878"
     ]
 }
