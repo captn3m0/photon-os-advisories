@@ -1,0 +1,80 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "shim-signed",
+                "purl": "pkg:rpm/vmware/shim-signed?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "15.8-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.06-14.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-4.0-0861",
+    "modified": "2025-09-03T05:32:01Z",
+    "published": "2025-08-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-861"
+        }
+    ],
+    "related": [
+        "CVE-2025-1118",
+        "CVE-2025-0624",
+        "CVE-2025-0684",
+        "CVE-2022-28737",
+        "CVE-2025-0678",
+        "CVE-2024-1048",
+        "CVE-2024-45777",
+        "CVE-2025-0685",
+        "CVE-2024-45779",
+        "CVE-2025-0690",
+        "CVE-2024-56737",
+        "CVE-2023-4001",
+        "CVE-2024-45775",
+        "CVE-2025-0622",
+        "CVE-2025-0686",
+        "CVE-2024-45774",
+        "CVE-2025-1125",
+        "CVE-2024-45776",
+        "CVE-2024-45782",
+        "CVE-2025-0677",
+        "CVE-2024-45783",
+        "CVE-2024-45781",
+        "CVE-2024-45778",
+        "CVE-2024-45780",
+        "CVE-2025-0689"
+    ]
+}

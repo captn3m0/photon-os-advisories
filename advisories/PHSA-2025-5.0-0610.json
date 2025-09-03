@@ -1,0 +1,53 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.148-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0610",
+    "modified": "2025-09-03T05:32:01Z",
+    "published": "2025-09-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-610"
+        }
+    ],
+    "related": [
+        "CVE-2025-38587",
+        "CVE-2025-38609",
+        "CVE-2025-38500",
+        "CVE-2025-38565",
+        "CVE-2025-38617",
+        "CVE-2025-38608",
+        "CVE-2025-38560",
+        "CVE-2025-38563",
+        "CVE-2025-38618",
+        "CVE-2025-38644",
+        "CVE-2025-38645",
+        "CVE-2025-38569",
+        "CVE-2025-38611",
+        "CVE-2025-38639",
+        "CVE-2025-38653",
+        "CVE-2025-38588",
+        "CVE-2025-38572",
+        "CVE-2025-38553"
+    ]
+}
