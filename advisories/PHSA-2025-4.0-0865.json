@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "nginx",
-                "purl": "pkg:rpm/vmware/nginx?distro=photon-5"
+                "ecosystem": "Photon OS:4.0",
+                "name": "libsoup",
+                "purl": "pkg:rpm/vmware/libsoup?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "1.26.3-1.ph5"
+                            "fixed": "2.72.0-17.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,17 +21,16 @@
             ]
         }
     ],
-    "id": "PHSA-2025-5.0-0596",
+    "id": "PHSA-2025-4.0-0865",
     "modified": "2025-09-09T05:32:18Z",
-    "published": "2025-08-19T00:00:00Z",
+    "published": "2025-09-05T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-596"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-865"
         }
     ],
     "related": [
-        "CVE-2025-53859",
-        "CVE-2025-23419"
+        "CVE-2025-4948"
     ]
 }
