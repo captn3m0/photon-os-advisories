@@ -19,10 +19,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.147-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0575",
-    "modified": "2025-08-20T05:33:33Z",
+    "modified": "2025-09-20T05:33:03Z",
     "published": "2025-08-05T00:00:00Z",
     "references": [
         {
@@ -67,6 +87,8 @@
         "CVE-2025-38364",
         "CVE-2025-38455",
         "CVE-2025-38456",
-        "CVE-2025-38382"
+        "CVE-2025-38382",
+        "CVE-2025-38067",
+        "CVE-2025-38074"
     ]
 }
