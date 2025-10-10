@@ -6,10 +6,30 @@
                 "name": "cups",
                 "purl": "pkg:rpm/vmware/cups?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "cups",
+                "purl": "pkg:rpm/vmware/cups?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.11-2.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0868",
-    "modified": "2025-10-10T04:16:46Z",
+    "modified": "2025-10-10T05:35:36Z",
     "published": "2025-09-11T00:00:00Z",
     "references": [
         {

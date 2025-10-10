@@ -6,10 +6,30 @@
                 "name": "libxslt",
                 "purl": "pkg:rpm/vmware/libxslt?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.39-3.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0641",
-    "modified": "2025-10-10T04:16:46Z",
+    "modified": "2025-10-10T05:35:36Z",
     "published": "2025-10-09T00:00:00Z",
     "references": [
         {
