@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-0641",
+    "modified": "2025-10-10T04:16:46Z",
+    "published": "2025-10-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-641"
+        }
+    ],
+    "related": [
+        "CVE-2025-7424",
+        "CVE-2025-7425"
+    ]
+}
