@@ -5,13 +5,6 @@
                 "ecosystem": "Photon OS:4.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             },
             "ranges": [
                 {
@@ -20,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "5.10.244-4.ph4"
+                            "fixed": "5.10.244-5.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -28,21 +21,18 @@
             ]
         }
     ],
-    "id": "PHSA-2025-4.0-0885",
+    "id": "PHSA-2025-4.0-0886",
     "modified": "2025-10-11T05:43:59Z",
     "published": "2025-10-09T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-885"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-886"
         }
     ],
     "related": [
-        "CVE-2022-49743",
-        "CVE-2022-49226",
-        "CVE-2025-38728",
-        "CVE-2023-52975",
-        "CVE-2022-48816",
-        "CVE-2024-39490"
+        "CVE-2024-26792",
+        "CVE-2024-38556",
+        "CVE-2024-38564"
     ]
 }
