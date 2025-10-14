@@ -1,0 +1,93 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "perl",
+                "purl": "pkg:rpm/vmware/perl?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.36.0-11.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.155-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.155-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0643",
+    "modified": "2025-10-14T05:46:12Z",
+    "published": "2025-10-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-643"
+        }
+    ],
+    "related": [
+        "CVE-2025-39945",
+        "CVE-2024-38548",
+        "CVE-2025-39931",
+        "CVE-2025-39937",
+        "CVE-2025-39934",
+        "CVE-2025-39938",
+        "CVE-2025-39943",
+        "CVE-2025-39946",
+        "CVE-2025-39957",
+        "CVE-2025-39929",
+        "CVE-2025-21861",
+        "CVE-2025-39944",
+        "CVE-2025-39953",
+        "CVE-2025-40909",
+        "CVE-2025-39949",
+        "CVE-2025-39951",
+        "CVE-2025-39942",
+        "CVE-2025-39955"
+    ]
+}
