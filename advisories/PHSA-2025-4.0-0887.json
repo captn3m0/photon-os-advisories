@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.10.245-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0887",
-    "modified": "2025-10-11T05:43:59Z",
+    "modified": "2025-10-15T05:50:37Z",
     "published": "2025-10-10T00:00:00Z",
     "references": [
         {
@@ -53,6 +73,22 @@
     "related": [
         "CVE-2025-7424",
         "CVE-2025-59375",
-        "CVE-2025-7425"
+        "CVE-2025-7425",
+        "CVE-2025-39876",
+        "CVE-2025-39937",
+        "CVE-2025-39907",
+        "CVE-2025-39955",
+        "CVE-2025-39911",
+        "CVE-2025-21861",
+        "CVE-2025-39945",
+        "CVE-2025-39951",
+        "CVE-2025-39885",
+        "CVE-2025-23143",
+        "CVE-2025-39883",
+        "CVE-2025-39869",
+        "CVE-2025-39913",
+        "CVE-2025-39923",
+        "CVE-2025-39953",
+        "CVE-2025-39949"
     ]
 }
