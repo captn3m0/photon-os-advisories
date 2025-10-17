@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "apache-tomcat9",
-                "purl": "pkg:rpm/vmware/apache-tomcat9?distro=photon-5"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "9.0.107-1.ph5"
+                            "fixed": "6.1.155-2.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -23,8 +23,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "apache-tomcat10",
-                "purl": "pkg:rpm/vmware/apache-tomcat10?distro=photon-5"
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
             },
             "ranges": [
                 {
@@ -33,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "10.1.43-1.ph5"
+                            "fixed": "6.1.155-2.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -41,18 +41,19 @@
             ]
         }
     ],
-    "id": "PHSA-2025-5.0-0565",
+    "id": "PHSA-2025-5.0-0644",
     "modified": "2025-10-17T06:00:09Z",
-    "published": "2025-07-21T00:00:00Z",
+    "published": "2025-10-14T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-565"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-644"
         }
     ],
     "related": [
-        "CVE-2025-52520",
-        "CVE-2025-53506",
-        "CVE-2025-52434"
+        "CVE-2024-26944",
+        "CVE-2023-52653",
+        "CVE-2024-26662",
+        "CVE-2024-26661"
     ]
 }
