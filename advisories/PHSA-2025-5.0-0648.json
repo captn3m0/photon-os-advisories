@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "erlang",
-                "purl": "pkg:rpm/vmware/erlang?distro=photon-5"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "27.3.4.3-1.ph5"
+                            "fixed": "6.1.155-5.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -23,8 +23,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "rabbitmq-server",
-                "purl": "pkg:rpm/vmware/rabbitmq-server?distro=photon-5"
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
             },
             "ranges": [
                 {
@@ -33,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "4.0.4-1.ph5"
+                            "fixed": "6.1.155-5.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -41,21 +41,16 @@
             ]
         }
     ],
-    "id": "PHSA-2025-5.0-0646",
+    "id": "PHSA-2025-5.0-0648",
     "modified": "2025-10-22T05:46:56Z",
-    "published": "2025-10-16T00:00:00Z",
+    "published": "2025-10-21T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-646"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-648"
         }
     ],
     "related": [
-        "CVE-2025-48038",
-        "CVE-2025-48040",
-        "CVE-2025-48041",
-        "CVE-2016-1000107",
-        "CVE-2025-48039",
-        "CVE-2025-30219"
+        "CVE-2024-35949"
     ]
 }
