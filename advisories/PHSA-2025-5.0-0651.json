@@ -1,0 +1,40 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.39-12.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0651",
+    "modified": "2025-10-23T05:50:27Z",
+    "published": "2025-10-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-651"
+        }
+    ],
+    "related": [
+        "CVE-2025-7546",
+        "CVE-2025-1182",
+        "CVE-2025-7545",
+        "CVE-2025-5245",
+        "CVE-2025-5244"
+    ]
+}

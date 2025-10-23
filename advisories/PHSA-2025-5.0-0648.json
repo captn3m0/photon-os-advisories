@@ -39,10 +39,37 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0.18-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0648",
-    "modified": "2025-10-22T05:46:56Z",
+    "modified": "2025-10-23T05:50:27Z",
     "published": "2025-10-21T00:00:00Z",
     "references": [
         {
@@ -51,6 +78,8 @@
         }
     ],
     "related": [
-        "CVE-2024-35949"
+        "CVE-2024-35949",
+        "CVE-2025-9232",
+        "CVE-2025-9230"
     ]
 }
