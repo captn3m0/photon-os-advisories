@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-0652",
+    "modified": "2025-10-24T12:49:28Z",
+    "published": "2025-10-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-652"
+        }
+    ],
+    "related": [
+        "CVE-2025-40778",
+        "CVE-2025-40780",
+        "CVE-2025-8677"
+    ]
+}
