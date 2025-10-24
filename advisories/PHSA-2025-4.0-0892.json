@@ -1,0 +1,21 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2025-4.0-0892",
+    "modified": "2025-10-24T05:49:57Z",
+    "published": "2025-10-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-892"
+        }
+    ],
+    "related": []
+}
