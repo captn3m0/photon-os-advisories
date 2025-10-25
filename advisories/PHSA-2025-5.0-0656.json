@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "abseil-cpp",
+                "purl": "pkg:rpm/vmware/abseil-cpp?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "20230125.3-3.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0656",
+    "modified": "2025-10-25T05:46:39Z",
+    "published": "2025-10-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-656"
+        }
+    ],
+    "related": [
+        "CVE-2025-0838"
+    ]
+}
