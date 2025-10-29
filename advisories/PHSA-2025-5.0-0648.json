@@ -66,10 +66,17 @@
                 "name": "samba-client",
                 "purl": "pkg:rpm/vmware/samba-client?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0648",
-    "modified": "2025-10-23T05:50:27Z",
+    "modified": "2025-10-29T05:47:11Z",
     "published": "2025-10-21T00:00:00Z",
     "references": [
         {
