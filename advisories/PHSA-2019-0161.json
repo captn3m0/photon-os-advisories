@@ -690,10 +690,31 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:2.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:2.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-2"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:2.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-2"
+            }
         }
     ],
     "id": "PHSA-2019-0161",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2025-10-31T05:49:37Z",
     "published": "2019-06-05T00:00:00Z",
     "references": [
         {

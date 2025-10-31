@@ -346,10 +346,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python-tornado",
+                "purl": "pkg:rpm/vmware/python-tornado?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0434",
-    "modified": "2025-07-02T05:31:57Z",
+    "modified": "2025-10-31T05:49:37Z",
     "published": "2024-12-31T00:00:00Z",
     "references": [
         {

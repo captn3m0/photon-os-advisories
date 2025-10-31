@@ -220,7 +220,7 @@ def fetch_cve_metadata(PHOTON_VERSIONS):
                     == f"all versions before {row['res_ver']} are vulnerable"
                 ):
                     del row["aff_ver"]
-                else:
+                elif row["status"] != "Not Affected":
                     print(row)
                     raise Exception("Unimplemented affected version range")
                 if cve in cve_metadata:

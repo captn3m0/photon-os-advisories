@@ -303,10 +303,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "libpcap",
+                "purl": "pkg:rpm/vmware/libpcap?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2019-3.0-0034",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2025-10-31T05:49:37Z",
     "published": "2019-10-15T00:00:00Z",
     "references": [
         {
