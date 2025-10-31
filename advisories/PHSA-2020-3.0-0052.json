@@ -138,10 +138,24 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-3"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:3.0",
+                "name": "linux-aws",
+                "purl": "pkg:rpm/vmware/linux-aws?distro=photon-3"
+            }
         }
     ],
     "id": "PHSA-2020-3.0-0052",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2025-10-31T05:49:37Z",
     "published": "2020-01-28T00:00:00Z",
     "references": [
         {

@@ -227,10 +227,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "flannel",
+                "purl": "pkg:rpm/vmware/flannel?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2023-5.0-0049",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2025-10-31T05:49:37Z",
     "published": "2023-07-14T00:00:00Z",
     "references": [
         {
