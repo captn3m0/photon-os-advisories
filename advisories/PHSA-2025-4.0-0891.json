@@ -1,0 +1,45 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.2.11-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-4.0-0891",
+    "modified": "2025-11-01T06:07:19Z",
+    "published": "2025-10-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-891"
+        }
+    ],
+    "related": [
+        "CVE-2025-46686",
+        "CVE-2025-46818",
+        "CVE-2025-46819",
+        "CVE-2025-46817",
+        "CVE-2025-32023",
+        "CVE-2025-21605",
+        "CVE-2024-51741",
+        "CVE-2025-49844",
+        "CVE-2025-27151",
+        "CVE-2025-48367"
+    ]
+}

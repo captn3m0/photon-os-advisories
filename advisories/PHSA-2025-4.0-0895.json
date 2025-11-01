@@ -19,10 +19,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0.18-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0895",
-    "modified": "2025-10-28T05:48:49Z",
+    "modified": "2025-11-01T06:07:19Z",
     "published": "2025-10-27T00:00:00Z",
     "references": [
         {
@@ -31,6 +51,7 @@
         }
     ],
     "related": [
-        "CVE-2025-8194"
+        "CVE-2025-8194",
+        "CVE-2025-9230"
     ]
 }
