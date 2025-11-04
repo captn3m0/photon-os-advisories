@@ -1,0 +1,58 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "strongswan",
+                "purl": "pkg:rpm/vmware/strongswan?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.1.2.8-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0664",
+    "modified": "2025-11-04T05:48:28Z",
+    "published": "2025-10-31T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-664"
+        }
+    ],
+    "related": [
+        "CVE-2025-55005",
+        "CVE-2025-55154",
+        "CVE-2025-53014",
+        "CVE-2025-43965",
+        "CVE-2025-62171",
+        "CVE-2025-55298",
+        "CVE-2025-62594",
+        "CVE-2025-53101",
+        "CVE-2025-46393",
+        "CVE-2025-57803",
+        "CVE-2025-55212",
+        "CVE-2025-53019",
+        "CVE-2025-57807",
+        "CVE-2025-53015",
+        "CVE-2025-55160",
+        "CVE-2025-55004"
+    ]
+}
