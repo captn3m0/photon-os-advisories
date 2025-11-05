@@ -1,0 +1,37 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "netkit-telnet",
+                "purl": "pkg:rpm/vmware/netkit-telnet?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.17-5.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-4.0-0899",
+    "modified": "2025-11-05T05:52:46Z",
+    "published": "2025-11-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-899"
+        }
+    ],
+    "related": [
+        "CVE-2004-0911",
+        "CVE-2020-10188"
+    ]
+}

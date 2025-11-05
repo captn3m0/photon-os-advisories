@@ -1,0 +1,37 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "iputils",
+                "purl": "pkg:rpm/vmware/iputils?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "20250605-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0668",
+    "modified": "2025-11-05T05:52:46Z",
+    "published": "2025-11-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-668"
+        }
+    ],
+    "related": [
+        "CVE-2025-47268",
+        "CVE-2025-48964"
+    ]
+}
