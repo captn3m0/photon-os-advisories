@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "sqlite",
-                "purl": "pkg:rpm/vmware/sqlite?distro=photon-5"
+                "ecosystem": "Photon OS:4.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "3.43.2-4.ph5"
+                            "fixed": "2.35-17.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,17 +21,17 @@
             ]
         }
     ],
-    "id": "PHSA-2025-5.0-0508",
+    "id": "PHSA-2025-4.0-0901",
     "modified": "2025-11-07T05:52:13Z",
-    "published": "2025-04-22T00:00:00Z",
+    "published": "2025-11-06T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-508"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-901"
         }
     ],
     "related": [
-        "CVE-2025-29088",
-        "CVE-2025-52099"
+        "CVE-2025-11839",
+        "CVE-2025-11840"
     ]
 }
