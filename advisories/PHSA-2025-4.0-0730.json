@@ -301,10 +301,30 @@
                 "name": "python-tornado",
                 "purl": "pkg:rpm/vmware/python-tornado?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-webob",
+                "purl": "pkg:rpm/vmware/python3-webob?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.6-3.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0730",
-    "modified": "2025-10-31T05:49:37Z",
+    "modified": "2025-11-11T05:51:13Z",
     "published": "2025-01-07T00:00:00Z",
     "references": [
         {
