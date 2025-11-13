@@ -1,0 +1,112 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openjdk11",
+                "purl": "pkg:rpm/vmware/openjdk11?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "11.0.29-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.2.11-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openjdk21",
+                "purl": "pkg:rpm/vmware/openjdk21?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "21.0.9-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.8-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0676",
+    "modified": "2025-11-13T05:52:43Z",
+    "published": "2025-11-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-676"
+        }
+    ],
+    "related": [
+        "CVE-2025-27151",
+        "CVE-2025-21605",
+        "CVE-2019-16884",
+        "CVE-2025-52565",
+        "CVE-2025-46817",
+        "CVE-2025-46686",
+        "CVE-2025-52881",
+        "CVE-2025-46819",
+        "CVE-2025-49844",
+        "CVE-2025-31133",
+        "CVE-2025-32023",
+        "CVE-2025-46818",
+        "CVE-2024-51741",
+        "CVE-2025-48367",
+        "CVE-2025-61748",
+        "CVE-2025-53057",
+        "CVE-2025-53066"
+    ]
+}

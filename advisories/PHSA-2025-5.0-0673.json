@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "glib",
-                "purl": "pkg:rpm/vmware/glib?distro=photon-4"
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "2.68.4-5.ph4"
+                            "fixed": "6.1.157-5.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -22,9 +22,9 @@
         },
         {
             "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "mc",
-                "purl": "pkg:rpm/vmware/mc?distro=photon-4"
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
             },
             "ranges": [
                 {
@@ -33,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "4.8.33-1.ph4"
+                            "fixed": "6.1.157-5.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -41,17 +41,16 @@
             ]
         }
     ],
-    "id": "PHSA-2025-4.0-0902",
+    "id": "PHSA-2025-5.0-0673",
     "modified": "2025-11-13T05:52:43Z",
-    "published": "2025-11-07T00:00:00Z",
+    "published": "2025-11-10T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-902"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-673"
         }
     ],
     "related": [
-        "CVE-2025-4373",
-        "CVE-2021-36370"
+        "CVE-2025-22022"
     ]
 }

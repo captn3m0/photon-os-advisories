@@ -19,10 +19,50 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "8.16.0-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "lasso",
+                "purl": "pkg:rpm/vmware/lasso?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.9.0-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0903",
-    "modified": "2025-11-11T05:51:13Z",
+    "modified": "2025-11-13T05:52:43Z",
     "published": "2025-11-10T00:00:00Z",
     "references": [
         {
@@ -31,6 +71,14 @@
         }
     ],
     "related": [
-        "CVE-2022-24795"
+        "CVE-2022-24795",
+        "CVE-2025-9086",
+        "CVE-2025-47151",
+        "CVE-2025-46705",
+        "CVE-2025-46404",
+        "CVE-2025-4947",
+        "CVE-2025-46784",
+        "CVE-2025-10148",
+        "CVE-2025-5025"
     ]
 }

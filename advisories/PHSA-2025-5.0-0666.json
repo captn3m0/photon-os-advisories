@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.36-20.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0666",
-    "modified": "2025-11-04T05:48:28Z",
+    "modified": "2025-11-13T05:52:43Z",
     "published": "2025-11-03T00:00:00Z",
     "references": [
         {
@@ -57,6 +77,7 @@
         "CVE-2004-0911",
         "CVE-2025-11021",
         "CVE-2020-10188",
-        "CVE-2025-4945"
+        "CVE-2025-4945",
+        "CVE-2025-0395"
     ]
 }

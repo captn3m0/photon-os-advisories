@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "docker-compose",
+                "purl": "pkg:rpm/vmware/docker-compose?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.33.1-2.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-4.0-0899",
-    "modified": "2025-11-11T05:51:13Z",
+    "modified": "2025-11-13T05:52:43Z",
     "published": "2025-11-04T00:00:00Z",
     "references": [
         {
@@ -77,6 +97,7 @@
         "CVE-2025-40035",
         "CVE-2025-40019",
         "CVE-2025-40044",
-        "CVE-2025-40018"
+        "CVE-2025-40018",
+        "CVE-2025-62725"
     ]
 }
