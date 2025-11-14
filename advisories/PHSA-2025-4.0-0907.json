@@ -3,15 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "samba-client",
-                "purl": "pkg:rpm/vmware/samba-client?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "samba-client",
-                "purl": "pkg:rpm/vmware/samba-client?distro=photon-4"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             },
             "ranges": [
                 {
@@ -20,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "4.19.3-2.ph4"
+                            "fixed": "5.10.246-5.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -28,16 +21,17 @@
             ]
         }
     ],
-    "id": "PHSA-2025-4.0-0892",
+    "id": "PHSA-2025-4.0-0907",
     "modified": "2025-11-14T06:08:28Z",
-    "published": "2025-10-22T00:00:00Z",
+    "published": "2025-11-13T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-892"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-907"
         }
     ],
     "related": [
-        "CVE-2025-10230"
+        "CVE-2025-22121",
+        "CVE-2025-22022"
     ]
 }
