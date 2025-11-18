@@ -79,10 +79,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "Linux-PAM",
+                "purl": "pkg:rpm/vmware/Linux-PAM?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.3-9.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0676",
-    "modified": "2025-11-13T05:52:43Z",
+    "modified": "2025-11-18T06:00:05Z",
     "published": "2025-11-12T00:00:00Z",
     "references": [
         {
@@ -107,6 +127,7 @@
         "CVE-2025-48367",
         "CVE-2025-61748",
         "CVE-2025-53057",
-        "CVE-2025-53066"
+        "CVE-2025-53066",
+        "CVE-2024-10963"
     ]
 }

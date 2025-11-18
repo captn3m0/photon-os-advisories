@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "lz4",
+                "purl": "pkg:rpm/vmware/lz4?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.10.0-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0677",
-    "modified": "2025-11-15T05:55:18Z",
+    "modified": "2025-11-18T06:00:05Z",
     "published": "2025-11-14T00:00:00Z",
     "references": [
         {
@@ -53,6 +73,7 @@
     "related": [
         "CVE-2025-40096",
         "CVE-2025-40087",
-        "CVE-2025-40099"
+        "CVE-2025-40099",
+        "CVE-2025-62813"
     ]
 }

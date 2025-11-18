@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.12.10-8.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0673",
-    "modified": "2025-11-13T05:52:43Z",
+    "modified": "2025-11-18T06:00:05Z",
     "published": "2025-11-10T00:00:00Z",
     "references": [
         {
@@ -51,6 +71,7 @@
         }
     ],
     "related": [
-        "CVE-2025-22022"
+        "CVE-2025-22022",
+        "CVE-2025-6170"
     ]
 }
