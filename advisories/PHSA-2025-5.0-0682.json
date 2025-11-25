@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.1.5-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0682",
-    "modified": "2025-11-19T05:57:30Z",
+    "modified": "2025-11-25T06:02:47Z",
     "published": "2025-11-18T00:00:00Z",
     "references": [
         {
@@ -51,6 +71,8 @@
         }
     ],
     "related": [
-        "CVE-2025-39990"
+        "CVE-2025-39990",
+        "CVE-2025-64329",
+        "CVE-2024-25621"
     ]
 }
