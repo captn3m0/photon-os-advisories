@@ -1,0 +1,65 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "frr",
+                "purl": "pkg:rpm/vmware/frr?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "10.5.0-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rabbitmq-server",
+                "purl": "pkg:rpm/vmware/rabbitmq-server?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.1.4-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-4.0-0915",
+    "modified": "2025-11-27T05:53:20Z",
+    "published": "2025-11-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-915"
+        }
+    ],
+    "related": [
+        "CVE-2025-61104",
+        "CVE-2025-61101",
+        "CVE-2025-30219",
+        "CVE-2025-61105",
+        "CVE-2025-61106",
+        "CVE-2025-61099",
+        "CVE-2025-61103",
+        "CVE-2025-61100",
+        "CVE-2025-61102",
+        "CVE-2025-61107"
+    ]
+}
