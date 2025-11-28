@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "8.4.7-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0693",
+    "modified": "2025-11-28T05:54:02Z",
+    "published": "2025-11-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-693"
+        }
+    ],
+    "related": [
+        "CVE-2025-53042",
+        "CVE-2025-53062",
+        "CVE-2025-53069",
+        "CVE-2025-53044",
+        "CVE-2025-53054",
+        "CVE-2025-53045",
+        "CVE-2025-53053",
+        "CVE-2025-53040"
+    ]
+}

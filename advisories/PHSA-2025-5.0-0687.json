@@ -19,10 +19,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "frr",
+                "purl": "pkg:rpm/vmware/frr?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "10.5.0-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0687",
-    "modified": "2025-11-25T06:02:47Z",
+    "modified": "2025-11-28T05:54:02Z",
     "published": "2025-11-20T00:00:00Z",
     "references": [
         {
@@ -32,6 +52,15 @@
     ],
     "related": [
         "CVE-2025-61984",
-        "CVE-2025-61985"
+        "CVE-2025-61985",
+        "CVE-2025-61103",
+        "CVE-2025-61100",
+        "CVE-2025-61101",
+        "CVE-2025-61099",
+        "CVE-2025-61107",
+        "CVE-2025-61104",
+        "CVE-2025-61105",
+        "CVE-2025-61106",
+        "CVE-2025-61102"
     ]
 }
