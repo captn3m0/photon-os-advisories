@@ -1,0 +1,82 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.158-8.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.158-8.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.6.51-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0694",
+    "modified": "2025-11-29T05:55:23Z",
+    "published": "2025-11-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-694"
+        }
+    ],
+    "related": [
+        "CVE-2025-38081",
+        "CVE-2025-38201",
+        "CVE-2025-64505",
+        "CVE-2025-64720",
+        "CVE-2025-38636",
+        "CVE-2025-64506",
+        "CVE-2025-65018"
+    ]
+}
