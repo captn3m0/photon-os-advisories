@@ -3,26 +3,6 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
-            },
-            "ranges": [
-                {
-                    "events": [
-                        {
-                            "introduced": "0"
-                        },
-                        {
-                            "fixed": "6.1.141-7.ph5"
-                        }
-                    ],
-                    "type": "ECOSYSTEM"
-                }
-            ]
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:5.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
             },
@@ -33,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "6.1.141-6.ph5"
+                            "fixed": "6.1.159-1.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -45,21 +25,41 @@
                 "ecosystem": "Photon OS:5.0",
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-5"
-            }
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.159-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
-    "id": "PHSA-2025-5.0-0551",
+    "id": "PHSA-2025-5.0-0708",
     "modified": "2025-12-10T05:52:38Z",
-    "published": "2025-07-07T00:00:00Z",
+    "published": "2025-12-09T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-551"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-708"
         }
     ],
     "related": [
-        "CVE-2024-27042",
-        "CVE-2024-26669",
-        "CVE-2025-40284"
+        "CVE-2025-39797",
+        "CVE-2025-39810",
+        "CVE-2025-40277",
+        "CVE-2025-40254",
+        "CVE-2025-38248",
+        "CVE-2025-40264",
+        "CVE-2025-40257",
+        "CVE-2025-38616",
+        "CVE-2025-40248",
+        "CVE-2025-38584"
     ]
 }
