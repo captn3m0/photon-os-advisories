@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "cups",
-                "purl": "pkg:rpm/vmware/cups?distro=photon-4"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "2.4.14-1.ph4"
+                            "fixed": "5.10.247-1.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,17 +21,25 @@
             ]
         }
     ],
-    "id": "PHSA-2025-4.0-0916",
+    "id": "PHSA-2025-4.0-0924",
     "modified": "2025-12-11T05:52:55Z",
-    "published": "2025-11-27T00:00:00Z",
+    "published": "2025-12-09T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-916"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-924"
         }
     ],
     "related": [
-        "CVE-2025-61915",
-        "CVE-2025-58436"
+        "CVE-2025-40277",
+        "CVE-2025-38678",
+        "CVE-2025-40211",
+        "CVE-2025-40271",
+        "CVE-2024-47666",
+        "CVE-2025-40083",
+        "CVE-2025-40281",
+        "CVE-2025-39866",
+        "CVE-2025-40273",
+        "CVE-2024-57947"
     ]
 }
