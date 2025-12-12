@@ -1,0 +1,61 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.66-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "Linux-PAM",
+                "purl": "pkg:rpm/vmware/Linux-PAM?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.3-11.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-0710",
+    "modified": "2025-12-12T05:53:07Z",
+    "published": "2025-12-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-710"
+        }
+    ],
+    "related": [
+        "CVE-2025-6020",
+        "CVE-2025-59775",
+        "CVE-2025-58098",
+        "CVE-2025-55753",
+        "CVE-2025-65082",
+        "CVE-2025-66200"
+    ]
+}
