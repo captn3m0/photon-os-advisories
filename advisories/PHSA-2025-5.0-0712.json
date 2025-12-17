@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "iptraf-ng",
+                "purl": "pkg:rpm/vmware/iptraf-ng?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-0712",
+    "modified": "2025-12-17T05:51:51Z",
+    "published": "2025-12-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-712"
+        }
+    ],
+    "related": [
+        "CVE-2024-52949"
+    ]
+}
