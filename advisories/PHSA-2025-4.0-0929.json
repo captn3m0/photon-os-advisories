@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2025-4.0-0929",
+    "modified": "2025-12-20T05:51:48Z",
+    "published": "2025-12-16T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-929"
+        }
+    ],
+    "related": [
+        "CVE-2025-65955"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2025-4.0-0930",
+    "modified": "2025-12-20T05:51:48Z",
+    "published": "2025-12-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-930"
+        }
+    ],
+    "related": [
+        "CVE-2025-38556",
+        "CVE-2025-38201",
+        "CVE-2025-38129",
+        "CVE-2025-38584"
+    ]
+}
