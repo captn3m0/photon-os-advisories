@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2025-4.0-0932",
+    "modified": "2025-12-24T05:52:17Z",
+    "published": "2025-12-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-932"
+        }
+    ],
+    "related": [
+        "CVE-2022-49622",
+        "CVE-2023-52735"
+    ]
+}

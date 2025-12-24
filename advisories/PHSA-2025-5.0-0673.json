@@ -59,10 +59,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "polkit",
+                "purl": "pkg:rpm/vmware/polkit?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0673",
-    "modified": "2025-11-18T06:00:05Z",
+    "modified": "2025-12-24T05:52:17Z",
     "published": "2025-11-10T00:00:00Z",
     "references": [
         {
@@ -72,6 +79,7 @@
     ],
     "related": [
         "CVE-2025-22022",
-        "CVE-2025-6170"
+        "CVE-2025-6170",
+        "CVE-2025-7519"
     ]
 }
