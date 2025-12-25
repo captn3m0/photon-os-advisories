@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-0720",
+    "modified": "2025-12-25T06:08:45Z",
+    "published": "2025-12-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-720"
+        }
+    ],
+    "related": [
+        "CVE-2025-39905"
+    ]
+}
