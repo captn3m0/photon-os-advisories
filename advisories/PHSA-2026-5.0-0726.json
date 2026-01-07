@@ -13,10 +13,17 @@
                 "name": "net-snmp",
                 "purl": "pkg:rpm/vmware/net-snmp?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "sssd",
+                "purl": "pkg:rpm/vmware/sssd?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0726",
-    "modified": "2026-01-06T05:52:30Z",
+    "modified": "2026-01-07T05:53:57Z",
     "published": "2026-01-05T00:00:00Z",
     "references": [
         {
@@ -26,6 +33,7 @@
     ],
     "related": [
         "CVE-2025-68615",
-        "CVE-2025-66418"
+        "CVE-2025-66418",
+        "CVE-2025-11561"
     ]
 }

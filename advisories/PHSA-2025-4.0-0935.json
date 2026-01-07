@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "mariadb",
+                "purl": "pkg:rpm/vmware/mariadb?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2025-4.0-0935",
+    "modified": "2026-01-07T05:53:57Z",
+    "published": "2025-12-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-935"
+        }
+    ],
+    "related": [
+        "CVE-2025-13699"
+    ]
+}

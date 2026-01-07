@@ -39,10 +39,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-tornado",
+                "purl": "pkg:rpm/vmware/python3-tornado?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0595",
-    "modified": "2025-08-21T05:32:51Z",
+    "modified": "2026-01-07T05:53:57Z",
     "published": "2025-08-19T00:00:00Z",
     "references": [
         {

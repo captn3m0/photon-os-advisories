@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0728",
+    "modified": "2026-01-07T05:53:57Z",
+    "published": "2026-01-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-728"
+        }
+    ],
+    "related": [
+        "CVE-2025-68618",
+        "CVE-2025-69204",
+        "CVE-2025-68950"
+    ]
+}

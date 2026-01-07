@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-urllib3",
+                "purl": "pkg:rpm/vmware/python3-urllib3?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0938",
+    "modified": "2026-01-07T05:53:57Z",
+    "published": "2026-01-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-938"
+        }
+    ],
+    "related": [
+        "CVE-2025-66418"
+    ]
+}
