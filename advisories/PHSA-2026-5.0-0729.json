@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0729",
+    "modified": "2026-01-08T05:51:10Z",
+    "published": "2026-01-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-729"
+        }
+    ],
+    "related": [
+        "CVE-2025-13836"
+    ]
+}
