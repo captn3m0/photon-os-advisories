@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rubygem-aws-sdk-s3",
+                "purl": "pkg:rpm/vmware/rubygem-aws-sdk-s3?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "aws-sdk-cpp",
+                "purl": "pkg:rpm/vmware/aws-sdk-cpp?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0942",
+    "modified": "2026-01-09T05:57:01Z",
+    "published": "2026-01-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-942"
+        }
+    ],
+    "related": [
+        "CVE-2025-14762",
+        "CVE-2025-14760"
+    ]
+}
