@@ -13,10 +13,17 @@
                 "name": "sssd",
                 "purl": "pkg:rpm/vmware/sssd?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "capstone",
+                "purl": "pkg:rpm/vmware/capstone?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-0938",
-    "modified": "2026-01-08T05:51:10Z",
+    "modified": "2026-01-10T05:54:28Z",
     "published": "2026-01-06T00:00:00Z",
     "references": [
         {
@@ -26,6 +33,8 @@
     ],
     "related": [
         "CVE-2025-66418",
-        "CVE-2025-11561"
+        "CVE-2025-11561",
+        "CVE-2025-68114",
+        "CVE-2025-67873"
     ]
 }

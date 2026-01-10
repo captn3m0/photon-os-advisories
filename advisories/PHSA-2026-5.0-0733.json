@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-aws-sdk-s3",
+                "purl": "pkg:rpm/vmware/rubygem-aws-sdk-s3?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0733",
+    "modified": "2026-01-10T05:54:28Z",
+    "published": "2026-01-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-733"
+        }
+    ],
+    "related": [
+        "CVE-2025-14762"
+    ]
+}
