@@ -13,10 +13,17 @@
                 "name": "capstone",
                 "purl": "pkg:rpm/vmware/capstone?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0732",
-    "modified": "2026-01-10T05:54:28Z",
+    "modified": "2026-01-13T05:51:21Z",
     "published": "2026-01-08T00:00:00Z",
     "references": [
         {
@@ -27,6 +34,13 @@
     "related": [
         "CVE-2025-14760",
         "CVE-2025-68114",
-        "CVE-2025-67873"
+        "CVE-2025-67873",
+        "CVE-2025-15079",
+        "CVE-2025-14017",
+        "CVE-2025-10966",
+        "CVE-2025-15224",
+        "CVE-2025-14819",
+        "CVE-2025-13034",
+        "CVE-2025-14524"
     ]
 }
