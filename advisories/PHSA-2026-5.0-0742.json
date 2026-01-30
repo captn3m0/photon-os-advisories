@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0742",
+    "modified": "2026-01-30T06:40:47Z",
+    "published": "2026-01-19T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-742"
+        }
+    ],
+    "related": [
+        "CVE-2025-61662"
+    ]
+}

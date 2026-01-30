@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-urllib3",
+                "purl": "pkg:rpm/vmware/python3-urllib3?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0744",
+    "modified": "2026-01-30T06:40:47Z",
+    "published": "2026-01-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-744"
+        }
+    ],
+    "related": [
+        "CVE-2026-21441"
+    ]
+}

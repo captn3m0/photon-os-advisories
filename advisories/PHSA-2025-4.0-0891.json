@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2025-4.0-0891",
-    "modified": "2025-11-01T06:07:19Z",
+    "modified": "2026-01-30T06:40:47Z",
     "published": "2025-10-21T00:00:00Z",
     "references": [
         {
@@ -40,6 +47,7 @@
         "CVE-2024-51741",
         "CVE-2025-49844",
         "CVE-2025-27151",
-        "CVE-2025-48367"
+        "CVE-2025-48367",
+        "CVE-2025-24528"
     ]
 }

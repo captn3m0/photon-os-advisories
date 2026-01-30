@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libtasn1",
+                "purl": "pkg:rpm/vmware/libtasn1?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gnupg",
+                "purl": "pkg:rpm/vmware/gnupg?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gpsd",
+                "purl": "pkg:rpm/vmware/gpsd?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0737",
+    "modified": "2026-01-30T06:40:47Z",
+    "published": "2026-01-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-737"
+        }
+    ],
+    "related": [
+        "CVE-2025-67269",
+        "CVE-2025-13151",
+        "CVE-2025-68973"
+    ]
+}

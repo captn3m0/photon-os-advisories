@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2025-4.0-0934",
+    "modified": "2026-01-30T06:40:47Z",
+    "published": "2025-12-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-934"
+        }
+    ],
+    "related": [
+        "CVE-2025-53906",
+        "CVE-2025-53905"
+    ]
+}

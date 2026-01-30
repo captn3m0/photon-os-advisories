@@ -6,10 +6,24 @@
                 "name": "ImageMagick",
                 "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gst-plugins-bad",
+                "purl": "pkg:rpm/vmware/gst-plugins-bad?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0728",
-    "modified": "2026-01-07T05:53:57Z",
+    "modified": "2026-01-30T06:40:47Z",
     "published": "2026-01-06T00:00:00Z",
     "references": [
         {
@@ -20,6 +34,8 @@
     "related": [
         "CVE-2025-68618",
         "CVE-2025-69204",
-        "CVE-2025-68950"
+        "CVE-2025-68950",
+        "CVE-2025-3887",
+        "CVE-2025-66293"
     ]
 }

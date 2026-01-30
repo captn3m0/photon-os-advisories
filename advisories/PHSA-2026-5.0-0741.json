@@ -1,0 +1,92 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-urllib3",
+                "purl": "pkg:rpm/vmware/python3-urllib3?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0741",
+    "modified": "2026-01-30T06:40:47Z",
+    "published": "2026-01-16T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-741"
+        }
+    ],
+    "related": [
+        "CVE-2025-22090",
+        "CVE-2025-68742",
+        "CVE-2025-68776",
+        "CVE-2025-68728",
+        "CVE-2025-71120",
+        "CVE-2025-71116",
+        "CVE-2025-68261",
+        "CVE-2025-68732",
+        "CVE-2025-71149",
+        "CVE-2025-68344",
+        "CVE-2025-68733",
+        "CVE-2025-40215",
+        "CVE-2025-68753",
+        "CVE-2025-68259",
+        "CVE-2025-68764",
+        "CVE-2025-68766",
+        "CVE-2025-68345",
+        "CVE-2025-68354",
+        "CVE-2025-68256",
+        "CVE-2025-71154",
+        "CVE-2025-68803",
+        "CVE-2025-71147",
+        "CVE-2025-68335",
+        "CVE-2025-68366",
+        "CVE-2025-68757",
+        "CVE-2025-68806",
+        "CVE-2025-68325",
+        "CVE-2025-68727",
+        "CVE-2025-68371",
+        "CVE-2025-66471",
+        "CVE-2025-68369",
+        "CVE-2025-68765",
+        "CVE-2025-68367",
+        "CVE-2025-68380",
+        "CVE-2025-68740",
+        "CVE-2025-68264",
+        "CVE-2025-68799",
+        "CVE-2025-68363",
+        "CVE-2025-71127",
+        "CVE-2025-68759",
+        "CVE-2025-68332",
+        "CVE-2025-22111",
+        "CVE-2025-68337",
+        "CVE-2025-68813",
+        "CVE-2025-68258",
+        "CVE-2025-68364",
+        "CVE-2025-68266",
+        "CVE-2025-68783",
+        "CVE-2025-68758",
+        "CVE-2025-68817",
+        "CVE-2025-68746",
+        "CVE-2025-68336",
+        "CVE-2025-68346",
+        "CVE-2025-68349",
+        "CVE-2025-68263",
+        "CVE-2025-71150"
+    ]
+}
