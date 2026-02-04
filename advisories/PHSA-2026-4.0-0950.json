@@ -6,10 +6,17 @@
                 "name": "libpng",
                 "purl": "pkg:rpm/vmware/libpng?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-0950",
-    "modified": "2026-01-30T06:40:47Z",
+    "modified": "2026-02-04T05:52:01Z",
     "published": "2026-01-20T00:00:00Z",
     "references": [
         {
@@ -18,6 +25,9 @@
         }
     ],
     "related": [
-        "CVE-2025-66293"
+        "CVE-2025-66293",
+        "CVE-2025-61662",
+        "CVE-2025-61663",
+        "CVE-2025-61664"
     ]
 }

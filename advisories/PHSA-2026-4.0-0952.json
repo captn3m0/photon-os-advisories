@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0952",
+    "modified": "2026-02-04T05:52:01Z",
+    "published": "2026-01-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-952"
+        }
+    ],
+    "related": [
+        "CVE-2025-15467",
+        "CVE-2025-9232",
+        "CVE-2025-69419",
+        "CVE-2026-22796",
+        "CVE-2025-69418",
+        "CVE-2025-69421",
+        "CVE-2025-69420",
+        "CVE-2026-22795",
+        "CVE-2025-68160"
+    ]
+}

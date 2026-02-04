@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-dnspython",
+                "purl": "pkg:rpm/vmware/python3-dnspython?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0954",
+    "modified": "2026-02-04T05:52:01Z",
+    "published": "2026-02-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-954"
+        }
+    ],
+    "related": [
+        "CVE-2023-29483"
+    ]
+}

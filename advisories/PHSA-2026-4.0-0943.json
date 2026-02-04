@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0943",
+    "modified": "2026-02-04T05:52:01Z",
+    "published": "2026-01-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-943"
+        }
+    ],
+    "related": [
+        "CVE-2025-14512",
+        "CVE-2025-14087"
+    ]
+}

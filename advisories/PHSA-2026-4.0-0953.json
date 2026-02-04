@@ -6,10 +6,17 @@
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-urllib3",
+                "purl": "pkg:rpm/vmware/python3-urllib3?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-0953",
-    "modified": "2026-01-31T05:49:20Z",
+    "modified": "2026-02-04T05:52:01Z",
     "published": "2026-01-30T00:00:00Z",
     "references": [
         {
@@ -58,6 +65,11 @@
         "CVE-2025-68776",
         "CVE-2025-71116",
         "CVE-2025-71085",
-        "CVE-2025-40215"
+        "CVE-2025-40215",
+        "CVE-2026-21441",
+        "CVE-2025-66471",
+        "CVE-2025-71182",
+        "CVE-2026-23020",
+        "CVE-2026-23021"
     ]
 }
