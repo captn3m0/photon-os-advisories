@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0956",
+    "modified": "2026-02-05T05:52:15Z",
+    "published": "2026-02-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-956"
+        }
+    ],
+    "related": [
+        "CVE-2025-59465",
+        "CVE-2025-55130",
+        "CVE-2026-24515",
+        "CVE-2025-55132",
+        "CVE-2025-55131",
+        "CVE-2025-59466",
+        "CVE-2026-21637"
+    ]
+}
