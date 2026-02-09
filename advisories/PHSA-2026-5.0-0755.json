@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0755",
+    "modified": "2026-02-09T06:07:34Z",
+    "published": "2026-02-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-755"
+        }
+    ],
+    "related": [
+        "CVE-2025-59466",
+        "CVE-2025-59465",
+        "CVE-2025-55131",
+        "CVE-2025-55130",
+        "CVE-2025-55132",
+        "CVE-2026-21637"
+    ]
+}

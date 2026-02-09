@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0756",
+    "modified": "2026-02-09T06:07:34Z",
+    "published": "2026-02-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-756"
+        }
+    ],
+    "related": [
+        "CVE-2026-24515"
+    ]
+}
