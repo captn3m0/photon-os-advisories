@@ -1,0 +1,21 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "dnsmasq",
+                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0957",
+    "modified": "2026-02-10T06:08:43Z",
+    "published": "2026-02-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-957"
+        }
+    ],
+    "related": []
+}
