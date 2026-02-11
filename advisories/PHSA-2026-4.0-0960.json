@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0960",
+    "modified": "2026-02-11T06:10:01Z",
+    "published": "2026-02-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-960"
+        }
+    ],
+    "related": [
+        "CVE-2025-38685",
+        "CVE-2024-58240",
+        "CVE-2025-38512"
+    ]
+}

@@ -6,10 +6,17 @@
                 "name": "libtiff",
                 "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-0959",
-    "modified": "2026-02-10T06:08:43Z",
+    "modified": "2026-02-11T06:10:01Z",
     "published": "2026-02-09T00:00:00Z",
     "references": [
         {
@@ -18,6 +25,10 @@
         }
     ],
     "related": [
-        "CVE-2024-13978"
+        "CVE-2024-13978",
+        "CVE-2026-23874",
+        "CVE-2026-23952",
+        "CVE-2026-22770",
+        "CVE-2026-23876"
     ]
 }
