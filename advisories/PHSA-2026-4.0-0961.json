@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openjdk21",
+                "purl": "pkg:rpm/vmware/openjdk21?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0961",
+    "modified": "2026-02-13T06:13:48Z",
+    "published": "2026-02-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-961"
+        }
+    ],
+    "related": [
+        "CVE-2026-21933",
+        "CVE-2026-21932",
+        "CVE-2026-21945",
+        "CVE-2026-21925"
+    ]
+}
