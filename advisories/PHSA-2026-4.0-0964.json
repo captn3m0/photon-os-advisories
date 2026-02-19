@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "runc",
+                "purl": "pkg:rpm/vmware/runc?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0964",
+    "modified": "2026-02-19T06:13:02Z",
+    "published": "2026-02-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-964"
+        }
+    ],
+    "related": [
+        "CVE-2025-52565",
+        "CVE-2025-31133",
+        "CVE-2019-16884",
+        "CVE-2025-52881"
+    ]
+}

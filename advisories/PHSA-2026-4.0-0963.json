@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-wheel",
+                "purl": "pkg:rpm/vmware/python3-wheel?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0963",
+    "modified": "2026-02-19T06:13:02Z",
+    "published": "2026-02-16T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-963"
+        }
+    ],
+    "related": [
+        "CVE-2022-40898"
+    ]
+}

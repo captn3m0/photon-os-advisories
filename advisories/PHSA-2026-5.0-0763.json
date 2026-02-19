@@ -34,10 +34,24 @@
                 "name": "python-wheel",
                 "purl": "pkg:rpm/vmware/python-wheel?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-wheel",
+                "purl": "pkg:rpm/vmware/python3-wheel?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0763",
-    "modified": "2026-02-18T06:08:11Z",
+    "modified": "2026-02-19T06:13:02Z",
     "published": "2026-02-16T00:00:00Z",
     "references": [
         {
@@ -74,6 +88,7 @@
         "CVE-2025-58189",
         "CVE-2025-68121",
         "CVE-2025-61729",
-        "CVE-2025-61730"
+        "CVE-2025-61730",
+        "CVE-2026-1484"
     ]
 }
