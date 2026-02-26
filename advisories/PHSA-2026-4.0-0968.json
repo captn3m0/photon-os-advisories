@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0968",
+    "modified": "2026-02-26T06:09:42Z",
+    "published": "2026-02-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-968"
+        }
+    ],
+    "related": [
+        "CVE-2023-53596",
+        "CVE-2026-26269",
+        "CVE-2025-22871",
+        "CVE-2025-68121",
+        "CVE-2023-53441",
+        "CVE-2022-50552",
+        "CVE-2023-53577"
+    ]
+}
