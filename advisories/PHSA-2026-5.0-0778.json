@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "dotnet-runtime",
+                "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0778",
+    "modified": "2026-02-28T06:11:40Z",
+    "published": "2026-02-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-778"
+        }
+    ],
+    "related": [
+        "CVE-2025-55247",
+        "CVE-2026-21218"
+    ]
+}

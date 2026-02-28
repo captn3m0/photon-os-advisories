@@ -6,10 +6,17 @@
                 "name": "rubygem-nokogiri",
                 "purl": "pkg:rpm/vmware/rubygem-nokogiri?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-0969",
-    "modified": "2026-02-27T06:21:39Z",
+    "modified": "2026-02-28T06:11:40Z",
     "published": "2026-02-26T00:00:00Z",
     "references": [
         {
@@ -17,5 +24,7 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-969"
         }
     ],
-    "related": []
+    "related": [
+        "CVE-2025-71236"
+    ]
 }
