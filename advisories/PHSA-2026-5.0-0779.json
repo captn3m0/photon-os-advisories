@@ -1,0 +1,49 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-filelock",
+                "purl": "pkg:rpm/vmware/python3-filelock?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0779",
+    "modified": "2026-03-03T06:21:47Z",
+    "published": "2026-03-02T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-779"
+        }
+    ],
+    "related": [
+        "CVE-2025-22026",
+        "CVE-2025-38643",
+        "CVE-2026-22701",
+        "CVE-2025-40251",
+        "CVE-2023-53424",
+        "CVE-2024-26822",
+        "CVE-2025-23155",
+        "CVE-2025-39763",
+        "CVE-2025-68358",
+        "CVE-2026-23169",
+        "CVE-2025-71144",
+        "CVE-2025-37920",
+        "CVE-2024-57895"
+    ]
+}
