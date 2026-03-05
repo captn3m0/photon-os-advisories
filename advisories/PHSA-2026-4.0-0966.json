@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0966",
+    "modified": "2026-03-05T06:24:21Z",
+    "published": "2026-02-21T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-966"
+        }
+    ],
+    "related": [
+        "CVE-2026-22695",
+        "CVE-2026-22801",
+        "CVE-2026-25646"
+    ]
+}
