@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0976",
+    "modified": "2026-03-12T06:24:41Z",
+    "published": "2026-03-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-976"
+        }
+    ],
+    "related": [
+        "CVE-2025-58767"
+    ]
+}
