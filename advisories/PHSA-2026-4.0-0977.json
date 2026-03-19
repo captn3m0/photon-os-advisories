@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0977",
+    "modified": "2026-03-19T06:29:29Z",
+    "published": "2026-03-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-977"
+        }
+    ],
+    "related": [
+        "CVE-2026-1965",
+        "CVE-2026-3784",
+        "CVE-2026-3783"
+    ]
+}

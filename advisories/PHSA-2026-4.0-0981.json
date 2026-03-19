@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0981",
+    "modified": "2026-03-19T06:29:29Z",
+    "published": "2026-03-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-981"
+        }
+    ],
+    "related": [
+        "CVE-2025-69649",
+        "CVE-2025-69652"
+    ]
+}
