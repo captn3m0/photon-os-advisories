@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0983",
+    "modified": "2026-03-24T06:35:15Z",
+    "published": "2026-03-22T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-983"
+        }
+    ],
+    "related": [
+        "CVE-2026-23231"
+    ]
+}
