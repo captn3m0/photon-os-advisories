@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "coredns",
+                "purl": "pkg:rpm/vmware/coredns?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0984",
+    "modified": "2026-03-27T06:39:21Z",
+    "published": "2026-03-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-984"
+        }
+    ],
+    "related": [
+        "CVE-2026-26018"
+    ]
+}
