@@ -6,10 +6,17 @@
                 "name": "coredns",
                 "purl": "pkg:rpm/vmware/coredns?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-0984",
-    "modified": "2026-03-27T06:39:21Z",
+    "modified": "2026-04-03T06:27:27Z",
     "published": "2026-03-23T00:00:00Z",
     "references": [
         {
@@ -18,6 +25,11 @@
         }
     ],
     "related": [
-        "CVE-2026-26018"
+        "CVE-2026-26018",
+        "CVE-2026-0861",
+        "CVE-2025-15281",
+        "CVE-2026-0915",
+        "CVE-2025-0395",
+        "CVE-2025-8058"
     ]
 }

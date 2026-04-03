@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0991",
+    "modified": "2026-04-03T06:27:27Z",
+    "published": "2026-04-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-991"
+        }
+    ],
+    "related": [
+        "CVE-2026-21941",
+        "CVE-2026-3479",
+        "CVE-2026-21948",
+        "CVE-2026-21936",
+        "CVE-2026-21968",
+        "CVE-2026-21937",
+        "CVE-2026-21964"
+    ]
+}
