@@ -13,10 +13,24 @@
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "apache-tomcat9",
+                "purl": "pkg:rpm/vmware/apache-tomcat9?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "apache-tomcat10",
+                "purl": "pkg:rpm/vmware/apache-tomcat10?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0798",
-    "modified": "2026-03-28T06:47:38Z",
+    "modified": "2026-04-07T06:30:51Z",
     "published": "2026-03-27T00:00:00Z",
     "references": [
         {
@@ -26,6 +40,7 @@
     ],
     "related": [
         "CVE-2026-23268",
-        "CVE-2026-23277"
+        "CVE-2026-23277",
+        "CVE-2026-24734"
     ]
 }

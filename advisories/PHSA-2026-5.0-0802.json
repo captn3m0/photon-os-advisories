@@ -1,0 +1,108 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "sqlite",
+                "purl": "pkg:rpm/vmware/sqlite?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nghttp2",
+                "purl": "pkg:rpm/vmware/nghttp2?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-activesupport",
+                "purl": "pkg:rpm/vmware/rubygem-activesupport?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-pyOpenSSL",
+                "purl": "pkg:rpm/vmware/python3-pyOpenSSL?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-Pygments",
+                "purl": "pkg:rpm/vmware/python3-Pygments?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "etcd",
+                "purl": "pkg:rpm/vmware/etcd?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "strongswan",
+                "purl": "pkg:rpm/vmware/strongswan?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-requests",
+                "purl": "pkg:rpm/vmware/python3-requests?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0802",
+    "modified": "2026-04-07T06:30:51Z",
+    "published": "2026-04-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-802"
+        }
+    ],
+    "related": [
+        "CVE-2026-33416",
+        "CVE-2026-3479",
+        "CVE-2026-4438",
+        "CVE-2026-33636",
+        "CVE-2026-33170",
+        "CVE-2026-33169",
+        "CVE-2026-27459",
+        "CVE-2026-25645",
+        "CVE-2021-4214",
+        "CVE-2026-4539",
+        "CVE-2026-25075",
+        "CVE-2026-27135",
+        "CVE-2025-70873",
+        "CVE-2026-3713",
+        "CVE-2026-4519",
+        "CVE-2026-33176"
+    ]
+}
