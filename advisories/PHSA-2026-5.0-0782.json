@@ -1,0 +1,21 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libssh",
+                "purl": "pkg:rpm/vmware/libssh?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0782",
+    "modified": "2026-04-09T06:39:52Z",
+    "published": "2026-03-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-782"
+        }
+    ],
+    "related": []
+}
