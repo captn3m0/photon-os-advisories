@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0992",
+    "modified": "2026-04-10T06:29:55Z",
+    "published": "2026-04-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-992"
+        }
+    ],
+    "related": [
+        "CVE-2026-32636"
+    ]
+}
