@@ -6,10 +6,24 @@
                 "name": "ImageMagick",
                 "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0806",
-    "modified": "2026-04-09T06:39:52Z",
+    "modified": "2026-04-11T06:26:03Z",
     "published": "2026-04-07T00:00:00Z",
     "references": [
         {
@@ -20,6 +34,10 @@
     "related": [
         "CVE-2026-33535",
         "CVE-2026-33536",
-        "CVE-2026-32636"
+        "CVE-2026-32636",
+        "CVE-2026-23411",
+        "CVE-2026-23407",
+        "CVE-2026-23408",
+        "CVE-2026-23410"
     ]
 }

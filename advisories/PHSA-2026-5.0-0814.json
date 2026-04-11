@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0814",
+    "modified": "2026-04-11T06:26:03Z",
+    "published": "2026-04-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-814"
+        }
+    ],
+    "related": [
+        "CVE-2026-21714",
+        "CVE-2026-21716",
+        "CVE-2026-21717",
+        "CVE-2026-21710",
+        "CVE-2026-21715",
+        "CVE-2026-21713"
+    ]
+}

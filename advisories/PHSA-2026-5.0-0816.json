@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-PyJWT",
+                "purl": "pkg:rpm/vmware/python3-PyJWT?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-rdiscount",
+                "purl": "pkg:rpm/vmware/rubygem-rdiscount?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0816",
+    "modified": "2026-04-11T06:26:03Z",
+    "published": "2026-04-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-816"
+        }
+    ],
+    "related": [
+        "CVE-2026-35201",
+        "CVE-2026-32597"
+    ]
+}

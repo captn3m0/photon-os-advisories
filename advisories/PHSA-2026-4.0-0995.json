@@ -1,0 +1,55 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rubygem-activesupport",
+                "purl": "pkg:rpm/vmware/rubygem-activesupport?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rubygem-rdiscount",
+                "purl": "pkg:rpm/vmware/rubygem-rdiscount?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-PyJWT",
+                "purl": "pkg:rpm/vmware/python3-PyJWT?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0995",
+    "modified": "2026-04-11T06:26:03Z",
+    "published": "2026-04-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-995"
+        }
+    ],
+    "related": [
+        "CVE-2026-33170",
+        "CVE-2026-33176",
+        "CVE-2026-21714",
+        "CVE-2026-21716",
+        "CVE-2026-21717",
+        "CVE-2026-21710",
+        "CVE-2024-36137",
+        "CVE-2026-35201",
+        "CVE-2026-32597",
+        "CVE-2026-33169",
+        "CVE-2026-21715",
+        "CVE-2026-21713"
+    ]
+}

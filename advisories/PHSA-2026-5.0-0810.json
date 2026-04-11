@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0810",
+    "modified": "2026-04-11T06:26:03Z",
+    "published": "2026-04-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-810"
+        }
+    ],
+    "related": [
+        "CVE-2026-31790",
+        "CVE-2026-28388",
+        "CVE-2026-28390",
+        "CVE-2026-28389",
+        "CVE-2026-28387",
+        "CVE-2026-31789"
+    ]
+}
