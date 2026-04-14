@@ -20,10 +20,17 @@
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0794",
-    "modified": "2026-04-07T06:30:51Z",
+    "modified": "2026-04-14T06:33:56Z",
     "published": "2026-03-24T00:00:00Z",
     "references": [
         {
@@ -42,6 +49,7 @@
         "CVE-2025-71266",
         "CVE-2026-23243",
         "CVE-2026-23241",
-        "CVE-2025-71265"
+        "CVE-2025-71265",
+        "CVE-2025-61144"
     ]
 }

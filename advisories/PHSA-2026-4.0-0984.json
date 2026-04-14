@@ -13,10 +13,17 @@
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-0984",
-    "modified": "2026-04-03T06:27:27Z",
+    "modified": "2026-04-14T06:33:56Z",
     "published": "2026-03-23T00:00:00Z",
     "references": [
         {
@@ -30,6 +37,7 @@
         "CVE-2025-15281",
         "CVE-2026-0915",
         "CVE-2025-0395",
-        "CVE-2025-8058"
+        "CVE-2025-8058",
+        "CVE-2025-61144"
     ]
 }

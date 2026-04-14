@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0994",
+    "modified": "2026-04-14T06:33:56Z",
+    "published": "2026-04-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-994"
+        }
+    ],
+    "related": [
+        "CVE-2026-27654",
+        "CVE-2026-27784",
+        "CVE-2026-32647",
+        "CVE-2026-27651",
+        "CVE-2026-1642",
+        "CVE-2026-33416",
+        "CVE-2026-33636"
+    ]
+}

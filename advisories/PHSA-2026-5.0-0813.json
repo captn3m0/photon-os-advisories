@@ -13,10 +13,17 @@
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-pyasn1",
+                "purl": "pkg:rpm/vmware/python3-pyasn1?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0813",
-    "modified": "2026-04-11T06:26:03Z",
+    "modified": "2026-04-14T06:33:56Z",
     "published": "2026-04-09T00:00:00Z",
     "references": [
         {
@@ -142,6 +149,7 @@
         "CVE-2026-31403",
         "CVE-2026-23303",
         "CVE-2026-23340",
-        "CVE-2026-23284"
+        "CVE-2026-23284",
+        "CVE-2026-30922"
     ]
 }

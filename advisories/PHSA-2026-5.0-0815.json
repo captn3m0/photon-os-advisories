@@ -6,10 +6,24 @@
                 "name": "mysql",
                 "purl": "pkg:rpm/vmware/mysql?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "sudo",
+                "purl": "pkg:rpm/vmware/sudo?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0815",
-    "modified": "2026-04-11T06:26:03Z",
+    "modified": "2026-04-14T06:33:56Z",
     "published": "2026-04-10T00:00:00Z",
     "references": [
         {
@@ -23,6 +37,10 @@
         "CVE-2026-21964",
         "CVE-2026-21936",
         "CVE-2026-21968",
-        "CVE-2026-21948"
+        "CVE-2026-21948",
+        "CVE-2026-35535",
+        "CVE-2026-4775",
+        "CVE-2025-61145",
+        "CVE-2025-61143"
     ]
 }

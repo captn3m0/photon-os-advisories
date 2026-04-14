@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0811",
+    "modified": "2026-04-14T06:33:56Z",
+    "published": "2026-04-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-811"
+        }
+    ],
+    "related": [
+        "CVE-2026-27651",
+        "CVE-2026-27654",
+        "CVE-2026-27784",
+        "CVE-2026-32647"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2025-4.0-0870",
+    "modified": "2026-04-14T06:33:56Z",
+    "published": "2025-09-16T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-870"
+        }
+    ],
+    "related": [
+        "CVE-2025-8534",
+        "CVE-2025-9165",
+        "CVE-2025-8851"
+    ]
+}

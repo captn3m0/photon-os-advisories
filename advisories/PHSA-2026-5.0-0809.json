@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0809",
+    "modified": "2026-04-14T06:33:56Z",
+    "published": "2026-04-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-809"
+        }
+    ],
+    "related": [
+        "CVE-2026-33997",
+        "CVE-2026-34040",
+        "CVE-2025-54388"
+    ]
+}

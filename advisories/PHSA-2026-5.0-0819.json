@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0819",
+    "modified": "2026-04-14T06:33:56Z",
+    "published": "2026-04-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-819"
+        }
+    ],
+    "related": [
+        "CVE-2026-29111"
+    ]
+}

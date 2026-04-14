@@ -27,10 +27,24 @@
                 "name": "python3-PyJWT",
                 "purl": "pkg:rpm/vmware/python3-PyJWT?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-pyasn1",
+                "purl": "pkg:rpm/vmware/python3-pyasn1?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-0995",
-    "modified": "2026-04-11T06:26:03Z",
+    "modified": "2026-04-14T06:33:56Z",
     "published": "2026-04-10T00:00:00Z",
     "references": [
         {
@@ -50,6 +64,10 @@
         "CVE-2026-32597",
         "CVE-2026-33169",
         "CVE-2026-21715",
-        "CVE-2026-21713"
+        "CVE-2026-21713",
+        "CVE-2025-61143",
+        "CVE-2026-4775",
+        "CVE-2025-61145",
+        "CVE-2026-30922"
     ]
 }
