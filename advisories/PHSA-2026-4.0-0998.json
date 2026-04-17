@@ -1,0 +1,32 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0998",
+    "modified": "2026-04-17T06:27:32Z",
+    "published": "2026-04-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-998"
+        }
+    ],
+    "related": [
+        "CVE-2026-31392",
+        "CVE-2026-31405",
+        "CVE-2026-29111"
+    ]
+}

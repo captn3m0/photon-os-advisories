@@ -6,10 +6,17 @@
                 "name": "systemd",
                 "purl": "pkg:rpm/vmware/systemd?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0819",
-    "modified": "2026-04-14T06:33:56Z",
+    "modified": "2026-04-17T06:27:32Z",
     "published": "2026-04-13T00:00:00Z",
     "references": [
         {
@@ -18,6 +25,9 @@
         }
     ],
     "related": [
-        "CVE-2026-29111"
+        "CVE-2026-29111",
+        "CVE-2026-32748",
+        "CVE-2026-33526",
+        "CVE-2026-33515"
     ]
 }

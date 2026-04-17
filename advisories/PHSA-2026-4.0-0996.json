@@ -1,0 +1,25 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0996",
+    "modified": "2026-04-17T06:27:32Z",
+    "published": "2026-04-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-996"
+        }
+    ],
+    "related": [
+        "CVE-2026-32748",
+        "CVE-2026-33526",
+        "CVE-2026-33515"
+    ]
+}

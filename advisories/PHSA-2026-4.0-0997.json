@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "strongswan",
+                "purl": "pkg:rpm/vmware/strongswan?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-0997",
+    "modified": "2026-04-17T06:27:32Z",
+    "published": "2026-04-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-997"
+        }
+    ],
+    "related": [
+        "CVE-2026-25075"
+    ]
+}
