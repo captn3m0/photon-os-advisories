@@ -1,0 +1,40 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-pyOpenSSL",
+                "purl": "pkg:rpm/vmware/python3-pyOpenSSL?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-ujson",
+                "purl": "pkg:rpm/vmware/python3-ujson?distro=photon-4"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-pyasn1",
+                "purl": "pkg:rpm/vmware/python3-pyasn1?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-1000",
+    "modified": "2026-04-18T06:26:29Z",
+    "published": "2026-04-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1000"
+        }
+    ],
+    "related": [
+        "CVE-2026-32875",
+        "CVE-2026-32874",
+        "CVE-2026-23490",
+        "CVE-2026-27459"
+    ]
+}

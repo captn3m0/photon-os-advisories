@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-ujson",
+                "purl": "pkg:rpm/vmware/python3-ujson?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0827",
+    "modified": "2026-04-18T06:26:29Z",
+    "published": "2026-04-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-827"
+        }
+    ],
+    "related": [
+        "CVE-2026-32875",
+        "CVE-2026-32874"
+    ]
+}
