@@ -6,10 +6,17 @@
                 "name": "python3-ujson",
                 "purl": "pkg:rpm/vmware/python3-ujson?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "jq",
+                "purl": "pkg:rpm/vmware/jq?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0827",
-    "modified": "2026-04-18T06:26:29Z",
+    "modified": "2026-04-21T06:32:20Z",
     "published": "2026-04-17T00:00:00Z",
     "references": [
         {
@@ -19,6 +26,12 @@
     ],
     "related": [
         "CVE-2026-32875",
-        "CVE-2026-32874"
+        "CVE-2026-32874",
+        "CVE-2026-40164",
+        "CVE-2026-32316",
+        "CVE-2026-39956",
+        "CVE-2026-33948",
+        "CVE-2026-39979",
+        "CVE-2026-33947"
     ]
 }
