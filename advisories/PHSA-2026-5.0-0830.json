@@ -1,0 +1,82 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "xz",
+                "purl": "pkg:rpm/vmware/xz?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0830",
+    "modified": "2026-04-24T06:31:54Z",
+    "published": "2026-04-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-830"
+        }
+    ],
+    "related": [
+        "CVE-2026-23360",
+        "CVE-2026-31416",
+        "CVE-2026-31417",
+        "CVE-2026-32778",
+        "CVE-2026-31425",
+        "CVE-2026-35386",
+        "CVE-2026-31423",
+        "CVE-2026-23409",
+        "CVE-2026-31428",
+        "CVE-2026-23404",
+        "CVE-2026-31424",
+        "CVE-2026-23403",
+        "CVE-2026-32777",
+        "CVE-2026-31426",
+        "CVE-2026-23442",
+        "CVE-2026-23406",
+        "CVE-2026-35414",
+        "CVE-2026-31421",
+        "CVE-2026-23401",
+        "CVE-2025-71269",
+        "CVE-2026-31415",
+        "CVE-2026-23444",
+        "CVE-2026-23269",
+        "CVE-2026-23414",
+        "CVE-2026-23405",
+        "CVE-2026-31422",
+        "CVE-2026-31427",
+        "CVE-2026-31414",
+        "CVE-2026-31418",
+        "CVE-2026-34743",
+        "CVE-2026-32776",
+        "CVE-2026-35387"
+    ]
+}

@@ -20,10 +20,17 @@
                 "name": "libarchive",
                 "purl": "pkg:rpm/vmware/libarchive?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "protobuf",
+                "purl": "pkg:rpm/vmware/protobuf?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0825",
-    "modified": "2026-04-21T06:32:20Z",
+    "modified": "2026-04-24T06:31:54Z",
     "published": "2026-04-17T00:00:00Z",
     "references": [
         {
@@ -36,6 +43,7 @@
         "CVE-2026-4424",
         "CVE-2026-5121",
         "CVE-2026-4111",
-        "CVE-2026-4426"
+        "CVE-2026-4426",
+        "CVE-2026-0994"
     ]
 }

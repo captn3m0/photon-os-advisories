@@ -20,10 +20,17 @@
                 "name": "python3-pyasn1",
                 "purl": "pkg:rpm/vmware/python3-pyasn1?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "jq",
+                "purl": "pkg:rpm/vmware/jq?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-1000",
-    "modified": "2026-04-18T06:26:29Z",
+    "modified": "2026-04-24T06:31:54Z",
     "published": "2026-04-17T00:00:00Z",
     "references": [
         {
@@ -35,6 +42,12 @@
         "CVE-2026-32875",
         "CVE-2026-32874",
         "CVE-2026-23490",
-        "CVE-2026-27459"
+        "CVE-2026-27459",
+        "CVE-2026-32316",
+        "CVE-2026-40164",
+        "CVE-2026-39979",
+        "CVE-2026-33947",
+        "CVE-2026-39956",
+        "CVE-2026-33948"
     ]
 }
