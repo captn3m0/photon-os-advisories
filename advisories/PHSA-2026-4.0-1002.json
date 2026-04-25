@@ -27,10 +27,17 @@
                 "name": "linux",
                 "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "protobuf",
+                "purl": "pkg:rpm/vmware/protobuf?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-1002",
-    "modified": "2026-04-24T06:31:54Z",
+    "modified": "2026-04-25T06:39:31Z",
     "published": "2026-04-23T00:00:00Z",
     "references": [
         {
@@ -126,6 +133,7 @@
         "CVE-2026-23318",
         "CVE-2026-23290",
         "CVE-2026-23253",
-        "CVE-2026-35387"
+        "CVE-2026-35387",
+        "CVE-2026-0994"
     ]
 }

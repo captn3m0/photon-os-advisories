@@ -34,10 +34,24 @@
                 "name": "expat",
                 "purl": "pkg:rpm/vmware/expat?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-tornado",
+                "purl": "pkg:rpm/vmware/python3-tornado?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0830",
-    "modified": "2026-04-24T06:31:54Z",
+    "modified": "2026-04-25T06:39:31Z",
     "published": "2026-04-23T00:00:00Z",
     "references": [
         {
@@ -77,6 +91,14 @@
         "CVE-2026-31418",
         "CVE-2026-34743",
         "CVE-2026-32776",
-        "CVE-2026-35387"
+        "CVE-2026-35387",
+        "CVE-2026-32288",
+        "CVE-2026-35385",
+        "CVE-2024-47736",
+        "CVE-2026-35388",
+        "CVE-2026-27143",
+        "CVE-2026-31958",
+        "CVE-2026-27144",
+        "CVE-2026-32289"
     ]
 }

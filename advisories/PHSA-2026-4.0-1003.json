@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3-tornado",
+                "purl": "pkg:rpm/vmware/python3-tornado?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-1003",
+    "modified": "2026-04-25T06:39:31Z",
+    "published": "2026-04-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1003"
+        }
+    ],
+    "related": [
+        "CVE-2026-31958"
+    ]
+}
