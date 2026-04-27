@@ -6,10 +6,30 @@
                 "name": "vim",
                 "purl": "pkg:rpm/vmware/vim?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "9.1.1898-2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0774",
-    "modified": "2026-02-27T06:21:39Z",
+    "modified": "2026-04-26T06:25:27Z",
     "published": "2026-02-25T00:00:00Z",
     "references": [
         {

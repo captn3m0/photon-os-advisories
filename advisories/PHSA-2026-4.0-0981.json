@@ -6,10 +6,30 @@
                 "name": "binutils",
                 "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.35-18.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-0981",
-    "modified": "2026-03-19T06:29:29Z",
+    "modified": "2026-04-26T06:25:27Z",
     "published": "2026-03-18T00:00:00Z",
     "references": [
         {

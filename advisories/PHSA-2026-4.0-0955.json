@@ -6,10 +6,30 @@
                 "name": "squid",
                 "purl": "pkg:rpm/vmware/squid?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.6-7.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-0955",
-    "modified": "2026-04-01T06:41:55Z",
+    "modified": "2026-04-26T06:25:27Z",
     "published": "2026-02-03T00:00:00Z",
     "references": [
         {

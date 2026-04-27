@@ -6,10 +6,30 @@
                 "name": "strongswan",
                 "purl": "pkg:rpm/vmware/strongswan?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "strongswan",
+                "purl": "pkg:rpm/vmware/strongswan?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.9.8-6.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-0997",
-    "modified": "2026-04-17T06:27:32Z",
+    "modified": "2026-04-26T06:25:27Z",
     "published": "2026-04-13T00:00:00Z",
     "references": [
         {

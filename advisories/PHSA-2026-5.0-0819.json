@@ -13,10 +13,50 @@
                 "name": "squid",
                 "purl": "pkg:rpm/vmware/squid?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "squid",
+                "purl": "pkg:rpm/vmware/squid?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.12-5.2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "253.19-17.2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0819",
-    "modified": "2026-04-17T06:27:32Z",
+    "modified": "2026-04-26T06:25:27Z",
     "published": "2026-04-13T00:00:00Z",
     "references": [
         {

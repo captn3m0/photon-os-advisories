@@ -13,10 +13,50 @@
                 "name": "nss",
                 "purl": "pkg:rpm/vmware/nss?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "mozjs",
+                "purl": "pkg:rpm/vmware/mozjs?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "140.7.0-2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nss",
+                "purl": "pkg:rpm/vmware/nss?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.78-12.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0801",
-    "modified": "2026-04-07T06:30:51Z",
+    "modified": "2026-04-26T06:25:27Z",
     "published": "2026-03-28T00:00:00Z",
     "references": [
         {

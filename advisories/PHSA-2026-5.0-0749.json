@@ -6,10 +6,30 @@
                 "name": "glibc",
                 "purl": "pkg:rpm/vmware/glibc?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.36-22.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0749",
-    "modified": "2026-02-13T06:13:48Z",
+    "modified": "2026-04-26T06:25:27Z",
     "published": "2026-01-30T00:00:00Z",
     "references": [
         {

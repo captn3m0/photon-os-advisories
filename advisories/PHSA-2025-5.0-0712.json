@@ -6,10 +6,30 @@
                 "name": "iptraf-ng",
                 "purl": "pkg:rpm/vmware/iptraf-ng?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "iptraf-ng",
+                "purl": "pkg:rpm/vmware/iptraf-ng?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.2-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2025-5.0-0712",
-    "modified": "2025-12-17T05:51:51Z",
+    "modified": "2026-04-26T06:25:27Z",
     "published": "2025-12-12T00:00:00Z",
     "references": [
         {

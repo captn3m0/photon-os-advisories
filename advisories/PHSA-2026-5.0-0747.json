@@ -6,10 +6,30 @@
                 "name": "openssl",
                 "purl": "pkg:rpm/vmware/openssl?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0.18-2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0747",
-    "modified": "2026-01-30T06:40:47Z",
+    "modified": "2026-04-26T06:25:27Z",
     "published": "2026-01-29T00:00:00Z",
     "references": [
         {
