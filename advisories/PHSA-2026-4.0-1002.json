@@ -134,10 +134,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.1.2.19-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-1002",
-    "modified": "2026-04-26T06:25:27Z",
+    "modified": "2026-04-29T06:31:11Z",
     "published": "2026-04-23T00:00:00Z",
     "references": [
         {
@@ -234,6 +254,20 @@
         "CVE-2026-23290",
         "CVE-2026-23253",
         "CVE-2026-35387",
-        "CVE-2026-0994"
+        "CVE-2026-0994",
+        "CVE-2026-40312",
+        "CVE-2026-33899",
+        "CVE-2026-34238",
+        "CVE-2026-40311",
+        "CVE-2026-33900",
+        "CVE-2026-33901",
+        "CVE-2026-33535",
+        "CVE-2026-40169",
+        "CVE-2026-33536",
+        "CVE-2026-40183",
+        "CVE-2026-33905",
+        "CVE-2026-40310",
+        "CVE-2026-33908",
+        "CVE-2026-33902"
     ]
 }
