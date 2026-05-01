@@ -1,0 +1,42 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "cups",
+                "purl": "pkg:rpm/vmware/cups?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.18-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-0837",
+    "modified": "2026-05-01T06:28:46Z",
+    "published": "2026-04-30T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-837"
+        }
+    ],
+    "related": [
+        "CVE-2026-39316",
+        "CVE-2026-34990",
+        "CVE-2026-27447",
+        "CVE-2026-39314",
+        "CVE-2026-34980",
+        "CVE-2026-34979",
+        "CVE-2026-34978"
+    ]
+}
