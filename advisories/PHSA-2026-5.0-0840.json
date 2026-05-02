@@ -1,0 +1,38 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-pip",
+                "purl": "pkg:rpm/vmware/python3-pip?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "24.3.1-5.3.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-0840",
+    "modified": "2026-05-02T06:23:22Z",
+    "published": "2026-05-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-840"
+        }
+    ],
+    "related": [
+        "CVE-2025-66471",
+        "CVE-2025-66418",
+        "CVE-2026-21441"
+    ]
+}
