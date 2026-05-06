@@ -1,0 +1,60 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "telegraf",
+                "purl": "pkg:rpm/vmware/telegraf?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.36.4-2.3.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "grpc",
+                "purl": "pkg:rpm/vmware/grpc?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.59.5-4.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-0841",
+    "modified": "2026-05-06T06:31:06Z",
+    "published": "2026-05-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-841"
+        }
+    ],
+    "related": [
+        "CVE-2026-27889",
+        "CVE-2026-33216",
+        "CVE-2026-33186",
+        "CVE-2026-29785",
+        "CVE-2026-33218"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rubygem-addressable",
+                "purl": "pkg:rpm/vmware/rubygem-addressable?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.7.0-3.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "erlang",
+                "purl": "pkg:rpm/vmware/erlang?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "27.3.4.10-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-4.0-1005",
+    "modified": "2026-05-06T06:31:06Z",
+    "published": "2026-04-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1005"
+        }
+    ],
+    "related": [
+        "CVE-2026-28810",
+        "CVE-2026-28808",
+        "CVE-2026-23941",
+        "CVE-2026-21620",
+        "CVE-2026-32144",
+        "CVE-2026-35611",
+        "CVE-2026-23942",
+        "CVE-2026-23943"
+    ]
+}
