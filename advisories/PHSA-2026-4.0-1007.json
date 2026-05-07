@@ -19,10 +19,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "8.19.0-2.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-1007",
-    "modified": "2026-05-06T06:31:06Z",
+    "modified": "2026-05-07T06:27:05Z",
     "published": "2026-04-30T00:00:00Z",
     "references": [
         {
@@ -32,6 +52,12 @@
     ],
     "related": [
         "CVE-2026-4426",
-        "CVE-2026-5121"
+        "CVE-2026-5121",
+        "CVE-2026-6276",
+        "CVE-2026-6429",
+        "CVE-2026-4873",
+        "CVE-2026-5773",
+        "CVE-2026-5545",
+        "CVE-2026-6253"
     ]
 }

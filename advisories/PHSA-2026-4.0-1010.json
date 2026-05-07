@@ -19,10 +19,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "dotnet-runtime",
+                "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "8.0.26-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-1010",
-    "modified": "2026-05-06T06:31:06Z",
+    "modified": "2026-05-07T06:27:05Z",
     "published": "2026-05-05T00:00:00Z",
     "references": [
         {
@@ -32,6 +52,9 @@
     ],
     "related": [
         "CVE-2026-34040",
-        "CVE-2026-33997"
+        "CVE-2026-33997",
+        "CVE-2026-33116",
+        "CVE-2026-32178",
+        "CVE-2026-26171"
     ]
 }
