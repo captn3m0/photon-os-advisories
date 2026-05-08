@@ -6,10 +6,30 @@
                 "name": "libssh",
                 "purl": "pkg:rpm/vmware/libssh?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.10.251-4.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-0974",
-    "modified": "2026-03-07T06:24:58Z",
+    "modified": "2026-05-08T06:26:42Z",
     "published": "2026-03-07T00:00:00Z",
     "references": [
         {
@@ -17,5 +37,7 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-974"
         }
     ],
-    "related": []
+    "related": [
+        "CVE-2024-47745"
+    ]
 }
