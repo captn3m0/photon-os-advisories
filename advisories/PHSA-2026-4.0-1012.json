@@ -1,0 +1,62 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "9.2.0136-2.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "etcd",
+                "purl": "pkg:rpm/vmware/etcd?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.5.30-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-4.0-1012",
+    "modified": "2026-05-09T06:35:04Z",
+    "published": "2026-05-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1012"
+        }
+    ],
+    "related": [
+        "CVE-2026-33412",
+        "CVE-2026-33343",
+        "CVE-2026-32249",
+        "CVE-2026-34714",
+        "CVE-2026-34982",
+        "CVE-2026-33413",
+        "CVE-2026-35177"
+    ]
+}
