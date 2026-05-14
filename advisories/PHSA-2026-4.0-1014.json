@@ -1,0 +1,89 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.67-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "systemd",
+                "purl": "pkg:rpm/vmware/systemd?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "247.13-20.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.10.20-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-4.0-1014",
+    "modified": "2026-05-14T06:33:51Z",
+    "published": "2026-05-13T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1014"
+        }
+    ],
+    "related": [
+        "CVE-2024-11168",
+        "CVE-2025-6075",
+        "CVE-2025-1795",
+        "CVE-2026-4224",
+        "CVE-2026-40226",
+        "CVE-2026-3644",
+        "CVE-2025-6069",
+        "CVE-2026-0672",
+        "CVE-2025-13837",
+        "CVE-2026-40225",
+        "CVE-2026-23918",
+        "CVE-2025-12084",
+        "CVE-2025-8291",
+        "CVE-2026-4786"
+    ]
+}
