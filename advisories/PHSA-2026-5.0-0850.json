@@ -1,0 +1,41 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "chromium",
+                "purl": "pkg:rpm/vmware/chromium?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0850",
+    "modified": "2026-05-16T06:33:54Z",
+    "published": "2026-05-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-850"
+        }
+    ],
+    "related": [
+        "CVE-2025-8291",
+        "CVE-2025-6069",
+        "CVE-2025-6075",
+        "CVE-2026-5281",
+        "CVE-2025-12084",
+        "CVE-2026-4786",
+        "CVE-2026-3644",
+        "CVE-2025-11468",
+        "CVE-2025-13837",
+        "CVE-2026-0672",
+        "CVE-2026-4224",
+        "CVE-2025-15282"
+    ]
+}

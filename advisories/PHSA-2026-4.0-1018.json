@@ -1,0 +1,21 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rubygem-nokogiri",
+                "purl": "pkg:rpm/vmware/rubygem-nokogiri?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-1018",
+    "modified": "2026-05-16T06:33:54Z",
+    "published": "2026-05-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1018"
+        }
+    ],
+    "related": []
+}
