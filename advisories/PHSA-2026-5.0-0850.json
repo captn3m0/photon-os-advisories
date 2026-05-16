@@ -13,10 +13,50 @@
                 "name": "python3",
                 "purl": "pkg:rpm/vmware/python3?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "chromium",
+                "purl": "pkg:rpm/vmware/chromium?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "148.0.7778.165-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.11.15-1.1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0850",
-    "modified": "2026-05-16T06:33:54Z",
+    "modified": "2026-05-16T14:54:00Z",
     "published": "2026-05-15T00:00:00Z",
     "references": [
         {
