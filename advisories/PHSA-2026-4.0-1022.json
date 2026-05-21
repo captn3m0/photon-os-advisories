@@ -3,15 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "gnutls",
-                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "gnutls",
-                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-4"
             },
             "ranges": [
                 {
@@ -20,25 +13,31 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "3.7.10-7.ph4"
+                            "fixed": "2.8.1-1.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "strongswan",
+                "purl": "pkg:rpm/vmware/strongswan?distro=photon-4"
+            }
         }
     ],
-    "id": "PHSA-2026-4.0-1016",
+    "id": "PHSA-2026-4.0-1022",
     "modified": "2026-05-21T06:40:19Z",
-    "published": "2026-05-13T00:00:00Z",
+    "published": "2026-05-20T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1016"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1022"
         }
     ],
     "related": [
-        "CVE-2026-42010",
-        "CVE-2026-33845"
+        "CVE-2026-45186"
     ]
 }
