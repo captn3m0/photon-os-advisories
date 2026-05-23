@@ -6,10 +6,30 @@
                 "name": "gnutls",
                 "purl": "pkg:rpm/vmware/gnutls?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.8.13-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0852",
-    "modified": "2026-05-17T06:38:32Z",
+    "modified": "2026-05-23T06:34:23Z",
     "published": "2026-05-17T00:00:00Z",
     "references": [
         {
@@ -17,5 +37,11 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-852"
         }
     ],
-    "related": []
+    "related": [
+        "CVE-2026-42010",
+        "CVE-2026-42011",
+        "CVE-2026-3833",
+        "CVE-2026-33845",
+        "CVE-2026-33846"
+    ]
 }
