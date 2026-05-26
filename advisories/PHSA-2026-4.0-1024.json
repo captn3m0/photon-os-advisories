@@ -1,0 +1,21 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gnutls",
+                "purl": "pkg:rpm/vmware/gnutls?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-1024",
+    "modified": "2026-05-26T06:40:29Z",
+    "published": "2026-05-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1024"
+        }
+    ],
+    "related": []
+}
