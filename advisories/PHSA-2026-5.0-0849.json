@@ -19,10 +19,50 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.12.87-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.12.87-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0849",
-    "modified": "2026-05-15T06:32:34Z",
+    "modified": "2026-06-03T06:37:16Z",
     "published": "2026-05-14T00:00:00Z",
     "references": [
         {
@@ -31,6 +71,12 @@
         }
     ],
     "related": [
-        "CVE-2026-6409"
+        "CVE-2026-6409",
+        "CVE-2026-43114",
+        "CVE-2026-43117",
+        "CVE-2026-43071",
+        "CVE-2026-31709",
+        "CVE-2026-31707",
+        "CVE-2026-43099"
     ]
 }
