@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "gstreamer",
-                "purl": "pkg:rpm/vmware/gstreamer?distro=photon-4"
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "1.26.11-1.ph4"
+                            "fixed": "1.25.1-1.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -23,15 +23,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "gstreamer",
-                "purl": "pkg:rpm/vmware/gstreamer?distro=photon-4"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:4.0",
-                "name": "gst-plugins-bad",
-                "purl": "pkg:rpm/vmware/gst-plugins-bad?distro=photon-4"
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             },
             "ranges": [
                 {
@@ -40,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "1.26.11-1.ph4"
+                            "fixed": "5.10.255-4.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -48,20 +41,24 @@
             ]
         }
     ],
-    "id": "PHSA-2026-4.0-1015",
+    "id": "PHSA-2026-4.0-1027",
     "modified": "2026-06-04T06:40:27Z",
-    "published": "2026-05-13T00:00:00Z",
+    "published": "2026-06-03T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1015"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1027"
         }
     ],
     "related": [
-        "CVE-2026-3082",
-        "CVE-2026-3086",
-        "CVE-2026-2923",
-        "CVE-2026-3081",
-        "CVE-2026-3084"
+        "CVE-2026-43125",
+        "CVE-2026-42959",
+        "CVE-2026-43071",
+        "CVE-2026-41292",
+        "CVE-2026-42960",
+        "CVE-2026-40622",
+        "CVE-2026-42944",
+        "CVE-2026-43198",
+        "CVE-2026-33278"
     ]
 }
