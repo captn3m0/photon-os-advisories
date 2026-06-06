@@ -99,10 +99,50 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.175-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.175-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0862",
-    "modified": "2026-06-04T06:40:27Z",
+    "modified": "2026-06-06T06:38:55Z",
     "published": "2026-06-03T00:00:00Z",
     "references": [
         {
@@ -122,6 +162,32 @@
         "CVE-2026-33278",
         "CVE-2026-3219",
         "CVE-2026-5657",
-        "CVE-2026-7375"
+        "CVE-2026-7375",
+        "CVE-2023-53989",
+        "CVE-2026-23468",
+        "CVE-2025-38710",
+        "CVE-2026-31673",
+        "CVE-2024-36922",
+        "CVE-2026-31449",
+        "CVE-2026-31686",
+        "CVE-2025-40347",
+        "CVE-2026-31642",
+        "CVE-2025-22105",
+        "CVE-2023-54322",
+        "CVE-2024-56657",
+        "CVE-2026-31488",
+        "CVE-2025-68823",
+        "CVE-2025-68315",
+        "CVE-2026-31676",
+        "CVE-2026-23399",
+        "CVE-2025-68201",
+        "CVE-2026-31684",
+        "CVE-2023-53292",
+        "CVE-2026-23473",
+        "CVE-2025-37864",
+        "CVE-2026-31407",
+        "CVE-2026-43350",
+        "CVE-2026-31681",
+        "CVE-2024-53221"
     ]
 }

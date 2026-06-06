@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "cups",
-                "purl": "pkg:rpm/vmware/cups?distro=photon-5"
+                "name": "dnsmasq",
+                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-5"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "2.4.18-1.ph5"
+                            "fixed": "2.92rel2-1.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,23 +21,16 @@
             ]
         }
     ],
-    "id": "PHSA-2026-5.0-0837",
+    "id": "PHSA-2026-5.0-0866",
     "modified": "2026-06-06T06:38:55Z",
-    "published": "2026-04-30T00:00:00Z",
+    "published": "2026-06-06T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-837"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-866"
         }
     ],
     "related": [
-        "CVE-2026-39316",
-        "CVE-2026-34990",
-        "CVE-2026-27447",
-        "CVE-2026-39314",
-        "CVE-2026-34980",
-        "CVE-2026-34979",
-        "CVE-2026-34978",
-        "CVE-2026-41079"
+        "CVE-2026-2291"
     ]
 }
