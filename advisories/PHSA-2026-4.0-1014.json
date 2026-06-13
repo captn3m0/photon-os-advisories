@@ -59,10 +59,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.10.255-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-1014",
-    "modified": "2026-05-21T06:40:19Z",
+    "modified": "2026-06-13T06:38:57Z",
     "published": "2026-05-13T00:00:00Z",
     "references": [
         {
@@ -99,6 +119,7 @@
         "CVE-2024-43204",
         "CVE-2026-24072",
         "CVE-2024-43394",
-        "CVE-2026-28780"
+        "CVE-2026-28780",
+        "CVE-2026-43284"
     ]
 }
