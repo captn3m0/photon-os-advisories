@@ -1,0 +1,38 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "9.20.23-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-0876",
+    "modified": "2026-06-16T06:47:47Z",
+    "published": "2026-06-11T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-876"
+        }
+    ],
+    "related": [
+        "CVE-2026-5946",
+        "CVE-2026-3593",
+        "CVE-2026-3039"
+    ]
+}
