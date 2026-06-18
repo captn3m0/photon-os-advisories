@@ -1,0 +1,60 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.26.3-3.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "dotnet-runtime",
+                "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "8.0.28-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-4.0-1036",
+    "modified": "2026-06-18T06:49:16Z",
+    "published": "2026-06-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1036"
+        }
+    ],
+    "related": [
+        "CVE-2026-42899",
+        "CVE-2026-32177",
+        "CVE-2026-35433",
+        "CVE-2026-42945",
+        "CVE-2026-9256"
+    ]
+}
