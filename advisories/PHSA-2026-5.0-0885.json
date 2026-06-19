@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "dotnet-runtime",
-                "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-5"
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-5"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "10.0.9-1.ph5"
+                            "fixed": "2.41.4-3.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -23,8 +23,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "freetype2",
-                "purl": "pkg:rpm/vmware/freetype2?distro=photon-5"
+                "name": "rsync",
+                "purl": "pkg:rpm/vmware/rsync?distro=photon-5"
             },
             "ranges": [
                 {
@@ -33,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "2.13.3-2.ph5"
+                            "fixed": "3.4.4-1.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -43,8 +43,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "frr",
-                "purl": "pkg:rpm/vmware/frr?distro=photon-5"
+                "name": "jq",
+                "purl": "pkg:rpm/vmware/jq?distro=photon-5"
             },
             "ranges": [
                 {
@@ -53,7 +53,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "10.5.4-0.1.ph5"
+                            "fixed": "1.8.1-4.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -61,20 +61,30 @@
             ]
         }
     ],
-    "id": "PHSA-2026-5.0-0884",
+    "id": "PHSA-2026-5.0-0885",
     "modified": "2026-06-19T06:45:31Z",
     "published": "2026-06-18T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-884"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-885"
         }
     ],
     "related": [
-        "CVE-2026-45490",
-        "CVE-2026-45491",
-        "CVE-2026-23865",
-        "CVE-2026-5107",
-        "CVE-2026-28532"
+        "CVE-2026-43896",
+        "CVE-2026-3184",
+        "CVE-2026-45232",
+        "CVE-2026-41257",
+        "CVE-2026-43894",
+        "CVE-2026-43620",
+        "CVE-2026-43617",
+        "CVE-2026-43618",
+        "CVE-2026-43619",
+        "CVE-2025-10158",
+        "CVE-2026-44777",
+        "CVE-2026-41256",
+        "CVE-2026-40612",
+        "CVE-2026-43895",
+        "CVE-2026-29518"
     ]
 }

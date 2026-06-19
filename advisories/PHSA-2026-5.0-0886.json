@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "dotnet-runtime",
-                "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-5"
+                "name": "libsolv",
+                "purl": "pkg:rpm/vmware/libsolv?distro=photon-5"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "10.0.9-1.ph5"
+                            "fixed": "0.7.22-7.2.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -23,8 +23,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "freetype2",
-                "purl": "pkg:rpm/vmware/freetype2?distro=photon-5"
+                "name": "nano",
+                "purl": "pkg:rpm/vmware/nano?distro=photon-5"
             },
             "ranges": [
                 {
@@ -33,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "2.13.3-2.ph5"
+                            "fixed": "8.2-4.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -43,8 +43,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "frr",
-                "purl": "pkg:rpm/vmware/frr?distro=photon-5"
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-5"
             },
             "ranges": [
                 {
@@ -53,7 +53,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "10.5.4-0.1.ph5"
+                            "fixed": "4.19.3-20.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -61,20 +61,20 @@
             ]
         }
     ],
-    "id": "PHSA-2026-5.0-0884",
+    "id": "PHSA-2026-5.0-0886",
     "modified": "2026-06-19T06:45:31Z",
     "published": "2026-06-18T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-884"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-886"
         }
     ],
     "related": [
-        "CVE-2026-45490",
-        "CVE-2026-45491",
-        "CVE-2026-23865",
-        "CVE-2026-5107",
-        "CVE-2026-28532"
+        "CVE-2026-6843",
+        "CVE-2026-4408",
+        "CVE-2026-4480",
+        "CVE-2026-9149",
+        "CVE-2026-9150"
     ]
 }
