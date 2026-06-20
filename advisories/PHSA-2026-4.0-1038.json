@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "unbound",
-                "purl": "pkg:rpm/vmware/unbound?distro=photon-4"
+                "name": "coredns",
+                "purl": "pkg:rpm/vmware/coredns?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "1.25.1-1.ph4"
+                            "fixed": "1.14.3-1.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -23,8 +23,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+                "name": "python3-pip",
+                "purl": "pkg:rpm/vmware/python3-pip?distro=photon-4"
             },
             "ranges": [
                 {
@@ -33,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "5.10.255-4.ph4"
+                            "fixed": "23.3.2-7.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -41,29 +41,23 @@
             ]
         }
     ],
-    "id": "PHSA-2026-4.0-1027",
+    "id": "PHSA-2026-4.0-1038",
     "modified": "2026-06-20T06:42:25Z",
-    "published": "2026-06-03T00:00:00Z",
+    "published": "2026-06-19T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1027"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1038"
         }
     ],
     "related": [
-        "CVE-2026-43125",
-        "CVE-2026-42959",
-        "CVE-2026-43071",
-        "CVE-2026-41292",
-        "CVE-2026-42960",
-        "CVE-2026-40622",
-        "CVE-2026-42944",
-        "CVE-2026-43198",
-        "CVE-2026-33278",
-        "CVE-2026-42534",
-        "CVE-2026-32792",
-        "CVE-2026-44608",
-        "CVE-2026-42923",
-        "CVE-2026-44390"
+        "CVE-2024-37891",
+        "CVE-2026-26017",
+        "CVE-2026-33190",
+        "CVE-2025-68151",
+        "CVE-2026-32934",
+        "CVE-2026-35579",
+        "CVE-2026-32936",
+        "CVE-2026-33489"
     ]
 }
