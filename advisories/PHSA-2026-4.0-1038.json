@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rsync",
+                "purl": "pkg:rpm/vmware/rsync?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.4.4-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-1038",
-    "modified": "2026-06-20T06:42:25Z",
+    "modified": "2026-06-24T06:47:14Z",
     "published": "2026-06-19T00:00:00Z",
     "references": [
         {
@@ -58,6 +78,8 @@
         "CVE-2026-32934",
         "CVE-2026-35579",
         "CVE-2026-32936",
-        "CVE-2026-33489"
+        "CVE-2026-33489",
+        "CVE-2026-29518",
+        "CVE-2026-43618"
     ]
 }
