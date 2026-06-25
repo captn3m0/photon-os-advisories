@@ -1,0 +1,50 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "ImageMagick",
+                "purl": "pkg:rpm/vmware/ImageMagick?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-1040",
+    "modified": "2026-06-25T06:43:56Z",
+    "published": "2026-06-23T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1040"
+        }
+    ],
+    "related": [
+        "CVE-2026-46521",
+        "CVE-2026-46693",
+        "CVE-2026-53461",
+        "CVE-2026-45031",
+        "CVE-2026-46557",
+        "CVE-2026-48733",
+        "CVE-2026-45624",
+        "CVE-2026-46692",
+        "CVE-2026-53462",
+        "CVE-2026-48994",
+        "CVE-2026-53463",
+        "CVE-2026-48734",
+        "CVE-2026-46520",
+        "CVE-2026-53460",
+        "CVE-2026-46523",
+        "CVE-2026-46522",
+        "CVE-2026-45359",
+        "CVE-2026-46559",
+        "CVE-2026-48724",
+        "CVE-2026-53464",
+        "CVE-2026-49218",
+        "CVE-2026-47166",
+        "CVE-2026-47165",
+        "CVE-2026-49219",
+        "CVE-2026-42326",
+        "CVE-2026-45358",
+        "CVE-2026-45664",
+        "CVE-2026-53465"
+    ]
+}
