@@ -53,10 +53,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "mariadb",
+                "purl": "pkg:rpm/vmware/mariadb?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-1041",
-    "modified": "2026-06-25T09:45:17Z",
+    "modified": "2026-06-26T06:43:40Z",
     "published": "2026-06-24T00:00:00Z",
     "references": [
         {
@@ -69,6 +76,13 @@
         "CVE-2026-48617",
         "CVE-2026-48937",
         "CVE-2026-23392",
-        "CVE-2026-23449"
+        "CVE-2026-23449",
+        "CVE-2026-44168",
+        "CVE-2026-49261",
+        "CVE-2026-44173",
+        "CVE-2026-44170",
+        "CVE-2026-48163",
+        "CVE-2026-44171",
+        "CVE-2026-48165"
     ]
 }

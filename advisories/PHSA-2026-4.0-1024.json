@@ -9,7 +9,7 @@
         }
     ],
     "id": "PHSA-2026-4.0-1024",
-    "modified": "2026-05-26T06:40:29Z",
+    "modified": "2026-06-26T06:43:40Z",
     "published": "2026-05-23T00:00:00Z",
     "references": [
         {
@@ -17,5 +17,7 @@
             "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1024"
         }
     ],
-    "related": []
+    "related": [
+        "CVE-2026-42009"
+    ]
 }
