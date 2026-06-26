@@ -60,10 +60,30 @@
                 "name": "mariadb",
                 "purl": "pkg:rpm/vmware/mariadb?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "mariadb",
+                "purl": "pkg:rpm/vmware/mariadb?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "10.11.18-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-1041",
-    "modified": "2026-06-26T06:43:40Z",
+    "modified": "2026-06-26T12:21:16Z",
     "published": "2026-06-24T00:00:00Z",
     "references": [
         {
