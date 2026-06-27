@@ -59,10 +59,50 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "erlang",
+                "purl": "pkg:rpm/vmware/erlang?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "27.3.4.13-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "redis",
+                "purl": "pkg:rpm/vmware/redis?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.2.14-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-1038",
-    "modified": "2026-06-24T06:47:14Z",
+    "modified": "2026-06-27T06:40:33Z",
     "published": "2026-06-19T00:00:00Z",
     "references": [
         {
@@ -80,6 +120,19 @@
         "CVE-2026-32936",
         "CVE-2026-33489",
         "CVE-2026-29518",
-        "CVE-2026-43618"
+        "CVE-2026-43618",
+        "CVE-2026-23631",
+        "CVE-2026-32147",
+        "CVE-2026-42789",
+        "CVE-2026-42790",
+        "CVE-2026-25243",
+        "CVE-2026-48858",
+        "CVE-2026-48855",
+        "CVE-2026-23479",
+        "CVE-2026-49759",
+        "CVE-2026-49760",
+        "CVE-2026-42791",
+        "CVE-2026-48856",
+        "CVE-2026-48860"
     ]
 }

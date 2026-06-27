@@ -113,10 +113,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.45-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0874",
-    "modified": "2026-06-23T06:46:55Z",
+    "modified": "2026-06-27T06:40:33Z",
     "published": "2026-06-11T00:00:00Z",
     "references": [
         {
@@ -158,6 +178,14 @@
         "CVE-2022-23308",
         "CVE-2020-7595",
         "CVE-2021-3541",
-        "CVE-2016-3709"
+        "CVE-2016-3709",
+        "CVE-2025-8732",
+        "CVE-2026-0992",
+        "CVE-2025-11731",
+        "CVE-2026-1757",
+        "CVE-2025-10911",
+        "CVE-2026-0990",
+        "CVE-2023-40403",
+        "CVE-2026-0989"
     ]
 }

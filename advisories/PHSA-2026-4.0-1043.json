@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:4.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+                "name": "memcached",
+                "purl": "pkg:rpm/vmware/memcached?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "5.10.255-3.ph4"
+                            "fixed": "1.6.22-2.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,18 +21,17 @@
             ]
         }
     ],
-    "id": "PHSA-2026-4.0-1025",
+    "id": "PHSA-2026-4.0-1043",
     "modified": "2026-06-27T06:40:33Z",
-    "published": "2026-05-29T00:00:00Z",
+    "published": "2026-06-26T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1025"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1043"
         }
     ],
     "related": [
-        "CVE-2026-31407",
-        "CVE-2026-43456",
-        "CVE-2026-43091"
+        "CVE-2026-47784",
+        "CVE-2026-47783"
     ]
 }

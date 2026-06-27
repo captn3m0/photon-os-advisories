@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-Pygments",
+                "purl": "pkg:rpm/vmware/python3-Pygments?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.19.2-2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0855",
-    "modified": "2026-06-17T06:47:34Z",
+    "modified": "2026-06-27T06:40:33Z",
     "published": "2026-05-22T00:00:00Z",
     "references": [
         {
@@ -52,6 +72,7 @@
     ],
     "related": [
         "CVE-2026-35554",
-        "CVE-2025-14010"
+        "CVE-2025-14010",
+        "CVE-2022-40896"
     ]
 }
