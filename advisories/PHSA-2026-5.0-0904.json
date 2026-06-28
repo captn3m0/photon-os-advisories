@@ -1,0 +1,91 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.176-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.176-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "memcached",
+                "purl": "pkg:rpm/vmware/memcached?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.6.22-4.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-0904",
+    "modified": "2026-06-28T06:50:06Z",
+    "published": "2026-06-27T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-904"
+        }
+    ],
+    "related": [
+        "CVE-2026-43303",
+        "CVE-2026-46052",
+        "CVE-2026-46038",
+        "CVE-2026-46003",
+        "CVE-2026-45991",
+        "CVE-2026-47784",
+        "CVE-2026-47783",
+        "CVE-2026-45999",
+        "CVE-2026-46021",
+        "CVE-2026-46169",
+        "CVE-2026-46191",
+        "CVE-2026-45996",
+        "CVE-2026-45993",
+        "CVE-2026-46180",
+        "CVE-2026-46005",
+        "CVE-2026-46026"
+    ]
+}
