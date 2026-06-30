@@ -3,8 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "perl",
-                "purl": "pkg:rpm/vmware/perl?distro=photon-5"
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-5"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "5.42.2-2.ph5"
+                            "fixed": "8.4.10-1.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -23,8 +23,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "libssh2",
-                "purl": "pkg:rpm/vmware/libssh2?distro=photon-5"
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-5"
             },
             "ranges": [
                 {
@@ -33,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "1.11.1-4.ph5"
+                            "fixed": "9.2.0670-2.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -41,17 +41,26 @@
             ]
         }
     ],
-    "id": "PHSA-2026-5.0-0900",
+    "id": "PHSA-2026-5.0-0908",
     "modified": "2026-06-30T06:50:05Z",
-    "published": "2026-06-26T00:00:00Z",
+    "published": "2026-06-29T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-900"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-908"
         }
     ],
     "related": [
-        "CVE-2026-8376",
-        "CVE-2026-55200"
+        "CVE-2026-44656",
+        "CVE-2026-47162",
+        "CVE-2026-39881",
+        "CVE-2026-52860",
+        "CVE-2026-52858",
+        "CVE-2026-42307",
+        "CVE-2026-45130",
+        "CVE-2026-41411",
+        "CVE-2026-47167",
+        "CVE-2026-52859",
+        "CVE-2026-46863"
     ]
 }
