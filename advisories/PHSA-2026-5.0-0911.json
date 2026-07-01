@@ -3,36 +3,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "nodejs",
-                "purl": "pkg:rpm/vmware/nodejs?distro=photon-5"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "mariadb",
-                "purl": "pkg:rpm/vmware/mariadb?distro=photon-5"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "nodejs",
-                "purl": "pkg:rpm/vmware/nodejs?distro=photon-5"
+                "name": "rubygem-nokogiri",
+                "purl": "pkg:rpm/vmware/rubygem-nokogiri?distro=photon-5"
             },
             "ranges": [
                 {
@@ -41,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "24.17.0-1.ph5"
+                            "fixed": "1.19.4-1.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -51,8 +23,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "mariadb",
-                "purl": "pkg:rpm/vmware/mariadb?distro=photon-5"
+                "name": "python3-mistune",
+                "purl": "pkg:rpm/vmware/python3-mistune?distro=photon-5"
             },
             "ranges": [
                 {
@@ -61,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "11.8.8-1.ph5"
+                            "fixed": "3.2.0-4.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -71,8 +43,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+                "name": "rubygem-faraday",
+                "purl": "pkg:rpm/vmware/rubygem-faraday?distro=photon-5"
             },
             "ranges": [
                 {
@@ -81,7 +53,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "6.1.175-11.ph5"
+                            "fixed": "2.14.3-1.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -91,8 +63,8 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+                "name": "python3-urllib3",
+                "purl": "pkg:rpm/vmware/python3-urllib3?distro=photon-5"
             },
             "ranges": [
                 {
@@ -101,7 +73,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "6.1.175-12.ph5"
+                            "fixed": "1.26.19-9.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -109,23 +81,27 @@
             ]
         }
     ],
-    "id": "PHSA-2026-5.0-0895",
+    "id": "PHSA-2026-5.0-0911",
     "modified": "2026-07-01T06:46:39Z",
-    "published": "2026-06-25T00:00:00Z",
+    "published": "2026-06-30T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-895"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-911"
         }
     ],
     "related": [
-        "CVE-2026-44169",
-        "CVE-2026-48617",
-        "CVE-2026-49261",
-        "CVE-2026-48165",
-        "CVE-2026-48163",
-        "CVE-2026-48937",
-        "CVE-2026-31675",
-        "CVE-2026-48931"
+        "CVE-2026-44899",
+        "CVE-2026-57436",
+        "CVE-2026-54297",
+        "CVE-2026-57434",
+        "CVE-2026-9375",
+        "CVE-2026-57437",
+        "CVE-2026-49851",
+        "CVE-2026-57235",
+        "CVE-2026-57234",
+        "CVE-2026-57438",
+        "CVE-2026-57236",
+        "CVE-2026-57435"
     ]
 }

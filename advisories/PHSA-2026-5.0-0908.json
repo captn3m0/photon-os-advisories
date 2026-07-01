@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "krb5",
+                "purl": "pkg:rpm/vmware/krb5?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.20.2-14.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0908",
-    "modified": "2026-06-30T06:50:05Z",
+    "modified": "2026-07-01T06:46:39Z",
     "published": "2026-06-29T00:00:00Z",
     "references": [
         {
@@ -61,6 +81,7 @@
         "CVE-2026-41411",
         "CVE-2026-47167",
         "CVE-2026-52859",
-        "CVE-2026-46863"
+        "CVE-2026-46863",
+        "CVE-2026-11850"
     ]
 }
