@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.10.258-7.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-4.0-1048",
+    "modified": "2026-07-02T06:46:35Z",
+    "published": "2026-07-01T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1048"
+        }
+    ],
+    "related": [
+        "CVE-2026-31502"
+    ]
+}
