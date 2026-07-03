@@ -1,0 +1,42 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "gst-plugins-bad",
+                "purl": "pkg:rpm/vmware/gst-plugins-bad?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.26.11-2.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-4.0-1045",
+    "modified": "2026-07-03T06:48:53Z",
+    "published": "2026-06-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1045"
+        }
+    ],
+    "related": [
+        "CVE-2026-52721",
+        "CVE-2026-53702",
+        "CVE-2026-52718",
+        "CVE-2026-52722",
+        "CVE-2026-52720",
+        "CVE-2026-53701",
+        "CVE-2026-52719"
+    ]
+}
