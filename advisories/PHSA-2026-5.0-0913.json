@@ -3,20 +3,6 @@
         {
             "package": {
                 "ecosystem": "Photon OS:5.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:5.0",
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
             },
@@ -27,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "6.1.170-1.ph5"
+                            "fixed": "6.1.176-2.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -47,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "6.1.170-1.ph5"
+                            "fixed": "6.1.176-2.ph5"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -55,16 +41,16 @@
             ]
         }
     ],
-    "id": "PHSA-2026-5.0-0844",
+    "id": "PHSA-2026-5.0-0913",
     "modified": "2026-07-04T06:43:32Z",
-    "published": "2026-05-09T00:00:00Z",
+    "published": "2026-07-01T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-844"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-913"
         }
     ],
     "related": [
-        "CVE-2026-46028"
+        "CVE-2026-46266"
     ]
 }

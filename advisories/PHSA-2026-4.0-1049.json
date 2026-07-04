@@ -2,23 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:5.0",
+                "ecosystem": "Photon OS:4.0",
                 "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
-            }
-        },
-        {
-            "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "linux-esx",
-                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
             },
             "ranges": [
                 {
@@ -27,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "6.1.170-1.ph5"
+                            "fixed": "5.10.258-8.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -36,9 +22,9 @@
         },
         {
             "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+                "ecosystem": "Photon OS:4.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-4"
             },
             "ranges": [
                 {
@@ -47,7 +33,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "6.1.170-1.ph5"
+                            "fixed": "3.10.20-3.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -55,16 +41,19 @@
             ]
         }
     ],
-    "id": "PHSA-2026-5.0-0844",
+    "id": "PHSA-2026-4.0-1049",
     "modified": "2026-07-04T06:43:32Z",
-    "published": "2026-05-09T00:00:00Z",
+    "published": "2026-07-02T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-844"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1049"
         }
     ],
     "related": [
-        "CVE-2026-46028"
+        "CVE-2026-11940",
+        "CVE-2026-6100",
+        "CVE-2026-46116",
+        "CVE-2026-11972"
     ]
 }

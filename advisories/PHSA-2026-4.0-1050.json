@@ -2,9 +2,9 @@
     "affected": [
         {
             "package": {
-                "ecosystem": "Photon OS:5.0",
-                "name": "linux",
-                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+                "ecosystem": "Photon OS:4.0",
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-4"
             },
             "ranges": [
                 {
@@ -13,7 +13,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "6.1.141-6.ph5"
+                            "fixed": "24.0.9-10.ph4"
                         }
                     ],
                     "type": "ECOSYSTEM"
@@ -21,18 +21,17 @@
             ]
         }
     ],
-    "id": "PHSA-2025-5.0-0549",
+    "id": "PHSA-2026-4.0-1050",
     "modified": "2026-07-04T06:43:32Z",
-    "published": "2025-07-03T00:00:00Z",
+    "published": "2026-07-04T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
-            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-549"
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1050"
         }
     ],
     "related": [
-        "CVE-2025-38117",
-        "CVE-2025-40284",
-        "CVE-2026-53253"
+        "CVE-2026-41567",
+        "CVE-2026-42306"
     ]
 }
