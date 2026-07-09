@@ -1,0 +1,36 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rubygem-concurrent-ruby",
+                "purl": "pkg:rpm/vmware/rubygem-concurrent-ruby?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.7-2.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-4.0-1046",
+    "modified": "2026-07-09T06:51:37Z",
+    "published": "2026-06-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1046"
+        }
+    ],
+    "related": [
+        "CVE-2026-54906"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-oj",
+                "purl": "pkg:rpm/vmware/rubygem-oj?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.17.3-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-0917",
+    "modified": "2026-07-09T06:51:37Z",
+    "published": "2026-07-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-917"
+        }
+    ],
+    "related": [
+        "CVE-2026-54897",
+        "CVE-2026-54900",
+        "CVE-2026-54592",
+        "CVE-2026-54898",
+        "CVE-2026-54899",
+        "CVE-2026-54500",
+        "CVE-2026-54901",
+        "CVE-2026-54902",
+        "CVE-2026-54502",
+        "CVE-2026-54896",
+        "CVE-2026-54903"
+    ]
+}
