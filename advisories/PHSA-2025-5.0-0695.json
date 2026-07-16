@@ -59,10 +59,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0695",
-    "modified": "2025-12-02T06:07:50Z",
+    "modified": "2026-07-14T06:50:42Z",
     "published": "2025-11-30T00:00:00Z",
     "references": [
         {
