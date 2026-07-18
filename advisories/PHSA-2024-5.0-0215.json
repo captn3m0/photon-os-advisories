@@ -113,10 +113,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "dnsmasq",
+                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0215",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2024-02-21T00:00:00Z",
     "references": [
         {

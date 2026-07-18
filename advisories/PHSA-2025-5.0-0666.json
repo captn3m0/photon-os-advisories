@@ -59,10 +59,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libsoup",
+                "purl": "pkg:rpm/vmware/libsoup?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0666",
-    "modified": "2025-11-13T05:52:43Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2025-11-03T00:00:00Z",
     "references": [
         {

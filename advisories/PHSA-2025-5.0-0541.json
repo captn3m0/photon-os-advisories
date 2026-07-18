@@ -39,10 +39,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "coredns",
+                "purl": "pkg:rpm/vmware/coredns?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0541",
-    "modified": "2025-07-01T05:31:54Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2025-06-26T00:00:00Z",
     "references": [
         {

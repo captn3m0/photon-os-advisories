@@ -126,10 +126,17 @@
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "dotnet-runtime",
+                "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0842",
-    "modified": "2026-07-14T06:50:42Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2026-05-07T00:00:00Z",
     "references": [
         {

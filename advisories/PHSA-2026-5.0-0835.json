@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-addressable",
+                "purl": "pkg:rpm/vmware/rubygem-addressable?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0835",
-    "modified": "2026-05-06T06:31:06Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2026-04-29T00:00:00Z",
     "references": [
         {

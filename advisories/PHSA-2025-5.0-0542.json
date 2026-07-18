@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0542",
-    "modified": "2025-07-23T05:31:23Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2025-06-27T00:00:00Z",
     "references": [
         {

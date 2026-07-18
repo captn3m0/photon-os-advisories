@@ -79,10 +79,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0490",
-    "modified": "2025-03-27T05:29:58Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2025-03-26T00:00:00Z",
     "references": [
         {

@@ -220,10 +220,59 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gtk3",
+                "purl": "pkg:rpm/vmware/gtk3?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libvirt",
+                "purl": "pkg:rpm/vmware/libvirt?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-idna",
+                "purl": "pkg:rpm/vmware/python3-idna?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-addressable",
+                "purl": "pkg:rpm/vmware/rubygem-addressable?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0855",
-    "modified": "2026-07-18T06:48:01Z",
+    "modified": "2026-07-18T09:08:40Z",
     "published": "2026-05-22T00:00:00Z",
     "references": [
         {

@@ -167,10 +167,17 @@
                 "name": "libxslt",
                 "purl": "pkg:rpm/vmware/libxslt?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gmp",
+                "purl": "pkg:rpm/vmware/gmp?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0874",
-    "modified": "2026-07-18T06:48:01Z",
+    "modified": "2026-07-18T09:08:40Z",
     "published": "2026-06-11T00:00:00Z",
     "references": [
         {

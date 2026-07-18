@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0562",
-    "modified": "2025-07-19T05:31:48Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2025-07-18T00:00:00Z",
     "references": [
         {

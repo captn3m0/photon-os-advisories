@@ -171,10 +171,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2023-5.0-0148",
-    "modified": "2025-10-14T05:46:12Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2023-11-19T00:00:00Z",
     "references": [
         {

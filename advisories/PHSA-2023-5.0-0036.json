@@ -158,10 +158,17 @@
                 "name": "lua",
                 "purl": "pkg:rpm/vmware/lua?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2023-5.0-0036",
-    "modified": "2025-10-31T05:49:37Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2023-06-22T00:00:00Z",
     "references": [
         {

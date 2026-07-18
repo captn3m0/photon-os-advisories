@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0481",
-    "modified": "2025-05-09T05:30:33Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2025-03-02T00:00:00Z",
     "references": [
         {

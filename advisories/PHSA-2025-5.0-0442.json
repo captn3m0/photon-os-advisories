@@ -37,10 +37,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gtk3",
+                "purl": "pkg:rpm/vmware/gtk3?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0442",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2025-01-09T00:00:00Z",
     "references": [
         {

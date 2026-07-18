@@ -75,10 +75,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libcap",
+                "purl": "pkg:rpm/vmware/libcap?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2023-5.0-0020",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2023-06-07T00:00:00Z",
     "references": [
         {

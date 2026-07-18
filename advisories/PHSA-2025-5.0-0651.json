@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0651",
-    "modified": "2025-10-23T05:50:27Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2025-10-22T00:00:00Z",
     "references": [
         {
