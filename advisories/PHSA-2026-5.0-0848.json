@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gpsd",
+                "purl": "pkg:rpm/vmware/gpsd?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0848",
-    "modified": "2026-06-27T06:40:33Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2026-05-12T00:00:00Z",
     "references": [
         {
@@ -41,6 +48,8 @@
         "CVE-2026-33006",
         "CVE-2026-33857",
         "CVE-2026-34032",
-        "CVE-2026-33523"
+        "CVE-2026-33523",
+        "CVE-2025-67268",
+        "CVE-2025-67269"
     ]
 }

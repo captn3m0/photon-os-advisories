@@ -133,10 +133,44 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gmp",
+                "purl": "pkg:rpm/vmware/gmp?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.2.1-2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libxslt",
+                "purl": "pkg:rpm/vmware/libxslt?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0874",
-    "modified": "2026-06-27T06:40:33Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2026-06-11T00:00:00Z",
     "references": [
         {
@@ -186,6 +220,13 @@
         "CVE-2025-10911",
         "CVE-2026-0990",
         "CVE-2023-40403",
-        "CVE-2026-0989"
+        "CVE-2026-0989",
+        "CVE-2024-55549",
+        "CVE-2025-24855",
+        "CVE-2024-6119",
+        "CVE-2025-7424",
+        "CVE-2021-43618",
+        "CVE-2025-0306",
+        "CVE-2025-9230"
     ]
 }

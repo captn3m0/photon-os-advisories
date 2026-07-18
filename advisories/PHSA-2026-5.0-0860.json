@@ -39,10 +39,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "e2fsprogs",
+                "purl": "pkg:rpm/vmware/e2fsprogs?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.46.5-2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0860",
-    "modified": "2026-06-24T06:47:14Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2026-05-30T00:00:00Z",
     "references": [
         {
@@ -53,6 +73,7 @@
     "related": [
         "CVE-2026-3104",
         "CVE-2026-1519",
-        "CVE-2026-33179"
+        "CVE-2026-33179",
+        "CVE-2022-1304"
     ]
 }

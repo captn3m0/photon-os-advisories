@@ -120,10 +120,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "grub2",
+                "purl": "pkg:rpm/vmware/grub2?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0857",
-    "modified": "2026-07-04T06:43:32Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2026-05-27T00:00:00Z",
     "references": [
         {
@@ -140,6 +147,7 @@
         "CVE-2026-28755",
         "CVE-2026-43503",
         "CVE-2026-46300",
-        "CVE-2026-46174"
+        "CVE-2026-46174",
+        "CVE-2025-54770"
     ]
 }

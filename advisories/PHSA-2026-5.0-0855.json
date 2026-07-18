@@ -59,10 +59,171 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libxml2",
+                "purl": "pkg:rpm/vmware/libxml2?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "containerd",
+                "purl": "pkg:rpm/vmware/containerd?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.6.21-15.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gtk3",
+                "purl": "pkg:rpm/vmware/gtk3?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.23.3-12.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.24.13-2.2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libvirt",
+                "purl": "pkg:rpm/vmware/libvirt?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "9.3.0-2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "docker",
+                "purl": "pkg:rpm/vmware/docker?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "28.2.2-7.2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-idna",
+                "purl": "pkg:rpm/vmware/python3-idna?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.3-4.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glib",
+                "purl": "pkg:rpm/vmware/glib?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-addressable",
+                "purl": "pkg:rpm/vmware/rubygem-addressable?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.8.7-1.2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0855",
-    "modified": "2026-06-27T06:40:33Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2026-05-22T00:00:00Z",
     "references": [
         {
@@ -73,6 +234,39 @@
     "related": [
         "CVE-2026-35554",
         "CVE-2025-14010",
-        "CVE-2022-40896"
+        "CVE-2022-40896",
+        "CVE-2024-52533",
+        "CVE-2025-49794",
+        "CVE-2024-33601",
+        "CVE-2023-6779",
+        "CVE-2026-33997",
+        "CVE-2026-4046",
+        "CVE-2024-40635",
+        "CVE-2026-4437",
+        "CVE-2025-32415",
+        "CVE-2023-3750",
+        "CVE-2024-33602",
+        "CVE-2025-15281",
+        "CVE-2025-4802",
+        "CVE-2023-5156",
+        "CVE-2026-0861",
+        "CVE-2023-4911",
+        "CVE-2024-6655",
+        "CVE-2025-6021",
+        "CVE-2023-6246",
+        "CVE-2025-49795",
+        "CVE-2025-13601",
+        "CVE-2024-3651",
+        "CVE-2024-33599",
+        "CVE-2026-27143",
+        "CVE-2026-34040",
+        "CVE-2025-32414",
+        "CVE-2026-0915",
+        "CVE-2024-2961",
+        "CVE-2026-27144",
+        "CVE-2025-8058",
+        "CVE-2025-14087",
+        "CVE-2026-35611",
+        "CVE-2025-49796"
     ]
 }

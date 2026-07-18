@@ -39,10 +39,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0878",
-    "modified": "2026-06-16T06:47:47Z",
+    "modified": "2026-07-18T06:48:01Z",
     "published": "2026-06-12T00:00:00Z",
     "references": [
         {
@@ -52,6 +59,18 @@
     ],
     "related": [
         "CVE-2026-31527",
-        "CVE-2026-31516"
+        "CVE-2026-31516",
+        "CVE-2026-22795",
+        "CVE-2026-22796",
+        "CVE-2024-13176",
+        "CVE-2024-0727",
+        "CVE-2023-6237",
+        "CVE-2024-2511",
+        "CVE-2024-9143",
+        "CVE-2025-68160",
+        "CVE-2025-9231",
+        "CVE-2023-5678",
+        "CVE-2023-6129",
+        "CVE-2025-69418"
     ]
 }
