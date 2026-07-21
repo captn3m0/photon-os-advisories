@@ -26,10 +26,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.19.3-7.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0733",
-    "modified": "2026-04-26T06:25:27Z",
+    "modified": "2026-07-21T06:52:14Z",
     "published": "2026-01-09T00:00:00Z",
     "references": [
         {
@@ -38,6 +58,7 @@
         }
     ],
     "related": [
-        "CVE-2025-14762"
+        "CVE-2025-14762",
+        "CVE-2025-9640"
     ]
 }

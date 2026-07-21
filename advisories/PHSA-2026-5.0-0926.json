@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "10.4p1-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-0926",
+    "modified": "2026-07-21T06:52:14Z",
+    "published": "2026-07-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-926"
+        }
+    ],
+    "related": [
+        "CVE-2026-59999",
+        "CVE-2026-59995",
+        "CVE-2026-60002",
+        "CVE-2026-60001",
+        "CVE-2026-59997",
+        "CVE-2026-59998",
+        "CVE-2026-59996",
+        "CVE-2026-60000"
+    ]
+}
