@@ -1,0 +1,27 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nasm",
+                "purl": "pkg:rpm/vmware/nasm?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0925",
+    "modified": "2026-07-24T06:56:03Z",
+    "published": "2026-07-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-925"
+        }
+    ],
+    "related": [
+        "CVE-2026-6068",
+        "CVE-2025-8845",
+        "CVE-2025-8844",
+        "CVE-2025-8842",
+        "CVE-2025-8846"
+    ]
+}

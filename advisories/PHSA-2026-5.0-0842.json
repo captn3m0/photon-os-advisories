@@ -133,10 +133,17 @@
                 "name": "dotnet-runtime",
                 "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0842",
-    "modified": "2026-07-18T06:48:01Z",
+    "modified": "2026-07-24T06:56:03Z",
     "published": "2026-05-07T00:00:00Z",
     "references": [
         {
@@ -719,6 +726,25 @@
         "CVE-2026-23277",
         "CVE-2026-23169",
         "CVE-2025-40149",
-        "CVE-2025-37842"
+        "CVE-2025-37842",
+        "CVE-2025-71089",
+        "CVE-2026-23011",
+        "CVE-2025-40257",
+        "CVE-2026-23001",
+        "CVE-2026-23204",
+        "CVE-2026-23268",
+        "CVE-2025-40248",
+        "CVE-2025-68254",
+        "CVE-2025-40254",
+        "CVE-2025-68349",
+        "CVE-2025-39871",
+        "CVE-2025-68255",
+        "CVE-2025-68362",
+        "CVE-2025-38718",
+        "CVE-2025-39863",
+        "CVE-2026-23073",
+        "CVE-2025-68263",
+        "CVE-2025-68724",
+        "CVE-2025-38704"
     ]
 }
