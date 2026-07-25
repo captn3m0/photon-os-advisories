@@ -154,10 +154,17 @@
                 "name": "linux-rt",
                 "purl": "pkg:rpm/vmware/linux-rt?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0274",
-    "modified": "2025-12-10T05:52:38Z",
+    "modified": "2026-07-25T06:54:54Z",
     "published": "2024-05-18T00:00:00Z",
     "references": [
         {
