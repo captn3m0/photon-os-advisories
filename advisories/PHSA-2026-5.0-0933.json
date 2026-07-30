@@ -1,0 +1,37 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gawk",
+                "purl": "pkg:rpm/vmware/gawk?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.3.2-5.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-0933",
+    "modified": "2026-07-30T07:04:34Z",
+    "published": "2026-07-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-933"
+        }
+    ],
+    "related": [
+        "CVE-2026-40468",
+        "CVE-2026-40469"
+    ]
+}
