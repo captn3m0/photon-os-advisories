@@ -33,10 +33,17 @@
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0926",
-    "modified": "2026-07-31T07:04:51Z",
+    "modified": "2026-08-01T05:39:54Z",
     "published": "2026-07-20T00:00:00Z",
     "references": [
         {
