@@ -1,0 +1,29 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0936",
+    "modified": "2026-08-01T07:03:07Z",
+    "published": "2026-07-31T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-936"
+        }
+    ],
+    "related": [
+        "CVE-2026-59997",
+        "CVE-2026-55655",
+        "CVE-2026-60001",
+        "CVE-2026-60000",
+        "CVE-2026-59999",
+        "CVE-2026-59995",
+        "CVE-2026-59996"
+    ]
+}
