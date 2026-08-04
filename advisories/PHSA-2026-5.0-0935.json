@@ -6,10 +6,70 @@
                 "name": "libsolv",
                 "purl": "pkg:rpm/vmware/libsolv?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nginx",
+                "purl": "pkg:rpm/vmware/nginx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.30.4-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.12.96-4.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.12.96-4.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-0935",
-    "modified": "2026-08-01T07:03:07Z",
+    "modified": "2026-08-04T07:05:13Z",
     "published": "2026-07-31T00:00:00Z",
     "references": [
         {
@@ -19,6 +79,9 @@
     ],
     "related": [
         "CVE-2026-9149",
-        "CVE-2026-9150"
+        "CVE-2026-9150",
+        "CVE-2026-43198",
+        "CVE-2026-42533",
+        "CVE-2026-43197"
     ]
 }
