@@ -1,0 +1,31 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-tornado",
+                "purl": "pkg:rpm/vmware/python3-tornado?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-0939",
+    "modified": "2026-08-05T07:05:54Z",
+    "published": "2026-08-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-939"
+        }
+    ],
+    "related": [
+        "CVE-2026-31958",
+        "CVE-2025-67726",
+        "CVE-2026-35536",
+        "CVE-2025-67725",
+        "CVE-2025-67724",
+        "CVE-2023-28370",
+        "CVE-2026-49854",
+        "CVE-2026-49855",
+        "CVE-2026-49853"
+    ]
+}
