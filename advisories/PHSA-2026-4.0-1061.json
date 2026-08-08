@@ -1,0 +1,46 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "8.21.0-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-4.0-1061",
+    "modified": "2026-08-08T06:28:46Z",
+    "published": "2026-08-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1061"
+        }
+    ],
+    "related": [
+        "CVE-2026-8927",
+        "CVE-2026-8932",
+        "CVE-2026-8286",
+        "CVE-2026-9080",
+        "CVE-2026-11564",
+        "CVE-2026-9546",
+        "CVE-2026-12064",
+        "CVE-2026-9545",
+        "CVE-2026-9547",
+        "CVE-2026-8924",
+        "CVE-2026-8458"
+    ]
+}
