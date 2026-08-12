@@ -119,10 +119,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-0672",
-    "modified": "2025-11-13T05:52:43Z",
+    "modified": "2026-08-12T06:33:37Z",
     "published": "2025-11-07T00:00:00Z",
     "references": [
         {

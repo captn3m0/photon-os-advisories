@@ -147,10 +147,17 @@
                 "name": "linux-esx",
                 "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0389",
-    "modified": "2026-07-26T06:55:19Z",
+    "modified": "2026-08-12T06:33:37Z",
     "published": "2024-10-25T00:00:00Z",
     "references": [
         {

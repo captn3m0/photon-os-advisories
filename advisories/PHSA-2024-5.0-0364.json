@@ -95,10 +95,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0364",
-    "modified": "2025-02-10T09:08:46Z",
+    "modified": "2026-08-12T06:33:37Z",
     "published": "2024-09-05T00:00:00Z",
     "references": [
         {
