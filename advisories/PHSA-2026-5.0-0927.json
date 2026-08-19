@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-fluentd",
+                "purl": "pkg:rpm/vmware/rubygem-fluentd?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0927",
-    "modified": "2026-07-23T06:51:28Z",
+    "modified": "2026-08-19T06:35:19Z",
     "published": "2026-07-22T00:00:00Z",
     "references": [
         {
