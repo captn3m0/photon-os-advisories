@@ -75,10 +75,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "shadow",
+                "purl": "pkg:rpm/vmware/shadow?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2024-5.0-0182",
-    "modified": "2025-01-24T05:27:06Z",
+    "modified": "2026-08-26T06:40:25Z",
     "published": "2024-01-02T00:00:00Z",
     "references": [
         {
