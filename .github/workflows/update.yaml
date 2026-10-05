@@ -10,6 +10,8 @@ jobs:
     name: Update data
     runs-on: ubuntu-latest
     steps:
+    - name: Record start time
+      run: echo "RUN_START=$(date +%s)" >> "$GITHUB_ENV"
     - uses: actions/checkout@v3
       with:
         ref: ${{ github.head_ref }}
@@ -35,3 +37,32 @@ jobs:
         file_pattern: "advisories/*.json photon_cve_metadata/*.json"
         skip_fetch: true
         skip_checkout: true
+    - name: Push metrics
+      if: ${{ !cancelled() && github.event_name == 'schedule' }}
+      env:
+        JOB_STATUS: ${{ job.status }}
+        GRAFANA_INFLUX_URL: ${{ vars.GRAFANA_INFLUX_URL }}
+        GRAFANA_INFLUX_USER: ${{ vars.GRAFANA_INFLUX_USER }}
+        GRAFANA_INFLUX_TOKEN: ${{ secrets.GRAFANA_INFLUX_TOKEN }}
+      run: |
+        repo="${GITHUB_REPOSITORY#*/}"
+        added=$(git diff --name-only --diff-filter=A "$GITHUB_SHA" HEAD -- advisories/ 2>/dev/null | wc -l)
+        updated=$(git diff --name-only --diff-filter=M "$GITHUB_SHA" HEAD -- advisories/ 2>/dev/null | wc -l)
+        wiki=$([ -e photon-wiki/.git ] && git -C photon-wiki log -1 --format=%ct 2>/dev/null || true)
+        meta=$(for f in photon_cve_metadata/*.json; do jq -c --arg v "$(basename "$f" .json)" '{($v): {fixed: map(select(.status == "Fixed")) | length, not_affected: map(select(.status == "Not Affected")) | length}}' "$f"; done | jq -sc 'add // {}') || meta='{}'
+        {
+          jq -rs --arg repo "$repo" --argjson now "$(date +%s)" --argjson added "$added" --argjson updated "$updated" --arg wiki "$wiki" --argjson meta "$meta" '
+            def age: (($now - .) / 86400 | floor);
+            map(. + {t: (.published | try fromdateiso8601 catch 0)}) as $a
+            | "photon_os,repo=\($repo) advisories=\($a | length),added=\($added),updated=\($updated),cves=\([$a[].related[]?] | unique | length),packages=\([$a[].affected[]?.package.name] | unique | length),advisories_30d=\([$a[] | select(.t > $now - 2592000)] | length),newest_age_days=\($a | map(.t) | max | age)\(if $wiki != "" then ",wiki_age_days=\($wiki | tonumber | age)" else "" end)",
+              ([$a[] | {t, r: ([.affected[]?.package.ecosystem | ltrimstr("Photon OS:")] | unique[])}] | group_by(.r)[]
+              | .[0].r as $r
+              | "photon_os_release,repo=\($repo),release=\($r) advisories=\(length),newest_age_days=\(map(.t) | max | age)\(if $meta[$r] then ",cve_fixed=\($meta[$r].fixed),cve_not_affected=\($meta[$r].not_affected)" else "" end)")
+          ' advisories/*.json || true
+          echo "scrape_run,repo=$repo success=$([ "$JOB_STATUS" = success ] && echo 1 || echo 0),duration_seconds=$(( $(date +%s) - RUN_START )),changed=$([ "$(git rev-parse HEAD)" != "$GITHUB_SHA" ] && echo 1 || echo 0)"
+        } > "$RUNNER_TEMP/metrics.txt"
+        cat "$RUNNER_TEMP/metrics.txt"
+        [ -n "$GRAFANA_INFLUX_TOKEN" ] || exit 0
+        curl -fsS --max-time 10 -u "$GRAFANA_INFLUX_USER:$GRAFANA_INFLUX_TOKEN" \
+          --data-binary "@$RUNNER_TEMP/metrics.txt" "$GRAFANA_INFLUX_URL/api/v1/push/influx/write" \
+          || echo "::warning::Could not push metrics"
