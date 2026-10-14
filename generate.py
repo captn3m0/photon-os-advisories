@@ -14,8 +14,7 @@ import re
 from bs4 import BeautifulSoup
 
 CVE_REGEX = r"CVE-\d{4}-\d{4,7}"
-FILE_FORMAT = "/Security-Updates-{version}.md"
-ADVISORY_URL = "https://github.com/vmware/photon/wiki/Security-Update-{slug}"
+INDEX_HEADING = r"^# Photon OS {version}\.0\S* Security Advisories"
 PHOTON_VERSIONS = range(1, 6)
 ADVISORIES_DIR = "photon-wiki"
 HEADERS = {"User-Agent": "Mozilla/5.0 Gecko/20100101 Firefox/126.0"}
@@ -44,16 +43,17 @@ def created_date(file):
                 return datetime.strptime(line.split(": ")[1].strip(), "%Y-%m-%d")
 
 
-def advisory_slug(os_version, advisory):
-    _id = int(float(advisory.split("-")[-1]))
-    return f"{os_version}.0-{_id}"
+def index_files(os_version):
+    heading = re.compile(INDEX_HEADING.format(version=os_version), re.MULTILINE)
+    for file in sorted(glob(f"{ADVISORIES_DIR}/Security-Updates-{os_version}*.md")):
+        with open(file) as f:
+            if heading.search(f.read()):
+                yield file
 
 
 def get_osv(cve_data_all_versions):
-    for os_version in PHOTON_VERSIONS:
-        filename = FILE_FORMAT.format(version=os_version)
-        file = ADVISORIES_DIR + filename
-        print(f"Parsing {filename}")
+    for os_version, file in ((v, f) for v in PHOTON_VERSIONS for f in index_files(v)):
+        print(f"Parsing {file}")
 
         # Returns the version that fixed any of the given CVEs + OS + Package combination
         # there should only be one
@@ -80,14 +80,17 @@ def get_osv(cve_data_all_versions):
                 f.read(), extensions=["markdown.extensions.tables"]
             )
             soup = BeautifulSoup(table_html, "html.parser")
+            if not soup.find("tbody"):
+                continue
             for tr in soup.find("tbody").find_all("tr"):
+                tds = tr.find_all("td")
                 (advisory, severity, published_date, packages, cves) = [
-                    x.text for x in tr.find_all("td")
+                    x.text for x in tds
                 ]
                 packages = json.loads(packages.replace("'", '"'))
                 cves = re.findall(CVE_REGEX, cves)
-                slug = advisory_slug(os_version, advisory)
-                advisory_file = f"Security-Update-{slug}.md"
+                advisory_url = tds[0].find("a")["href"]
+                advisory_file = advisory_url.split("/")[-1] + ".md"
                 modified = last_modified_date(advisory_file)
                 published = created_date(advisory_file)
 
@@ -118,9 +121,7 @@ def get_osv(cve_data_all_versions):
                     "published": format_as_rfc3339(published),
                     "related": cves,
                     "affected": [affected(pkg, cves, os_version) for pkg in packages],
-                    "references": [
-                        {"type": "ADVISORY", "url": ADVISORY_URL.format(slug=slug)}
-                    ],
+                    "references": [{"type": "ADVISORY", "url": advisory_url}],
                 }
 
 
