@@ -1,0 +1,43 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "9.2.0907-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0950",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-08-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-950"
+        }
+    ],
+    "related": [
+        "CVE-2026-59858",
+        "CVE-2026-57455",
+        "CVE-2026-57456",
+        "CVE-2026-59857",
+        "CVE-2026-57453",
+        "CVE-2026-57454",
+        "CVE-2026-57452",
+        "CVE-2026-59856"
+    ]
+}

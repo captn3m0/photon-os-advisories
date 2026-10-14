@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "protobuf",
+                "purl": "pkg:rpm/vmware/protobuf?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0949",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-08-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-949"
+        }
+    ],
+    "related": [
+        "CVE-2026-0994"
+    ]
+}

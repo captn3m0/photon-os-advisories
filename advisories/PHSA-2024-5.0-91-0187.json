@@ -1,0 +1,255 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libssh",
+                "purl": "pkg:rpm/vmware/libssh?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.10.6-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-paramiko",
+                "purl": "pkg:rpm/vmware/python3-paramiko?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.12.0-5.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-cryptography",
+                "purl": "pkg:rpm/vmware/python3-cryptography?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "41.0.7-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.70-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.70-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2024-5.0-91-0187",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2024-01-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-187"
+        }
+    ],
+    "related": [
+        "CVE-2023-52795",
+        "CVE-2023-52772",
+        "CVE-2023-52781",
+        "CVE-2023-52858",
+        "CVE-2023-52879",
+        "CVE-2023-52806",
+        "CVE-2023-52840",
+        "CVE-2023-6121",
+        "CVE-2023-52850",
+        "CVE-2023-52757",
+        "CVE-2023-52750",
+        "CVE-2023-52764",
+        "CVE-2023-52821",
+        "CVE-2023-52832",
+        "CVE-2023-52849",
+        "CVE-2023-52860",
+        "CVE-2023-6918",
+        "CVE-2023-52819",
+        "CVE-2023-52780",
+        "CVE-2023-52834",
+        "CVE-2023-52831",
+        "CVE-2023-52814",
+        "CVE-2023-52789",
+        "CVE-2023-52773",
+        "CVE-2023-52836",
+        "CVE-2023-52799",
+        "CVE-2023-52811",
+        "CVE-2024-0646",
+        "CVE-2023-52808",
+        "CVE-2023-52873",
+        "CVE-2023-52774",
+        "CVE-2023-52810",
+        "CVE-2023-52784",
+        "CVE-2024-0607",
+        "CVE-2023-52754",
+        "CVE-2023-35823",
+        "CVE-2023-35824",
+        "CVE-2023-52798",
+        "CVE-2023-52796",
+        "CVE-2023-52864",
+        "CVE-2023-3567",
+        "CVE-2023-3609",
+        "CVE-2024-25744",
+        "CVE-2023-39197",
+        "CVE-2023-52826",
+        "CVE-2023-52870",
+        "CVE-2023-52859",
+        "CVE-2023-52833",
+        "CVE-2023-52837",
+        "CVE-2023-52752",
+        "CVE-2023-52655",
+        "CVE-2023-52828",
+        "CVE-2023-3268",
+        "CVE-2023-52816",
+        "CVE-2023-52755",
+        "CVE-2023-52804",
+        "CVE-2023-52878",
+        "CVE-2023-52835",
+        "CVE-2023-52777",
+        "CVE-2023-52861",
+        "CVE-2024-0565",
+        "CVE-2023-52871",
+        "CVE-2023-52825",
+        "CVE-2023-52792",
+        "CVE-2023-52753",
+        "CVE-2023-52843",
+        "CVE-2023-6817",
+        "CVE-2023-6931",
+        "CVE-2023-52853",
+        "CVE-2023-5178",
+        "CVE-2023-52863",
+        "CVE-2023-52775",
+        "CVE-2023-48795",
+        "CVE-2023-52856",
+        "CVE-2023-23931",
+        "CVE-2023-52815",
+        "CVE-2023-52854",
+        "CVE-2023-32258",
+        "CVE-2023-52841",
+        "CVE-2023-52788",
+        "CVE-2023-32257",
+        "CVE-2023-6606",
+        "CVE-2023-52869",
+        "CVE-2023-52807",
+        "CVE-2023-52817",
+        "CVE-2023-32250",
+        "CVE-2023-52805",
+        "CVE-2023-52855",
+        "CVE-2023-3777",
+        "CVE-2023-6111",
+        "CVE-2023-52852",
+        "CVE-2023-52800",
+        "CVE-2023-49083",
+        "CVE-2023-32252",
+        "CVE-2023-52838",
+        "CVE-2023-52851",
+        "CVE-2023-35827",
+        "CVE-2023-52844",
+        "CVE-2023-52763",
+        "CVE-2023-52845",
+        "CVE-2023-52876",
+        "CVE-2023-52762",
+        "CVE-2023-52748",
+        "CVE-2023-52875",
+        "CVE-2023-52778",
+        "CVE-2021-47432",
+        "CVE-2023-52865",
+        "CVE-2023-32247",
+        "CVE-2023-52809",
+        "CVE-2023-3090",
+        "CVE-2023-52847",
+        "CVE-2023-52881",
+        "CVE-2023-52768",
+        "CVE-2023-52803",
+        "CVE-2023-52867",
+        "CVE-2023-52766",
+        "CVE-2023-6932",
+        "CVE-2023-52765",
+        "CVE-2023-6531",
+        "CVE-2023-52749",
+        "CVE-2023-52868",
+        "CVE-2023-6622",
+        "CVE-2023-3141",
+        "CVE-2023-3610",
+        "CVE-2023-52818",
+        "CVE-2023-52846"
+    ]
+}

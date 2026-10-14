@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "tpm2-tools",
+                "purl": "pkg:rpm/vmware/tpm2-tools?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-91-0339",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2024-08-02T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-339"
+        }
+    ],
+    "related": [
+        "CVE-2024-29038",
+        "CVE-2024-29039"
+    ]
+}

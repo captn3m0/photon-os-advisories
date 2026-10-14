@@ -1,0 +1,58 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "iniparser",
+                "purl": "pkg:rpm/vmware/iniparser?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-msgpack",
+                "purl": "pkg:rpm/vmware/rubygem-msgpack?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.4-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0942",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-08-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-942"
+        }
+    ],
+    "related": [
+        "CVE-2026-58039",
+        "CVE-2026-56850",
+        "CVE-2026-58045",
+        "CVE-2026-58043",
+        "CVE-2026-56847",
+        "CVE-2026-54522",
+        "CVE-2026-58040",
+        "CVE-2023-33461",
+        "CVE-2026-58044"
+    ]
+}

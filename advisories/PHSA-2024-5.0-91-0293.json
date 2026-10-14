@@ -1,0 +1,26 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-91-0293",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2024-06-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-293"
+        }
+    ],
+    "related": [
+        "CVE-2024-33602",
+        "CVE-2024-33599",
+        "CVE-2024-33600",
+        "CVE-2024-33601"
+    ]
+}

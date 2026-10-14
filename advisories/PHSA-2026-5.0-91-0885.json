@@ -1,0 +1,90 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "jq",
+                "purl": "pkg:rpm/vmware/jq?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.1-4.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.41.4-3.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rsync",
+                "purl": "pkg:rpm/vmware/rsync?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.4.4-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-91-0885",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-06-18T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-885"
+        }
+    ],
+    "related": [
+        "CVE-2026-29518",
+        "CVE-2026-43617",
+        "CVE-2026-43895",
+        "CVE-2026-43896",
+        "CVE-2026-45232",
+        "CVE-2026-43620",
+        "CVE-2026-41256",
+        "CVE-2026-43618",
+        "CVE-2026-3184",
+        "CVE-2026-43619",
+        "CVE-2025-10158",
+        "CVE-2026-44777",
+        "CVE-2026-40612",
+        "CVE-2026-41257",
+        "CVE-2026-43894"
+    ]
+}

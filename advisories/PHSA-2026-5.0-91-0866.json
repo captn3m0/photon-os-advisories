@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "dnsmasq",
+                "purl": "pkg:rpm/vmware/dnsmasq?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-91-0866",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-06-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-866"
+        }
+    ],
+    "related": [
+        "CVE-2026-4892",
+        "CVE-2026-2291",
+        "CVE-2026-5172",
+        "CVE-2026-4890",
+        "CVE-2026-4893",
+        "CVE-2026-4891"
+    ]
+}

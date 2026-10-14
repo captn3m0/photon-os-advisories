@@ -1,0 +1,27 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0936",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-07-31T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-936"
+        }
+    ],
+    "related": [
+        "CVE-2023-6228",
+        "CVE-2023-6277",
+        "CVE-2026-12912",
+        "CVE-2023-1916",
+        "CVE-2023-3164"
+    ]
+}

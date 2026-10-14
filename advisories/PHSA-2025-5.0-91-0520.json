@@ -1,0 +1,42 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "frr",
+                "purl": "pkg:rpm/vmware/frr?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "10.2.1-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-91-0520",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2025-05-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-520"
+        }
+    ],
+    "related": [
+        "CVE-2024-44070",
+        "CVE-2024-31949",
+        "CVE-2024-31951",
+        "CVE-2024-27913",
+        "CVE-2024-31948",
+        "CVE-2024-34088",
+        "CVE-2024-31950"
+    ]
+}

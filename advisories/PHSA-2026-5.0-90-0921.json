@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "keepalived",
+                "purl": "pkg:rpm/vmware/keepalived?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-90-0921",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-07-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-90-921"
+        }
+    ],
+    "related": [
+        "CVE-2024-41184"
+    ]
+}

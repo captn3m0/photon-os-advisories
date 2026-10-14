@@ -1,0 +1,174 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.79-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "expat",
+                "purl": "pkg:rpm/vmware/expat?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.6.0-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.79-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-secure",
+                "purl": "pkg:rpm/vmware/linux-secure?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.79-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.79-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2024-5.0-91-0216",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2024-02-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-216"
+        }
+    ],
+    "related": [
+        "CVE-2023-52643",
+        "CVE-2024-35833",
+        "CVE-2024-1151",
+        "CVE-2024-26917",
+        "CVE-2023-52679",
+        "CVE-2023-52631",
+        "CVE-2024-23850",
+        "CVE-2024-26603",
+        "CVE-2024-26629",
+        "CVE-2024-26665",
+        "CVE-2024-26667",
+        "CVE-2024-26684",
+        "CVE-2024-26593",
+        "CVE-2024-26825",
+        "CVE-2023-52426",
+        "CVE-2024-26689",
+        "CVE-2024-26600",
+        "CVE-2024-26919",
+        "CVE-2024-26675",
+        "CVE-2024-26680",
+        "CVE-2024-26717",
+        "CVE-2024-26910",
+        "CVE-2023-52425",
+        "CVE-2024-26704",
+        "CVE-2024-26698",
+        "CVE-2024-26679",
+        "CVE-2024-26663",
+        "CVE-2024-26695",
+        "CVE-2024-26707",
+        "CVE-2024-26920",
+        "CVE-2024-26660",
+        "CVE-2023-52340",
+        "CVE-2024-26664",
+        "CVE-2024-26726",
+        "CVE-2024-26581",
+        "CVE-2023-52638",
+        "CVE-2024-26627",
+        "CVE-2024-26702",
+        "CVE-2024-23851",
+        "CVE-2023-52637",
+        "CVE-2024-2193",
+        "CVE-2024-26826",
+        "CVE-2024-26706",
+        "CVE-2024-26582",
+        "CVE-2024-26696",
+        "CVE-2024-26828",
+        "CVE-2024-0841",
+        "CVE-2024-26601",
+        "CVE-2024-26714",
+        "CVE-2024-26723",
+        "CVE-2024-26697",
+        "CVE-2024-26602",
+        "CVE-2024-26718",
+        "CVE-2024-26829",
+        "CVE-2023-52616",
+        "CVE-2024-26688",
+        "CVE-2024-26685",
+        "CVE-2024-26606",
+        "CVE-2024-26712"
+    ]
+}

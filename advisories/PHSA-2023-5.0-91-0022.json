@@ -1,0 +1,37 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "protobuf-c",
+                "purl": "pkg:rpm/vmware/protobuf-c?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.1-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2023-5.0-91-0022",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2023-06-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-22"
+        }
+    ],
+    "related": [
+        "CVE-2022-33070",
+        "CVE-2022-48468"
+    ]
+}

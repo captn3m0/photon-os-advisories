@@ -1,0 +1,70 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "unbound",
+                "purl": "pkg:rpm/vmware/unbound?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-rt",
+                "purl": "pkg:rpm/vmware/linux-rt?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.112-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2024-5.0-91-0389",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2024-10-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-389"
+        }
+    ],
+    "related": [
+        "CVE-2024-46786",
+        "CVE-2024-27017",
+        "CVE-2024-50193",
+        "CVE-2024-46841",
+        "CVE-2024-47670",
+        "CVE-2024-47671",
+        "CVE-2024-47672",
+        "CVE-2024-46834",
+        "CVE-2024-47673",
+        "CVE-2024-44931",
+        "CVE-2024-46811",
+        "CVE-2024-8508",
+        "CVE-2024-41016",
+        "CVE-2024-46809"
+    ]
+}

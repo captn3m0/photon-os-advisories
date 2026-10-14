@@ -1,0 +1,45 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openjdk17",
+                "purl": "pkg:rpm/vmware/openjdk17?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "17.0.8-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2023-5.0-91-0028",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2023-06-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-28"
+        }
+    ],
+    "related": [
+        "CVE-2023-21835",
+        "CVE-2023-21939",
+        "CVE-2023-21968",
+        "CVE-2023-21954",
+        "CVE-2023-21938",
+        "CVE-2023-21930",
+        "CVE-2023-21843",
+        "CVE-2023-21967",
+        "CVE-2023-21937",
+        "CVE-2022-21360"
+    ]
+}

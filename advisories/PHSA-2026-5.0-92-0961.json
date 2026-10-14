@@ -1,0 +1,57 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "dotnet-runtime",
+                "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "10.0.11-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0961",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-08-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-961"
+        }
+    ],
+    "related": [
+        "CVE-2026-62886",
+        "CVE-2026-50659",
+        "CVE-2026-62897",
+        "CVE-2026-50526",
+        "CVE-2026-57108",
+        "CVE-2026-50649",
+        "CVE-2026-62899",
+        "CVE-2026-50527",
+        "CVE-2026-58641",
+        "CVE-2026-62909",
+        "CVE-2026-50524",
+        "CVE-2026-47302",
+        "CVE-2026-62901",
+        "CVE-2026-62902",
+        "CVE-2026-62900",
+        "CVE-2026-50525",
+        "CVE-2026-50528",
+        "CVE-2026-47304",
+        "CVE-2026-70354",
+        "CVE-2026-62898",
+        "CVE-2026-50651",
+        "CVE-2026-62871"
+    ]
+}

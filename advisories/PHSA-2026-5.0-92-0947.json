@@ -1,0 +1,120 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libgcrypt",
+                "purl": "pkg:rpm/vmware/libgcrypt?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.10.4-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-mistune",
+                "purl": "pkg:rpm/vmware/python3-mistune?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.3.4-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gnuplot",
+                "purl": "pkg:rpm/vmware/gnuplot?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.4.5-7.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "tpm2-tools",
+                "purl": "pkg:rpm/vmware/tpm2-tools?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glib-networking",
+                "purl": "pkg:rpm/vmware/glib-networking?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.74.0-10.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0947",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-08-06T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-947"
+        }
+    ],
+    "related": [
+        "CVE-2024-29038",
+        "CVE-2026-44897",
+        "CVE-2026-59930",
+        "CVE-2026-44708",
+        "CVE-2026-59926",
+        "CVE-2026-44896",
+        "CVE-2026-44898",
+        "CVE-2026-59923",
+        "CVE-2026-41989",
+        "CVE-2026-59927",
+        "CVE-2026-59928",
+        "CVE-2025-3359",
+        "CVE-2026-59922",
+        "CVE-2026-59929",
+        "CVE-2025-60019",
+        "CVE-2025-60018",
+        "CVE-2026-59924",
+        "CVE-2026-59925"
+    ]
+}

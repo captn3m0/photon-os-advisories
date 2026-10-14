@@ -1,0 +1,40 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "bluez",
+                "purl": "pkg:rpm/vmware/bluez?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.71-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2024-5.0-91-0238",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2024-04-03T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-238"
+        }
+    ],
+    "related": [
+        "CVE-2023-51592",
+        "CVE-2023-51589",
+        "CVE-2023-51580",
+        "CVE-2023-44431",
+        "CVE-2023-51596"
+    ]
+}

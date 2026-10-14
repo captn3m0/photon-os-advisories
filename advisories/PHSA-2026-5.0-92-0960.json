@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-mako",
+                "purl": "pkg:rpm/vmware/python3-mako?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "go",
+                "purl": "pkg:rpm/vmware/go?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0960",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-08-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-960"
+        }
+    ],
+    "related": []
+}

@@ -1,0 +1,38 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "suricata",
+                "purl": "pkg:rpm/vmware/suricata?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.0.5-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2024-5.0-91-0267",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2024-05-10T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-267"
+        }
+    ],
+    "related": [
+        "CVE-2024-32867",
+        "CVE-2024-32664",
+        "CVE-2024-32663"
+    ]
+}

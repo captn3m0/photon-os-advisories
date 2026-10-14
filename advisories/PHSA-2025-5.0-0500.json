@@ -22,12 +22,16 @@
         }
     ],
     "id": "PHSA-2025-5.0-0500",
-    "modified": "2025-04-12T05:28:36Z",
+    "modified": "2026-10-13T04:29:51Z",
     "published": "2025-04-11T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
             "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-500"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-legacy-500"
         }
     ],
     "related": [

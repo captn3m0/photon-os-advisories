@@ -1,0 +1,74 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "vim",
+                "purl": "pkg:rpm/vmware/vim?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "9.2.0136-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "docker-buildx",
+                "purl": "pkg:rpm/vmware/docker-buildx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.17.1-5.1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-91-0785",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-03-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-785"
+        }
+    ],
+    "related": [
+        "CVE-2026-3783",
+        "CVE-2025-0495",
+        "CVE-2026-3784",
+        "CVE-2026-25749",
+        "CVE-2026-3805",
+        "CVE-2026-28418",
+        "CVE-2026-28419",
+        "CVE-2026-28417",
+        "CVE-2026-28422",
+        "CVE-2026-28420",
+        "CVE-2026-1965",
+        "CVE-2026-28421"
+    ]
+}

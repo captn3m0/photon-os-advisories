@@ -1,0 +1,104 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "apache-tomcat9",
+                "purl": "pkg:rpm/vmware/apache-tomcat9?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "9.0.98-2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "apache-tomcat10",
+                "purl": "pkg:rpm/vmware/apache-tomcat10?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "10.1.34-3.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2025-5.0-91-0493",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2025-04-02T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-493"
+        }
+    ],
+    "related": [
+        "CVE-2025-21917",
+        "CVE-2025-21768",
+        "CVE-2024-43831",
+        "CVE-2025-21945",
+        "CVE-2025-21905",
+        "CVE-2025-21914",
+        "CVE-2025-21916",
+        "CVE-2025-21937",
+        "CVE-2025-21904",
+        "CVE-2025-21912",
+        "CVE-2025-21920",
+        "CVE-2025-21919",
+        "CVE-2025-21926",
+        "CVE-2025-21951",
+        "CVE-2025-21941",
+        "CVE-2025-21943",
+        "CVE-2025-21935",
+        "CVE-2024-50246",
+        "CVE-2025-21948",
+        "CVE-2025-21924",
+        "CVE-2025-21934",
+        "CVE-2024-41097",
+        "CVE-2025-21922",
+        "CVE-2025-21936",
+        "CVE-2025-21909",
+        "CVE-2025-21925",
+        "CVE-2025-21910",
+        "CVE-2025-21947",
+        "CVE-2025-21913",
+        "CVE-2025-21944",
+        "CVE-2025-21950",
+        "CVE-2025-21928",
+        "CVE-2025-24813",
+        "CVE-2025-21938",
+        "CVE-2025-21756"
+    ]
+}

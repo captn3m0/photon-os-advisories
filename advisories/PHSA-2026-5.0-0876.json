@@ -22,12 +22,16 @@
         }
     ],
     "id": "PHSA-2026-5.0-0876",
-    "modified": "2026-06-16T06:47:47Z",
+    "modified": "2026-10-13T04:29:51Z",
     "published": "2026-06-11T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
             "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-876"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-legacy-876"
         }
     ],
     "related": [

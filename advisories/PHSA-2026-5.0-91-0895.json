@@ -1,0 +1,59 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "mariadb",
+                "purl": "pkg:rpm/vmware/mariadb?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "nodejs",
+                "purl": "pkg:rpm/vmware/nodejs?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-91-0895",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-06-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-895"
+        }
+    ],
+    "related": [
+        "CVE-2026-46320",
+        "CVE-2026-48165",
+        "CVE-2025-68768",
+        "CVE-2026-45930",
+        "CVE-2026-48931",
+        "CVE-2026-48163",
+        "CVE-2026-44169",
+        "CVE-2026-48617",
+        "CVE-2026-49261",
+        "CVE-2026-31663",
+        "CVE-2026-23247",
+        "CVE-2026-23346",
+        "CVE-2026-53232",
+        "CVE-2026-31675",
+        "CVE-2026-43303",
+        "CVE-2026-48937"
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "lz4",
+                "purl": "pkg:rpm/vmware/lz4?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.10.0-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-91-0677",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2025-11-14T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-677"
+        }
+    ],
+    "related": [
+        "CVE-2025-40092",
+        "CVE-2025-40103",
+        "CVE-2025-40167",
+        "CVE-2025-40099",
+        "CVE-2025-40243",
+        "CVE-2025-68249",
+        "CVE-2025-40085",
+        "CVE-2025-40104",
+        "CVE-2025-40240",
+        "CVE-2025-40223",
+        "CVE-2025-40173",
+        "CVE-2025-40351",
+        "CVE-2025-40093",
+        "CVE-2025-40245",
+        "CVE-2025-40106",
+        "CVE-2025-40040",
+        "CVE-2025-40176",
+        "CVE-2025-40198",
+        "CVE-2025-40346",
+        "CVE-2025-40096",
+        "CVE-2025-40094",
+        "CVE-2025-40087",
+        "CVE-2025-40244",
+        "CVE-2025-40233",
+        "CVE-2025-62813",
+        "CVE-2025-40220",
+        "CVE-2025-40105",
+        "CVE-2025-40095",
+        "CVE-2025-40100",
+        "CVE-2025-40349"
+    ]
+}

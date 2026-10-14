@@ -1,0 +1,76 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "postgresql15",
+                "purl": "pkg:rpm/vmware/postgresql15?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "postgresql16",
+                "purl": "pkg:rpm/vmware/postgresql16?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "16.15-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0959",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-08-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-959"
+        }
+    ],
+    "related": [
+        "CVE-2024-10978",
+        "CVE-2024-10976",
+        "CVE-2024-0985",
+        "CVE-2023-39417",
+        "CVE-2026-6477",
+        "CVE-2025-4207",
+        "CVE-2026-2005",
+        "CVE-2026-2004",
+        "CVE-2024-10979",
+        "CVE-2026-6478",
+        "CVE-2026-6473",
+        "CVE-2024-7348",
+        "CVE-2026-2006",
+        "CVE-2023-5869",
+        "CVE-2025-8715",
+        "CVE-2024-4317",
+        "CVE-2025-8714",
+        "CVE-2023-5868",
+        "CVE-2025-8713",
+        "CVE-2023-2455",
+        "CVE-2023-2454",
+        "CVE-2026-6472",
+        "CVE-2025-1094",
+        "CVE-2025-12818",
+        "CVE-2024-10977",
+        "CVE-2023-39418",
+        "CVE-2025-12817",
+        "CVE-2026-6475",
+        "CVE-2026-6637",
+        "CVE-2026-6474",
+        "CVE-2026-2003",
+        "CVE-2023-5870",
+        "CVE-2026-6638",
+        "CVE-2026-6479"
+    ]
+}

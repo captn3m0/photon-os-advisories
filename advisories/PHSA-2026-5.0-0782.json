@@ -29,12 +29,16 @@
         }
     ],
     "id": "PHSA-2026-5.0-0782",
-    "modified": "2026-06-27T06:40:33Z",
+    "modified": "2026-10-13T04:29:51Z",
     "published": "2026-03-06T00:00:00Z",
     "references": [
         {
             "type": "ADVISORY",
             "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-782"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-legacy-782"
         }
     ],
     "related": [

@@ -1,0 +1,63 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "shim-signed",
+                "purl": "pkg:rpm/vmware/shim-signed?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "15.8-2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-setuptools",
+                "purl": "pkg:rpm/vmware/python3-setuptools?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "69.0.3-4.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2024-5.0-91-0332",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2024-07-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-332"
+        }
+    ],
+    "related": [
+        "CVE-2023-40548",
+        "CVE-2023-40549",
+        "CVE-2023-40546",
+        "CVE-2023-40550",
+        "CVE-2023-40547",
+        "CVE-2024-6345",
+        "CVE-2023-40551",
+        "CVE-2022-28737"
+    ]
+}

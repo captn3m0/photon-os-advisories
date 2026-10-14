@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-concurrent-ruby",
+                "purl": "pkg:rpm/vmware/rubygem-concurrent-ruby?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-90-0929",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-07-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-90-929"
+        }
+    ],
+    "related": [
+        "CVE-2026-54906",
+        "CVE-2026-54904"
+    ]
+}

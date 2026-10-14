@@ -1,0 +1,39 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "powershell",
+                "purl": "pkg:rpm/vmware/powershell?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.4.3-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2024-5.0-91-0316",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2024-07-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-316"
+        }
+    ],
+    "related": [
+        "CVE-2024-21392",
+        "CVE-2024-21409",
+        "CVE-2024-26190",
+        "CVE-2024-30045"
+    ]
+}

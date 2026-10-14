@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "binutils",
+                "purl": "pkg:rpm/vmware/binutils?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2023-5.0-91-0080",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2023-08-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-80"
+        }
+    ],
+    "related": [
+        "CVE-2022-4285"
+    ]
+}

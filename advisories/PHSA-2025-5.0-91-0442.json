@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "gtk3",
+                "purl": "pkg:rpm/vmware/gtk3?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-91-0442",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2025-01-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-442"
+        }
+    ],
+    "related": [
+        "CVE-2024-6655"
+    ]
+}

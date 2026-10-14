@@ -1,0 +1,81 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libtiff",
+                "purl": "pkg:rpm/vmware/libtiff?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.5.1-12.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.166-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "coredns",
+                "purl": "pkg:rpm/vmware/coredns?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-91-0794",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-03-24T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-794"
+        }
+    ],
+    "related": [
+        "CVE-2026-26018",
+        "CVE-2025-71267",
+        "CVE-2026-23231",
+        "CVE-2025-71266",
+        "CVE-2025-71239",
+        "CVE-2026-23241",
+        "CVE-2026-26017",
+        "CVE-2025-61144",
+        "CVE-2025-71265",
+        "CVE-2026-23273",
+        "CVE-2026-23242",
+        "CVE-2026-23243"
+    ]
+}

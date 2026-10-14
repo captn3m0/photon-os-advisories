@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2024-5.0-91-0257",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2024-04-25T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-257"
+        }
+    ],
+    "related": [
+        "CVE-2023-52586",
+        "CVE-2025-40247"
+    ]
+}

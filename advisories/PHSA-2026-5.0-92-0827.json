@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "jq",
+                "purl": "pkg:rpm/vmware/jq?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0827",
+    "modified": "2026-10-13T04:29:51Z",
+    "published": "2026-04-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-827"
+        }
+    ],
+    "related": [
+        "CVE-2026-39979",
+        "CVE-2026-39956",
+        "CVE-2026-32316",
+        "CVE-2026-40164",
+        "CVE-2026-33947",
+        "CVE-2026-33948"
+    ]
+}
