@@ -26,10 +26,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "postgresql16",
+                "purl": "pkg:rpm/vmware/postgresql16?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-92-0959",
-    "modified": "2026-10-13T04:29:51Z",
+    "modified": "2026-10-21T01:54:21Z",
     "published": "2026-08-15T00:00:00Z",
     "references": [
         {
