@@ -86,10 +86,17 @@
                 "name": "rubygem-nokogiri",
                 "purl": "pkg:rpm/vmware/rubygem-nokogiri?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-faraday",
+                "purl": "pkg:rpm/vmware/rubygem-faraday?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-91-0911",
-    "modified": "2026-10-15T01:06:05Z",
+    "modified": "2026-10-29T04:39:49Z",
     "published": "2026-06-30T00:00:00Z",
     "references": [
         {

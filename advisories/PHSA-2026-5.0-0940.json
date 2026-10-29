@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-0940",
-    "modified": "2026-10-13T04:29:51Z",
+    "modified": "2026-10-29T04:40:26Z",
     "published": "2026-08-04T00:00:00Z",
     "references": [
         {
