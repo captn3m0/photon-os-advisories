@@ -26,10 +26,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-90-0862",
-    "modified": "2026-10-13T04:29:51Z",
+    "modified": "2026-11-02T06:07:31Z",
     "published": "2026-06-03T00:00:00Z",
     "references": [
         {
@@ -110,6 +117,9 @@
         "CVE-2026-31613",
         "CVE-2026-31576",
         "CVE-2026-31588",
-        "CVE-2026-31580"
+        "CVE-2026-31580",
+        "CVE-2025-38584",
+        "CVE-2025-21863",
+        "CVE-2025-21739"
     ]
 }

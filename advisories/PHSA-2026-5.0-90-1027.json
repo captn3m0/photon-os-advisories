@@ -1,0 +1,54 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "dotnet-runtime",
+                "purl": "pkg:rpm/vmware/dotnet-runtime?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "10.0.12-2.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "mariadb",
+                "purl": "pkg:rpm/vmware/mariadb?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-90-1027",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-10-08T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-90-1027"
+        }
+    ],
+    "related": [
+        "CVE-2023-39593",
+        "CVE-2026-48165",
+        "CVE-2026-49261",
+        "CVE-2026-48163",
+        "CVE-2026-32177",
+        "CVE-2026-44173",
+        "CVE-2026-44168",
+        "CVE-2026-32175",
+        "CVE-2023-26785",
+        "CVE-2026-35433",
+        "CVE-2026-44171",
+        "CVE-2026-42899"
+    ]
+}

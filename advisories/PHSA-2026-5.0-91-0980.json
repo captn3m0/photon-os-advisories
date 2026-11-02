@@ -1,0 +1,24 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "podman",
+                "purl": "pkg:rpm/vmware/podman?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-91-0980",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-09-02T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-980"
+        }
+    ],
+    "related": [
+        "CVE-2025-9566",
+        "CVE-2024-1753"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "postgresql15",
+                "purl": "pkg:rpm/vmware/postgresql15?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "postgresql16",
+                "purl": "pkg:rpm/vmware/postgresql16?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-90-1039",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-10-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-90-1039"
+        }
+    ],
+    "related": [
+        "CVE-2026-14680",
+        "CVE-2026-14662",
+        "CVE-2026-14664",
+        "CVE-2026-14670",
+        "CVE-2026-15741",
+        "CVE-2026-14668",
+        "CVE-2026-2005",
+        "CVE-2026-16238",
+        "CVE-2026-15742",
+        "CVE-2026-6637",
+        "CVE-2026-14677",
+        "CVE-2026-6479",
+        "CVE-2026-6477",
+        "CVE-2026-6475",
+        "CVE-2026-6638",
+        "CVE-2026-14671",
+        "CVE-2026-2004",
+        "CVE-2026-2006",
+        "CVE-2026-19385",
+        "CVE-2026-18408",
+        "CVE-2026-14669",
+        "CVE-2026-6464",
+        "CVE-2026-14679",
+        "CVE-2026-6473",
+        "CVE-2026-6478",
+        "CVE-2026-6471",
+        "CVE-2026-16239"
+    ]
+}

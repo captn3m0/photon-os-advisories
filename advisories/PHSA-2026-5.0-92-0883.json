@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libpng",
+                "purl": "pkg:rpm/vmware/libpng?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0883",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-06-17T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-883"
+        }
+    ],
+    "related": [
+        "CVE-2026-3713"
+    ]
+}

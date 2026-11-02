@@ -19,10 +19,44 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-urllib3",
+                "purl": "pkg:rpm/vmware/python3-urllib3?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.26.19-5.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-90-0741",
-    "modified": "2026-10-13T04:29:51Z",
+    "modified": "2026-11-02T06:07:31Z",
     "published": "2026-01-16T00:00:00Z",
     "references": [
         {
@@ -46,6 +80,19 @@
         "CVE-2025-71150",
         "CVE-2025-71116",
         "CVE-2025-71154",
-        "CVE-2025-71127"
+        "CVE-2025-71127",
+        "CVE-2025-22107",
+        "CVE-2025-22022",
+        "CVE-2025-38022",
+        "CVE-2025-39871",
+        "CVE-2025-68254",
+        "CVE-2025-68263",
+        "CVE-2025-21946",
+        "CVE-2025-68255",
+        "CVE-2025-68362",
+        "CVE-2025-68724",
+        "CVE-2025-66471",
+        "CVE-2025-68349",
+        "CVE-2025-38129"
     ]
 }

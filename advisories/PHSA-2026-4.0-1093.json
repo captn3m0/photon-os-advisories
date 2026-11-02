@@ -1,0 +1,21 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "util-linux",
+                "purl": "pkg:rpm/vmware/util-linux?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-1093",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-10-26T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1093"
+        }
+    ],
+    "related": []
+}

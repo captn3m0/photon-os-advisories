@@ -53,10 +53,37 @@
                 "name": "python3-pyOpenSSL",
                 "purl": "pkg:rpm/vmware/python3-pyOpenSSL?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-pyOpenSSL",
+                "purl": "pkg:rpm/vmware/python3-pyOpenSSL?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "26.3.0-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "podman",
+                "purl": "pkg:rpm/vmware/podman?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-92-0973",
-    "modified": "2026-10-13T04:29:51Z",
+    "modified": "2026-11-02T06:07:31Z",
     "published": "2026-08-25T00:00:00Z",
     "references": [
         {
@@ -70,6 +97,17 @@
         "CVE-2026-34180",
         "CVE-2026-63979",
         "CVE-2026-64066",
-        "CVE-2026-64067"
+        "CVE-2026-64067",
+        "CVE-2026-27448",
+        "CVE-2025-9566",
+        "CVE-2026-55686",
+        "CVE-2024-9407",
+        "CVE-2024-9676",
+        "CVE-2026-57231",
+        "CVE-2026-34073",
+        "CVE-2025-4953",
+        "CVE-2024-1753",
+        "CVE-2026-26007",
+        "CVE-2026-69248"
     ]
 }

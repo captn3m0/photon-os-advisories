@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "curl",
+                "purl": "pkg:rpm/vmware/curl?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0907",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-06-29T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-907"
+        }
+    ],
+    "related": [
+        "CVE-2026-11856"
+    ]
+}

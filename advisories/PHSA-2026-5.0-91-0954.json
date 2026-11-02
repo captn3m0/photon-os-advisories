@@ -1,0 +1,37 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "libpcap",
+                "purl": "pkg:rpm/vmware/libpcap?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.10.6-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-91-0954",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-08-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-954"
+        }
+    ],
+    "related": [
+        "CVE-2025-11961",
+        "CVE-2025-11964"
+    ]
+}

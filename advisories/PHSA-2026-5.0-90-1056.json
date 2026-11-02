@@ -1,0 +1,45 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "mysql",
+                "purl": "pkg:rpm/vmware/mysql?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-90-1056",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-10-28T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-90-1056"
+        }
+    ],
+    "related": [
+        "CVE-2026-46729",
+        "CVE-2026-60316",
+        "CVE-2026-60163",
+        "CVE-2026-63045",
+        "CVE-2026-56153",
+        "CVE-2026-60314",
+        "CVE-2026-63718",
+        "CVE-2026-56154",
+        "CVE-2026-48005",
+        "CVE-2026-60592",
+        "CVE-2026-47360",
+        "CVE-2026-61094",
+        "CVE-2026-63686",
+        "CVE-2026-60315",
+        "CVE-2026-60725",
+        "CVE-2026-70724"
+    ]
+}

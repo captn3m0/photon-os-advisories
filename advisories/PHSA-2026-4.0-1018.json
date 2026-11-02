@@ -26,10 +26,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "rubygem-nokogiri",
+                "purl": "pkg:rpm/vmware/rubygem-nokogiri?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.13.6-3.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-1018",
-    "modified": "2026-06-17T06:47:34Z",
+    "modified": "2026-11-02T06:07:31Z",
     "published": "2026-05-15T00:00:00Z",
     "references": [
         {
@@ -38,6 +58,7 @@
         }
     ],
     "related": [
-        "CVE-2026-41205"
+        "CVE-2026-41205",
+        "CVE-2026-79770"
     ]
 }

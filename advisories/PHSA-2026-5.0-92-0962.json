@@ -19,10 +19,30 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-pip",
+                "purl": "pkg:rpm/vmware/python3-pip?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "26.2.1-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-92-0962",
-    "modified": "2026-10-13T04:29:51Z",
+    "modified": "2026-11-02T06:07:31Z",
     "published": "2026-08-18T00:00:00Z",
     "references": [
         {
@@ -31,6 +51,16 @@
         }
     ],
     "related": [
-        "CVE-2026-15308"
+        "CVE-2026-15308",
+        "CVE-2026-18503",
+        "CVE-2026-13346",
+        "CVE-2026-8643",
+        "CVE-2026-7774",
+        "CVE-2026-12003",
+        "CVE-2026-8328",
+        "CVE-2026-0864",
+        "CVE-2026-3276",
+        "CVE-2026-6879",
+        "CVE-2026-9669"
     ]
 }

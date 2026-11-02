@@ -1,0 +1,21 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "openssh",
+                "purl": "pkg:rpm/vmware/openssh?distro=photon-4"
+            }
+        }
+    ],
+    "id": "PHSA-2026-4.0-1088",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-10-20T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1088"
+        }
+    ],
+    "related": []
+}

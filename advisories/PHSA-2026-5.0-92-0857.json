@@ -40,10 +40,30 @@
                 "name": "rubygem-nokogiri",
                 "purl": "pkg:rpm/vmware/rubygem-nokogiri?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "glibc",
+                "purl": "pkg:rpm/vmware/glibc?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.43-3.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-5.0-92-0857",
-    "modified": "2026-10-13T04:29:51Z",
+    "modified": "2026-11-02T06:07:31Z",
     "published": "2026-05-27T00:00:00Z",
     "references": [
         {
@@ -53,6 +73,7 @@
     ],
     "related": [
         "CVE-2026-7598",
-        "CVE-2025-54770"
+        "CVE-2025-54770",
+        "CVE-2026-5450"
     ]
 }

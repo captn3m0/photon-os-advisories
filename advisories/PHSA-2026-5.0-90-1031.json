@@ -1,0 +1,27 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "rubygem-nokogiri",
+                "purl": "pkg:rpm/vmware/rubygem-nokogiri?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-90-1031",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-10-12T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-90-1031"
+        }
+    ],
+    "related": [
+        "CVE-2026-57236",
+        "CVE-2026-57434",
+        "CVE-2026-57235",
+        "CVE-2026-57435",
+        "CVE-2026-79770"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "wireshark",
+                "purl": "pkg:rpm/vmware/wireshark?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.6.8-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-5.0-91-0986",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-09-04T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-91-986"
+        }
+    ],
+    "related": [
+        "CVE-2026-15167",
+        "CVE-2026-15165",
+        "CVE-2026-15163",
+        "CVE-2026-0962",
+        "CVE-2026-15174",
+        "CVE-2026-15168",
+        "CVE-2026-15164",
+        "CVE-2026-15170",
+        "CVE-2026-15169",
+        "CVE-2026-15171",
+        "CVE-2025-11626",
+        "CVE-2026-15172",
+        "CVE-2025-13945",
+        "CVE-2026-15173",
+        "CVE-2024-24478",
+        "CVE-2026-15166"
+    ]
+}

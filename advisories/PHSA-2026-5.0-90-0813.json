@@ -1,0 +1,33 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux-esx",
+                "purl": "pkg:rpm/vmware/linux-esx?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-90-0813",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-04-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-90-813"
+        }
+    ],
+    "related": [
+        "CVE-2026-23204",
+        "CVE-2025-39863",
+        "CVE-2025-38704",
+        "CVE-2025-38250"
+    ]
+}

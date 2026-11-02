@@ -1,0 +1,44 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "samba-client",
+                "purl": "pkg:rpm/vmware/samba-client?distro=photon-5"
+            }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "bindutils",
+                "purl": "pkg:rpm/vmware/bindutils?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-90-1030",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-10-09T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-90-1030"
+        }
+    ],
+    "related": [
+        "CVE-2026-4408",
+        "CVE-2026-11605",
+        "CVE-2026-13321",
+        "CVE-2026-19666",
+        "CVE-2026-80274",
+        "CVE-2026-19667",
+        "CVE-2026-11331",
+        "CVE-2026-11622",
+        "CVE-2026-13204",
+        "CVE-2026-76163",
+        "CVE-2026-81563",
+        "CVE-2026-12617",
+        "CVE-2026-11721",
+        "CVE-2026-81736",
+        "CVE-2026-4480"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "ruby",
+                "purl": "pkg:rpm/vmware/ruby?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2025-5.0-90-0469",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2025-02-05T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-90-469"
+        }
+    ],
+    "related": [
+        "CVE-2025-0306"
+    ]
+}

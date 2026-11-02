@@ -1,0 +1,28 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-PyJWT",
+                "purl": "pkg:rpm/vmware/python3-PyJWT?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-0976",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-08-31T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-976"
+        }
+    ],
+    "related": [
+        "CVE-2026-32597",
+        "CVE-2025-45768",
+        "CVE-2026-48525",
+        "CVE-2026-48524",
+        "CVE-2026-48522",
+        "CVE-2026-48526"
+    ]
+}

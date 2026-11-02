@@ -1,0 +1,79 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "openssl",
+                "purl": "pkg:rpm/vmware/openssl?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.5.9-0.1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "iperf",
+                "purl": "pkg:rpm/vmware/iperf?distro=photon-5"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.22-1.ph5"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-5"
+            }
+        }
+    ],
+    "id": "PHSA-2026-5.0-92-1024",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-10-07T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-5.0-92-1024"
+        }
+    ],
+    "related": [
+        "CVE-2026-73637",
+        "CVE-2026-46729",
+        "CVE-2026-59685",
+        "CVE-2026-84784",
+        "CVE-2026-63045",
+        "CVE-2026-42528",
+        "CVE-2026-101276",
+        "CVE-2026-56154",
+        "CVE-2026-48005",
+        "CVE-2026-42356",
+        "CVE-2026-57941",
+        "CVE-2026-72897",
+        "CVE-2026-47360",
+        "CVE-2026-63686",
+        "CVE-2026-56153",
+        "CVE-2026-101283",
+        "CVE-2026-63718"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "pcre2",
+                "purl": "pkg:rpm/vmware/pcre2?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "10.40-5.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "httpd",
+                "purl": "pkg:rpm/vmware/httpd?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.69-1.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
+        }
+    ],
+    "id": "PHSA-2026-4.0-1084",
+    "modified": "2026-11-02T06:07:31Z",
+    "published": "2026-10-15T00:00:00Z",
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://github.com/vmware/photon/wiki/Security-Update-4.0-1084"
+        }
+    ],
+    "related": [
+        "CVE-2026-73637",
+        "CVE-2026-46729",
+        "CVE-2026-59685",
+        "CVE-2026-63292",
+        "CVE-2026-63045",
+        "CVE-2026-89161",
+        "CVE-2026-56154",
+        "CVE-2026-48005",
+        "CVE-2026-57941",
+        "CVE-2026-59797",
+        "CVE-2026-47360",
+        "CVE-2026-89157",
+        "CVE-2026-63686",
+        "CVE-2026-56153",
+        "CVE-2026-63718"
+    ]
+}
