@@ -93,10 +93,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3",
+                "purl": "pkg:rpm/vmware/python3?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-92-0862",
-    "modified": "2026-10-13T04:29:51Z",
+    "modified": "2026-11-02T06:07:31Z",
     "published": "2026-06-03T00:00:00Z",
     "references": [
         {

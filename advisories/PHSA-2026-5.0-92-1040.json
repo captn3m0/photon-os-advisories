@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "python3-PyJWT",
+                "purl": "pkg:rpm/vmware/python3-PyJWT?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-92-1040",
-    "modified": "2026-11-02T06:07:31Z",
+    "modified": "2026-11-03T05:38:36Z",
     "published": "2026-10-19T00:00:00Z",
     "references": [
         {

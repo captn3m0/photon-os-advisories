@@ -6,10 +6,30 @@
                 "name": "bubblewrap",
                 "purl": "pkg:rpm/vmware/bubblewrap?distro=photon-4"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "bubblewrap",
+                "purl": "pkg:rpm/vmware/bubblewrap?distro=photon-4"
+            },
+            "ranges": [
+                {
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.4.1-2.ph4"
+                        }
+                    ],
+                    "type": "ECOSYSTEM"
+                }
+            ]
         }
     ],
     "id": "PHSA-2026-4.0-1095",
-    "modified": "2026-11-02T06:07:31Z",
+    "modified": "2026-11-03T05:37:42Z",
     "published": "2026-10-27T00:00:00Z",
     "references": [
         {
