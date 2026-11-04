@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:4.0",
+                "name": "linux",
+                "purl": "pkg:rpm/vmware/linux?distro=photon-4"
+            }
         }
     ],
     "id": "PHSA-2026-4.0-1025",
-    "modified": "2026-06-27T06:40:33Z",
+    "modified": "2026-11-02T06:07:31Z",
     "published": "2026-05-29T00:00:00Z",
     "references": [
         {
