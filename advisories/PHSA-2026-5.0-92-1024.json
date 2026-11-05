@@ -46,10 +46,17 @@
                 "name": "httpd",
                 "purl": "pkg:rpm/vmware/httpd?distro=photon-5"
             }
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "iperf",
+                "purl": "pkg:rpm/vmware/iperf?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-92-1024",
-    "modified": "2026-11-02T06:07:31Z",
+    "modified": "2026-11-05T21:38:09Z",
     "published": "2026-10-07T00:00:00Z",
     "references": [
         {
