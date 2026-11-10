@@ -73,10 +73,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "strongswan",
+                "purl": "pkg:rpm/vmware/strongswan?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2025-5.0-91-0664",
-    "modified": "2026-10-13T04:29:51Z",
+    "modified": "2026-11-02T06:07:31Z",
     "published": "2025-10-31T00:00:00Z",
     "references": [
         {
