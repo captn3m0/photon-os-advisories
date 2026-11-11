@@ -8,7 +8,7 @@ bs4==0.0.2
     # via photon-advisories (pyproject.toml)
 canonicaljson==2.0.0
     # via photon-advisories (pyproject.toml)
-markdown==3.7
+markdown==3.8.1
     # via photon-advisories (pyproject.toml)
 pycparser==2.22
     # via photon-advisories (pyproject.toml)
