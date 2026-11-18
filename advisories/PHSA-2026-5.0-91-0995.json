@@ -19,10 +19,17 @@
                     "type": "ECOSYSTEM"
                 }
             ]
+        },
+        {
+            "package": {
+                "ecosystem": "Photon OS:5.0",
+                "name": "iperf",
+                "purl": "pkg:rpm/vmware/iperf?distro=photon-5"
+            }
         }
     ],
     "id": "PHSA-2026-5.0-91-0995",
-    "modified": "2026-11-02T06:07:31Z",
+    "modified": "2026-11-18T09:38:58Z",
     "published": "2026-09-10T00:00:00Z",
     "references": [
         {
